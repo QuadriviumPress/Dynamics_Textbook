@@ -1,25 +1,39 @@
 # Second-Year Dynamics Textbook
-Active learning style textbook aimed at second-year dynamics (classical mechanics) undergraduate courses
 
-## Basic Information
-This textbook is a work in progress and will follow a similar format as the first-year active learning textbook, [Introductory Physics: Building Models to Describe Our World](https://github.com/OSTP/PhysicsArtofModelling).  **All latex files will be uploaded to this repository in the near future**.  At present, this repository contains:
-* [PDF copy of the in-progress textbook](https://github.com/OSTP/Dynamics_Textbook/blob/main/tex/phys206_f25_textbook.pdf)
-* [Example problems using Jupyter notebooks for plotting graphs](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks)
-* Videos demonstrating common mathematical concepts or tricks when solving problems
+Active-learning textbook for second-year dynamics (classical mechanics), maintained here by **Quadrivium Press**.
 
-The Textbook is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC-BY-SA-NC). Materials can be used, shared, and adapted with credit to the authors, but materials should not be used for commercial purposes.
+## Fork notice
 
-All Jupyter notebooks are fair use (CC0).
+This repository is a **fork and MyST web edition** of the second-year dynamics textbook originally developed at Queen’s University for PHYS 206 and published under the Open Source Textbook Project:
 
-All videos are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/) (CC-BY-NC-ND). Videos can be used for non-commercial purposes and must remain unaltered.  Video credits to Lance Schonberg and Sarah Sadavoy.
+- **Upstream source:** [OSTP/Dynamics_Textbook](https://github.com/OSTP/Dynamics_Textbook)
 
-## Updates
-August 20, 2025: An updated PDF of the textbook uploaded.  This version corrects some formatting errors and typos.
+The scientific content, chapter structure, teaching design, notebooks, and videos originate there. Quadrivium Press converted the book into editable MyST Markdown for web publication and continues development in this repository.
 
-August 30, 2023: PDF of the textbook uploaded
+**Any errors introduced by conversion, editing, formatting, or later changes are ours alone.** Please do not attribute mistakes in this edition to the original authors.
 
-August 25, 2023: [Video file created](https://github.com/OSTP/Dynamics_Textbook/blob/main/video_links.md) and links to mathematical concept videos added
+## Acknowledgments
 
-August 24, 2023: Jupyter Notebooks uploaded
+We are grateful to everyone who built the original open textbook and shared it under an open license. Special thanks to **Lance Schonberg**, **Sarah Sadavoy**, and the broader team who developed and improved this resource for students—your work made this edition possible.
 
-August 20, 2024: Update to the textbook to improve alterntive text to all figures, correct some typos, and fix some LaTeX formatting.
+We also acknowledge **Cora Sleegers** and the other contributors credited in the upstream project. Thank you for the care that went into the text, figures, notebooks, and instructional videos.
+
+For a fuller account of this edition’s relationship to the source, see [provenance.md](provenance.md).
+
+## What’s in this repository
+
+- MyST Markdown chapters, front matter, and appendices
+- Extracted figures and math assets for the web edition
+- Conversion scripts and source maps under `scripts/` and `source/`
+- Original PDF editions under `tex/`
+- Jupyter notebooks under `py_notebooks/`
+- Video links in [video_links.md](video_links.md)
+
+## License
+
+The textbook content follows the upstream licensing intent as **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**: materials may be used, shared, and adapted with credit, and not for commercial purposes.
+
+- Jupyter notebooks: **CC0** (as stated by the upstream project)
+- Videos: **[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)**; video credits to Lance Schonberg and Sarah Sadavoy
+
+Please retain credit to the original authors when you reuse or adapt this work.
