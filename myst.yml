@@ -1,0 +1,65 @@
+version: 1
+project:
+  id: second-year-dynamics
+  title: Second-Year Dynamics
+  short_title: Dynamics
+  description: An active-learning textbook for second-year classical mechanics, based on the Fall 2025 source.
+  authors:
+    - name: Sarah Sadavoy
+      affiliations:
+        - institution: Queen’s University
+  date: 2025-08-20
+  license:
+    content: CC-BY-NC-SA-4.0
+  open_access: true
+  numbering:
+    headings: false
+  toc:
+    - file: index.md
+    - file: front/introduction.md
+    - file: chapters/ch-01-calculus-and-vectors.md
+    - file: chapters/ch-02-newtonian-motion.md
+    - file: chapters/ch-03-simple-harmonic-motion.md
+    - file: chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md
+    - file: chapters/ch-05-application-of-non-inertial-and-rotating-frames.md
+    - file: chapters/ch-06-momentum-and-variable-mass.md
+    - file: chapters/ch-07-angular-momentum-and-torque.md
+    - file: chapters/ch-08-work-and-energy.md
+    - file: chapters/ch-09-application-of-energy-conservation.md
+    - file: chapters/ch-10-central-forces-and-motion-in-space.md
+    - file: chapters/ch-11-orbits-and-kepler-s-laws.md
+    - file: chapters/ch-12-the-lagrange-method.md
+    - file: appendices/app-a-resources.md
+    - file: appendices/app-b-derivations-and-approximations.md
+    - file: appendices/app-c-solutions-to-problems.md
+    - file: supplements.md
+      children:
+        - file: "py_notebooks/Ch1 Approximation Exercises.ipynb"
+          title: "Ch1 Approximation Exercises"
+        - file: "py_notebooks/Ch2 Equations of Motion Python Exercises.ipynb"
+          title: "Ch2 Equations of Motion Python Exercises"
+        - file: "py_notebooks/Ch3 Simple Harmonic Motion Python Exercises.ipynb"
+          title: "Ch3 Simple Harmonic Motion Python Exercises"
+        - file: "py_notebooks/Ch5 Foucault Pendulum Exercise.ipynb"
+          title: "Ch5 Foucault Pendulum Exercise"
+        - file: "py_notebooks/Ch5 Non-Inertial Frames Python Exercises.ipynb"
+          title: "Ch5 Non-Inertial Frames Python Exercises"
+        - file: "py_notebooks/Ch8 Escape Velocity Exercises.ipynb"
+          title: "Ch8 Escape Velocity Exercises"
+        - file: "py_notebooks/Ch9 Energy Conservation Exercises.ipynb"
+          title: "Ch9 Energy Conservation Exercises"
+        - file: "py_notebooks/Ch10 Central Forces Exercises.ipynb"
+          title: "Ch10 Central Forces Exercises"
+    - file: video_links.md
+    - file: provenance.md
+site:
+  template: book-theme
+  title: Second-Year Dynamics
+  options:
+    logo_text: Quadrivium Press
+    style: styles/book.css
+    hide_authors: true
+  actions:
+    - title: Original source
+      url: https://github.com/OSTP/Dynamics_Textbook
+  nav: []

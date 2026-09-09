@@ -1,0 +1,14 @@
+[
+  {
+    "pdf_page": 277,
+    "bbox": [75, 260, 540, 598],
+    "reason": "Manually transcribed the three-column constants table; checked against physical PDF page 277.",
+    "markdown": "| Quantity | Symbol | Value |\n| --- | --- | --- |\n| Acceleration due to gravity at Earth’s surface | $g$ | $9.81\\,\\mathrm{m\\,s^{-2}}$ |\n| Gravitational constant | $G$ | $6.674\\times 10^{-11}\\,\\mathrm{m^3\\,kg^{-1}\\,s^{-2}}$ |\n| Speed of light (vacuum) | $c$ | $2.998\\times 10^8\\,\\mathrm{m\\,s^{-1}}$ |\n| Speed of sound in air at $20\\,{}^\\circ\\mathrm{C}$ | $c_s$ | $343\\,\\mathrm{m\\,s^{-1}}$ |\n| Mass of Earth | $M_E$ | $5.98\\times 10^{24}\\,\\mathrm{kg}$ |\n| Mass of Sun | $M_S$ | $1.99\\times 10^{30}\\,\\mathrm{kg}$ |\n| Mass of Moon | $M_M$ | $7.36\\times 10^{22}\\,\\mathrm{kg}$ |\n| Mean Earth orbit (astronomical unit) | $r_E$ | $1.50\\times 10^{11}\\,\\mathrm{m}$ |\n| Earth radius | $R_E$ | $6.37\\times 10^6\\,\\mathrm{m}$ |\n| Sun radius | $R_S$ | $6.96\\times 10^8\\,\\mathrm{m}$ |\n| Moon radius | $R_M$ | $1.74\\times 10^6\\,\\mathrm{m}$ |\n| Planck constant | $h$ | $6.63\\times 10^{-34}\\,\\mathrm{J\\,s}$ |\n| Boltzmann constant | $k_B$ | $1.38\\times 10^{-23}\\,\\mathrm{J\\,K^{-1}}$ |\n| Permittivity of Free Space | $\\epsilon_0$ | $8.854\\times 10^{-12}\\,\\mathrm{C\\,V^{-1}\\,m^{-1}}$ |\n| Permeability of Free Space | $\\mu_0$ | $4\\pi\\times 10^{-7}\\,\\mathrm{T\\,m\\,A^{-1}}$ |\n| Elementary charge | $\\lvert e\\rvert$ | $1.6\\times 10^{-19}\\,\\mathrm{C}$ |\n| Electron mass | $m_e$ | $9.11\\times 10^{-31}\\,\\mathrm{kg}$ |\n| Proton mass | $m_p$ | $1.67\\times 10^{-27}\\,\\mathrm{kg}$ |\n| Coulomb constant | $k=\\frac{1}{4\\pi\\epsilon_0}$ | $8.99\\times 10^9\\,\\mathrm{N\\,m^2\\,C^{-2}}$ |"
+  },
+  {
+    "pdf_page": 277,
+    "bbox": [210, 632, 410, 720],
+    "reason": "Native table preserves the source's paired columns of metric prefixes.",
+    "markdown": "| Factor | Prefix | Symbol | Factor | Prefix | Symbol |\n| --- | --- | --- | --- | --- | --- |\n| $10^{-3}$ | milli | m | $10^3$ | kilo | k |\n| $10^{-6}$ | micro | $\\mu$ | $10^6$ | mega | M |\n| $10^{-9}$ | nano | n | $10^9$ | giga | G |\n| $10^{-12}$ | pico | p | $10^{12}$ | tera | T |"
+  }
+]

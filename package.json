@@ -1,0 +1,14 @@
+{
+  "name": "second-year-dynamics",
+  "private": true,
+  "description": "MyST Markdown edition of the Fall 2025 Second-Year Dynamics textbook",
+  "scripts": {
+    "start": "myst start",
+    "build": "myst build --html",
+    "verify": "python3 scripts/verify_book.py",
+    "extract": "python3 scripts/convert_pdf.py"
+  },
+  "devDependencies": {
+    "mystmd": "1.10.1"
+  }
+}

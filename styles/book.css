@@ -1,0 +1,16 @@
+/* Source formula SVGs have a transparent background and black glyphs. */
+html.dark img[alt^="Formula, source page"],
+html.dark img[alt^="Mathematical expression"] {
+  filter: invert(1);
+}
+article img[alt^="Formula, source page"] {
+  vertical-align: -0.18em;
+  max-width: 100%;
+}
+article img[alt^="Mathematical expression"] {
+  max-width: 100%;
+  height: auto;
+}
+article table {
+  font-variant-numeric: tabular-nums;
+}

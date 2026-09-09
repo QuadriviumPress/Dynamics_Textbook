@@ -1,0 +1,4608 @@
+{
+  "source": "tex/phys206_f25_textbook.pdf",
+  "sha256": "4a44aada49f2683e84d50c5a835de27bc14802c1bc1109a293a82e584fd31184",
+  "edition": "Fall 2025",
+  "announced_date": "2025-08-20",
+  "page_count": 305,
+  "page_number_convention": "pdf_page fields are one-based physical PDF pages",
+  "pymupdf_version": "1.28.2",
+  "divisions": [
+    {
+      "number": "1",
+      "title": "Calculus and Vectors",
+      "pdf_page_start": 11,
+      "pdf_page_end": 37
+    },
+    {
+      "number": "2",
+      "title": "Newtonian Motion",
+      "pdf_page_start": 38,
+      "pdf_page_end": 60
+    },
+    {
+      "number": "3",
+      "title": "Simple Harmonic Motion",
+      "pdf_page_start": 61,
+      "pdf_page_end": 79
+    },
+    {
+      "number": "4",
+      "title": "Introduction to Non-Inertial and Rotating Frames",
+      "pdf_page_start": 80,
+      "pdf_page_end": 100
+    },
+    {
+      "number": "5",
+      "title": "Application of Non-Inertial and Rotating Frames",
+      "pdf_page_start": 101,
+      "pdf_page_end": 121
+    },
+    {
+      "number": "6",
+      "title": "Momentum and Variable Mass",
+      "pdf_page_start": 122,
+      "pdf_page_end": 146
+    },
+    {
+      "number": "7",
+      "title": "Angular Momentum and Torque",
+      "pdf_page_start": 147,
+      "pdf_page_end": 172
+    },
+    {
+      "number": "8",
+      "title": "Work and Energy",
+      "pdf_page_start": 173,
+      "pdf_page_end": 197
+    },
+    {
+      "number": "9",
+      "title": "Application of Energy Conservation",
+      "pdf_page_start": 198,
+      "pdf_page_end": 215
+    },
+    {
+      "number": "10",
+      "title": "Central Forces and Motion in Space",
+      "pdf_page_start": 216,
+      "pdf_page_end": 236
+    },
+    {
+      "number": "11",
+      "title": "Orbits and Kepler's Laws",
+      "pdf_page_start": 237,
+      "pdf_page_end": 256
+    },
+    {
+      "number": "12",
+      "title": "The Lagrange Method",
+      "pdf_page_start": 257,
+      "pdf_page_end": 276
+    },
+    {
+      "number": "A",
+      "title": "Resources",
+      "pdf_page_start": 277,
+      "pdf_page_end": 282
+    },
+    {
+      "number": "B",
+      "title": "Derivations and Approximations",
+      "pdf_page_start": 283,
+      "pdf_page_end": 288
+    },
+    {
+      "number": "C",
+      "title": "Solutions to Problems",
+      "pdf_page_start": 289,
+      "pdf_page_end": 305
+    }
+  ],
+  "outline": [
+    {
+      "level": 1,
+      "title": "Calculus and Vectors",
+      "pdf_page": 11
+    },
+    {
+      "level": 2,
+      "title": "Coordinates and Motion in Vector Notation",
+      "pdf_page": 11
+    },
+    {
+      "level": 3,
+      "title": "Linear Motion",
+      "pdf_page": 11
+    },
+    {
+      "level": 3,
+      "title": "Rotational Motion",
+      "pdf_page": 12
+    },
+    {
+      "level": 2,
+      "title": "Introduction to Plane Polar Coordinates",
+      "pdf_page": 14
+    },
+    {
+      "level": 2,
+      "title": "Equations of Motion",
+      "pdf_page": 17
+    },
+    {
+      "level": 2,
+      "title": "Linear and Rotational Motion",
+      "pdf_page": 19
+    },
+    {
+      "level": 2,
+      "title": "Vector Calculus",
+      "pdf_page": 24
+    },
+    {
+      "level": 3,
+      "title": "Vector Dot Product",
+      "pdf_page": 25
+    },
+    {
+      "level": 3,
+      "title": "Vector Cross Product",
+      "pdf_page": 25
+    },
+    {
+      "level": 2,
+      "title": "Approximations",
+      "pdf_page": 26
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application: LIGO",
+      "pdf_page": 30
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 33
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 35
+    },
+    {
+      "level": 1,
+      "title": "Newtonian Motion",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "Universality of the Laws of Motion: ",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "Newton's Three Laws of Motion: ",
+      "pdf_page": 38
+    },
+    {
+      "level": 2,
+      "title": "Static Systems",
+      "pdf_page": 40
+    },
+    {
+      "level": 2,
+      "title": "Systems with Constant Acceleration",
+      "pdf_page": 44
+    },
+    {
+      "level": 2,
+      "title": "Systems with Varying Acceleration",
+      "pdf_page": 47
+    },
+    {
+      "level": 3,
+      "title": "Exponential Force",
+      "pdf_page": 47
+    },
+    {
+      "level": 3,
+      "title": "Force is Proportional to Velocity",
+      "pdf_page": 50
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application",
+      "pdf_page": 53
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 55
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 56
+    },
+    {
+      "level": 1,
+      "title": "Simple Harmonic Motion",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "Force is Proportional to Position",
+      "pdf_page": 61
+    },
+    {
+      "level": 2,
+      "title": "Simple Harmonic Motion: Springs",
+      "pdf_page": 63
+    },
+    {
+      "level": 3,
+      "title": "Horizontal Springs",
+      "pdf_page": 63
+    },
+    {
+      "level": 3,
+      "title": "Vertical Springs",
+      "pdf_page": 63
+    },
+    {
+      "level": 2,
+      "title": "Brief Aside on the Differential Equation of Motion",
+      "pdf_page": 65
+    },
+    {
+      "level": 2,
+      "title": "Simple Harmonic Motion: Pendulum",
+      "pdf_page": 66
+    },
+    {
+      "level": 3,
+      "title": "Simple Pendulum",
+      "pdf_page": 66
+    },
+    {
+      "level": 3,
+      "title": "Physical Pendulum",
+      "pdf_page": 68
+    },
+    {
+      "level": 2,
+      "title": "Sample Problems",
+      "pdf_page": 69
+    },
+    {
+      "level": 2,
+      "title": "Aside on Damping and Driven Motion",
+      "pdf_page": 72
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application",
+      "pdf_page": 73
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 74
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 76
+    },
+    {
+      "level": 1,
+      "title": "Introduction to Non-Inertial and Rotating Frames",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "Review of Reference Frames",
+      "pdf_page": 80
+    },
+    {
+      "level": 2,
+      "title": "Introduction to Non-Inertial Reference Frames",
+      "pdf_page": 81
+    },
+    {
+      "level": 2,
+      "title": "Example Problems with Linear Acceleration",
+      "pdf_page": 83
+    },
+    {
+      "level": 2,
+      "title": "Rotating Frames",
+      "pdf_page": 87
+    },
+    {
+      "level": 3,
+      "title": "Rotating Systems",
+      "pdf_page": 87
+    },
+    {
+      "level": 3,
+      "title": "Coordinate System of a Rotating Frame: Velocity",
+      "pdf_page": 88
+    },
+    {
+      "level": 3,
+      "title": "Coordinate System of a Rotating Frame: Acceleration",
+      "pdf_page": 90
+    },
+    {
+      "level": 2,
+      "title": "Types of Acceleration and Fictitious Forces",
+      "pdf_page": 92
+    },
+    {
+      "level": 2,
+      "title": "Simple Example of a Rotating Reference Frame",
+      "pdf_page": 93
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 96
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 98
+    },
+    {
+      "level": 1,
+      "title": "Application of Non-Inertial and Rotating Frames",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "Rotating versus Accelerating Frames",
+      "pdf_page": 101
+    },
+    {
+      "level": 2,
+      "title": "Centrifugal Fictitious Force",
+      "pdf_page": 102
+    },
+    {
+      "level": 2,
+      "title": "Coriolis Fictitious Force",
+      "pdf_page": 105
+    },
+    {
+      "level": 2,
+      "title": "Earth as a Non-Inertial Frame",
+      "pdf_page": 108
+    },
+    {
+      "level": 2,
+      "title": "Foucault's Pendulum",
+      "pdf_page": 112
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application",
+      "pdf_page": 115
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 116
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 118
+    },
+    {
+      "level": 1,
+      "title": "Momentum and Variable Mass",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "Linear Momentum",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "Conservation of Linear Momentum",
+      "pdf_page": 122
+    },
+    {
+      "level": 2,
+      "title": "Momentum with an External Force",
+      "pdf_page": 124
+    },
+    {
+      "level": 3,
+      "title": "Impulse",
+      "pdf_page": 124
+    },
+    {
+      "level": 3,
+      "title": "Collisions",
+      "pdf_page": 126
+    },
+    {
+      "level": 2,
+      "title": "Centre of Mass",
+      "pdf_page": 131
+    },
+    {
+      "level": 2,
+      "title": "Variable Mass",
+      "pdf_page": 135
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application",
+      "pdf_page": 139
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 140
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 142
+    },
+    {
+      "level": 1,
+      "title": "Angular Momentum and Torque",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "Angular Momentum",
+      "pdf_page": 147
+    },
+    {
+      "level": 2,
+      "title": "Rotational Dynamics",
+      "pdf_page": 147
+    },
+    {
+      "level": 3,
+      "title": "Rotational Dynamics from Newton's Laws",
+      "pdf_page": 148
+    },
+    {
+      "level": 3,
+      "title": "Moment of Inertia",
+      "pdf_page": 149
+    },
+    {
+      "level": 3,
+      "title": "Direction of Torque and Angular Momentum",
+      "pdf_page": 151
+    },
+    {
+      "level": 2,
+      "title": "The Pendulum Revisited",
+      "pdf_page": 152
+    },
+    {
+      "level": 2,
+      "title": "The Physical Pendulum",
+      "pdf_page": 154
+    },
+    {
+      "level": 2,
+      "title": "Example of a Physical Pendulum",
+      "pdf_page": 155
+    },
+    {
+      "level": 2,
+      "title": "Example with Rolling Motion",
+      "pdf_page": 158
+    },
+    {
+      "level": 2,
+      "title": "Real-World Application",
+      "pdf_page": 164
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 166
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 168
+    },
+    {
+      "level": 1,
+      "title": "Work and Energy",
+      "pdf_page": 173
+    },
+    {
+      "level": 2,
+      "title": "Introduction to Work and Energy",
+      "pdf_page": 173
+    },
+    {
+      "level": 2,
+      "title": "Work-Energy Theorem",
+      "pdf_page": 174
+    },
+    {
+      "level": 2,
+      "title": "Work in Different Frames",
+      "pdf_page": 176
+    },
+    {
+      "level": 2,
+      "title": "Gravity",
+      "pdf_page": 177
+    },
+    {
+      "level": 3,
+      "title": "Simple Approximation",
+      "pdf_page": 177
+    },
+    {
+      "level": 3,
+      "title": "General Equation",
+      "pdf_page": 178
+    },
+    {
+      "level": 3,
+      "title": "Escape velocity",
+      "pdf_page": 179
+    },
+    {
+      "level": 2,
+      "title": "Conservative Forces",
+      "pdf_page": 180
+    },
+    {
+      "level": 3,
+      "title": "Identifying Conservative Forces",
+      "pdf_page": 182
+    },
+    {
+      "level": 3,
+      "title": "Example Conservative Forces",
+      "pdf_page": 183
+    },
+    {
+      "level": 2,
+      "title": "Potential Energy",
+      "pdf_page": 184
+    },
+    {
+      "level": 2,
+      "title": "Conservation of Energy",
+      "pdf_page": 185
+    },
+    {
+      "level": 2,
+      "title": "Application of Potential Energy",
+      "pdf_page": 186
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 192
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 195
+    },
+    {
+      "level": 1,
+      "title": "Application of Energy Conservation",
+      "pdf_page": 198
+    },
+    {
+      "level": 2,
+      "title": "Energy Conservation",
+      "pdf_page": 198
+    },
+    {
+      "level": 2,
+      "title": "Energy Conservation in 3-D",
+      "pdf_page": 199
+    },
+    {
+      "level": 2,
+      "title": "Example Problems: Gravity and Rotation",
+      "pdf_page": 202
+    },
+    {
+      "level": 2,
+      "title": "Application to Simple Harmonic Motion",
+      "pdf_page": 207
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 212
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 213
+    },
+    {
+      "level": 1,
+      "title": "Central Forces and Motion in Space",
+      "pdf_page": 216
+    },
+    {
+      "level": 2,
+      "title": "Introduction to Central Forces",
+      "pdf_page": 216
+    },
+    {
+      "level": 2,
+      "title": "Properties of Central Forces",
+      "pdf_page": 217
+    },
+    {
+      "level": 3,
+      "title": "Central Forces are Conservative Forces",
+      "pdf_page": 217
+    },
+    {
+      "level": 3,
+      "title": "Angular Momentum is Conserved",
+      "pdf_page": 218
+    },
+    {
+      "level": 3,
+      "title": "Motion will occur on a plane",
+      "pdf_page": 218
+    },
+    {
+      "level": 2,
+      "title": "Equation of Motion for a Central Force",
+      "pdf_page": 219
+    },
+    {
+      "level": 2,
+      "title": "Effective Potential",
+      "pdf_page": 220
+    },
+    {
+      "level": 2,
+      "title": "Effective Force",
+      "pdf_page": 222
+    },
+    {
+      "level": 2,
+      "title": "Example: Gravity as a Central Force",
+      "pdf_page": 223
+    },
+    {
+      "level": 2,
+      "title": "Real World Application",
+      "pdf_page": 230
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 232
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 234
+    },
+    {
+      "level": 1,
+      "title": "Orbits and Kepler's Laws",
+      "pdf_page": 237
+    },
+    {
+      "level": 2,
+      "title": "Definition of an Ellipse",
+      "pdf_page": 237
+    },
+    {
+      "level": 2,
+      "title": "Ellipses as Orbits",
+      "pdf_page": 240
+    },
+    {
+      "level": 2,
+      "title": "Kepler's Laws",
+      "pdf_page": 244
+    },
+    {
+      "level": 2,
+      "title": "Application of Kepler's Laws",
+      "pdf_page": 247
+    },
+    {
+      "level": 2,
+      "title": "Real World Application",
+      "pdf_page": 251
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "pdf_page": 251
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 254
+    },
+    {
+      "level": 1,
+      "title": "The Lagrange Method",
+      "pdf_page": 257
+    },
+    {
+      "level": 2,
+      "title": "Introduction to the Lagrangian Method",
+      "pdf_page": 257
+    },
+    {
+      "level": 2,
+      "title": "Application to 1-D Problems",
+      "pdf_page": 259
+    },
+    {
+      "level": 2,
+      "title": "Application in 2-D",
+      "pdf_page": 263
+    },
+    {
+      "level": 2,
+      "title": "Example Problem: Sphere on an Incline",
+      "pdf_page": 265
+    },
+    {
+      "level": 2,
+      "title": "Challenging Problem: Particle on a Wire",
+      "pdf_page": 267
+    },
+    {
+      "level": 2,
+      "title": "Real-World Applications",
+      "pdf_page": 271
+    },
+    {
+      "level": 2,
+      "title": "Summary on the Lagrange Method",
+      "pdf_page": 271
+    },
+    {
+      "level": 2,
+      "title": "Practice Problems",
+      "pdf_page": 273
+    },
+    {
+      "level": 1,
+      "title": "Resources",
+      "pdf_page": 277
+    },
+    {
+      "level": 2,
+      "title": "Constants",
+      "pdf_page": 277
+    },
+    {
+      "level": 2,
+      "title": "Math Identities",
+      "pdf_page": 277
+    },
+    {
+      "level": 2,
+      "title": "Common Approximations",
+      "pdf_page": 278
+    },
+    {
+      "level": 2,
+      "title": "Moment of Inertia",
+      "pdf_page": 278
+    },
+    {
+      "level": 2,
+      "title": "Vector Differential Operators",
+      "pdf_page": 280
+    },
+    {
+      "level": 3,
+      "title": "General Coordinates",
+      "pdf_page": 280
+    },
+    {
+      "level": 3,
+      "title": "Cartesian Coordinates",
+      "pdf_page": 280
+    },
+    {
+      "level": 3,
+      "title": "Cylindrical Coordinates",
+      "pdf_page": 281
+    },
+    {
+      "level": 3,
+      "title": "Spherical Coordinates",
+      "pdf_page": 281
+    },
+    {
+      "level": 1,
+      "title": "Derivations and Approximations",
+      "pdf_page": 283
+    },
+    {
+      "level": 2,
+      "title": "Derivation of Elliptical Orbits",
+      "pdf_page": 283
+    },
+    {
+      "level": 2,
+      "title": "Approximations",
+      "pdf_page": 286
+    },
+    {
+      "level": 3,
+      "title": "Binomial Approximation",
+      "pdf_page": 286
+    },
+    {
+      "level": 3,
+      "title": "Taylor Series",
+      "pdf_page": 287
+    },
+    {
+      "level": 1,
+      "title": "Solutions to Problems",
+      "pdf_page": 289
+    },
+    {
+      "level": 2,
+      "title": "Calculus and Vectors",
+      "pdf_page": 289
+    },
+    {
+      "level": 2,
+      "title": "Newtonian Review",
+      "pdf_page": 290
+    },
+    {
+      "level": 2,
+      "title": "Simple Harmonic Motion",
+      "pdf_page": 292
+    },
+    {
+      "level": 2,
+      "title": "Introduction to Non-Inertial and Rotating Frames",
+      "pdf_page": 293
+    },
+    {
+      "level": 2,
+      "title": "Applications of Non-Inertial and Rotating Frames",
+      "pdf_page": 295
+    },
+    {
+      "level": 2,
+      "title": "Momentum and Variable Mass",
+      "pdf_page": 296
+    },
+    {
+      "level": 2,
+      "title": "Torques and Angular Momentum",
+      "pdf_page": 298
+    },
+    {
+      "level": 2,
+      "title": "Work and Energy",
+      "pdf_page": 299
+    },
+    {
+      "level": 2,
+      "title": "Applications of Energy Conservation",
+      "pdf_page": 300
+    },
+    {
+      "level": 2,
+      "title": "Central Forces and Motion in Space",
+      "pdf_page": 301
+    },
+    {
+      "level": 2,
+      "title": "Orbits and Kepler's Laws",
+      "pdf_page": 303
+    },
+    {
+      "level": 2,
+      "title": "The Lagrange Method",
+      "pdf_page": 304
+    }
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "pdf_page_label": "",
+      "text_characters": 48,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 2,
+      "pdf_page_label": "i",
+      "text_characters": 1699,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 3,
+      "pdf_page_label": "ii",
+      "text_characters": 1493,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 4,
+      "pdf_page_label": "iii",
+      "text_characters": 2551,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 5,
+      "pdf_page_label": "iv",
+      "text_characters": 321,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 6,
+      "pdf_page_label": "v",
+      "text_characters": 3129,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 7,
+      "pdf_page_label": "vi",
+      "text_characters": 3431,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 8,
+      "pdf_page_label": "vii",
+      "text_characters": 3506,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 9,
+      "pdf_page_label": "viii",
+      "text_characters": 3372,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 10,
+      "pdf_page_label": "1",
+      "text_characters": 374,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 11,
+      "pdf_page_label": "2",
+      "text_characters": 1120,
+      "figure_captions": [
+        "1.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 12,
+      "pdf_page_label": "3",
+      "text_characters": 1841,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 13,
+      "pdf_page_label": "4",
+      "text_characters": 1664,
+      "figure_captions": [
+        "1.2",
+        "1.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 14,
+      "pdf_page_label": "5",
+      "text_characters": 1953,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 15,
+      "pdf_page_label": "6",
+      "text_characters": 1543,
+      "figure_captions": [
+        "1.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 16,
+      "pdf_page_label": "7",
+      "text_characters": 1513,
+      "figure_captions": [
+        "1.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 17,
+      "pdf_page_label": "8",
+      "text_characters": 1346,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 18,
+      "pdf_page_label": "9",
+      "text_characters": 1535,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 19,
+      "pdf_page_label": "10",
+      "text_characters": 1955,
+      "figure_captions": [
+        "1.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 20,
+      "pdf_page_label": "11",
+      "text_characters": 1402,
+      "figure_captions": [
+        "1.7"
+      ],
+      "sample_problem_labels": [
+        "1-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 21,
+      "pdf_page_label": "12",
+      "text_characters": 1534,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 22,
+      "pdf_page_label": "13",
+      "text_characters": 1654,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 23,
+      "pdf_page_label": "14",
+      "text_characters": 1935,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "1-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 24,
+      "pdf_page_label": "15",
+      "text_characters": 1444,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 25,
+      "pdf_page_label": "16",
+      "text_characters": 1515,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 26,
+      "pdf_page_label": "17",
+      "text_characters": 1475,
+      "figure_captions": [
+        "1.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 27,
+      "pdf_page_label": "18",
+      "text_characters": 2175,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 28,
+      "pdf_page_label": "19",
+      "text_characters": 2298,
+      "figure_captions": [
+        "1.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 29,
+      "pdf_page_label": "20",
+      "text_characters": 1132,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "1-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 30,
+      "pdf_page_label": "21",
+      "text_characters": 1792,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 31,
+      "pdf_page_label": "22",
+      "text_characters": 2090,
+      "figure_captions": [
+        "1.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 32,
+      "pdf_page_label": "23",
+      "text_characters": 1548,
+      "figure_captions": [
+        "1.11"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 33,
+      "pdf_page_label": "24",
+      "text_characters": 1343,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 34,
+      "pdf_page_label": "25",
+      "text_characters": 713,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 35,
+      "pdf_page_label": "26",
+      "text_characters": 786,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 36,
+      "pdf_page_label": "27",
+      "text_characters": 945,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 37,
+      "pdf_page_label": "28",
+      "text_characters": 944,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 38,
+      "pdf_page_label": "29",
+      "text_characters": 1630,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 39,
+      "pdf_page_label": "30",
+      "text_characters": 2278,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 40,
+      "pdf_page_label": "31",
+      "text_characters": 1891,
+      "figure_captions": [
+        "2.1"
+      ],
+      "sample_problem_labels": [
+        "2-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 41,
+      "pdf_page_label": "32",
+      "text_characters": 1761,
+      "figure_captions": [
+        "2.2",
+        "2.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 42,
+      "pdf_page_label": "33",
+      "text_characters": 2444,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 43,
+      "pdf_page_label": "34",
+      "text_characters": 2358,
+      "figure_captions": [
+        "2.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 44,
+      "pdf_page_label": "35",
+      "text_characters": 1873,
+      "figure_captions": [
+        "2.5"
+      ],
+      "sample_problem_labels": [
+        "2-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 45,
+      "pdf_page_label": "36",
+      "text_characters": 1751,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 46,
+      "pdf_page_label": "37",
+      "text_characters": 1409,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 47,
+      "pdf_page_label": "38",
+      "text_characters": 2410,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 48,
+      "pdf_page_label": "39",
+      "text_characters": 1672,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 49,
+      "pdf_page_label": "40",
+      "text_characters": 1998,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 50,
+      "pdf_page_label": "41",
+      "text_characters": 2005,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 51,
+      "pdf_page_label": "42",
+      "text_characters": 1373,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 52,
+      "pdf_page_label": "43",
+      "text_characters": 1774,
+      "figure_captions": [
+        "2.6"
+      ],
+      "sample_problem_labels": [
+        "2-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 53,
+      "pdf_page_label": "44",
+      "text_characters": 1307,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 54,
+      "pdf_page_label": "45",
+      "text_characters": 1154,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 55,
+      "pdf_page_label": "46",
+      "text_characters": 941,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 56,
+      "pdf_page_label": "47",
+      "text_characters": 1517,
+      "figure_captions": [
+        "2.7"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "2-1",
+        "2-2",
+        "2-3"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 57,
+      "pdf_page_label": "48",
+      "text_characters": 1196,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "2-4",
+        "2-5",
+        "2-6"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 58,
+      "pdf_page_label": "49",
+      "text_characters": 1406,
+      "figure_captions": [
+        "2.8",
+        "2.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "2-7",
+        "2-8"
+      ],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 59,
+      "pdf_page_label": "50",
+      "text_characters": 786,
+      "figure_captions": [
+        "2.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "2-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 60,
+      "pdf_page_label": "51",
+      "text_characters": 450,
+      "figure_captions": [
+        "2.11"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "2-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 61,
+      "pdf_page_label": "52",
+      "text_characters": 1733,
+      "figure_captions": [
+        "3.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 62,
+      "pdf_page_label": "53",
+      "text_characters": 2779,
+      "figure_captions": [
+        "3.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 63,
+      "pdf_page_label": "54",
+      "text_characters": 1771,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 64,
+      "pdf_page_label": "55",
+      "text_characters": 1894,
+      "figure_captions": [
+        "3.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 65,
+      "pdf_page_label": "56",
+      "text_characters": 1870,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 66,
+      "pdf_page_label": "57",
+      "text_characters": 1718,
+      "figure_captions": [
+        "3.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 67,
+      "pdf_page_label": "58",
+      "text_characters": 2217,
+      "figure_captions": [
+        "3.5",
+        "3.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 68,
+      "pdf_page_label": "59",
+      "text_characters": 1636,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 69,
+      "pdf_page_label": "60",
+      "text_characters": 1668,
+      "figure_captions": [
+        "3.7",
+        "3.8"
+      ],
+      "sample_problem_labels": [
+        "3-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 70,
+      "pdf_page_label": "61",
+      "text_characters": 1030,
+      "figure_captions": [
+        "3.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 71,
+      "pdf_page_label": "62",
+      "text_characters": 1557,
+      "figure_captions": [
+        "3.10",
+        "3.11"
+      ],
+      "sample_problem_labels": [
+        "3-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 72,
+      "pdf_page_label": "63",
+      "text_characters": 1660,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 73,
+      "pdf_page_label": "64",
+      "text_characters": 2579,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 74,
+      "pdf_page_label": "65",
+      "text_characters": 1313,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 75,
+      "pdf_page_label": "66",
+      "text_characters": 526,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 76,
+      "pdf_page_label": "67",
+      "text_characters": 1286,
+      "figure_captions": [
+        "3.12"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "3-1",
+        "3-2",
+        "3-3",
+        "3-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 77,
+      "pdf_page_label": "68",
+      "text_characters": 1166,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "3-5",
+        "3-6",
+        "3-7"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 78,
+      "pdf_page_label": "69",
+      "text_characters": 1394,
+      "figure_captions": [
+        "3.13"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "3-8",
+        "3-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 79,
+      "pdf_page_label": "70",
+      "text_characters": 616,
+      "figure_captions": [
+        "3.14"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "3-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 80,
+      "pdf_page_label": "71",
+      "text_characters": 1703,
+      "figure_captions": [
+        "4.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 81,
+      "pdf_page_label": "72",
+      "text_characters": 2275,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 82,
+      "pdf_page_label": "73",
+      "text_characters": 2333,
+      "figure_captions": [
+        "4.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 83,
+      "pdf_page_label": "74",
+      "text_characters": 1804,
+      "figure_captions": [
+        "4.3"
+      ],
+      "sample_problem_labels": [
+        "4-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 84,
+      "pdf_page_label": "75",
+      "text_characters": 1358,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 85,
+      "pdf_page_label": "76",
+      "text_characters": 1736,
+      "figure_captions": [
+        "4.4"
+      ],
+      "sample_problem_labels": [
+        "4-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 86,
+      "pdf_page_label": "77",
+      "text_characters": 1931,
+      "figure_captions": [
+        "4.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 87,
+      "pdf_page_label": "78",
+      "text_characters": 1928,
+      "figure_captions": [
+        "4.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 88,
+      "pdf_page_label": "79",
+      "text_characters": 1930,
+      "figure_captions": [
+        "4.7"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 89,
+      "pdf_page_label": "80",
+      "text_characters": 1680,
+      "figure_captions": [
+        "4.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 90,
+      "pdf_page_label": "81",
+      "text_characters": 1668,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 91,
+      "pdf_page_label": "82",
+      "text_characters": 1584,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 92,
+      "pdf_page_label": "83",
+      "text_characters": 2088,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 93,
+      "pdf_page_label": "84",
+      "text_characters": 1931,
+      "figure_captions": [
+        "4.9"
+      ],
+      "sample_problem_labels": [
+        "4-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 94,
+      "pdf_page_label": "85",
+      "text_characters": 1944,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 95,
+      "pdf_page_label": "86",
+      "text_characters": 617,
+      "figure_captions": [
+        "4.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 96,
+      "pdf_page_label": "87",
+      "text_characters": 1567,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 97,
+      "pdf_page_label": "88",
+      "text_characters": 359,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 98,
+      "pdf_page_label": "89",
+      "text_characters": 1309,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "4-1",
+        "4-2",
+        "4-3",
+        "4-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 99,
+      "pdf_page_label": "90",
+      "text_characters": 1314,
+      "figure_captions": [
+        "4.11"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "4-5",
+        "4-6",
+        "4-7",
+        "4-8"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 100,
+      "pdf_page_label": "91",
+      "text_characters": 1598,
+      "figure_captions": [
+        "4.12"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "4-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 101,
+      "pdf_page_label": "92",
+      "text_characters": 1628,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 102,
+      "pdf_page_label": "93",
+      "text_characters": 2990,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 103,
+      "pdf_page_label": "94",
+      "text_characters": 1714,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "5-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 104,
+      "pdf_page_label": "95",
+      "text_characters": 1846,
+      "figure_captions": [
+        "5.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 105,
+      "pdf_page_label": "96",
+      "text_characters": 2067,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 106,
+      "pdf_page_label": "97",
+      "text_characters": 1872,
+      "figure_captions": [
+        "5.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 107,
+      "pdf_page_label": "98",
+      "text_characters": 1880,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "5-2",
+        "5-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 108,
+      "pdf_page_label": "99",
+      "text_characters": 1630,
+      "figure_captions": [
+        "5.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 109,
+      "pdf_page_label": "100",
+      "text_characters": 2976,
+      "figure_captions": [
+        "5.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 110,
+      "pdf_page_label": "101",
+      "text_characters": 2241,
+      "figure_captions": [
+        "5.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 111,
+      "pdf_page_label": "102",
+      "text_characters": 1204,
+      "figure_captions": [
+        "5.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 112,
+      "pdf_page_label": "103",
+      "text_characters": 2315,
+      "figure_captions": [
+        "5.7"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 113,
+      "pdf_page_label": "104",
+      "text_characters": 2368,
+      "figure_captions": [
+        "5.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 114,
+      "pdf_page_label": "105",
+      "text_characters": 2427,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 115,
+      "pdf_page_label": "106",
+      "text_characters": 2532,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 116,
+      "pdf_page_label": "107",
+      "text_characters": 1871,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 117,
+      "pdf_page_label": "108",
+      "text_characters": 363,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 118,
+      "pdf_page_label": "109",
+      "text_characters": 1388,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "5-1",
+        "5-2"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 119,
+      "pdf_page_label": "110",
+      "text_characters": 1448,
+      "figure_captions": [
+        "5.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "5-3",
+        "5-4",
+        "5-5"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 120,
+      "pdf_page_label": "111",
+      "text_characters": 1678,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "5-6",
+        "5-7",
+        "5-8"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 121,
+      "pdf_page_label": "112",
+      "text_characters": 861,
+      "figure_captions": [
+        "5.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "5-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 122,
+      "pdf_page_label": "113",
+      "text_characters": 1292,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 123,
+      "pdf_page_label": "114",
+      "text_characters": 1628,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 124,
+      "pdf_page_label": "115",
+      "text_characters": 1874,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 125,
+      "pdf_page_label": "116",
+      "text_characters": 2294,
+      "figure_captions": [
+        "6.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 126,
+      "pdf_page_label": "117",
+      "text_characters": 2045,
+      "figure_captions": [
+        "6.2"
+      ],
+      "sample_problem_labels": [
+        "6-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 127,
+      "pdf_page_label": "118",
+      "text_characters": 1493,
+      "figure_captions": [
+        "6.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 128,
+      "pdf_page_label": "119",
+      "text_characters": 1560,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 129,
+      "pdf_page_label": "120",
+      "text_characters": 1765,
+      "figure_captions": [
+        "6.4"
+      ],
+      "sample_problem_labels": [
+        "6-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 130,
+      "pdf_page_label": "121",
+      "text_characters": 1675,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 131,
+      "pdf_page_label": "122",
+      "text_characters": 2120,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 132,
+      "pdf_page_label": "123",
+      "text_characters": 2355,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 133,
+      "pdf_page_label": "124",
+      "text_characters": 1638,
+      "figure_captions": [
+        "6.5",
+        "6.6"
+      ],
+      "sample_problem_labels": [
+        "6-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 134,
+      "pdf_page_label": "125",
+      "text_characters": 1392,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 135,
+      "pdf_page_label": "126",
+      "text_characters": 1710,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "6-4"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 136,
+      "pdf_page_label": "127",
+      "text_characters": 1092,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 137,
+      "pdf_page_label": "128",
+      "text_characters": 2254,
+      "figure_captions": [
+        "6.7"
+      ],
+      "sample_problem_labels": [
+        "6-5"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 138,
+      "pdf_page_label": "129",
+      "text_characters": 1280,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 139,
+      "pdf_page_label": "130",
+      "text_characters": 2084,
+      "figure_captions": [
+        "6.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 140,
+      "pdf_page_label": "131",
+      "text_characters": 1790,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 141,
+      "pdf_page_label": "132",
+      "text_characters": 525,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 142,
+      "pdf_page_label": "133",
+      "text_characters": 1046,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "6-1",
+        "6-2",
+        "6-3"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 143,
+      "pdf_page_label": "134",
+      "text_characters": 1979,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "6-4",
+        "6-5",
+        "6-6",
+        "6-7"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 144,
+      "pdf_page_label": "135",
+      "text_characters": 1414,
+      "figure_captions": [
+        "6.9",
+        "6.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "6-8"
+      ],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 145,
+      "pdf_page_label": "136",
+      "text_characters": 1483,
+      "figure_captions": [
+        "6.11"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "6-9",
+        "6-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 146,
+      "pdf_page_label": "137",
+      "text_characters": 554,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "6-11"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 147,
+      "pdf_page_label": "138",
+      "text_characters": 1609,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 148,
+      "pdf_page_label": "139",
+      "text_characters": 1802,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 149,
+      "pdf_page_label": "140",
+      "text_characters": 2272,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 150,
+      "pdf_page_label": "141",
+      "text_characters": 2455,
+      "figure_captions": [
+        "7.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 151,
+      "pdf_page_label": "142",
+      "text_characters": 2137,
+      "figure_captions": [
+        "7.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 152,
+      "pdf_page_label": "143",
+      "text_characters": 1650,
+      "figure_captions": [
+        "7.3",
+        "7.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 153,
+      "pdf_page_label": "144",
+      "text_characters": 1883,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 154,
+      "pdf_page_label": "145",
+      "text_characters": 2220,
+      "figure_captions": [
+        "7.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 155,
+      "pdf_page_label": "146",
+      "text_characters": 1803,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "7-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 156,
+      "pdf_page_label": "147",
+      "text_characters": 1476,
+      "figure_captions": [
+        "7.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 157,
+      "pdf_page_label": "148",
+      "text_characters": 1381,
+      "figure_captions": [
+        "7.7",
+        "7.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 158,
+      "pdf_page_label": "149",
+      "text_characters": 1295,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 159,
+      "pdf_page_label": "150",
+      "text_characters": 1648,
+      "figure_captions": [
+        "7.9",
+        "7.10"
+      ],
+      "sample_problem_labels": [
+        "7-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 160,
+      "pdf_page_label": "151",
+      "text_characters": 2160,
+      "figure_captions": [
+        "7.11"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 161,
+      "pdf_page_label": "152",
+      "text_characters": 1819,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 162,
+      "pdf_page_label": "153",
+      "text_characters": 2117,
+      "figure_captions": [
+        "7.12"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 163,
+      "pdf_page_label": "154",
+      "text_characters": 1444,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 164,
+      "pdf_page_label": "155",
+      "text_characters": 1710,
+      "figure_captions": [
+        "7.13"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 165,
+      "pdf_page_label": "156",
+      "text_characters": 1096,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 166,
+      "pdf_page_label": "157",
+      "text_characters": 1235,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 167,
+      "pdf_page_label": "158",
+      "text_characters": 388,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 168,
+      "pdf_page_label": "159",
+      "text_characters": 967,
+      "figure_captions": [
+        "7.14"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "7-1"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 169,
+      "pdf_page_label": "160",
+      "text_characters": 1095,
+      "figure_captions": [
+        "7.15"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "7-2",
+        "7-3"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 170,
+      "pdf_page_label": "161",
+      "text_characters": 1424,
+      "figure_captions": [
+        "7.16"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "7-4",
+        "7-5",
+        "7-6"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 171,
+      "pdf_page_label": "162",
+      "text_characters": 1098,
+      "figure_captions": [
+        "7.17",
+        "7.18"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "7-7",
+        "7-8",
+        "7-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 172,
+      "pdf_page_label": "163",
+      "text_characters": 334,
+      "figure_captions": [
+        "7.19"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 173,
+      "pdf_page_label": "164",
+      "text_characters": 1458,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 174,
+      "pdf_page_label": "165",
+      "text_characters": 1929,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "2-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 175,
+      "pdf_page_label": "166",
+      "text_characters": 1527,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 176,
+      "pdf_page_label": "167",
+      "text_characters": 2228,
+      "figure_captions": [
+        "8.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 177,
+      "pdf_page_label": "168",
+      "text_characters": 2049,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 178,
+      "pdf_page_label": "169",
+      "text_characters": 1918,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 179,
+      "pdf_page_label": "170",
+      "text_characters": 1845,
+      "figure_captions": [
+        "8.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 180,
+      "pdf_page_label": "171",
+      "text_characters": 1974,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 181,
+      "pdf_page_label": "172",
+      "text_characters": 1539,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 182,
+      "pdf_page_label": "173",
+      "text_characters": 2200,
+      "figure_captions": [
+        "8.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 183,
+      "pdf_page_label": "174",
+      "text_characters": 1116,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "8-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 184,
+      "pdf_page_label": "175",
+      "text_characters": 1454,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "8-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 185,
+      "pdf_page_label": "176",
+      "text_characters": 1669,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 186,
+      "pdf_page_label": "177",
+      "text_characters": 1723,
+      "figure_captions": [
+        "8.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 187,
+      "pdf_page_label": "178",
+      "text_characters": 1278,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "8-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 188,
+      "pdf_page_label": "179",
+      "text_characters": 2129,
+      "figure_captions": [
+        "8.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 189,
+      "pdf_page_label": "180",
+      "text_characters": 1718,
+      "figure_captions": [
+        "8.6"
+      ],
+      "sample_problem_labels": [
+        "8-4"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 190,
+      "pdf_page_label": "181",
+      "text_characters": 1387,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "8-5"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 191,
+      "pdf_page_label": "182",
+      "text_characters": 1227,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "8-6"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 192,
+      "pdf_page_label": "183",
+      "text_characters": 1438,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 193,
+      "pdf_page_label": "184",
+      "text_characters": 483,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 194,
+      "pdf_page_label": "185",
+      "text_characters": 123,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 195,
+      "pdf_page_label": "186",
+      "text_characters": 1150,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "8-1",
+        "8-2",
+        "8-3",
+        "8-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 196,
+      "pdf_page_label": "187",
+      "text_characters": 826,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "8-5",
+        "8-6",
+        "8-7",
+        "8-8"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 197,
+      "pdf_page_label": "188",
+      "text_characters": 1389,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "8-9",
+        "8-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 198,
+      "pdf_page_label": "189",
+      "text_characters": 1716,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 199,
+      "pdf_page_label": "190",
+      "text_characters": 1344,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 200,
+      "pdf_page_label": "191",
+      "text_characters": 1542,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "9-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 201,
+      "pdf_page_label": "192",
+      "text_characters": 1292,
+      "figure_captions": [
+        "9.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 202,
+      "pdf_page_label": "193",
+      "text_characters": 2183,
+      "figure_captions": [
+        "9.2"
+      ],
+      "sample_problem_labels": [
+        "9-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 203,
+      "pdf_page_label": "194",
+      "text_characters": 1609,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 204,
+      "pdf_page_label": "195",
+      "text_characters": 1205,
+      "figure_captions": [
+        "9.3"
+      ],
+      "sample_problem_labels": [
+        "9-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 205,
+      "pdf_page_label": "196",
+      "text_characters": 1865,
+      "figure_captions": [
+        "9.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 206,
+      "pdf_page_label": "197",
+      "text_characters": 1533,
+      "figure_captions": [
+        "9.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 207,
+      "pdf_page_label": "198",
+      "text_characters": 1495,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "9-4"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 208,
+      "pdf_page_label": "199",
+      "text_characters": 1529,
+      "figure_captions": [
+        "9.6",
+        "9.7"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 209,
+      "pdf_page_label": "200",
+      "text_characters": 2342,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 210,
+      "pdf_page_label": "201",
+      "text_characters": 1896,
+      "figure_captions": [
+        "9.8"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 211,
+      "pdf_page_label": "202",
+      "text_characters": 1222,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 212,
+      "pdf_page_label": "203",
+      "text_characters": 1585,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 213,
+      "pdf_page_label": "204",
+      "text_characters": 1487,
+      "figure_captions": [
+        "9.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "9-1",
+        "9-2",
+        "9-3",
+        "9-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 214,
+      "pdf_page_label": "205",
+      "text_characters": 1035,
+      "figure_captions": [
+        "9.10",
+        "9.11",
+        "9.12"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "9-5",
+        "9-6"
+      ],
+      "solution_labels": [],
+      "image_placements": 3
+    },
+    {
+      "pdf_page": 215,
+      "pdf_page_label": "206",
+      "text_characters": 1597,
+      "figure_captions": [
+        "9.13"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "9-7",
+        "9-8",
+        "9-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 216,
+      "pdf_page_label": "207",
+      "text_characters": 1559,
+      "figure_captions": [
+        "10.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 217,
+      "pdf_page_label": "208",
+      "text_characters": 1472,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 218,
+      "pdf_page_label": "209",
+      "text_characters": 1851,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 219,
+      "pdf_page_label": "210",
+      "text_characters": 2227,
+      "figure_captions": [
+        "10.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 220,
+      "pdf_page_label": "211",
+      "text_characters": 1631,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 221,
+      "pdf_page_label": "212",
+      "text_characters": 1944,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "10-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 222,
+      "pdf_page_label": "213",
+      "text_characters": 1229,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 223,
+      "pdf_page_label": "214",
+      "text_characters": 1135,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "10-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 224,
+      "pdf_page_label": "215",
+      "text_characters": 1606,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 225,
+      "pdf_page_label": "216",
+      "text_characters": 1730,
+      "figure_captions": [
+        "10.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 226,
+      "pdf_page_label": "217",
+      "text_characters": 1099,
+      "figure_captions": [
+        "10.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 227,
+      "pdf_page_label": "218",
+      "text_characters": 1391,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 228,
+      "pdf_page_label": "219",
+      "text_characters": 2525,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 229,
+      "pdf_page_label": "220",
+      "text_characters": 1305,
+      "figure_captions": [
+        "10.5"
+      ],
+      "sample_problem_labels": [
+        "10-3",
+        "10-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 230,
+      "pdf_page_label": "221",
+      "text_characters": 2244,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 231,
+      "pdf_page_label": "222",
+      "text_characters": 553,
+      "figure_captions": [
+        "10.6"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 232,
+      "pdf_page_label": "223",
+      "text_characters": 1232,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 233,
+      "pdf_page_label": "224",
+      "text_characters": 1248,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 234,
+      "pdf_page_label": "225",
+      "text_characters": 1170,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "10-1",
+        "10-2",
+        "10-3",
+        "10-4",
+        "10-5"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 235,
+      "pdf_page_label": "226",
+      "text_characters": 1602,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "10-6",
+        "10-7",
+        "10-8",
+        "10-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 236,
+      "pdf_page_label": "227",
+      "text_characters": 1093,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "10-10",
+        "10-11"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 237,
+      "pdf_page_label": "228",
+      "text_characters": 1918,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 238,
+      "pdf_page_label": "229",
+      "text_characters": 1530,
+      "figure_captions": [
+        "11.1"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 239,
+      "pdf_page_label": "230",
+      "text_characters": 1527,
+      "figure_captions": [
+        "11.2"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 240,
+      "pdf_page_label": "231",
+      "text_characters": 1810,
+      "figure_captions": [
+        "11.3"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 241,
+      "pdf_page_label": "232",
+      "text_characters": 1661,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 242,
+      "pdf_page_label": "233",
+      "text_characters": 1839,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "11-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 243,
+      "pdf_page_label": "234",
+      "text_characters": 2155,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 244,
+      "pdf_page_label": "235",
+      "text_characters": 2275,
+      "figure_captions": [
+        "11.4"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 245,
+      "pdf_page_label": "236",
+      "text_characters": 1695,
+      "figure_captions": [
+        "11.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 246,
+      "pdf_page_label": "237",
+      "text_characters": 962,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 247,
+      "pdf_page_label": "238",
+      "text_characters": 902,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "11-2"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 248,
+      "pdf_page_label": "239",
+      "text_characters": 1777,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 249,
+      "pdf_page_label": "240",
+      "text_characters": 1762,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "11-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 250,
+      "pdf_page_label": "241",
+      "text_characters": 638,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 251,
+      "pdf_page_label": "242",
+      "text_characters": 1997,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 252,
+      "pdf_page_label": "243",
+      "text_characters": 1002,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 253,
+      "pdf_page_label": "244",
+      "text_characters": 328,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 254,
+      "pdf_page_label": "245",
+      "text_characters": 1216,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "11-1",
+        "11-2",
+        "11-3",
+        "11-4",
+        "11-5"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 255,
+      "pdf_page_label": "246",
+      "text_characters": 1160,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "11-6",
+        "11-7",
+        "11-8",
+        "11-9",
+        "11-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 256,
+      "pdf_page_label": "247",
+      "text_characters": 588,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "11-11"
+      ],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 257,
+      "pdf_page_label": "248",
+      "text_characters": 1193,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 258,
+      "pdf_page_label": "249",
+      "text_characters": 1653,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 259,
+      "pdf_page_label": "250",
+      "text_characters": 835,
+      "figure_captions": [
+        "12.1"
+      ],
+      "sample_problem_labels": [
+        "12-1"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 260,
+      "pdf_page_label": "251",
+      "text_characters": 1204,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 261,
+      "pdf_page_label": "252",
+      "text_characters": 1326,
+      "figure_captions": [
+        "12.2",
+        "12.3"
+      ],
+      "sample_problem_labels": [
+        "12-2",
+        "9-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 262,
+      "pdf_page_label": "253",
+      "text_characters": 1120,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 263,
+      "pdf_page_label": "254",
+      "text_characters": 1152,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "9-3",
+        "12-3"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 264,
+      "pdf_page_label": "255",
+      "text_characters": 870,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 265,
+      "pdf_page_label": "256",
+      "text_characters": 1265,
+      "figure_captions": [],
+      "sample_problem_labels": [
+        "12-4"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 266,
+      "pdf_page_label": "257",
+      "text_characters": 1286,
+      "figure_captions": [
+        "12.4",
+        "12.5"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 267,
+      "pdf_page_label": "258",
+      "text_characters": 1149,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 268,
+      "pdf_page_label": "259",
+      "text_characters": 1131,
+      "figure_captions": [
+        "12.6"
+      ],
+      "sample_problem_labels": [
+        "12-5"
+      ],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 269,
+      "pdf_page_label": "260",
+      "text_characters": 756,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 270,
+      "pdf_page_label": "261",
+      "text_characters": 1143,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 271,
+      "pdf_page_label": "262",
+      "text_characters": 2194,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 272,
+      "pdf_page_label": "263",
+      "text_characters": 1361,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 273,
+      "pdf_page_label": "264",
+      "text_characters": 1146,
+      "figure_captions": [
+        "12.7"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "12-1",
+        "12-2",
+        "12-3",
+        "12-4"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 274,
+      "pdf_page_label": "265",
+      "text_characters": 1253,
+      "figure_captions": [
+        "12.8",
+        "12.9"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "12-5",
+        "12-6",
+        "12-7"
+      ],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 275,
+      "pdf_page_label": "266",
+      "text_characters": 1110,
+      "figure_captions": [
+        "12.10"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "12-8",
+        "12-9"
+      ],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 276,
+      "pdf_page_label": "267",
+      "text_characters": 906,
+      "figure_captions": [
+        "12.11",
+        "12.12"
+      ],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [
+        "12-10"
+      ],
+      "solution_labels": [],
+      "image_placements": 2
+    },
+    {
+      "pdf_page": 277,
+      "pdf_page_label": "268",
+      "text_characters": 1109,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 278,
+      "pdf_page_label": "269",
+      "text_characters": 1418,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 279,
+      "pdf_page_label": "270",
+      "text_characters": 317,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 280,
+      "pdf_page_label": "271",
+      "text_characters": 1571,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 281,
+      "pdf_page_label": "272",
+      "text_characters": 1013,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 282,
+      "pdf_page_label": "273",
+      "text_characters": 317,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 283,
+      "pdf_page_label": "274",
+      "text_characters": 949,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 284,
+      "pdf_page_label": "275",
+      "text_characters": 1502,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 285,
+      "pdf_page_label": "276",
+      "text_characters": 1075,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 286,
+      "pdf_page_label": "277",
+      "text_characters": 1151,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 287,
+      "pdf_page_label": "278",
+      "text_characters": 1791,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 288,
+      "pdf_page_label": "279",
+      "text_characters": 2174,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [],
+      "image_placements": 1
+    },
+    {
+      "pdf_page": 289,
+      "pdf_page_label": "280",
+      "text_characters": 519,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 290,
+      "pdf_page_label": "281",
+      "text_characters": 604,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "1-8",
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "2-1",
+        "2-2",
+        "2-4"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 291,
+      "pdf_page_label": "282",
+      "text_characters": 613,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "2-5",
+        "2-6",
+        "2-7",
+        "2-8",
+        "2-9",
+        "2-10"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 292,
+      "pdf_page_label": "283",
+      "text_characters": 649,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "3-1",
+        "3-2",
+        "3-3",
+        "3-4",
+        "3-5",
+        "3-6",
+        "3-7"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 293,
+      "pdf_page_label": "284",
+      "text_characters": 1008,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "3-8",
+        "3-10",
+        "4-1",
+        "4-2",
+        "4-3"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 294,
+      "pdf_page_label": "285",
+      "text_characters": 582,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7",
+        "4-8",
+        "4-9"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 295,
+      "pdf_page_label": "286",
+      "text_characters": 728,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "5-1",
+        "5-2",
+        "5-3",
+        "5-3",
+        "5-5",
+        "5-6",
+        "5-7",
+        "5-8"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 296,
+      "pdf_page_label": "287",
+      "text_characters": 751,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "6-1",
+        "6-2",
+        "6-3",
+        "6-4",
+        "6-5",
+        "6-6",
+        "6-7"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 297,
+      "pdf_page_label": "288",
+      "text_characters": 324,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "6-8",
+        "6-9",
+        "6-10",
+        "6-11"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 298,
+      "pdf_page_label": "289",
+      "text_characters": 645,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "7-1",
+        "7-2",
+        "7-3",
+        "7-4",
+        "7-5",
+        "7-6"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 299,
+      "pdf_page_label": "290",
+      "text_characters": 527,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "7-7",
+        "7-8",
+        "7-9",
+        "8-1",
+        "8-2",
+        "8-3",
+        "8-4"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 300,
+      "pdf_page_label": "291",
+      "text_characters": 745,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "8-5",
+        "8-6",
+        "8-7",
+        "8-8",
+        "8-9",
+        "8-10",
+        "9-1",
+        "9-2",
+        "9-3"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 301,
+      "pdf_page_label": "292",
+      "text_characters": 489,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "9-4",
+        "9-5",
+        "9-6",
+        "9-7",
+        "9-8",
+        "9-9",
+        "10-1"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 302,
+      "pdf_page_label": "293",
+      "text_characters": 708,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "10-2",
+        "10-3",
+        "10-5",
+        "10-6",
+        "10-2",
+        "10-3",
+        "10-4",
+        "10-5",
+        "10-6"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 303,
+      "pdf_page_label": "294",
+      "text_characters": 529,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "11-1",
+        "11-2",
+        "11-3",
+        "11-4",
+        "11-5",
+        "11-6",
+        "11-7",
+        "11-8",
+        "11-9",
+        "11-10"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 304,
+      "pdf_page_label": "295",
+      "text_characters": 666,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "12-1",
+        "12-2",
+        "12-3",
+        "12-4",
+        "12-5",
+        "12-6"
+      ],
+      "image_placements": 0
+    },
+    {
+      "pdf_page": 305,
+      "pdf_page_label": "296",
+      "text_characters": 597,
+      "figure_captions": [],
+      "sample_problem_labels": [],
+      "practice_problem_labels": [],
+      "solution_labels": [
+        "12-7",
+        "12-8",
+        "12-9",
+        "12-10"
+      ],
+      "image_placements": 0
+    }
+  ]
+}
