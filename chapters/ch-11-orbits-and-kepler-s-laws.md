@@ -101,14 +101,8 @@ $$
 :alt: Figure shows the vector breakdown for a locus on an ellipse in terms following standard Cartesian coordinates.
 :width: 351px
 
-This shows the position vectors $r_{1}$ and $r_{2}$ again for the two foci, where $r_{1}$ has been broken up into two components, $r_{1}\sin \theta$ and $r_{1}\cos \theta$. This produces a right angle triangle with $r^{2}$
+This shows the position vectors $r_{1}$ and $r_{2}$ again for the two foci, where $r_{1}$ has been broken up into two components, $r_{1}\sin \theta$ and $r_{1}\cos \theta$. This produces a right angle triangle with $r_{2}^{2} = (r_{1}\sin \theta)^{2}+ (2a\varepsilon + r_{1}\cos \theta)^{2}$ using the Pythagorean theorem.
 :::
-
-= $(r_{1}\sin \theta)^{2}+ (2a\varepsilon + r_{1}\cos \theta)^{2}$ *using the Pythagorean theorem.*
-
-$$
-2
-$$
 
 Now we don’t need to use the subscript for $r$. We can say that the distance to any point on the ellipse from a given focus is:
 
@@ -197,11 +191,7 @@ r(\theta)=\left(\frac{L^2}{m\gamma}\right)
 \frac{1}{1+\sqrt{1+\frac{2EL^2}{m\gamma^2}}\cos\theta}.
 $$
 
-The above equation has the same form as a general ellipse (Equation 11.2). This indicates that our solution for a central force is an ellipse. Moreover, we can define $\varepsilon$ from the physics
-
-$$
-\mathrm{as}
-$$
+The above equation has the same form as a general ellipse (Equation 11.2). This indicates that our solution for a central force is an ellipse. Moreover, we can define $\varepsilon$ from the physics as
 
 (eq-11-5)=
 $$
@@ -233,7 +223,7 @@ $$
 
 So $r_{c}$ is the radius of a circular orbit with an angular momentum of $L = mvr_{c}$.
 
-Combing [Equations 11.5](#eq-11-5) and 11.6 with the equation for $r(\theta)$, we can describe the a position on the orbit as,
+Combining [Equations 11.5](#eq-11-5) and 11.6 with the equation for $r(\theta)$, we can describe a position on the orbit as,
 
 $$
 r(\theta) = \frac{r_{c}}{1 + \varepsilon \cos \theta}
@@ -247,7 +237,7 @@ $$ (eq-11-7)
 
 There are different kinds of orbits. For $\varepsilon < 1$, the orbit is elliptical, with the special case of $\varepsilon$ = 0 for perfectly circular orbits. These are the only orbits we will deal with in great detail in this textbook.
 
-For elliptical orbits, we define the pericenter and apocenter as the positions of closest and furthers distance from one of the foci. In terms of the physics of the system, we want to relate the pericenter and apocenter to $r_{c}$, because $r_{c}$ contains our physics.
+For elliptical orbits, we define the pericenter and apocenter as the positions of closest and furthest distance from one of the foci. In terms of the physics of the system, we want to relate the pericenter and apocenter to $r_{c}$, because $r_{c}$ contains our physics.
 
 $$
 r = \frac{r_{c}}{1 + \varepsilon \cos \theta}
@@ -322,11 +312,7 @@ look like for this satellite. Note, we are assuming that the boost in energy is 
 Change in energy for our perturbed satellite. The satellite starts in a circular orbit so that $E = E_{i}$ which is at the minimum of the effective potential. After the engines are fired, the energy increases so that $E = E_{f}$.
 :::
 
-[Figure 11.4](#fig-11-4) shows the initial energy, $E_{i}$ at the minimum of $U_{eff}$ and the final energy $E_{f}$ which is somewhat larger. The increase in energy makes the satellite go into an elliptical orbit. We can see that the orbit is elliptical because we have two solutions for $r$ when the energy line hits the effective potential curve (denoted by $r_{1}$ and $r_{2}$ in the figure). These values of $r_{1}$ and $r_{2}$ are the perigee and apogee positions of the satellite (with the Earth at a focus). If the engines move the rocket inward initially, the the rocket will begin moving toward its perigee position (from an initially circular orbit of
-
-$$
-r_{c}).
-$$
+[Figure 11.4](#fig-11-4) shows the initial energy, $E_{i}$ at the minimum of $U_{eff}$ and the final energy $E_{f}$ which is somewhat larger. The increase in energy makes the satellite go into an elliptical orbit. We can see that the orbit is elliptical because we have two solutions for $r$ when the energy line hits the effective potential curve (denoted by $r_{1}$ and $r_{2}$ in the figure). These values of $r_{1}$ and $r_{2}$ are the perigee and apogee positions of the satellite (with the Earth at a focus). If the engines move the rocket inward initially, the rocket will begin moving toward its perigee position (from an initially circular orbit of $r_{c}$).
 
 Alternatively, we could argue that the orbit is elliptical by looking at the equation for $\varepsilon$ in [Equation 11.5](#eq-11-5). From this equation, $\varepsilon$ = 0 when $E = E_{\min}$ and $\varepsilon$ will increase if $E > E_{\min}$. An orbit is circular if $\varepsilon$ = 0 and elliptical for 0 $< \varepsilon < 1$.
 
@@ -421,7 +407,7 @@ $$
 \begin{aligned}
 r_{p}+ r_{a}&= 2a \\
 2a &= \frac{r_{c}}{1 + \varepsilon} + \frac{r_{c}}{1 - \varepsilon} \\
-2a &= r_{c} \frac{1 - \varepsilon}{1 - \varepsilon ^{2}} + \frac{1 + \varepsilon}{1 - \varepsilon ^{2}} \bigg) \\
+2a &= r_{c}\bigg(\frac{1 - \varepsilon}{1 - \varepsilon ^{2}} + \frac{1 + \varepsilon}{1 - \varepsilon ^{2}} \bigg) \\
 2a &= r_{c}\bigg(\frac{2}{1 - \varepsilon ^{2}} \bigg) \\
 1 - \varepsilon ^{2}&= \frac{r_{c}}{a} =\Rightarrow r_{c}= \frac{L^{2}}{m\gamma}
 \end{aligned}
@@ -481,11 +467,9 @@ Note for comets, the orbit is around the Sun (the Sun is at one focus). So we ne
 set $M = M_{sun}= 2.0 \times 10^{30}$ kg. Plugging in our numbers, we get:
 
 $$
-4\pi ^{2}a^{3}
+[75\,\mathrm{years} \times (3.154 \times 10^{7}\,\mathrm{s/year})]^{2}
+= \frac{4\pi^{2}a^{3}}{(6.67\times10^{-11}\,\mathrm{m^{3}\,kg^{-1}\,s^{-2}})(2.0\times10^{30}\,\mathrm{kg})}.
 $$
-
-[75 years $\times (3.154 \times 10^{7}$ s/year$)]^{2}$ =
-$\dfrac{4\pi^2a^3}{(6.67\times10^{-11}\,\mathrm{m^3\,kg^{-1}\,s^{-2}})(2.0\times10^{30}\,\mathrm{kg})}$.
 
 $$
 5.6 \times 10^{18}\mathrm{s}^{2}= (2.97 \times 10^{-19}\mathrm{s}^{2}\mathrm{m}^{-3})a^{3}
@@ -515,7 +499,7 @@ $$
 \bigg(\frac{T_{1}}{T_{2}} \bigg)^{2}= \bigg(\frac{a_{1}}{a_{2}} \bigg)^{3}
 $$
 
-This is a *scaling relation*. It is a much simpler (and faster) way to solve the same problem. As long as you have a reference system, you can scale that reference system to any other orbit that goes around the same body. A convenient reference system is the Earth. We know that it takes 1 year for the Earth to orbit the Sun and the Earth by definition is 1 au from the Sun. So we our scaling relation becomes:
+This is a *scaling relation*. It is a much simpler (and faster) way to solve the same problem. As long as you have a reference system, you can scale that reference system to any other orbit that goes around the same body. A convenient reference system is the Earth. We know that it takes 1 year for the Earth to orbit the Sun and the Earth by definition is 1 au from the Sun. So our scaling relation becomes:
 
 $$
 \Bigg(\frac{T}{1 \mathrm{year}} \Bigg)^{2}= \bigg(\frac{a}{1 \mathrm{au}} \bigg)^{3}
@@ -668,14 +652,14 @@ For a system with only gravity acting, we derived the orbit equation in terms of
 angular momentum $L$ and total energy $E$,
 
 $$
-r = \frac{L^{2}}{m\gamma} 1 + \varepsilon \cos \theta
+r = \frac{L^{2}/(m\gamma)}{1 + \varepsilon \cos \theta}
 $$
 
 $$
 \varepsilon=\sqrt{1+\frac{2EL^2}{m\gamma^2}}.
 $$
 
-and we defined a radius, $r_{c}$, which represent the radius of a circular orbit for a system of angular momentum $L$ and $E = E_{\min}$.
+and we defined a radius, $r_{c}$, which represents the radius of a circular orbit for a system of angular momentum $L$ and $E = E_{\min}$.
 
 $$
 r_{c}= \frac{L^{2}}{m\gamma}

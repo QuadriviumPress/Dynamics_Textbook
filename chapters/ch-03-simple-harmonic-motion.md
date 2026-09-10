@@ -35,11 +35,7 @@ The key element to a restoring force is that the force is the negative sign in t
 
 ::::
 
-If the net force acting on the mass is the spring force, then we can use Newton’s second law, $F = ma = -kx$ to get,
-
-$$
-\sum
-$$
+If the net force acting on the mass is the spring force, then we can use Newton’s second law, $\sum F = ma = -kx$ to get,
 
 $$
 a = \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} = - \frac{k}{m} x
@@ -47,7 +43,7 @@ $$ (eq-3-1)
 
 <!-- Source PDF page 62; printed label 53. -->
 
-Equation 3.1 is a second-order differential function, where the second time derivative of displacement is proportional to the displacement $(k$ and $m$ are constants). Thus, we need a function that when differentiated twice gives you the negative of that original function multiplied by a constant. This type of problem has a well known solution. Two familiar functions that meet these conditions are the cos and sin functions.
+Equation 3.1 is a second-order differential equation, where the second time derivative of displacement is proportional to the displacement $(k$ and $m$ are constants). Thus, we need a function that when differentiated twice gives you the negative of that original function multiplied by a constant. This type of problem has a well known solution. Two familiar functions that meet these conditions are the cos and sin functions.
 
 The solution of a $\cos t$ or $\sin t$ function should make sense. Picture a mass hanging from a spring. If you move the mass upward and let go, the mass will initially move downwards until it reaches a maximum drop at which point it will be pulled back upwards until it reaches its original position then it will move back downwards. Essentially, the mass will move down and up in a periodic manner. [Figure 3.2](#fig-3-2) shows the up-down displacement of this mass as a function of time; note that the displacement looks like a cos (or sin) function.
 
@@ -68,7 +64,7 @@ $$ (eq-3-2)
 
 where $A,\omega _{0}$, and $\varphi$ are all constants.
 
-- $A$ is the amplitude of the motion, the maximum displacement from from equilibrium.
+- $A$ is the amplitude of the motion, the maximum displacement from equilibrium.
 
 - $\omega _{0}$ is the angular frequency. This is not the same as angular velocity (recall that we used $\omega = \frac{\mathrm{d}\theta}{\mathrm{d}t})$. Instead, $\omega _{0}$ is a fundamental property of the system itself. See details below for more details.
 
@@ -121,7 +117,7 @@ Note that for other restoring forces, the solution for $\omega _{0}$ will be dif
 
 A spring is a coil of wire. When stretched or compressed, the spring will try to return to its equilibrium position via a restoring force of $F = -kx$ that acts against the spring’s displacement from equilibrium. The constant, $k$, is the spring constant and it is a measure of the spring’s stiffness.
 
-We just solved the difef rential equation of motion for a simple spring-mass system in the previous section. So we know that the solution to this motion is
+We just solved the differential equation of motion for a simple spring-mass system in the previous section. So we know that the solution to this motion is
 
 $$
 x = A\cos (\omega _{0}t + \varphi)
@@ -506,13 +502,12 @@ forces:
 
 $$
 \begin{aligned}
-\sum ma &= -kx - \frac{mg}{L} x \\
+\sum F &= F_{s}+ F_{p}= ma =\Rightarrow T \text{ and } F_{g}\cos \theta \text{ cancel, so we can ignore them} \\
+ma &= -kx - \frac{mg}{L} x \\
 m \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} &= -\bigg(k + \frac{mg}{L} \bigg)x \\
 \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} &= -\Bigg(\frac{kL + mg}{mL} \Bigg)x
 \end{aligned}
 $$
-
-$F = F_{s}+ F_{p}= ma =\Rightarrow T$ and $F_{g}\cos \theta$ cancel, so we can ignore them
 
 $$
 0 = \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} + \Bigg(\frac{kL + mg}{mL} \Bigg)x

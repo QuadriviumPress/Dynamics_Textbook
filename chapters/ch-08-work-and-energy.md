@@ -207,48 +207,14 @@ $$
 \begin{aligned}
 \Delta W &= F\Delta x \\
 &=(ma)\left(\frac12at^2+ut\right)\\
-&=\frac12m\left[(at)^2+2uat\right].
+&=\frac12m\left[(at)^2+2uat\right]\\
+&=\frac12m\left[(at)^2+2uat+u^2-u^2\right]=\Rightarrow\mathrm{add}\ \mathrm{and}\ \mathrm{subtract}\ u^{2}\ (\mathrm{same}\ \mathrm{as}\ \mathrm{adding}\ \mathrm{zero})\\
+&=\frac12m\left[(at+u)^2-u^2\right]=\Rightarrow\mathrm{recall}\ \mathrm{that}\ (a+b)^{2}=a^{2}+2ab+b^{2}\\
+&=\frac12m\left[v_f^2-u^2\right]=\Rightarrow\mathrm{for}\ \mathrm{constant}\ \mathrm{acceleration},\ v_{f}=at+u\\
+&=\frac12m\left[v_f^2-v_i^2\right]=\Rightarrow u\ \mathrm{is}\ \mathrm{just}\ \mathrm{the}\ \mathrm{initial}\ \mathrm{velocity},\ v_{i}\\
+&=K_f-K_i\\
+&=\Delta K
 \end{aligned}
-$$
-
-= $m[(at)^{2}+ 2uat + u^{2}- u^{2}] =\Rightarrow$ add and subtract $u^{2}$ (same as adding zero)
-
-$$
-\begin{aligned}
-2 \\
-1
-\end{aligned}
-$$
-
-= $m[(at + u)^{2}- u^{2}] =\Rightarrow$ recall that $(a + b)^{2}= a^{2}+ 2ab + b^{2}$
-
-$$
-\begin{aligned}
-2 \\
-1
-\end{aligned}
-$$
-
-= $m[v_{f}^{2}- u^{2}] =\Rightarrow$ for constant acceleration, $v_{f}= at + u$
-
-$$
-\begin{aligned}
-2 \\
-1
-\end{aligned}
-$$
-
-= $m[v_{f}^{2}- v_{i}^{2}] =\Rightarrow u$ is just the initial velocity, $v_{i}$
-
-$$
-\begin{aligned}
-2 \\
-&= K_{f}- K_{i}
-\end{aligned}
-$$
-
-$$
-= \Delta K
 $$
 
 where $K_{f}$ is the final kinetic energy and $K_{i}$ in the initial kinetic energy.
@@ -336,18 +302,13 @@ Note that the direction of gravity will be different depending on where you are,
 Well, consider going from $r_{1}$ to $r_{2}$ as shown in [Figure 8.2](#fig-8-2).
 
 $$
-r_{2}
-$$
-
-$W(r_{1}\rightarrow r_{2}) = \int_{r} \vec{F} \cdot \mathrm{d}\vec{r} =\Rightarrow$ force is not constant
-
-$$
 \begin{aligned}
-&= \int_{r_{1}}^{1r_{2}} \bigg(- \frac{GMm}{r^{2}} \bigg)\hat{r} \cdot \mathrm{d}\vec{r} =\Rightarrow \mathrm{use} \mathrm{the} \mathrm{equation} \mathrm{for} \mathrm{the} \mathrm{force} \mathrm{of} \mathrm{gravity} \\
-&= -GMm _{r_{1}}^{r_{2}} \frac{1}{r^{2}} \hat{r}\bigg) \cdot (\mathrm{d}r\hat{r}) =\Rightarrow \mathrm{d}\vec{r} = \mathrm{d}r\hat{r} \\
+W(r_{1}\rightarrow r_{2}) &= \int_{r_{1}}^{r_{2}} \vec{F} \cdot \mathrm{d}\vec{r} =\Rightarrow \mathrm{force} \mathrm{is} \mathrm{not} \mathrm{constant} \\
+&= \int_{r_{1}}^{r_{2}} \bigg(- \frac{GMm}{r^{2}} \bigg)\hat{r} \cdot \mathrm{d}\vec{r} =\Rightarrow \mathrm{use} \mathrm{the} \mathrm{equation} \mathrm{for} \mathrm{the} \mathrm{force} \mathrm{of} \mathrm{gravity} \\
+&= -GMm\int_{r_{1}}^{r_{2}} \bigg(\frac{1}{r^{2}} \hat{r}\bigg) \cdot (\mathrm{d}r\hat{r}) =\Rightarrow \mathrm{d}\vec{r} = \mathrm{d}r\hat{r} \\
 &= -GMm\int_{r_{1}}^{r_{2}} \bigg(\frac{1}{r^{2}} \mathrm{d}r\bigg)\hat{r} \cdot \hat{r} =\Rightarrow \hat{a} \cdot \hat{a} = 1 \mathrm{for} \mathrm{any} \mathrm{unit} \mathrm{vector} \\
-&= -GMm _{r_{1}}^{r_{2}} \frac{1}{r^{2}} \mathrm{d}r \\
-&= -GMm\bigg(- \frac{1}{r} |_{r_{1}}^{r_{2}} \\
+&= -GMm\int_{r_{1}}^{r_{2}} \frac{1}{r^{2}} \mathrm{d}r \\
+&= -GMm\bigg(- \frac{1}{r} \bigg|_{r_{1}}^{r_{2}} \bigg) \\
 &= \frac{GMm}{r_{2}} - \frac{GMm}{r_{1}}
 \end{aligned}
 $$
@@ -361,7 +322,7 @@ Note that if $r_{2}> r_{1}, W < 0$ as we would expect (e.g., you are doing work 
 
 The gravitational force follows an inverse square ( $\frac{1}{r^{2}})$ law. So at very large distances from the source of the gravitational field, the gravitational force goes to zero and the work necessary to move a particle also goes to zero (if there is no force, there is no work).
 
-Consider an object that is on the surface of Earth and is launched so that it reaches a very large distance away (assume infinity). Due to Earth’s gravitational field, the object will feel a force that opposes it’s motion to leave. Gravity will be doing negative work and the kinetic energy of the object will decrease. **What speed is needed for this object to** **just reach infinity?** Assume Earth’s atmosphere does not affect its motion.
+Consider an object that is on the surface of Earth and is launched so that it reaches a very large distance away (assume infinity). Due to Earth’s gravitational field, the object will feel a force that opposes its motion to leave. Gravity will be doing negative work and the kinetic energy of the object will decrease. **What speed is needed for this object to** **just reach infinity?** Assume Earth’s atmosphere does not affect its motion.
 
 To solve this problem, we will use the work-kinetic energy theorem (Equation (8.3)).
 
@@ -456,7 +417,7 @@ Now consider the case of gravity,
 $$
 \begin{aligned}
 \int_{r_{1}}^{r_{2}} \vec{F} \cdot \mathrm{d}\vec{r} &= \frac{GMm}{r_{2}} - \frac{GMm}{r_{1}} \\
-_{r_{2}}^{r_{1}}\vec{F} \cdot \mathrm{d}\vec{r} &= \frac{GMm}{r_{1}} - \frac{GMm}{r_{2}}
+\int_{r_{2}}^{r_{1}}\vec{F} \cdot \mathrm{d}\vec{r} &= \frac{GMm}{r_{1}} - \frac{GMm}{r_{2}}
 \end{aligned}
 $$
 
@@ -507,11 +468,14 @@ where $\partial$ indicates the partial derivative. For partial derivatives, you 
 The curl of $\vec{A}$ (in Cartesian coordinates) is then given by the following matrix.
 
 $$
-\vec{\nabla} \times \vec{A} = | \frac{\partial \hat{\imath}}{\partial Ax_{x}} \frac{\partial \hat{\jmath}}{\partial Ay_{y}} \frac{\partial \hat{k}}{\partial Az_{z}} |
-$$
-
-$$
-= \Bigg(\frac{\partial}{\partial y} A_{z}- \frac{\partial}{\partial z} A_{y}\Bigg)\hat{\imath} + \Bigg(\frac{\partial}{\partial z} A_{x}- \frac{\partial}{\partial x} A_{z}\Bigg)\hat{\jmath} + \Bigg(\frac{\partial}{\partial x} A_{y}- \frac{\partial}{\partial y} A_{x}\Bigg)\hat{k}
+\begin{aligned}
+\vec{\nabla} \times \vec{A} &= \begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+A_{x} & A_{y} & A_{z}
+\end{vmatrix} \\
+&= \Bigg(\frac{\partial}{\partial y} A_{z}- \frac{\partial}{\partial z} A_{y}\Bigg)\hat{\imath} + \Bigg(\frac{\partial}{\partial z} A_{x}- \frac{\partial}{\partial x} A_{z}\Bigg)\hat{\jmath} + \Bigg(\frac{\partial}{\partial x} A_{y}- \frac{\partial}{\partial y} A_{x}\Bigg)\hat{k}
+\end{aligned}
 $$
 
 A conservative force has $\vec{\nabla} \times \vec{F}$ = 0 by definition. We will discuss why in [Chapter 8.6](#sec-8-6).
@@ -537,9 +501,12 @@ Since this is a radial force, use the spherical coordinates for the curl. You ca
 
 $$
 \begin{aligned}
-\hat{r} r\hat{\theta} r\sin \theta \hat{\varphi} \\
-\vec{\nabla} \times \vec{F}_{g}&= \frac{1}{r^{2}\sin \theta} | \frac{\partial}{\partial r} \frac{\partial}{\partial \theta} \frac{\partial}{\partial \varphi} | \\
-- \frac{GMm}{r^{2}} 0 0
+\vec{\nabla} \times \vec{F}_{g}&= \frac{1}{r^{2}\sin \theta}
+\begin{vmatrix}
+\hat{r} & r\hat{\theta} & r\sin \theta \hat{\varphi} \\
+\frac{\partial}{\partial r} & \frac{\partial}{\partial \theta} & \frac{\partial}{\partial \varphi} \\
+-\frac{GMm}{r^{2}} & 0 & 0
+\end{vmatrix}
 \end{aligned}
 $$
 
@@ -633,7 +600,7 @@ For gravity problems near Earth’s surface, setting $U$ = 0 at the surface is o
 The potential energy for the spring force going from $x_{1}$ to $x_{2}$ is:
 
 $$
-U(x_{1}\rightarrow x_{2}) = -\int_{x_{1}}^{x_{2}} (-kx\hat{x}) \cdot (\mathrm{d}x\hat{x}) = \int_{x_{1}}^{x_{2}} kx\mathrm{d}x = k\bigg(\frac{1}{2} x^{2}|_{x_{1}}^{x_{2}} = \frac{1}{2} kx^{2}_{2}- \frac{1}{2} kx^{2}_{1}
+U(x_{1}\rightarrow x_{2}) = -\int_{x_{1}}^{x_{2}} (-kx\hat{x}) \cdot (\mathrm{d}x\hat{x}) = \int_{x_{1}}^{x_{2}} kx\mathrm{d}x = \frac{1}{2} kx^{2}\Big|_{x_{1}}^{x_{2}} = \frac{1}{2} kx_{2}^{2}- \frac{1}{2} kx_{1}^{2}
 $$
 
 Once again, we want to set a convenient initial value like $x_{1}$ = 0 (the equilibrium position), so that the potential energy of a spring is simply $U = \frac{1}{2} kx^{2}$ relative to that point.
@@ -685,7 +652,7 @@ In the absence of non-conservative forces (e.g., if all forces acting on a syste
 
 ::::{admonition} Real World Applications
 
-Hydroelectric power generation works by converting gravitational potential energy to kinetic kinetic energy and ultimately electrical energy. The basic principle behind hydroelectric power is a large volume of water experiencing a drop in elevation. Water flows from the intake downward to a turbine, gaining kinetic energy which can be captured by the turbine. The larger the elevation change, the more power that can potentially be generated. Hydroelectric installations often involve huge dams and are some of the largest construction projects on Earth.
+Hydroelectric power generation works by converting gravitational potential energy to kinetic energy and ultimately electrical energy. The basic principle behind hydroelectric power is a large volume of water experiencing a drop in elevation. Water flows from the intake downward to a turbine, gaining kinetic energy which can be captured by the turbine. The larger the elevation change, the more power that can potentially be generated. Hydroelectric installations often involve huge dams and are some of the largest construction projects on Earth.
 
 :::{figure} ../images/figures/figure-8-4.png
 :label: fig-8-4
@@ -716,9 +683,9 @@ We can use this definition of a conservative force to show that $U(r_{1}\rightar
 $$
 \begin{aligned}
 W(r_{1}\rightarrow r_{2}) &= \int_{r_{1}}^{r_{2}} \vec{F} \cdot \mathrm{d}\vec{r} \\
-&= _{r_{1}}^{r_{2}}(-\vec{\nabla}U) \cdot \mathrm{d}\vec{r} =\Rightarrow \mathrm{substitute} \mathrm{in} \mathrm{our} \mathrm{scalar} \mathrm{field} \\
+&= \int_{r_{1}}^{r_{2}}(-\vec{\nabla}U) \cdot \mathrm{d}\vec{r} =\Rightarrow \mathrm{substitute} \mathrm{in} \mathrm{our} \mathrm{scalar} \mathrm{field} \\
 &= -\int_{r_{1}}^{r_{2}} \mathrm{d}U_{r}=\Rightarrow \mathrm{only} \mathrm{the} \mathrm{component} \mathrm{along} \mathrm{the} \mathrm{path} \mathrm{is} \mathrm{non-zero} \\
-&= -\Big(U_{r}|_{r_{1}}^{r_{2}} =\Rightarrow \mathrm{only} \mathrm{the} \mathrm{end} \mathrm{points} \mathrm{matter} \mathrm{for} \mathrm{conservative} \mathrm{forces} \\
+&= -\Big(U_{r}\Big|_{r_{1}}^{r_{2}}\Big) =\Rightarrow \mathrm{only} \mathrm{the} \mathrm{end} \mathrm{points} \mathrm{matter} \mathrm{for} \mathrm{conservative} \mathrm{forces} \\
 &= -U(r_{1}\rightarrow r_{2})
 \end{aligned}
 $$
@@ -728,7 +695,11 @@ Exactly as we expect. Thus, the potential energy of a conservative force satisfi
 Moreover, $\vec{\nabla} \times \vec{F}$ = 0 for a conservative force. We can substitute in $\vec{F} = -\vec{\nabla}U$,
 
 $$
-\vec{\nabla} \times (-\vec{\nabla}U) = | \frac{\frac{\partial \hat{\imath}}{\partial \partial Ux}}{\partial x} \frac{\frac{\partial \hat{\jmath}}{\partial \partial Uy}}{\partial y} \frac{\frac{\partial \hat{k}}{\partial \partial Uz}}{\partial z} |
+\vec{\nabla} \times (-\vec{\nabla}U) = \begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+\frac{\partial U}{\partial x} & \frac{\partial U}{\partial y} & \frac{\partial U}{\partial z}
+\end{vmatrix}
 $$
 
 $$
@@ -743,7 +714,7 @@ $$
 = 0\hat{\imath} + 0\hat{\jmath} + 0\hat{k} = 0
 $$
 
-Note for the above we are assuming that $U$ is twice continuously differentiable. If $U$ can be differentiated twice, then its partial derivatives are independent of the order and all terms cancel (e.g, $\frac{\partial U}{\partial y\partial z} = \frac{\partial U}{\partial z\partial y})$.
+Note for the above we are assuming that $U$ is twice continuously differentiable. If $U$ can be differentiated twice, then its partial derivatives are independent of the order and all terms cancel (e.g, $\frac{\partial ^{2}U}{\partial y\partial z} = \frac{\partial ^{2}U}{\partial z\partial y})$.
 
 (example-8-3)=
 
@@ -792,15 +763,7 @@ At the local maximum saddle point, however, a slight perturbation will have a hu
 
 ::::{admonition} Cora’s Thoughts
 
-::::
-
-<!-- Source PDF page 189; printed label 180. -->
-
-::::{admonition} Continued
-
-$$
-\mathrm{When} \mathrm{looking} \mathrm{at} \mathrm{potential} \mathrm{graphs} \mathrm{it} \mathrm{can}
-$$
+When looking at potential graphs it can
 
 :::{figure} ../images/figures/figure-8-6.png
 :label: fig-8-6
@@ -811,43 +774,11 @@ $$
 A ball rolling on the same potential graph from [Figure 8.5](#fig-8-5).
 :::
 
-$$
-\mathrm{be} \mathrm{useful} \mathrm{to} \mathrm{consider} \mathrm{the} \mathrm{functions} \mathrm{as} \mathrm{hills}
-$$
-
-$$
-\mathrm{for} \mathrm{a} \mathrm{ball} \mathrm{to} \mathrm{roll} \mathrm{on}. \mathrm{At} \mathrm{the} \mathrm{exact} \max \mathrm{of}
-$$
-
-$$
-\mathrm{the} \mathrm{function}, \mathrm{the} \mathrm{ball} \mathrm{will} \mathrm{not} \mathrm{roll}, \mathrm{however},
-$$
-
-$$
-\mathrm{with} \mathrm{a} \mathrm{small} \mathrm{perpetration}, \mathrm{it} \mathrm{will} \mathrm{roll} \mathrm{mak}-
-$$
-
-$$
-\mathrm{ing} \mathrm{it} \mathrm{an} \mathrm{unstable} \mathrm{position}. \mathrm{At} \mathrm{the} \mathrm{mini}-
-$$
-
-$$
-\mathrm{mum}, \mathrm{the} \mathrm{ball} \mathrm{will} \mathrm{also} \mathrm{be} \mathrm{stationary}, \mathrm{but}
-$$
-
-$$
-\mathrm{with} \mathrm{a} \mathrm{small} \mathrm{perpetration}, \mathrm{it} \mathrm{will} \mathrm{not} \mathrm{roll}
-$$
-
-$$
-\mathrm{much}. \mathrm{The} \mathrm{valley} \mathrm{that} \mathrm{the} \mathrm{ball} \mathrm{is} \mathrm{in} \mathrm{keeps}
-$$
-
-$$
-\mathrm{it} \mathrm{in} \mathrm{a} \mathrm{is} \mathrm{stable} \mathrm{position}.
-$$
+be useful to consider the functions as hills for a ball to roll on. At the exact max of the function, the ball will not roll, however, with a small perturbation, it will roll making it an unstable position. At the minimum, the ball will also be stationary, but with a small perturbation, it will not roll much. The valley that the ball is in keeps it in a stable position.
 
 ::::
+
+<!-- Source PDF page 189; printed label 180. -->
 
 (example-8-4)=
 
@@ -1223,17 +1154,7 @@ $$
 
 ::::{admonition} Practice Problem 8-7
 
-$$
-A
-$$
-
-A particle can move only along the $x-$axis. It is in a potential defined as $U = Bx$ + ,
-
-$$
-x
-$$
-
-where $B$ and $A$ are constants. What is the equilibrium position of this particle?
+A particle can move only along the $x-$axis. It is in a potential defined as $U = Bx + A/x$, where $B$ and $A$ are constants. What is the equilibrium position of this particle?
 
 ::::
 

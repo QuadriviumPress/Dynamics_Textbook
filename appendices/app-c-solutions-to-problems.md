@@ -96,13 +96,8 @@ $$
 \mathrm{b}) \theta = \frac{\pi}{4} \mathrm{or} \theta = 45^{\circ}
 $$
 
-$\sin \theta - \cos \theta$
-
 $$
-\begin{aligned}
-\mathrm{c}) r &= \\
-\cos ^{2}\theta
-\end{aligned}
+\mathrm{c}) r = \frac{\sin \theta - \cos \theta}{\cos ^{2}\theta}
 $$
 
 (solution-1-8)=
@@ -334,15 +329,7 @@ $$
 :align: center
 :::
 
-b) ![Formula, source page 292](../images/math/p292-1b4727df5bd1.svg) for $\ddot{y} = -g$
-
-$$
-L
-$$
-
-$$
-(g + \ddot{y})
-$$
+b) $T = 2\pi\sqrt{\dfrac{L}{(g + \ddot{y})}} \rightarrow \infty$ for $\ddot{y} = -g$
 
 (solution-3-6)=
 
@@ -550,17 +537,9 @@ $$
 
 c) $F_{cent}$ and $F_{az}$
 
-d) $F_{cent}$ and $F_{Co}$
+d) $F_{cent}$ and $F_{Cor}$
 
-$$
-r
-$$
-
-e) $F_{cent}, F_{Cor}, F_{az}$ and $F_{tra}$
-
-$$
-ns
-$$
+e) $F_{cent}, F_{Cor}, F_{az}$ and $F_{trans}$
 
 (solution-5-2)=
 
@@ -628,13 +607,7 @@ $$
 \mathrm{b}) \vec{F}_{I}= 2m\omega \dot{x}^{\prime }\hat{y}^{\prime }
 $$
 
-c) The centrifugal force $F_{cent}$ points parallel to the $x$ prime axis, the Coriolis force $F_{Co}$
-
-$$
-r
-$$
-
-is anti-parallel to the $y$ prime axis, and the inertial force $F_{I}$ is parallel to the $y$ prime axis. the system is rotating in the counter-clockwise direction. [Reaction force between the bead and rod]
+c) The centrifugal force $F_{cent}$ points parallel to the $x$ prime axis, the Coriolis force $F_{Cor}$ is anti-parallel to the $y$ prime axis, and the inertial force $F_{I}$ is parallel to the $y$ prime axis. the system is rotating in the counter-clockwise direction. [Reaction force between the bead and rod]
 
 $$
 \mathrm{d}) x(t) = \frac{L}{2} [e^{\omega t}- e^{-\omega t}]
@@ -850,19 +823,9 @@ d) $\vec{\tau} = R(m_{1}- m_{2})g$ [out of the page]
 
 **Problem 7-4:** [Question](#problem-7-4)
 
-$$
-\ell mv
-$$
+a) $\vec{L}_{i}= \dfrac{\ell mv_{0}}{2}$ and $\vec{L}_{f}= \Big[\frac{1}{12} M\ell ^{2}+ \frac{1}{4} m\ell ^{2}\Big]\omega$
 
-a) ![Formula, source page 298](../images/math/p298-366258859454.svg) and $\vec{L}_{f}= \Big[\frac{1}{12} M\ell ^{2}+ \frac{1}{4} m\ell ^{2}\Big]\omega$
-
-$$
-2
-$$
-
-$$
-\mathrm{b}) \omega = \frac{6mv_{0}}{M\ell + 3m\ell}
-$$
+b) $\omega = \frac{6mv_{0}}{M\ell + 3m\ell}$
 
 (solution-7-5)=
 
@@ -1202,15 +1165,7 @@ $$
 
 **Problem 10-3:** [Question](#problem-10-3)
 
-$$
-m
-$$
-
-$U_{eff,\max}= -$ , stable
-
-$$
-2L
-$$
+$U_{eff,\max}= -\dfrac{m}{2L}$, stable
 
 (solution-10-5)=
 
@@ -1397,17 +1352,9 @@ $$
 \mathrm{b}) \cos \theta = \frac{p(1 + \varepsilon) - R}{R\varepsilon}
 $$
 
-c) If $\varepsilon$ = 0, then the comet only crosses the earths orbit if $p = R$
+c) If $\varepsilon$ = 0, then the comet only crosses the Earth's orbit if $p = R$
 
-$$
-2p - R
-$$
-
-d) If $\varepsilon$ = 1, then $\cos \theta$ = . From symmetry, there are two places of crossing $(\pm \theta)$.
-
-$$
-R
-$$
+d) If $\varepsilon$ = 1, then $\cos \theta = \dfrac{2p - R}{R}$. From symmetry, there are two places of crossing $(\pm \theta)$.
 
 ::::
 
@@ -1455,7 +1402,7 @@ $$
 **Problem 12-5:** [Question](#problem-12-5)
 
 $$
-L = K-U = m\dot{y}^{2}+ mgy
+L = K - U = m\dot{y}^{2}+ mgy
 $$
 
 $$

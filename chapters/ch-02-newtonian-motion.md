@@ -13,7 +13,7 @@
 
 ::::
 
-In this chapter, we will look at the universal laws of motion with emphasis on review of Newton’s Law’s (mainly the second law) and free-body diagrams.
+In this chapter, we will look at the universal laws of motion with emphasis on review of Newton’s Laws (mainly the second law) and free-body diagrams.
 
 (sec-2-1)=
 ## 2.1 Universality of the Laws of Motion:
@@ -28,13 +28,9 @@ One of the earliest individuals to connect forces to changes in motion is the Pe
 
 **For more information:**
 
-Hecht, E. (2015), *Origins of Newton’s First Law*, The Physics Teacher, 53, 2, (pp.
+Hecht, E. (2015), *Origins of Newton’s First Law*, The Physics Teacher, 53, 2, (pp. 80-83)
 
-$$
-80-83)
-$$
-
-[Standford historical pages](https://plato.stanford.edu/archives/fall2016/entries/ibn-sina)
+[Stanford historical pages](https://plato.stanford.edu/archives/fall2016/entries/ibn-sina)
 
 [American Institute of Physics historical pages](https://www.aip.org/history-programs/physics-history/teaching-guides/on-shoulders-giants-inertia)
 
@@ -202,7 +198,7 @@ f &= M_{2}g - M_{1}g\sin \theta
 \end{aligned}
 $$
 
-Thus, we have our magnitude of $f$. The true direction of $f$ will depending on $\theta, M_{1}$, and $M_{2}$. If $M_{2}g > M_{1}g\sin \theta$, then $f$ is positive and our assumed direction for $f$ is correct. If $M_{2}g < M_{1}g\sin \theta$, then $f$ will be negative, indicating that our assumed direction for $f$ was wrong. This case means that $M_{1}$ is so heavy that it will pull on $M_{2}$ (e.g., $M_{1}$ wants to move down the incline so friction is acting up the incline) .
+Thus, we have our magnitude of $f$. The true direction of $f$ will depend on $\theta, M_{1}$, and $M_{2}$. If $M_{2}g > M_{1}g\sin \theta$, then $f$ is positive and our assumed direction for $f$ is correct. If $M_{2}g < M_{1}g\sin \theta$, then $f$ will be negative, indicating that our assumed direction for $f$ was wrong. This case means that $M_{1}$ is so heavy that it will pull on $M_{2}$ (e.g., $M_{1}$ wants to move down the incline so friction is acting up the incline) .
 
 1. If $M_{2}$ and $\theta$ are held constant, what is the maximum mass for $M_{1}$ before our assumed direction of friction from [Figure 2.2](#fig-2-2) is wrong?
 
@@ -376,49 +372,8 @@ We tend to treat gravity as a constant acceleration near the surface of the Eart
 :align: center
 :::
 
-$$
-\mathrm{Refer} \mathrm{to} \mathrm{the} \mathrm{trajectories} \mathrm{shown} \mathrm{in} \mathrm{the} \mathrm{adjacent} \mathrm{figure}.
-$$
-
-$$
-\mathrm{With} \mathrm{a} \mathrm{low} \mathrm{initial} \mathrm{velocity}, \mathrm{a} \mathrm{projectile} \mathrm{will} \mathrm{arc} \mathrm{and} \mathrm{hit}
-$$
-
-$$
-\mathrm{the} \mathrm{ground} \mathrm{a} \mathrm{short} \mathrm{distance} \mathrm{away} (\mathrm{case} \mathrm{A}). \mathrm{As} \mathrm{you} \mathrm{in}-
-$$
-
-$$
-\mathrm{crease} \mathrm{the} \mathrm{velocity}, \mathrm{the} \mathrm{projectile} \mathrm{arcs} \mathrm{more} \mathrm{and} \mathrm{hits}
-$$
-
-$$
-\mathrm{further} \mathrm{away} \mathrm{such} \mathrm{that} \mathrm{the} \mathrm{curvature} \mathrm{of} \mathrm{the} \mathrm{Earth} \mathrm{be}-
-$$
-
-$$
-\mathrm{comes} \mathrm{a} \mathrm{factor} (\mathrm{cases} \mathrm{B} \mathrm{and} \mathrm{C}). \mathrm{At} \mathrm{high} \mathrm{enough} \mathrm{speeds},
-$$
-
-$$
-\mathrm{the} \mathrm{Earth} \mathrm{curves} \mathrm{under} \mathrm{the} \mathrm{projectile} \mathrm{at} \mathrm{the} \mathrm{same} \mathrm{rate}
-$$
-
-$$
-\mathrm{that} \mathrm{its} \mathrm{trajectory} \mathrm{curves}. \mathrm{Basically}, \mathrm{gravity} \mathrm{changes}
-$$
-
-$$
-\mathrm{the} \mathrm{direction} \mathrm{of} \mathrm{motion} \mathrm{as} \mathrm{the} \mathrm{Earth}\text{’}\mathrm{s} \mathrm{surface} \mathrm{curves}
-$$
-
-$$
-\mathrm{away}. \mathrm{When} \mathrm{this} \mathrm{happens}, \mathrm{the} \mathrm{projectile} \mathrm{is} \mathrm{in} \mathrm{a} \mathrm{circu}-
-$$
-
-$$
-\mathrm{lar} \mathrm{orbit} (\mathrm{case} \mathrm{D}) \mathrm{or} \mathrm{elliptical} \mathrm{orbit} (\mathrm{cases} \mathrm{E} \mathrm{and} \mathrm{F}).
-$$
+Refer to the trajectories shown in the adjacent figure.
+With a low initial velocity, a projectile will arc and hit the ground a short distance away (case A). As you increase the velocity, the projectile arcs more and hits further away such that the curvature of the Earth becomes a factor (cases B and C). At high enough speeds, the Earth curves under the projectile at the same rate that its trajectory curves. Basically, gravity changes the direction of motion as the Earth’s surface curves away. When this happens, the projectile is in a circular orbit (case D) or elliptical orbit (cases E and F).
 
 How fast do you need to go? The Earth’s surface curves down $\sim 5$ m every $\sim 8$ km. At an acceleration of 9.8 m $\mathrm{s}^{-2}$, an object will drop 5 m in $\sim 1$ s. So the projectile must travel about 8 km in 1 s to maintain a constant height over the Earth. A speed of 8 km/s is about 29,000 km/h, which is also about the speed of low-Earth orbit satellites and the International Space Station. So low-Earth orbit satellites are falling back to Earth at the same rate as the Earth curves.
 
@@ -433,7 +388,7 @@ There are some helpful web applications that can help you visualize 2-D projecti
 (sec-2-5)=
 ## 2.5 Systems with Varying Acceleration
 
-Now consider cases where the acceleration is not constant. As a result, the force will also vary with time, $F = F(t)$. We will consider how the these forces affect the motion of a system.
+Now consider cases where the acceleration is not constant. As a result, the force will also vary with time, $F = F(t)$. We will consider how these forces affect the motion of a system.
 
 <!-- Source PDF page 48; printed label 39. -->
 
@@ -442,15 +397,7 @@ Now consider cases where the acceleration is not constant. As a result, the forc
 
 Consider a force that is changing exponentially with time. You can get exponential forces in some cases of drag and damping (e.g., in the critical case). Let us assume there is one force and it has a form of $F = m\alpha e^{-\beta t}$, where $\alpha$ and $\beta$ are positive constants, and $m$ is the mass of the system. Note that this is our net force such that $F = ma = m\alpha e^{-\beta t}$, so $a = \alpha e^{-\beta t}$. For the equation to be dimensionally consistent with $a$, the units of $\alpha$ are [m $\mathrm{s}^{-2}]$ and the units of $\beta$ are $[\mathrm{s}^{-1}]$. **Find the equations for** $x(t)$ **and** $v(t)$ **assuming that the system** **has** $v = v_{0}$ **and** $x$ = 0 **at** $t$ = 0**.**
 
-$$
-\mathrm{d}v \mathrm{d}x
-$$
-
-To solve this problem, we use = $a$ and = $v$. Starting with $a$:
-
-$$
-\mathrm{d}t \mathrm{d}t
-$$
+To solve this problem, we use $\frac{\mathrm{d}v}{\mathrm{d}t}=a$ and $\frac{\mathrm{d}x}{\mathrm{d}t}=v$. Starting with $a$:
 
 $$
 \begin{aligned}
@@ -594,7 +541,7 @@ $$
 \begin{aligned}
 \frac{\mathrm{d}v}{v} &= -\alpha \mathrm{d}t =\Rightarrow \mathrm{using} \mathrm{prime} \mathrm{variables} \mathrm{because} \mathrm{we}\text{’}\mathrm{re} \mathrm{solving} \mathrm{for} v \mathrm{at} t \\
 \int_{v_{0}}^{V} \frac{\mathrm{d}v}{v} &= -\alpha \int_{0}^{\tau} \mathrm{d}t =\Rightarrow v = v_{0}\mathrm{at} t = 0, V \mathrm{and} \tau \mathrm{are} \mathrm{dummy} \mathrm{variables} \\
-\Big(\ln v|_{v_{0}}^{V} &= -\alpha (\tau - 0)
+\left[\ln v\right]_{v_{0}}^{V} &= -\alpha (\tau - 0)
 \end{aligned}
 $$
 
@@ -611,7 +558,7 @@ $$
 
 1. What is the velocity as $t \rightarrow$ 0 and $t \rightarrow \infty$? Do these values make sense?
 
-2. Find the equation for the acceleration of the particle and the units for any constants? What is the the acceleration as $t \rightarrow$ 0 and $t \rightarrow \infty$?
+2. Find the equation for the acceleration of the particle and the units for any constants? What is the acceleration as $t \rightarrow$ 0 and $t \rightarrow \infty$?
 
 ::::
 
@@ -717,7 +664,7 @@ Now we can integrate both sides. In this case, we consider $v$ at different posi
 $$
 \begin{aligned}
 \int_{v_{0}}^{0} v^{-1/2}\mathrm{d}v &= \int_{0}^{x_{\max}} -b\mathrm{d}x \\
-\Big(2v^{1/2}|_{v_{0}}^{0} &= -b\Big(x|_{0}^{x_{\max}} \\
+\left[2v^{1/2}\right]_{v_{0}}^{0} &= -b\left[x\right]_{0}^{x_{\max}} \\
 2(0 - v_{0}^{1/2}) &= -b(x_{\max}- 0)
 \end{aligned}
 $$
@@ -784,7 +731,7 @@ before attempting any problems.
 
 ::::{admonition} Important Equations
 
-**Newtons 2nd Law: Newtons 3rd Law:**
+**Newton's 2nd Law: Newton's 3rd Law:**
 
 $$
 \begin{aligned}
@@ -797,7 +744,7 @@ $$
 \sum \vec{F} = m\vec{a}
 $$
 
-(note: this only for constant mass)
+(note: this is only for constant mass)
 
 ::::
 

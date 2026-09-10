@@ -263,7 +263,7 @@ y_{2}= A - y_{1}
 $$
 
 $$
-\dot{y}_{2}= -\dot{y}_{2}
+\dot{y}_{2}= -\dot{y}_{1}
 $$
 
 Moreover, since this is an ideal pulley, it rotates without slipping so we can also use $|\dot{y}_{1}| = R\omega$. Thus, we can re-write the energy equations as:
@@ -279,11 +279,11 @@ K &= \frac{1}{2} (m_{1}+ m_{2})(\dot{y}_{1})^{2}+ \frac{1}{2} I \bigg(\frac{\dot
 \end{aligned}
 $$
 
-The Lagrangian (in terms of $y_{1}$ and $\dot{y}_{1}$ only is then:
+The Lagrangian (in terms of $y_{1}$ and $\dot{y}_{1}$ only) is then:
 
 $$
 \begin{aligned}
-L &= \frac{1}{2} m_{1}+ m_{2}+ \frac{1}{2} M \dot{y}_{1}^{2}+ m_{1}gy_{1}+ m_{2}g(A - y_{1}) \\
+L &= \frac{1}{2} \bigg(m_{1}+ m_{2}+ \frac{1}{2} M\bigg)\dot{y}_{1}^{2}+ m_{1}gy_{1}+ m_{2}g(A - y_{1}) \\
 &= \frac{1}{2} \bigg(m_{1}+ m_{2}+ \frac{1}{2} M\bigg)\dot{y}_{1}^{2}+ (m_{1}- m_{2})gy_{1}+ m_{2}gA
 \end{aligned}
 $$
@@ -456,7 +456,7 @@ $$
 
 We have now created a 1-D equation of motion because $L, G, m$, and $M$ are all constants. The only variable is $r$. That means that we can solve this problem.
 
-You will also notice that this is the effective force for a system moving under a gravitational force that we found in [Chapter 10.6](#sec-10-6) and used in [Chapter 11](#ch-11) when looking at Kepler’s Law’s of Planetary Motion.
+You will also notice that this is the effective force for a system moving under a gravitational force that we found in [Chapter 10.6](#sec-10-6) and used in [Chapter 11](#ch-11) when looking at Kepler’s Laws of Planetary Motion.
 
 ::::
 
@@ -478,7 +478,7 @@ A sphere rolls down an incline of angle $\theta$ without slipping. Assume that t
 :::{figure} ../images/figures/figure-12-4.png
 :label: fig-12-4
 :enumerator: 12.4
-:alt: Figure shows a sphere rolling down an inclined plane where.
+:alt: Figure shows a sphere rolling down an inclined plane.
 :width: 186px
 
 A sphere of radius $R$ rolls down an incline of angle $\theta$.
@@ -584,7 +584,7 @@ A particle of mass $m$, moves along a bent wire. The shape of the wire can be de
 :alt: Figure shows a parabolic-like wire with a bead on it on Cartesian coordinates.
 :width: 217px
 
-The function $y = ax^{4}$ is the the path that particle of mass $m$ moves along.
+The function $y = ax^{4}$ is the path that particle of mass $m$ moves along.
 :::
 
 **Solution**
@@ -654,11 +654,11 @@ $$
 The only source of potential energy is gravity,
 
 $$
-U = mgh =\Rightarrow \mathrm{where} h = y
+U = mgh \qquad \mathrm{where}\ h = y
 $$
 
 $$
-U = mgy =\Rightarrow \mathrm{where} U = 0 \mathrm{when} y = 0
+U = mgy \qquad \mathrm{where}\ U = 0\ \mathrm{when}\ y = 0
 $$
 
 $$
@@ -854,7 +854,7 @@ An ideal string is wrapped around a disk of mass $M$ and radius $R$ so that it u
 :::{figure} ../images/figures/figure-12-7.png
 :label: fig-12-7
 :enumerator: 12.7
-:alt: Figure shows the disk attached to a strong on one end that is a distance y from the top.
+:alt: Figure shows the disk attached to a string on one end that is a distance y from the top.
 :width: 108px
 
 Figure for [Problem 12-4](#problem-12-4).
@@ -967,7 +967,7 @@ d) Use the Euler-Lagrange equations to find the differential equation of motion.
 :::{figure} ../images/figures/figure-12-11.png
 :label: fig-12-11
 :enumerator: 12.11
-:alt: Figure shows a cartoon snowboarder on a parabollic-like track with Cartesian coordinates labeled.
+:alt: Figure shows a cartoon snowboarder on a parabolic-like track with Cartesian coordinates labeled.
 :width: 232px
 
 Figure for [Problem 12-9](#problem-12-9).
@@ -992,7 +992,7 @@ d) Use the Lagrange method to find the differential equation of motion for this 
 :::{figure} ../images/figures/figure-12-12.png
 :label: fig-12-12
 :enumerator: 12.12
-:alt: Figure shows mass hanging from a vertical spring that allowed to move as a pendulum and a spring.
+:alt: Figure shows mass hanging from a vertical spring that is allowed to move as a pendulum and a spring.
 :width: 139px
 
 Figure for [Problem 12-10](#problem-12-10).

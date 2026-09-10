@@ -26,11 +26,7 @@ $$
 
 So we need to get an equation for $\dot{\theta}$ .
 
-For $\dot{\theta}$ , we can use the conservation of angular momentum. Recall that central forces conserve angular momentum by definition (see [Chapter 10](#ch-10)). The magnitude of angular momentum
-
-$$
-\mathrm{is}:
-$$
+For $\dot{\theta}$ , we can use the conservation of angular momentum. Recall that central forces conserve angular momentum by definition (see [Chapter 10](#ch-10)). The magnitude of angular momentum is:
 
 $$
 L = mr^{2}\dot{\theta} =\Rightarrow \dot{\theta} = \frac{L}{mr^{2}} (\mathrm{B}.3)
@@ -45,7 +41,7 @@ $$
 $$
 
 $$
-\Bigg(\frac{\mathrm{d}r}{\mathrm{d}\theta} \Bigg)^{2}= \frac{\frac{2}{m} (E - U_{eff})}{\Big(\frac{L}{mr^{2}} \Big)2} =\Rightarrow \mathrm{sub} \mathrm{in} \mathrm{Equations} \mathrm{B}.1 \mathrm{and} \mathrm{B}.3
+\Bigg(\frac{\mathrm{d}r}{\mathrm{d}\theta} \Bigg)^{2}= \frac{\frac{2}{m} (E - U_{eff})}{\Big(\frac{L}{mr^{2}} \Big)^{2}} =\Rightarrow \mathrm{sub} \mathrm{in} \mathrm{Equations} \mathrm{B}.1 \mathrm{and} \mathrm{B}.3
 $$
 
 $$
@@ -112,21 +108,13 @@ With Equation B.10, we have an equation with one $y$ term and two constant terms
 
 <!-- Source PDF page 285; printed label 276. -->
 
-$$
-m\gamma \mathrm{d}z \mathrm{d}y m
-$$
-
-First, we will use ![Formula, source page 285](../images/math/p285-4e4d17d8c02c.svg) . Note that = because $2$ is a constant.
-
-$$
-L \mathrm{d}\theta \mathrm{d}\theta \gamma /L
-$$
+First, we will use $z = y - \dfrac{m\gamma}{L^{2}}$. Note that $\dfrac{\mathrm{d}z}{\mathrm{d}\theta} = \dfrac{\mathrm{d}y}{\mathrm{d}\theta}$ because $\dfrac{m\gamma}{L^{2}}$ is a constant.
 
 $$
 \Bigg(\frac{\mathrm{d}z}{\mathrm{d}\theta} \Bigg)^{2}= -z^{2}+ \frac{2mE}{L^{2}} + \bigg(\frac{m\gamma}{L^{2}} \bigg)^{2}(\mathrm{B}.11)
 $$
 
-Second, we will set the substitute the sum of the remaining constants as $B^{2}$,
+Second, we will substitute for the sum of the remaining constants as $B^{2}$,
 
 $$
 \begin{aligned}
@@ -135,13 +123,11 @@ B^{2}&= \bigg(\frac{m\gamma}{L^{2}} \bigg)^{2}\Bigg(\frac{2EL^{2}}{m\gamma ^{2}}
 \end{aligned}
 $$
 
-:::{image} ../images/math/p285-5232a47915f0.svg
-:alt: Mathematical expression from source PDF page 285
-:class: source-equation
-:align: center
-:::
+$$
+B = \frac{m\gamma}{L^{2}}\sqrt{1 + \frac{2EL^{2}}{m\gamma^{2}}} (\mathrm{B}.13)
+$$
 
-Substituting Equation B.12 into Equation B.13, we get:
+Substituting Equation B.12 into Equation B.11, we get:
 
 $$
 \Bigg(\frac{\mathrm{d}z}{\mathrm{d}\theta} \Bigg)^{2}= -z^{2}+ B^{2}
@@ -173,33 +159,24 @@ $$
 
 <!-- Source PDF page 286; printed label 277. -->
 
-3. From Equation B.13: ![Formula, source page 286](../images/math/p286-b67b2cc5c67b.svg)
+3. From Equation B.13: $B = \dfrac{m\gamma}{L^{2}}\sqrt{1 + \dfrac{2EL^{2}}{m\gamma^{2}}}$
 
-:::{image} ../images/math/p286-ac44d715d41a.svg
-:alt: Mathematical expression from source PDF page 286
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p286-f464bd2340eb.svg
-:alt: Mathematical expression from source PDF page 286
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p286-ec8927180434.svg
-:alt: Mathematical expression from source PDF page 286
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\frac{1}{r} - \frac{m\gamma}{L^{2}}
+&= \frac{m\gamma}{L^{2}}\sqrt{1 + \frac{2EL^{2}}{m\gamma^{2}}}\,\cos\theta \\
+\frac{1}{r}
+&= \frac{m\gamma}{L^{2}} + \frac{m\gamma}{L^{2}}\sqrt{1 + \frac{2EL^{2}}{m\gamma^{2}}}\,\cos\theta \\
+\frac{1}{r}
+&= \frac{m\gamma}{L^{2}}\left(1 + \sqrt{1 + \frac{2EL^{2}}{m\gamma^{2}}}\,\cos\theta\right) (\mathrm{B}.15)
+\end{aligned}
+$$
 
 We now define the eccentricity of the orbit, $\varepsilon$ as:
 
-:::{image} ../images/math/p286-2ccd055fc91d.svg
-:alt: Mathematical expression from source PDF page 286
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon = \sqrt{1 + \frac{2EL^{2}}{m\gamma^{2}}} (\mathrm{B}.16)
+$$
 
 Substitute Equation B.16 into Equation B.15:
 
@@ -274,27 +251,22 @@ $$
 
 where $x_{0}$ = 0 has the same meaning as before.
 
-:::{image} ../images/math/p287-8feac5023a3c.svg
-:alt: Mathematical expression from source PDF page 287
-:class: source-equation
-:align: center
-:::
+For example, the Taylor series expansion of $\sqrt{1 + x}$ (where $x_{0}$ = 0) is equal to:
 
-For example, the Taylor series expansion of 1 + ![Formula, source page 287](../images/math/p287-017585d5b91f.svg) (where $x_{0}$ = 0) is equal to:
+$$
+\begin{aligned}
+\sqrt{1 + x}
+&= 1 + \frac{1}{2}x + \frac{1}{2!}\left(-\frac{1}{4}\right)x^{2} + \frac{1}{3!}\left(\frac{3}{8}\right)x^{3} + \cdots \\
+\sqrt{1 + x}
+&= 1 + \frac{1}{2}x - \frac{1}{8}x^{2} + \frac{1}{16}x^{3} - \cdots
+\end{aligned}
+$$
 
-:::{image} ../images/math/p287-375b08703edf.svg
-:alt: Mathematical expression from source PDF page 287
-:class: source-equation
-:align: center
-:::
+If $x$ is small $(x$ is close to zero), then $x^{2}$ and $x^{3}$ are very small and don’t change the result much. For example, if $x = 0.1$, then $x^{3}= 0.001$ and $\frac{1}{16} x^{3}= 6.25\times 10^{-5}$. That term is much smaller than 1 and all subsequent terms will be even smaller, so they are negligible. That means, for small values of $x$, we can approximate $\sqrt{1 + x}$ as:
 
-If $x$ is small $(x$ is close to zero), then $x^{2}$ and $x^{3}$ are very small and don’t change the result much. For example, if $x = 0.1$, then $x^{3}= 0.001$ and $\frac{1}{16} x^{3}= 6.25\times 10^{-5}$. That term is much smaller than 1 and all subsequent terms will be ev ![Formula, source page 287](../images/math/p287-bb84a40a93ef.svg)en smaller, so they are negligible. That means, for small values of $x$, we can approximate 1 + ![Formula, source page 287](../images/math/p287-a20c50e71a3c.svg) as:
-
-:::{image} ../images/math/p287-237bc4dae7f6.svg
-:alt: Mathematical expression from source PDF page 287
-:class: source-equation
-:align: center
-:::
+$$
+\sqrt{1 + x} \approx 1 + \frac{1}{2}x
+$$
 
 <!-- Source PDF page 288; printed label 279. -->
 
@@ -321,25 +293,7 @@ The small angle approximation is an application of the Taylor Series expansion. 
 :align: center
 :::
 
-$$
-\mathrm{You} \mathrm{will} \mathrm{use} \mathrm{the} \mathrm{small} \mathrm{angle} \mathrm{assumption}
-$$
-
-$$
-\mathrm{many} \mathrm{times} \mathrm{in} \mathrm{this} \mathrm{course} \mathrm{and} \mathrm{in} \mathrm{other}
-$$
-
-$$
-\mathrm{courses}. \mathrm{As} \mathrm{an} \mathrm{astronomer}, \mathrm{I} \mathrm{use} \mathrm{the} \mathrm{small}
-$$
-
-$$
-\mathrm{angle} \mathrm{approximation} \mathrm{in} \mathrm{my} \mathrm{research} \mathrm{all} \mathrm{the}
-$$
-
-$$
-\mathrm{time}. \mathrm{For} \mathrm{example}, \mathrm{large} \mathrm{objects} \mathrm{in} \mathrm{space}
-$$
+You will use the small angle assumption many times in this course and in other courses. As an astronomer, I use the small angle approximation in my research all the time. For example, large objects in space
 
 (e.g., diameter of a crater on the moon, radius of a planet-forming disk around another star, distance between two interacting galaxies) subtend very tiny angles because they are so far away $(\theta$ is small because $D$ is large. We also use this approximation in optics with interference and diffraction patterns, where the distance to the first fringes correspond to small angle differences from the normal.
 

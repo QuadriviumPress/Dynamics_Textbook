@@ -33,7 +33,7 @@ This textbook covers the main topics of the second-year dynamics course for Quee
 
 This book follows the design and format from *[Introductory Physics: Building Models to](https://github.com/OSTP/PhysicsArtofModelling)* *[Describe Our World](https://github.com/OSTP/PhysicsArtofModelling)*, which is an open-source textbook for first-year physics developed by Prof Ryan Martin and students Emma Neary, Joshua Rinaldo, and Olivia Woodman among others.
 
-To help broaden the physics instruction, this book contains a number of different elements to help with the learning process, including check point questions, worked examples, student commentary, and real-world applications of the physics. There are also videos and extra problems using python [available via our online repository](https://github.com/OSTP/Dynamics_Textbook/tree/main). Each textbook feature is represented by a difef rent tag, as summarized below:
+To help broaden the physics instruction, this book contains a number of different elements to help with the learning process, including check point questions, worked examples, student commentary, and real-world applications of the physics. There are also videos and extra problems using python [available via our online repository](https://github.com/OSTP/Dynamics_Textbook/tree/main). Each textbook feature is represented by a different tag, as summarized below:
 
 ::::{admonition} Learning Objectives
 
@@ -45,7 +45,7 @@ To help broaden the physics instruction, this book contains a number of differen
 
 ::::{admonition} Comments and Discussion
 
-Additional information to help your reflect or research a topic.
+Additional information to help you reflect on or research a topic.
 
 ::::
 
@@ -95,15 +95,11 @@ Problems at the end of each chapter to test your understanding of the concepts.
 
 Physics teaches **problem solving**. The main goals of this textbook are to develop your **physics toolkit** and to teach **critical thinking** so that you can break down big problems into smaller, easier to implement pieces. There are often multiple ways to solve a physics problem, and by building your foundation, you will be able to select which of those ways is most efficient or most ideal. When solving problems, think about the different methods you could use to solve physics problems and under which situations you would favour one method over another.
 
-*Thinking like a physicist*: while there are lots of ways to approach physics problems. As you practice solving problems, try to recognize and develop the strategies that make learning
-
-<!-- Source PDF page 4; printed label iii. -->
-
-best for you. Everyone is different, but here are some common tips and strategies to consider:
+*Thinking like a physicist*: there are lots of ways to approach physics problems. As you practice solving problems, try to recognize and develop the strategies that make learning best for you. Everyone is different, but here are some common tips and strategies to consider:
 
 I) Make sure you understand the system set up: Before attempting any problem, be sure you know what the system looks like given the description and all the moving parts. If it helps to visualize it, draw a diagram (it doesn’t need to be perfect). Taking a few moments to think about the system as a whole can save you a lot of time and trouble when solving the problem later on.
 
-II) Plan how you will approach the problem: There are a number of ways you can solve most physics questions (e.g., Newton’s laws, conservation laws, Euler-Lagrange method). Before you decide on an approach, consider what information is given to you, what the questions is asking, and what assumptions you can or cannot make. The more you practice, the better you will intuit how to approach most questions.
+II) Plan how you will approach the problem: There are a number of ways you can solve most physics questions (e.g., Newton’s laws, conservation laws, Euler-Lagrange method). Before you decide on an approach, consider what information is given to you, what the question is asking, and what assumptions you can or cannot make. The more you practice, the better you will intuit how to approach most questions.
 
 III) Stick with variables/symbols as long as possible: Symbols are less messy than numbers and you don’t have to worry about units. It is also easier to check your answer at the end if you only have to plug numbers into your calculator once.
 

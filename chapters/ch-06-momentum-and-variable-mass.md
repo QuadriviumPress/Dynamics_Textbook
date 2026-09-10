@@ -81,9 +81,9 @@ The net force on particle 1 should be the force from particle 2 $(\vec{F}_{21})$
 
 $$
 \frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t}
-=\underbrace{(\vec{F}_{21}+\vec{F}_{12})}_{\sum\vec{F}_1}
-+\underbrace{(\vec{F}_{31}+\vec{F}_{13})}_{\sum\vec{F}_2}
-+\underbrace{(\vec{F}_{32}+\vec{F}_{23})}_{\sum\vec{F}_3}.
+=\underbrace{(\vec{F}_{21}+\vec{F}_{31})}_{\sum\vec{F}_1}
++\underbrace{(\vec{F}_{12}+\vec{F}_{32})}_{\sum\vec{F}_2}
++\underbrace{(\vec{F}_{13}+\vec{F}_{23})}_{\sum\vec{F}_3}.
 $$
 
 But because of Newton’s third law (every action has an equal and opposite reaction), the force of particle 2 on particle 1 $(\vec{F}_{21})$ must be equal and opposite to the force of particle 1 on particle 2 $(\vec{F}_{12})$. You can think of two masses in space pulling on each other due to gravity. Or two isolated charges attracting or repelling each other. As a result, $\vec{F}_{21}= -\vec{F}_{12}$, $\vec{F}_{31}= -\vec{F}_{13}$, and $\vec{F}_{32}= -\vec{F}_{23}$. So we finally obtain:
@@ -110,7 +110,7 @@ $$
 $$
 
 $$
-\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} = \sum _{i=1 j}^{N}\sum_{j=\not =1i}^{N}\vec{F}_{ij}= 0
+\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} = \sum_{i=1}^{N}\sum_{\substack{j=1\\j\neq i}}^{N}\vec{F}_{ij}= 0
 $$
 
 <!-- Source PDF page 124; printed label 115. -->
@@ -123,10 +123,10 @@ $$
 
 which is basically saying that the time derivative of the momentum for the $i$th particle is just the sum of all the forces from the other particles. The condition of $j \not = i$ is needed because each particle acts on the other particles in the system, but not on themselves $(\vec{F}_{11},\vec{F}_{22},$ and $\vec{F}_{33}$ are not allowed).
 
-To then get the the total momentum of an isolated system, we need to sum over individual particles, $\vec{p}_{tot}= \sum \vec{p}_{i}$. This gives us our nested sums,
+To then get the total momentum of an isolated system, we need to sum over individual particles, $\vec{p}_{tot}= \sum \vec{p}_{i}$. This gives us our nested sums,
 
 $$
-\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} = \sum _{i=1 j}^{N}\sum_{j=\not =1i}^{N}\vec{F}_{ij}= 0
+\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} = \sum_{i=1}^{N}\sum_{\substack{j=1\\j\neq i}}^{N}\vec{F}_{ij}= 0
 $$ (eq-6-4)
 
 where you start with the outer summation and set a value for $i$ before cycling through the inner summation and setting all possible values for $j$. For an example, if $N$ = 3, the nested sums would give $\vec{F}_{12},\vec{F}_{13},\vec{F}_{21},\vec{F}_{23},\vec{F}_{31},$ and $\vec{F}_{32}$ in that order.
@@ -144,8 +144,7 @@ where $\vec{F}_{i,int}$ is the force on the particle from the system itself (int
 
 $$
 \begin{aligned}
-\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} &= \\
-\frac{\mathrm{d}}{\mathrm{d}t} \vec{p}_{i}&= \sum \vec{F}_{i,int}+ \sum \vec{F}_{i,ext} \\
+\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} &= \sum \frac{\mathrm{d}}{\mathrm{d}t}\vec{p}_{i}= \sum \vec{F}_{i,int}+ \sum \vec{F}_{i,ext} \\
 \frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} &= \sum \vec{F}_{i,ext}=\Rightarrow \sum \vec{F}_{i,int}= 0 (\mathrm{see} \mathrm{Chapter} 6.2)
 \end{aligned}
 $$
@@ -202,9 +201,9 @@ Increasing the impact time to decrease the force occurs many times in everyday l
 
 ::::{admonition} Cora’s Thoughts
 
-Generally we consider impulses to be short bursts. An impulse is powerful force that quickly changes the momentum of a system, hence why $\Delta t \rightarrow$ d$t$.
+Generally we consider impulses to be short bursts. An impulse is a powerful force that quickly changes the momentum of a system, hence why $\Delta t \rightarrow$ d$t$.
 
-An airbag is an excellent example of impulse in everyday life. When an accident occurs and the vehicle stops, the drivers momentum carries them forward towards the steering wheel, where they will experience a quick change in momentum (impulse). The airbag extends the time of that impact lessening the force on the driver, often saving lives. In [Figure 6.1](#fig-6-1), the red graph may be what the force with the airbag would look like, and the blue would be what the force without the airbag would look like.
+An airbag is an excellent example of impulse in everyday life. When an accident occurs and the vehicle stops, the driver's momentum carries them forward towards the steering wheel, where they will experience a quick change in momentum (impulse). The airbag extends the time of that impact lessening the force on the driver, often saving lives. In [Figure 6.1](#fig-6-1), the red graph may be what the force with the airbag would look like, and the blue would be what the force without the airbag would look like.
 
 ::::
 
@@ -379,7 +378,7 @@ Consider two balls moving toward each other on the $x-$axis as shown in [Figure 
 Two masses, $m_{1}$ and $m_{2}$ collide in an elastic collisions before and after. Their speeds change and they move in opposite directions after the collision.
 :::
 
-This may sound like an easy problem, but there are some tricks to it. We want to fni d $v_{1,f}$ and $v_{2,f}$ in terms of $m_{1}, m_{2}, v_{1,i}$ and $v_{2,i}$. For a completely elastic collision, the total momentum is conserved, so the initial momentum equals the final momentum.
+This may sound like an easy problem, but there are some tricks to it. We want to find $v_{1,f}$ and $v_{2,f}$ in terms of $m_{1}, m_{2}, v_{1,i}$ and $v_{2,i}$. For a completely elastic collision, the total momentum is conserved, so the initial momentum equals the final momentum.
 
 $$
 \vec{p}_{i}= \vec{p}_{f}
@@ -504,13 +503,7 @@ $$
 \bar{x} = \frac{\sum w_{i}x_{i}}{\sum w_{i}}
 $$
 
-where $x_{i}$ is the quantity and $w_{i}$ is a weight. Note that the $\sum$ used above has the limits of
-
-$$
-i\sum =N
-$$
-
-$1$, where $N$ is the total number of particles.
+where $x_{i}$ is the quantity and $w_{i}$ is a weight. Note that the $\sum$ used above has the limits of $\sum_{i=1}^{N}$, where $N$ is the total number of particles.
 
 ::::{admonition} Definition of Average
 
@@ -522,7 +515,7 @@ $$
 
 ::::
 
-The centre of mass is where you can perfectly balance a system and it doesn’t need to be at the centre of the object. For example, if you try to hold a hammer at its centre, it will feel unbalanced. That’s because a hammer has an uneven distribution of mass. The head of the hammer is much heavier than the handle, so the centre of mass for the hammer will be closer to the head than the the middle of the handle because most of the mass is located near the head $(R_{cm}$ will be weighted more heavily toward the head than the handle).
+The centre of mass is where you can perfectly balance a system and it doesn’t need to be at the centre of the object. For example, if you try to hold a hammer at its centre, it will feel unbalanced. That’s because a hammer has an uneven distribution of mass. The head of the hammer is much heavier than the handle, so the centre of mass for the hammer will be closer to the head than the middle of the handle because most of the mass is located near the head $(R_{cm}$ will be weighted more heavily toward the head than the handle).
 
 <!-- Source PDF page 132; printed label 123. -->
 
@@ -536,9 +529,9 @@ In Cartesian coordinates, we can also describe the centre of mass in terms of th
 
 $$
 \begin{aligned}
-x_{cm}&= \frac{m_{i}x_{i}}{M} \\
+x_{cm}&= \frac{\sum m_{i}x_{i}}{M} \\
 y_{cm}&= \frac{\sum m_{i}y_{i}}{M} \\
-z_{cm}&= \frac{m_{i}z_{i}}{M}
+z_{cm}&= \frac{\sum m_{i}z_{i}}{M}
 \end{aligned}
 $$
 
@@ -624,11 +617,11 @@ M_{tot}= M + m.
 $$
 
 $$
-\vec{v}_{cm}= \frac{1}{M + m} \Bigg(\frac{\mathrm{d}}{\mathrm{d}t} \sum^{m_{i}\vec{r}_{i}} \Bigg)
+\vec{v}_{cm}= \frac{1}{M + m} \Bigg(\frac{\mathrm{d}}{\mathrm{d}t} \sum_{i} m_{i}\vec{r}_{i} \Bigg)
 $$
 
 $$
-\vec{v}_{cm}= \frac{1}{M + m} \Bigg(\sum^{m_{i}} \frac{\mathrm{d}\vec{r}_{i}}{\mathrm{d}t} \Bigg)
+\vec{v}_{cm}= \frac{1}{M + m} \Bigg(\sum_{i} m_{i} \frac{\mathrm{d}\vec{r}_{i}}{\mathrm{d}t} \Bigg)
 $$
 
 $$
@@ -685,7 +678,7 @@ Up until now, we have applied Newton’s second law as $\sum \vec{F} = ma$. This
 In general, Newton’s second law follows;
 
 $$
-\sum_{\vec{F} =} \frac{\mathrm{d}\vec{p}}{\mathrm{d}t} = \frac{\mathrm{d}(m\vec{v})}{\mathrm{d}t} = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m\Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg)
+\sum\vec{F} = \frac{\mathrm{d}\vec{p}}{\mathrm{d}t} = \frac{\mathrm{d}(m\vec{v})}{\mathrm{d}t} = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m\Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg)
 $$
 
 Note that you recover $\sum \vec{F} = m\vec{a}$ if the mass is constant $(\dot{m}$ = 0). But if the mass is changing, then you must include the $\dot{m}$ term as well when applying Newton’s second law.
@@ -703,10 +696,7 @@ This is a variable mass problem, because you’re not moving the whole rope at o
 Since the rope is moving with a constant speed, we know that $\mathrm{d}\vec{v}/\mathrm{d}t=0$. But there is still a net force acting on the rope because the mass is changing.
 
 $$
-\begin{aligned}
-([o \\
-\sum \vec{F} &= \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m_{(}\Bigg(\frac{\mathrm{d}\vec{v}}{^{(}\mathrm{d}t} ^{(}\Bigg) = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v}
-\end{aligned}
+\sum \vec{F} = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m\Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg) = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v}
 $$
 
 ::::
@@ -839,7 +829,7 @@ $$
 \begin{aligned}
 \mathrm{d}v &= -v_{ex} \frac{\mathrm{d}m}{m} =\Rightarrow \mathrm{sub} \mathrm{d}m_{ex}= -\mathrm{d}m \\
 \int_{0}^{v_{f}} \mathrm{d}v &= -v_{ex}\int_{M}^{M_{f}} \frac{\mathrm{d}m}{m} =\Rightarrow v_{ex}\mathrm{is} \mathrm{a} \mathrm{constant} \\
-v_{f}- 0 &= -v_{ex}\Big(\ln m|_{M}^{M_{f}} =\Rightarrow \mathrm{initial} \mathrm{is} v = 0, m = M \\
+v_{f}- 0 &= -v_{ex}\Big(\ln m\Big|_{M}^{M_{f}}\Big) =\Rightarrow \mathrm{initial} \mathrm{is} v = 0, m = M \\
 v_{f}&= -v_{ex}(\ln M_{f}- \ln M)
 \end{aligned}
 $$
@@ -934,7 +924,7 @@ $$
 **Newton’s Second Law:**
 
 $$
-\sum_{\vec{F} =} \frac{\mathrm{d}\vec{p}}{\mathrm{d}t} = \frac{\mathrm{d}(m\vec{v})}{\mathrm{d}t} = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m\Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg)
+\sum\vec{F} = \frac{\mathrm{d}\vec{p}}{\mathrm{d}t} = \frac{\mathrm{d}(m\vec{v})}{\mathrm{d}t} = \Bigg(\frac{\mathrm{d}m}{\mathrm{d}t} \Bigg)\vec{v} + m\Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg)
 $$
 
 **Conservation of Momentum:**
@@ -1006,7 +996,7 @@ A particle with mass $M_{1}$ and velocity $v_{1}\hat{\imath}$ collides with a pa
 
 a) After the collision, $M_{1}$ is at rest. What is the velocity of $M_{2}$?
 
-b) After collision, the two particle stick together and continue in the same direction. What is their velocity?
+b) After collision, the two particles stick together and continue in the same direction. What is their velocity?
 
 ::::
 
@@ -1098,7 +1088,7 @@ On a strange alien planet, Grog has invented a rudimentary car by attaching four
 Figure for [Problem 6-8](#problem-6-8).
 :::
 
-*Note, this problem could be considered a variable mass question as the loss of the rocks* *ends up changing the mass of the car. If you want to challenge yourself, trying solving* *the problem including the mass loss.*
+*Note, this problem could be considered a variable mass question as the loss of the rocks* *ends up changing the mass of the car. If you want to challenge yourself, try solving* *the problem including the mass loss.*
 
 ::::
 
@@ -1149,15 +1139,7 @@ c) What is the tension in the rope in the piece of rope that is right next to th
 
 A rocket ship of mass $M_{0}$ drifts in space with a speed of $v_{0}$. At time $t$ = 0, it drifts into a dust cloud that is stationary. The cloud has a volume density of $\rho$ (in kg $\mathrm{m}^{-3})$ and dust from the cloud sticks to the rocket over its cross-sectional area, $A$.
 
-$$
-\mathrm{d}m
-$$
-
-a) Show that the change in mass for the rocket is given by = $A\rho v$ at time $t$.
-
-$$
-\mathrm{d}t
-$$
+a) Show that the change in mass for the rocket is given by $\mathrm{d}m/\mathrm{d}t = A\rho v$ at time $t$.
 
 b) What is the mass of the rocket when it is moving at speed $v$?
 

@@ -151,23 +151,23 @@ $$
 
 for any velocity for the particle. So if you have a system that is fully described by conservative forces in any dimension, then that system will have its total energy conserved.
 
-Keep in mind that not all forces that are functions of position are conservative forces. For a system to have a conservative force, $\vec{\nabla} \times \vec{F}$ = 0 (see [Chapter 8](#ch-8)) or the work done on the system within a close loop must be zero.
+Keep in mind that not all forces that are functions of position are conservative forces. For a system to have a conservative force, $\vec{\nabla} \times \vec{F}$ = 0 (see [Chapter 8](#ch-8)) or the work done on the system within a closed loop must be zero.
 
 (example-9-1)=
 
 ::::{admonition} Sample Problem 9-1
 
-Consider a force $\vec{F} = -ky\hat{\imath}+kx\hat{\jmath}$ . **Show that the work done on a particle by this** **force in a closed loop does not equal to zero.**
+Consider a force $\vec{F} = -ky\hat{\imath}+kx\hat{\jmath}$ . **Show that the work done on a particle by this** **force in a closed loop does not equal zero.**
 
 **Solution**
 
-While one could demonstrate that $\vec{F}$ is a conservative force by showing $\vec{\nabla}\times \vec{F} \not =$ 0, the problem specifically asks to show the solution for a closed loop. To solve this problem, we need to evaluate the integral:
+While one could demonstrate that $\vec{F}$ is *not* a conservative force by showing $\vec{\nabla}\times \vec{F} \not =$ 0, the problem specifically asks to show the solution for a closed loop. To solve this problem, we need to evaluate the integral:
 
 $$
 \oint \vec{F} \cdot \mathrm{d}\vec{r}
 $$
 
-where $\oint$ indicates a closed loop. You can take any closed loop for a conservative force. So it is handy to take a direct (simple) closed path. [Figure 9.1](#fig-9-1) shows a very simple closed loop from $(0,0) \rightarrow (a,0) \rightarrow (a,b) \rightarrow (0,b) \rightarrow (0,$ 0). You can technically do any closed loop, but make the math easy for yourself and take something simple.
+where $\oint$ indicates a closed loop. You can take any closed loop for a conservative force. So it is handy to take a direct (simple) closed path. [Figure 9.1](#fig-9-1) shows a very simple closed loop from $(0,0) \rightarrow (a,0) \rightarrow (a,b) \rightarrow (0,b) \rightarrow (0,0)$. You can technically do any closed loop, but make the math easy for yourself and take something simple.
 
 ::::
 
@@ -196,9 +196,9 @@ We can make similar calculations for the other sections.
 
 $$
 \begin{aligned}
-W_{2}&= W(a,0) \rightarrow W(a,b) = _{0}^{b}F_{y}\mathrm{d}y = kx _{0}^{b}\mathrm{d}y = kxb = kab (x = a) \\
-W_{3}&= W(a,b) \rightarrow W(0,b) = \int_{a}^{0} F_{x}\mathrm{d}x = -k\int y\int_{a}^{0} \mathrm{d}x = kya = kab (y = b) \\
-W_{4}&= W(0,b) \rightarrow W(0,0) = _{b}^{0}F_{y}\mathrm{d}y = kx _{b}^{0}\mathrm{d}y = -kxb = 0 (x = 0)
+W_{2}&= W(a,0) \rightarrow W(a,b) = \int_{0}^{b} F_{y}\mathrm{d}y = kx\int_{0}^{b}\mathrm{d}y = kxb = kab \quad (x = a) \\
+W_{3}&= W(a,b) \rightarrow W(0,b) = \int_{a}^{0} F_{x}\mathrm{d}x = -ky\int_{a}^{0} \mathrm{d}x = kya = kab \quad (y = b) \\
+W_{4}&= W(0,b) \rightarrow W(0,0) = \int_{b}^{0} F_{y}\mathrm{d}y = kx\int_{b}^{0}\mathrm{d}y = -kxb = 0 \quad (x = 0)
 \end{aligned}
 $$
 
@@ -227,7 +227,7 @@ A uniform spherical shell of mass $M$ and radius $R$ is able to rotate about a v
 :alt: Figure shows the setup of the problem with a sphere, pulley, and hanging mass.
 :width: 161px
 
-The set up for this problem shows the spherical shell of mass $M$ and $R$ that can rotate on an axis. There is a disk-pulley with mass $M_{p}$ and radius $R_{P}$ that can likewise rotate about an axis. There is a mass $m$ hanging over the edge that can descend due to gravity. There is no friction (no energy loss) and that the rope has no mass and cannot stretch.
+The set up for this problem shows the spherical shell of mass $M$ and $R$ that can rotate on an axis. There is a disk-pulley with mass $M_{p}$ and radius $R_{P}$ that can likewise rotate about an axis. There is a mass $m$ hanging over the edge that can descend due to gravity. There is no friction (no energy loss) and the rope has no mass and cannot stretch.
 :::
 
 **Solution**
@@ -238,7 +238,7 @@ You can try to solve this problem using forces, torques, and Newton’s laws, bu
 
 Energy conservation requires measuring $\Delta U$ and $\Delta K$. So we need to consider all the sources of potential energy and all the sources of kinetic energy.
 
-*Potential energy*: In this case, there is only one source of potential energy, the little mass $m$. It drops in height where the change in height is $\Delta y = -h$, where the negative indicates that the object decreased in height from its original reference position (it’s position at $t$ = 0). Recall that potential energy from gravity is equal to $U_{g}= mg\Delta y$, if you assume that the gravitational acceleration is constant (see [Chapter 8](#ch-8)). Thus, we can take any convenient reference position for $\Delta y$. The height at $t$ = 0 is a convenient reference position, so we’ll use that. Therefore, we have
+*Potential energy*: In this case, there is only one source of potential energy, the little mass $m$. It drops in height where the change in height is $\Delta y = -h$, where the negative indicates that the object decreased in height from its original reference position (its position at $t$ = 0). Recall that potential energy from gravity is equal to $U_{g}= mg\Delta y$, if you assume that the gravitational acceleration is constant (see [Chapter 8](#ch-8)). Thus, we can take any convenient reference position for $\Delta y$. The height at $t$ = 0 is a convenient reference position, so we’ll use that. Therefore, we have
 
 $$
 \Delta U = -mgh
@@ -261,7 +261,7 @@ $$
 
 where $v = \dot{y}$ is the speed of the mass, $I_{p}$ and $\omega _{p}$ are the moment of inertia and angular velocity of the pulley, and $I_{s}$ and $\omega _{s}$ are the moment of inertia and angular velocity for the spherical shell.
 
-The pulley is a disk, so $I_{p}= \frac{1}{2} M_{p}R_{p}^{2}$. The moment of inertia for a spherical shell is $I_{s}= \frac{2}{3} M_{s}R_{s}^{2}$ (see [Appendix A.4](#sec-A-4)). Since the rope is massless and cannot be stretched (it is inextensible), the velocity at any point of the rope must be constant. If we say that the mass moves at a velocity $v$, then the velocity vector where the rope meets the pulley has a speed $v$ and the velocity vector where the rope meets the shell has a speed $v$. So the pulley and shell have the same linear velocity $v$ at the radii where the rope contacts them. That means the linear velocity is $v$ at a radius of $R_{s}$ for the shell at at a radius of $R_{p}$ for the pulley.
+The pulley is a disk, so $I_{p}= \frac{1}{2} M_{p}R_{p}^{2}$. The moment of inertia for a spherical shell is $I_{s}= \frac{2}{3} M_{s}R_{s}^{2}$ (see [Appendix A.4](#sec-A-4)). Since the rope is massless and cannot be stretched (it is inextensible), the velocity at any point of the rope must be constant. If we say that the mass moves at a velocity $v$, then the velocity vector where the rope meets the pulley has a speed $v$ and the velocity vector where the rope meets the shell has a speed $v$. So the pulley and shell have the same linear velocity $v$ at the radii where the rope contacts them. That means the linear velocity is $v$ at a radius of $R_{s}$ for the shell and at a radius of $R_{p}$ for the pulley.
 
 Since we have only rolling motion, we can say:
 
@@ -320,7 +320,7 @@ So we have solved for the speed of the mass. To get the velocity, we need to spe
 
 ::::{admonition} Sample Problem 9-3
 
-Let’s try to solve the motion of a Atwood Machine where the pulley is a disk of mass $M$ and radius $R$. The hanging masses of mass $M_{1}$ and $M_{2}$. See [Figure 9.3](#fig-9-3). Assume that the rope connecting the masses is light (negligible mass) and inextensible (any stretch of the rope is negligible) and that the pulley has a frictionless ball bearing (so no energy losses). **What is the acceleration of the two masses?**
+Let’s try to solve the motion of an Atwood Machine where the pulley is a disk of mass $M$ and radius $R$. The hanging masses have mass $m_{1}$ and $m_{2}$. See [Figure 9.3](#fig-9-3). Assume that the rope connecting the masses is light (negligible mass) and inextensible (any stretch of the rope is negligible) and that the pulley has a frictionless ball bearing (so no energy losses). **What is the acceleration of the two masses?**
 
 :::{figure} ../images/figures/figure-9-3.png
 :label: fig-9-3
@@ -345,7 +345,7 @@ $$
 
 First step is to consider all sources of kinetic energy and all sources of potential energy.
 
-For potential energy, we have the two masses within a gravitational field. For small distances, we can assume that $F_{g}= mg$ and that means that $U = mg\Delta y$, where $\Delta y$ indicates the change in vertical. If we set $y$ = 0 to be at the midpoint of the pulley (see [Figure 9.4](#fig-9-4)), then the potential energy of the masses are $U_{1}= -mgy_{1}$ and $U_{2}= -mgy_{2}$, where $y_{1}$ and $y_{2}$ are the positions of the masses relative to the pulley.
+For potential energy, we have the two masses within a gravitational field. For small distances, we can assume that $F_{g}= mg$ and that means that $U = mg\Delta y$, where $\Delta y$ indicates the change in vertical. If we set $y$ = 0 to be at the midpoint of the pulley (see [Figure 9.4](#fig-9-4)), then the potential energy of the masses are $U_{1}= -m_{1}gy_{1}$ and $U_{2}= -m_{2}gy_{2}$, where $y_{1}$ and $y_{2}$ are the positions of the masses relative to the pulley.
 
 :::{figure} ../images/figures/figure-9-4.png
 :label: fig-9-4
@@ -361,7 +361,7 @@ Note that there is no potential energy from the pulley because the pulley does n
 So our potential energy of the system is given by:
 
 $$
-U = -mgy_{1}- mgy_{2}
+U = -m_{1}gy_{1}- m_{2}gy_{2}
 $$
 
 This is the potential energy for a given time, $t$. We don’t know which mass will move up and which one will move down. All we know is that $m_{1}$ and $m_{2}$ are at specific positions $y_{1}$ and $y_{2}$ at $t$.
@@ -416,7 +416,7 @@ Our total energy is $E = U + K$ which is a constant. So at time $t$, the sum of 
 $$
 \begin{aligned}
 E &= U + K \\
-E &= -mgy_{1}- mgy_{2}+ \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}
+E &= -m_{1}gy_{1}- m_{2}gy_{2}+ \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}
 \end{aligned}
 $$
 
@@ -429,7 +429,7 @@ Since the total energy is constant for a system with only conservative forces, t
 $$
 \begin{aligned}
 \frac{\mathrm{d}E}{\mathrm{d}t} &= 0 \\
-0 &= \frac{\mathrm{d}}{\mathrm{d}t} \bigg[-mgy_{1}- mgy_{2}+ \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}\bigg] \\
+0 &= \frac{\mathrm{d}}{\mathrm{d}t} \bigg[-m_{1}gy_{1}- m_{2}gy_{2}+ \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}\bigg] \\
 0 &= -m_{1}g\dot{y}_{1}- m_{2}g\dot{y}_{2}+ m_{1}\dot{y}_{1}\ddot{y}_{1}+ m_{2}\dot{y}_{1}\ddot{y}_{1}+ \frac{1}{2} M\dot{y}_{1}\ddot{y}_{1}
 \end{aligned}
 $$
@@ -494,7 +494,7 @@ We can solve for this equilibrium point by setting the net force and net torque 
 :alt: Figure shows a free body diagram for the pulley alone with all forces labelled.
 :width: 155px
 
-Free-body diagram of the pulley. There is a tension $T_{1}$ from the rope on the left, and a tension $T_{2}$ from the small mass $m$ acting at the centre of mass. The pulley has its own gravity $mg$. And there is the spring force $F_{s}$ acting on the right side of the pulley.
+Free-body diagram of the pulley. There is a tension $T_{1}$ from the rope on the left, and a tension $T_{2}$ from the small mass $m$ acting at the centre of mass. The pulley has its own gravity $Mg$. And there is the spring force $F_{s}$ acting on the right side of the pulley.
 :::
 
 Since we’re in equilibrium, the net torque must be zero. Therefore, $T_{1}= F_{s}$, otherwise the pulley would rotate. For a spring, $F_{s}= -kx = T_{1}$. The other unknown force is $T_{2}$, but that is simply the tension caused by the hanging mass $m$ and therefore $T_{2}= mg$.
@@ -527,13 +527,13 @@ $$
 
 where we have specified that the potential energy is zero for the masses at $x$ = 0. A convenient reference point (e.g., setting $x$ = 0 for the gravitational energy) is at $x_{0}$, since this is a known reference point. Note that the spring potential is *not* zero at $x = x_{0}$. So we need to consider $\Delta x$ for the spring.
 
-The kinetic energy of the spring is given by the motion of translation energy of the mass, the translation energy of the pulley, and the rotation of the pulley.
+The kinetic energy of the system is given by the motion of translation energy of the mass, the translation energy of the pulley, and the rotation of the pulley.
 
 $$
 K = \frac{1}{2} I\omega ^{2}+ \frac{1}{2} Mv^{2}+ \frac{1}{2} mv^{2}
 $$
 
-Before we combine the energies this question, let’s first ask how this system will move. The spring will stretch and compress, and this will lower and raise $m$ and the pulley, and the pulley will also rotate. At first glance, you may be tempted to assume that if the mass moves down a distance $x$, then the pulley should move down a distance $x$ and the spring should be stretched a distance $x$. But for this system, the spring will *stretch* *twice as much* as $m$ and $M$ move down because some of the kinetic energy that goes into the pulley and mass is used to rotate the pulley rather than translate the pulley. This is the same principle behind rolling without slipping (see [Chapter 7](#ch-7)).
+Before we combine the energies for this question, let’s first ask how this system will move. The spring will stretch and compress, and this will lower and raise $m$ and the pulley, and the pulley will also rotate. At first glance, you may be tempted to assume that if the mass moves down a distance $x$, then the pulley should move down a distance $x$ and the spring should be stretched a distance $x$. But for this system, the spring will *stretch* *twice as much* as $m$ and $M$ move down because some of the kinetic energy that goes into the pulley and mass is used to rotate the pulley rather than translate the pulley. This is the same principle behind rolling without slipping (see [Chapter 7](#ch-7)).
 
 Let’s look at the motion of the pulley. [Figure 9.8](#fig-9-8) shows the translational and rotational motion of the pulley. First, consider the motion of the mass and pulley. The mass is connected to the pulley at its centre-of-mass by an inextensible rope. Whatever distance one moves, the other will move the same amount, and this motion will equal the motion of the centre-of-mass of the pulley, $v_{cm}$. Since the pulley is also rotating without slipping, we can connect the centre of mass motion directly to the rotation
 
@@ -579,22 +579,14 @@ where the change in potential energy depends on a displacement of $2x-x_{0}$, be
 
 ::::{admonition} Continued
 
-$$
-v
-$$
-
-For rotating without slipping, $\omega$ = . So we can simplify the above as:
-
-$$
-R
-$$
+For rotating without slipping, $\omega = v/R$. So we can simplify the above as:
 
 $$
 \begin{aligned}
 E &= \frac{1}{2} I \bigg(\frac{v}{R} \bigg)^{2}+ \frac{1}{2} Mv^{2}+ \frac{1}{2} mv^{2}- (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2} \\
-E &= \frac{1}{2} v^{2} \frac{I}{R^{2}} + M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2} \\
+E &= \frac{1}{2} v^{2} \bigg(\frac{I}{R^{2}} + M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2} \\
 E &= \frac{1}{2} v^{2}\bigg(\frac{1}{2} M + M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2}=\Rightarrow I = \frac{1}{2} MR^{2} \\
-E &= \frac{1}{2} v^{2} \frac{3}{2} M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2}
+E &= \frac{1}{2} v^{2} \bigg(\frac{3}{2} M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2}
 \end{aligned}
 $$
 
@@ -603,7 +595,7 @@ Now take the derivative of the energy with respect to time.
 $$
 \begin{aligned}
 \frac{\mathrm{d}E}{\mathrm{d}t} &= 0 = \frac{\mathrm{d}}{\mathrm{d}t} \bigg[\frac{1}{2} v^{2}\bigg(\frac{3}{2} M + m\bigg) - (M + m)gx + \frac{1}{2} k(2x - x_{0})^{2}\bigg] \\
-0 &= \frac{3}{2} M + m v \frac{\mathrm{d}v}{\mathrm{d}t} - (M + m)gv + k(2x - x_{0})(2v) \\
+0 &= \bigg(\frac{3}{2} M + m\bigg) v \frac{\mathrm{d}v}{\mathrm{d}t} - (M + m)gv + k(2x - x_{0})(2v) \\
 0 &= \bigg(\frac{3}{2} M + m\bigg) \frac{\mathrm{d}v}{\mathrm{d}t} - (M + m)g + 2k(2x - x_{0}) =\Rightarrow \mathrm{eliminate} v \\
 0 &= \frac{\mathrm{d}v}{\mathrm{d}t} + \Bigg(\frac{1}{\frac{3}{2} M + m} \Bigg)\Big[4kx - (M + m)g - 2kx_{0}\Big]
 \end{aligned}
@@ -657,13 +649,13 @@ There are two main approaches to solving physics problems with energy conservati
 
 1. You can derive independent equations for $E$ at two different times, $E_{1}$ and $E_{2}$. If you can derive an equation for the energy at two distinct times (e.g., you are given a reference speed and position), then you can solve the physics of a problem by setting $E_{1}= E_{2}$.
 
-2. You can derive an general equation for the energy for any given time, $t$. In this case, you do not have a unique solution for $E$ from your energy equation alone. Nevertheless, since energy is conserved, it is constant with time, which means
+2. You can derive a general equation for the energy for any given time, $t$. In this case, you do not have a unique solution for $E$ from your energy equation alone. Nevertheless, since energy is conserved, it is constant with time, which means
 
 $$
 \frac{\mathrm{d}E}{\mathrm{d}t} = 0
 $$
 
-By setting the time derivative of $E$ to zero, you will obtain a differential equation of motion from which you can use to solve the physics problem.
+By setting the time derivative of $E$ to zero, you will obtain a differential equation of motion which you can use to solve the physics problem.
 
 While going through this chapter and the practice problems below, compare how the solution from energy conservation with what you would need to do if you were applying Newton’s second law instead. Consider which method you prefer and under which circumstances you would favour one over the other.
 
@@ -758,7 +750,7 @@ A small mass $m$ forms a pendulum with an ideal rope of length $L$. The small ma
 :::{figure} ../images/figures/figure-9-11.png
 :label: fig-9-11
 :enumerator: 9.11
-:alt: Figure shows a pendulum at its initial displacement before it is release to hit a stationary block.
+:alt: Figure shows a pendulum at its initial displacement before it is released to hit a stationary block.
 :width: 155px
 
 Mass striking a block
@@ -822,7 +814,7 @@ d) If the cylinder is displaced a small amount from equilibrium it will oscillat
 :::{figure} ../images/figures/figure-9-13.png
 :label: fig-9-13
 :enumerator: 9.13
-:alt: Figure shows the cylinder with a spring attached to it’s center.
+:alt: Figure shows the cylinder with a spring attached to its centre.
 :width: 217px
 
 The cylinder and spring system.

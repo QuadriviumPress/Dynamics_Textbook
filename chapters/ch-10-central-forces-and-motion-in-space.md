@@ -71,16 +71,16 @@ If a central force is defined as $\vec{F} = f(r)\hat{r}$ , then we can show that
 
 $$
 \begin{aligned}
-\hat{r} r\hat{\theta} r\sin \theta \hat{\varphi} \\
-\vec{\nabla} \times \vec{F} &= \frac{1}{r^{2}\sin \theta} | \frac{\partial}{\partial r} \frac{\partial}{\partial \theta} \frac{\partial}{\partial \varphi} | \\
-f(r) 0 0
-\end{aligned}
-$$
-
-$$
-\begin{aligned}
-\Bigg(([0 \Bigg) \Bigg(_{([}\Bigg)0 \\
-&= \frac{1}{r^{2}\sin \theta} (0 - 0)\hat{r} + \frac{1}{r\sin \theta} \frac{\partial f(r()}{_{(}\partial ^{(}\varphi} - 0 \hat{\theta} + \frac{1}{r} 0 - \frac{\partial f(r^{(})}{_{(}\partial ^{(}\theta} \hat{\varphi} \\
+\vec{\nabla} \times \vec{F}
+&= \frac{1}{r^{2}\sin \theta}
+\begin{vmatrix}
+\hat{r} & r\hat{\theta} & r\sin\theta\,\hat{\varphi} \\
+\dfrac{\partial}{\partial r} & \dfrac{\partial}{\partial \theta} & \dfrac{\partial}{\partial \varphi} \\
+f(r) & 0 & 0
+\end{vmatrix} \\
+&= \frac{1}{r^{2}\sin \theta}(0 - 0)\hat{r}
++ \frac{1}{r\sin \theta}\left(\frac{\partial f(r)}{\partial \varphi} - 0\right)\hat{\theta}
++ \frac{1}{r}\left(0 - \frac{\partial f(r)}{\partial \theta}\right)\hat{\varphi} \\
 &= 0
 \end{aligned}
 $$
@@ -170,11 +170,7 @@ A central force has the form of $\vec{F} = f(r)\hat{r}$ . If this is the only fo
 In polar coordinates, $\vec{a}$ is written as:
 
 $$
-\vec{a} = (\ddot{r} - \dot{\theta}^{2}r)\hat{r}+(2\dot{\theta}\dot{r} + \ddot{\theta}r)\hat{\theta}
-$$
-
-$$
-a_{r}a_{\theta}
+\vec{a} = \underbrace{(\ddot{r} - \dot{\theta}^{2}r)}_{a_{r}}\hat{r}+\underbrace{(2\dot{\theta}\dot{r} + \ddot{\theta}r)}_{a_{\theta}}\hat{\theta}
 $$
 
 where we have a radial component of the acceleration and a tangential component (azimuthal or $\theta$ component). But the central force is radial only. This is a definition of a central force. As a consequence, we can make two conclusions about the acceleration.
@@ -206,15 +202,7 @@ $$ (eq-10-4)
 
 ::::{tip} Quick Question
 
-$$
-1 \mathrm{d}
-$$
-
-1. Show that $(r^{2}\dot{\theta}) = 2\dot{\theta}\dot{r} + \ddot{\theta}r$ by applying the time derivative.
-
-$$
-r\mathrm{d}t
-$$
+1. Show that $\dfrac{1}{r}\dfrac{\mathrm{d}}{\mathrm{d}t}(r^{2}\dot{\theta}) = 2\dot{\theta}\dot{r} + \ddot{\theta}r$ by applying the time derivative.
 
 ::::
 
@@ -265,12 +253,12 @@ The total energy of the system is then:
 
 $$
 \begin{aligned}
-E &= K + U _{2} \\
-E &= \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L}{mr^{2}} + U(r)
+E &= K + U \\
+E &= \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L^{2}}{mr^{2}} + U(r)
 \end{aligned}
 $$
 
-where $U(r)$ represents the potential produced by the central force. The first term depends only on $\dot{r}$ whereas the other two terms depend only on $r (m$ and $L$ are constant).
+where $U(r)$ represents the potential produced by the central force. The first term depends only on $\dot{r}$ whereas the other two terms depend only on $r$ ($m$ and $L$ are constant).
 
 (eq-10-7)=
 $$
@@ -280,7 +268,7 @@ $$
 
 <!-- Source PDF page 221; printed label 212. -->
 
-This should look familiar. This is a 1-D energy equation. You have the energy entirely expressed along one coordinate axis. For example, when we looked a mass and spring, $K = \frac{1}{2} m\dot{x}^{2}$ and $U = \frac{1}{2} kx^{2}$, such that $E = \frac{1}{2} m\dot{x}^{2}+ \frac{1}{2} kx^{2}$, all the energy is along one axis $(x)$. So the energy equation for a central force can be simplified into a 1-D energy equation with an additional $r$ term. By definition, the potential energy will depend on position alone. So we can combine the two $r-$terms into an *effective potential energy*, $U_{eff}$:
+This should look familiar. This is a 1-D energy equation. You have the energy entirely expressed along one coordinate axis. For example, when we looked at a mass and spring, $K = \frac{1}{2} m\dot{x}^{2}$ and $U = \frac{1}{2} kx^{2}$, such that $E = \frac{1}{2} m\dot{x}^{2}+ \frac{1}{2} kx^{2}$, all the energy is along one axis $(x)$. So the energy equation for a central force can be simplified into a 1-D energy equation with an additional $r$ term. By definition, the potential energy will depend on position alone. So we can combine the two $r-$terms into an *effective potential energy*, $U_{eff}$:
 
 $$
 U_{eff}= \frac{1}{2} \frac{L^{2}}{mr^{2}} + U(r)
@@ -294,7 +282,7 @@ The effective potential energy is a mathematical description of two energy terms
 
 ::::
 
-Combing back to our energy equation, we have:
+Coming back to our energy equation, we have:
 
 $$
 E = \frac{1}{2} m\dot{r}^{2}+ U_{eff}
@@ -736,7 +724,7 @@ Based on its orbital properties, it was determined that ‘Oumuamua originated f
 
 <!-- Source PDF page 231; printed label 222. -->
 
-“1I”, where the “I” indicates its an interstellar object.
+“1I”, where the “I” indicates it's an interstellar object.
 
 :::{figure} ../images/figures/figure-10-6.png
 :label: fig-10-6
@@ -802,13 +790,13 @@ If the central force potential is known, one can predict the motion of objects. 
 
 ::::{admonition} Continued
 
-A key central force is gravity. Gravity follows an inverse-square law, and its effective potential has a specific shape that with a local minimum that represents a gravitational well where a particle can become bound to the central mass creating the gravitational field. We describe the motion of objects that are bound to the central mass as orbits. The shape of the orbit depends on the amount of energy.
+A key central force is gravity. Gravity follows an inverse-square law, and its effective potential has a specific shape with a local minimum that represents a gravitational well where a particle can become bound to the central mass creating the gravitational field. We describe the motion of objects that are bound to the central mass as orbits. The shape of the orbit depends on the amount of energy.
 
 1. For $E = E_{\min}$, the orbit is circular (there is only one unique solution for radius).
 
 2. For $E_{\min}< E < 0$, the orbit is elliptical (there are two real solutions for radius).
 
-3. $E > 0$, the orbit is unbound (there are two solutions for radius, but only one is one is physical)
+3. $E > 0$, the orbit is unbound (there are two solutions for radius, but only one is physical)
 
 Elliptical orbits are discussed more in [Chapter 11](#ch-11).
 
@@ -816,41 +804,49 @@ Elliptical orbits are discussed more in [Chapter 11](#ch-11).
 
 ::::{admonition} Important Equations
 
-**Central Force: Energy:**
+**Central Force:**
 
 $$
-\vec{F}=f(r)\hat{r}=m\vec{a}_r=m(\ddot{r}-\dot{\theta}^2r)\hat{r},
-\qquad
-E=\frac12m\dot{r}^2+\frac12\frac{L^2}{mr^2}+U(r)
-=\frac12m\dot{r}^2+U_{eff}.
-$$
-
-$$
-\vec{F}=-\vec{\nabla}U=-\frac{\partial U}{\partial r}\hat{r}.
+\vec{F}=f(r)\hat{r}=m\vec{a}_r=m(\ddot{r}-\dot{\theta}^2r)\hat{r}
 $$
 
 **Potential of a Central Force:**
 
+$$
+\vec{F}=-\vec{\nabla}U=-\frac{\partial U}{\partial r}\hat{r}
+$$
+
 **Constant Angular Momentum:**
 
 $$
-U_{eff}= \frac{1}{2} \frac{L^{2}}{mr^{2}} + U(r)
-$$
-
-$L = m\dot{\theta}r^{2}$ = constant
-
-$$
-\mathrm{Effective} \mathrm{Force}:
+L = m\dot{\theta}r^{2} = \mathrm{constant}
 $$
 
 **Kinetic Energy:**
 
 $$
+K = \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L^{2}}{mr^{2}}
+$$
+
+**Energy:**
+
+$$
 \begin{aligned}
-2 \\
-\vec{F}_{eff}&= -\vec{\nabla}U_{eff} \\
-K &= \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L}{mr^{2}}
+E &= \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L^{2}}{mr^{2}} + U(r) \\
+E &= \frac{1}{2} m\dot{r}^{2}+ U_{eff}
 \end{aligned}
+$$
+
+**Effective Potential Energy:**
+
+$$
+U_{eff}= \frac{1}{2} \frac{L^{2}}{mr^{2}} + U(r)
+$$
+
+**Effective Force:**
+
+$$
+\vec{F}_{eff}= -\vec{\nabla}U_{eff}
 $$
 
 **Position of Saddle Point and Minimum Energy for Gravity:**

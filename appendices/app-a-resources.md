@@ -118,11 +118,7 @@ $$
 (sec-A-4)=
 ## A.4 Moment of Inertia
 
-The Moment of Inertia, $I$, represents how the mass of a system is distributed as a function of position and describes how efficiently the system rotates. Here is a chart of basic shapes and their moments of inertia. For information on how to calculate Moments of Inertia see
-
-$$
-7.2.2.
-$$
+The Moment of Inertia, $I$, represents how the mass of a system is distributed as a function of position and describes how efficiently the system rotates. Here is a chart of basic shapes and their moments of inertia. For information on how to calculate Moments of Inertia see [Section 7.2.2](#sec-7-2-2).
 
 :::{image} ../images/figures/figure-p279-1.png
 :alt: Illustration from source PDF page 279
@@ -140,7 +136,7 @@ This section gives the full coordinate transformations for the gradient, diverge
 (sec-A-5-1)=
 ### A.5.1 General Coordinates
 
-In general, consider a 3-D coordinate system $c_{1}, c_{2}$, and $c_{3}$ with orthogonal unit vectors defined as $\hat{e}_{1}, \hat{e}_{2}$, and $\hat{e}_{2}$. Note that $c_{1}, c_{2}$, and $c_{3}$ are merely stand-ins for $x,y,z$ or $r,\theta,\varphi$.
+In general, consider a 3-D coordinate system $c_{1}, c_{2}$, and $c_{3}$ with orthogonal unit vectors defined as $\hat{e}_{1}, \hat{e}_{2}$, and $\hat{e}_{3}$. Note that $c_{1}, c_{2}$, and $c_{3}$ are merely stand-ins for $x,y,z$ or $r,\theta,\varphi$.
 
 In this general 3-D coordinate system, a line element would be
 
@@ -167,7 +163,12 @@ $$
 and the curl of a vector $\vec{A}$ is:
 
 $$
-\vec{\nabla} \times \vec{A} = \frac{1}{h_{1}h_{2}h_{3}} | \frac{h_{1}\partial \hat{e}_{1}}{h\partial _{1}cA^{1}_{1}} \frac{h_{2}\partial \hat{e}_{2}}{h\partial _{2}cA^{2}_{2}} \frac{h_{3}\partial \hat{e}_{3}}{h\partial _{3}cA^{3}_{3}} |
+\vec{\nabla} \times \vec{A} = \frac{1}{h_{1}h_{2}h_{3}}
+\begin{vmatrix}
+h_{1}\hat{e}_{1} & h_{2}\hat{e}_{2} & h_{3}\hat{e}_{3} \\
+\dfrac{\partial}{\partial c_{1}} & \dfrac{\partial}{\partial c_{2}} & \dfrac{\partial}{\partial c_{3}} \\
+h_{1}A_{1} & h_{2}A_{2} & h_{3}A_{3}
+\end{vmatrix}
 $$
 
 (sec-A-5-2)=
@@ -186,7 +187,12 @@ $$
 <!-- Source PDF page 281; printed label 272. -->
 
 $$
-\vec{\nabla} \times \vec{A} = | \frac{\partial \hat{x}}{\partial Ax_{1}} \frac{\partial \hat{y}}{\partial Ay_{2}} \frac{\partial \hat{z}}{\partial Az_{3}} |
+\vec{\nabla} \times \vec{A} =
+\begin{vmatrix}
+\hat{x} & \hat{y} & \hat{z} \\
+\dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z} \\
+A_{1} & A_{2} & A_{3}
+\end{vmatrix}
 $$
 
 where $\hat{x}$ is used for $\hat{\imath}, \hat{y}$ is used for $\hat{\jmath}$ , and $\hat{z}$ is used for $\hat{k}$ .
@@ -197,7 +203,10 @@ where $\hat{x}$ is used for $\hat{\imath}, \hat{y}$ is used for $\hat{\jmath}$ ,
 In cylindrical coordinates, $c_{1}= r, c_{2}= \theta$, and $c_{3}= z$, where
 
 $$
-x = r\cos \varphi y = r\sin \varphi
+\begin{aligned}
+x &= r\cos \varphi \\
+y &= r\sin \varphi
+\end{aligned}
 $$
 
 For cylindrical coordinates, $h_{1}= 1, h_{2}= r$, and $h_{3}$ = 1. Note, these terms should look familiar. That is, for a cylinder, a tiny section of volume is given by:
@@ -217,7 +226,12 @@ $$
 $$
 
 $$
-\vec{\nabla} \times \vec{A} = \frac{1}{r} | \frac{\partial \hat{r}}{\partial Ar_{1}} \frac{r\partial \hat{\theta}}{r\partial A\theta _{2}} \frac{\partial \hat{z}}{\partial Az_{3}} |
+\vec{\nabla} \times \vec{A} = \frac{1}{r}
+\begin{vmatrix}
+\hat{r} & r\hat{\theta} & \hat{z} \\
+\dfrac{\partial}{\partial r} & \dfrac{\partial}{\partial \theta} & \dfrac{\partial}{\partial z} \\
+A_{1} & rA_{2} & A_{3}
+\end{vmatrix}
 $$
 
 (sec-A-5-4)=
@@ -226,7 +240,11 @@ $$
 In spherical coordinates, $c_{1}= r, c_{2}= \theta$, and $c_{3}= \varphi$, where
 
 $$
-x = r\sin \theta \cos \varphi y = r\sin \theta \sin \varphi z = r\cos \theta
+\begin{aligned}
+x &= r\sin \theta \cos \varphi \\
+y &= r\sin \theta \sin \varphi \\
+z &= r\cos \theta
+\end{aligned}
 $$
 
 For spherical coordinates, $h_{1}= 1, h_{2}= r$, and $h_{3}= r\sin \theta$. Note, these terms should look familiar. That is, for a sphere, a tiny section of volume is given by:
@@ -248,9 +266,10 @@ $$
 $$
 
 $$
-\begin{aligned}
-\hat{r} r\hat{\theta} r\sin \theta \hat{\varphi} \\
-\vec{\nabla} \times \vec{A} &= \frac{1}{r^{2}\sin \theta} | \frac{\partial}{\partial r} \frac{\partial}{\partial \theta} \frac{\partial}{\partial \varphi} | \\
-A_{1}rA_{2}r\sin \theta A_{3}
-\end{aligned}
+\vec{\nabla} \times \vec{A} = \frac{1}{r^{2}\sin \theta}
+\begin{vmatrix}
+\hat{r} & r\hat{\theta} & r\sin\theta\,\hat{\varphi} \\
+\dfrac{\partial}{\partial r} & \dfrac{\partial}{\partial \theta} & \dfrac{\partial}{\partial \varphi} \\
+A_{1} & rA_{2} & r\sin\theta\,A_{3}
+\end{vmatrix}
 $$

@@ -87,7 +87,7 @@ The above equations highlight that there are several ways to write a parameter i
 
 ::::{admonition} Definitions
 
-The time derivative of position gives you *instantaneous* velocity and the time derivative of velocity gives you the *instantaneous* acceleration. These are instantaneous because they correspond to the velocity or acceleration in that exact instant or moment in time. By contrast, the *average* velocity $(\bar{v} = \frac{\Delta \vec{r}}{\Delta t})$ and *average* acceleration $(\bar{a} = \frac{\Delta \vec{v}}{\Delta t}$ ) are measured over a longer duration of time, $\Delta$t. The average quantity is denoted by a bar (–) over the variable.
+The time derivative of position gives you *instantaneous* velocity and the time derivative of velocity gives you the *instantaneous* acceleration. These are instantaneous because they correspond to the velocity or acceleration in that exact instant or moment in time. By contrast, the *average* velocity $(\bar{v} = \frac{\Delta \vec{r}}{\Delta t})$ and *average* acceleration $(\bar{a} = \frac{\Delta \vec{v}}{\Delta t})$ are measured over a longer duration of time, $\Delta t$. The average quantity is denoted by a bar (–) over the variable.
 
 Note that in the limit as $\Delta t \rightarrow 0, \frac{\Delta \vec{r}}{\Delta t} \rightarrow \vec{v}$ and $\frac{\Delta v}{\Delta t} \rightarrow \vec{a}$. So for a very short duration of time, $\Delta t \rightarrow$ d$t$, the average velocity and average acceleration are equivalent to the instantaneous quantities.
 
@@ -154,7 +154,7 @@ $$
 \alpha = \frac{\mathrm{d}\omega}{\mathrm{d}t} = \frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}} = \ddot{\theta}
 $$
 
-The units of $\omega$ is rad $\mathrm{s}^{-1}$ and the units of $\alpha$ are rad $\mathrm{s}^{-2}$, although we often drop the radians and give $\mathrm{s}^{-1}$ and $\mathrm{s}^{-2}$, respectively. If you see $\mathrm{s}^{-1}$ or $\mathrm{s}^{-2}$ for $\omega$ and $\alpha$, the radians are implied.
+The units of $\omega$ are rad $\mathrm{s}^{-1}$ and the units of $\alpha$ are rad $\mathrm{s}^{-2}$, although we often drop the radians and give $\mathrm{s}^{-1}$ and $\mathrm{s}^{-2}$, respectively. If you see $\mathrm{s}^{-1}$ or $\mathrm{s}^{-2}$ for $\omega$ and $\alpha$, the radians are implied.
 
 For a rigid body, all points in the object move with the same angular velocity and angular acceleration because every point is moving together (the object doesn’t deform during rotation).
 
@@ -178,7 +178,7 @@ r &= \sqrt{x^{2}+y^{2}} \\
 \end{aligned}
 $$
 
-Of course, $r$ and $\theta$ are vector quantities, where $\hat{r}$ points away from the origin of the system and $\hat{\theta}$ is orthogonal to $\hat{r}$ in the counter-clockwise direction (usually). Note that the hat symbol indicates a unit vector (direction only). [Figure 1.4](#fig-1-4) shows these vector directions.
+Of course, $r$ and $\theta$ are the polar coordinates (scalars), with unit vectors $\hat{r}$ and $\hat{\theta}$, where $\hat{r}$ points away from the origin of the system and $\hat{\theta}$ is orthogonal to $\hat{r}$ in the counter-clockwise direction (usually). Note that the hat symbol indicates a unit vector (direction only). [Figure 1.4](#fig-1-4) shows these vector directions.
 
 The position vector in plane polar coordinates can be written as $\vec{r} = r\hat{r}$ and the angle vector can be written as $\vec{\theta} = \theta \hat{\theta}$ .
 
@@ -187,7 +187,7 @@ The position vector in plane polar coordinates can be written as $\vec{r} = r\ha
 :::{figure} ../images/figures/figure-1-4.png
 :label: fig-1-4
 :enumerator: 1.4
-:alt: Figure 1.4 from the source textbook
+:alt: Plane polar unit vectors r-hat pointing radially outward and theta-hat tangent counterclockwise.
 :width: 228px
 
 Visual definitions of $\hat{r}$ and $\hat{\theta}$ in plane polar coordinates. The unit vector for radius extends away from the origin and the unit vector for angle points counter clockwise. Note that $\hat{\theta}$ is always tangent to the radius by definition.
@@ -219,14 +219,14 @@ $$
 \hat{\theta} = -\sin \theta \hat{\imath} + \cos \theta \hat{\jmath}
 $$
 
-Note that the Cartesian unit vectors $(\hat{\imath}, \hat{\jmath}$ ) are fixed, whereas the polar-axes $(\hat{r}, \hat{\theta}$ ) are moving relative to them because the radial vectors is moving.
+Note that the Cartesian unit vectors $(\hat{\imath}, \hat{\jmath}$ ) are fixed, whereas the polar-axes $(\hat{r}, \hat{\theta}$ ) are moving relative to them because the radial vector is moving.
 
 <!-- Source PDF page 16; printed label 7. -->
 
 :::{figure} ../images/figures/figure-1-5.png
 :label: fig-1-5
 :enumerator: 1.5
-:alt: Figure 1.5 from the source textbook
+:alt: Polar unit vectors r-hat and theta-hat resolved into fixed Cartesian i-hat and j-hat components.
 :width: 228px
 
 Sketch showing how $\hat{r}$ and $\hat{\theta}$ can be described in terms of $\hat{\imath}$ and $\hat{\jmath}$ . Note that the Cartesian system $(\hat{\imath}$ and $\hat{\jmath}$ ) do not change with time, but the plane polar system $(\hat{r}$ and $\hat{\theta}$ ) do change with time.
@@ -390,7 +390,7 @@ $$
 x = \frac{1}{2} a_{x}t^{2}+ v_{x,0}t + x_{0}
 $$
 
-Hopefully these equations look familiar. Of course, since position and velocity are vectors quantities, you need to solve for the motion along the different coordinate axes (e.g., $x,y,z)$ separately. For example, the acceleration may be zero along one axis and non-zero along another axis (e.g., such is the case with gravity).
+Hopefully these equations look familiar. Of course, since position and velocity are vector quantities, you need to solve for the motion along the different coordinate axes (e.g., $x,y,z)$ separately. For example, the acceleration may be zero along one axis and non-zero along another axis (e.g., such is the case with gravity).
 
 Note that if you take the time derivative of $x = \frac{1}{2} a_{x}t^{2}+v_{x,0}t+x_{0}$, you recover the equation for $v_{x}= a_{x}t + v_{x,0}$ as you should. In general, it is a good idea to check the consistency of your equations.
 
@@ -404,7 +404,7 @@ The above equations of motion for $v_{x}$ and $x$ (and the equivalent for $y$ an
 
 ::::{admonition} Real World Applications
 
-We typically use Standard Internation (SI) units to describe position, velocity, acceleration, and time. But historically and around the world, there have been may different ways of looking at those measurements. One interesting example is the water clock from the Babylonian Empire, where time had the same units as mass. These clocks used the weight of water passing through the clock as a measure of time. Since the Babylonian Empire wasn’t directly on the equator, the amount of water used to break up the day had to be adjusted throughout the year.
+We typically use Standard International (SI) units to describe position, velocity, acceleration, and time. But historically and around the world, there have been many different ways of looking at those measurements. One interesting example is the water clock from the Babylonian Empire, where time had the same units as mass. These clocks used the weight of water passing through the clock as a measure of time. Since the Babylonian Empire wasn’t directly on the equator, the amount of water used to break up the day had to be adjusted throughout the year.
 
 ::::
 
@@ -416,7 +416,7 @@ We can also connect circular motion to linear motion. Consider two points associ
 :::{figure} ../images/figures/figure-1-6.png
 :label: fig-1-6
 :enumerator: 1.6
-:alt: Figure 1.6 from the source textbook
+:alt: Two equal-length radius vectors at angles theta-1 and theta-2 on a circle about a fixed axis.
 :width: 205px
 
 The system is rotating from position $\theta _{1}$ to $\theta _{2}$. The vectors $\vec{r}_{1}$ and $\vec{r}_{2}$ represent those two positions. Note that $|\vec{r}_{1}| = |\vec{r}_{2}|$ in this simple case.
@@ -482,35 +482,11 @@ This is a 1-D motion problem under constant acceleration $(a = -g \hat{y}$ ). Fi
 :::{figure} ../images/figures/figure-1-7.png
 :label: fig-1-7
 :enumerator: 1.7
-:alt: Figure displays the vertical motion of a ball.
+:alt: Cartoon of a ball thrown upward from A through peak B then down through C to ground D.
 :width: 248px
 
-Cartoon of 1-D vertical motion.
+Cartoon of 1-D vertical motion. For vertical motion upward with an acceleration downward, the ball rises initially (A $\rightarrow$ B) and slows down as it moves upward until it has $v = 0$ (point B at the peak), before it falls back down again (B $\rightarrow$ D).
 :::
-
-$$
-\mathrm{For} \mathrm{vertical} \mathrm{motion} \mathrm{upward} \mathrm{with} \mathrm{an} \mathrm{ac}-
-$$
-
-$$
-\mathrm{celeration} \mathrm{downward}, \mathrm{the} \mathrm{ball} \mathrm{rises} \mathrm{ini}-
-$$
-
-$$
-\mathrm{tially} (\mathrm{A} \rightarrow \mathrm{B}) \mathrm{and} \mathrm{slows} \mathrm{down} \mathrm{as} \mathrm{it}
-$$
-
-$$
-\mathrm{moves} \mathrm{upward} \mathrm{until} \mathrm{it} \mathrm{has} v = 0 (\mathrm{point}
-$$
-
-$$
-\mathrm{B} \mathrm{at} \mathrm{the} \mathrm{peak}), \mathrm{before} \mathrm{it} \mathrm{falls} \mathrm{back} \mathrm{down}
-$$
-
-$$
-\mathrm{again} (\mathrm{B} \rightarrow \mathrm{D}).
-$$
 
 ::::
 
@@ -518,7 +494,7 @@ $$
 
 Note that we are using the $y$ axis only at this time because all the motion is in the vertical.
 
-1. **What is the maximum height that the ball reaches?** This is the height at point B in [Figure 1.7](#fig-1-7). This problem is a linear motion question with constant acceleration. We just solved that equation in [Section 1.3](#sec-1-3), so we will need to use the equation, $y = \frac{1}{2} at^{2}+ v_{y,0}t + r_{0}$ to solve for $y$ when the ball is at its heights point. We aren’t given that time when this happens, but we can solve for it, because when the ball has reached its maximum height, $v_{y}$ = 0 (requirement of the physics). So the first step is to get the time when the ball has reached its maximum height.
+1. **What is the maximum height that the ball reaches?** This is the height at point B in [Figure 1.7](#fig-1-7). This problem is a linear motion question with constant acceleration. We just solved that equation in [Section 1.3](#sec-1-3), so we will need to use the equation, $y = \frac{1}{2} at^{2}+ v_{y,0}t + r_{0}$ to solve for $y$ when the ball is at its highest point. We aren’t given that time when this happens, but we can solve for it, because when the ball has reached its maximum height, $v_{y}$ = 0 (requirement of the physics). So the first step is to get the time when the ball has reached its maximum height.
 
 $$
 v_{y}= at + v_{y,0}=\Rightarrow \mathrm{see} \mathrm{Section} 1.3
@@ -561,17 +537,9 @@ Now we have our equation for the maximum height given our initial velocity $v_{y
 
 ::::{tip} Quick Questions
 
-(a) Check the dimensional analysis for $t$ and $y$ in the above equations. (b) What is the maximum height of a ball when $v_{y,0}$ = 10 m $\mathrm{s}^{-1}$ and $r_{0}= 1.8$
+(a) Check the dimensional analysis for $t$ and $y$ in the above equations. (b) What is the maximum height of a ball when $v_{y,0}$ = 10 m $\mathrm{s}^{-1}$ and $r_{0}=1.8\,\mathrm{m}$ (assume $g = 9.8\,\mathrm{m}\,\mathrm{s}^{-2}$)?
 
-$$
-\mathrm{m} (\mathrm{assume} g = 9.8 \mathrm{m} \mathrm{s}^{-2})?
-$$
-
-(c) Consider the case where the acceleration is positive, not negative. What
-
-$$
-\mathrm{does} t = \frac{-v_{y,0}}{a} \mathrm{mean} \mathrm{for} \mathrm{a} \mathrm{positive} \mathrm{acceleration}?
-$$
+(c) Consider the case where the acceleration is positive, not negative. What does $t = \frac{-v_{y,0}}{a}$ mean for a positive acceleration?
 
 ::::
 
@@ -619,13 +587,13 @@ A wheel rotating at an angular speed of $\omega _{0}$ is allowed to decelerate. 
 
 Let’s first consider the motion. The wheel is fixed in place and spinning along an axis. The rate at which it is spinning is slowing down with time, but we do not know the angular acceleration (only that it is negative). We also do not know how long it takes to come to rest. But we are given the initial angular speed $(\omega _{0})$, and the speed $\omega _{\tau}$ at a specific time $\tau$, where $\omega _{0}> \omega _{\tau}$. We also know the final angular speed $\omega _{t}$ = 0 at time $t$.
 
-To solve this problem, we need to look at equations for angular motion. With constant angular acceleration, these have the same form as the equations for rotational motion that we went through earlier in [Section 1.2](#sec-1-2).
+To solve this problem, we need to look at equations for angular motion. With constant angular acceleration, these have the same form as the equations for rotational motion that we went through earlier in [Section 1.3](#sec-1-3).
 
 $$
 \omega = \alpha t + \omega _{0}, \theta = \frac{1}{2} \alpha t^{2}+ \omega _{0}t + \theta _{0}
 $$
 
-1. **How long does it take the wheel to come to a rest?** We will use the equation for angular speed to solve this problem. (You may notice a degree of similarity with the last problem. This was intentional to show the how similar problems can have slight differences in answers and methodology.)
+1. **How long does it take the wheel to come to a rest?** We will use the equation for angular speed to solve this problem. (You may notice a degree of similarity with the last problem. This was intentional to show how similar problems can have slight differences in answers and methodology.)
 
 Here, we don’t know $\alpha$ or $t$. If we set $\omega$ = 0 at time $t$, we have 0 = $\alpha t+\omega _{0}$, where the only known quantity is $\omega _{0}$. But we can solve for $\alpha$ because we are told that the acceleration is constant. That means that the instantaneous acceleration at any time is equal to the average acceleration between any fixed time. Between $t$ = 0 and $t = \tau$, the angular velocity decreased from $\omega _{0}$ to $\omega _{\tau}$ such that the average acceleration is:
 
@@ -673,17 +641,9 @@ $$
 
 Note that we are interested in the angular displacement. As such, the initial angle $\theta _{0}$ does not matter. We are counting revolutions from $t$ = 0 where $\theta _{0}$ is our reference angle and set to $\theta _{0}$ = 0.
 
-(a) How many revolutions do you get if $\omega _{0}$ = 240 revolutions per minute,
+(a) How many revolutions do you get if $\omega _{0}$ = 240 revolutions per minute, $\omega _{\tau}= 180$ revolutions per minute, and $\tau = 10$ s?
 
-$$
-\omega _{\tau}= 180 \mathrm{revolutions} \mathrm{per} \mathrm{minute}, \mathrm{and} \tau = 10 \mathrm{s}?
-$$
-
-(b) How many revolutions do you get if $\omega _{0}$ = 19 radians per second, $\omega _{\tau}$ = 12
-
-$$
-\mathrm{radians} \mathrm{per} \mathrm{second}, \mathrm{and} \tau = 1 \mathrm{minute}?
-$$
+(b) How many revolutions do you get if $\omega _{0}$ = 19 radians per second, $\omega _{\tau}$ = 12 radians per second, and $\tau = 1$ minute?
 
 ::::
 
@@ -736,13 +696,13 @@ $$
 (sec-1-5-2)=
 ### 1.5.2 Vector Cross Product
 
-For any two vectors, $\vec{a}$ and$\vec{b}$, the vector cross product is given by:
+For any two vectors, $\vec{a}$ and $\vec{b}$, the vector cross product is given by:
 
 $$
 \vec{c} = \vec{a} \times \vec{b}
 $$
 
-Unlike the dot product, the vector cross product results in a vector, which has both magnitude and direction, and the vector $\vec{c}$ is perpendicular to both $\vec{a}$ and $\vec{b}$. In other words, the vector cross product $\vec{c}$ is normal (perpendicular) to a plane that is defined by $\vec{a}$ and$\vec{b}$.
+Unlike the dot product, the vector cross product results in a vector, which has both magnitude and direction, and the vector $\vec{c}$ is perpendicular to both $\vec{a}$ and $\vec{b}$. In other words, the vector cross product $\vec{c}$ is normal (perpendicular) to a plane that is defined by $\vec{a}$ and $\vec{b}$.
 
 The magnitude of $\vec{c}$ can be given as:
 
@@ -769,9 +729,14 @@ The matrix determinant method gives you the full vector solution for the cross p
 
 $$
 \begin{aligned}
-\hat{\imath} \hat{\jmath} \hat{k} \\
-\vec{a} \times \vec{b} &= |a_{x}a_{y}a_{z}| \\
-b_{x}b_{y}b_{z} \\
+\vec{a} \times \vec{b}
+&=
+\begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+a_{x} & a_{y} & a_{z} \\
+b_{x} & b_{y} & b_{z}
+\end{vmatrix}
+\\
 &= (a_{y}b_{z}- a_{z}b_{y})\hat{\imath} + (a_{z}b_{x}- a_{x}b_{z})\hat{\jmath} + (a_{x}b_{y}- a_{y}b_{x})\hat{k}
 \end{aligned}
 $$
@@ -839,11 +804,7 @@ where $f(x)$ is the function and $x_{0}$ is a reference value for the function a
 
 For Equation 1.5, consider values of $x \approx x_{0}$. That is, you are only looking at cases of your variable, $x$ when it is close to your reference value. In this case, $x-x_{0}$ is small. Thus, higher order terms like $(x-x_{0})^{2}$ and $(x-x_{0})^{3}$ are very small and can be dropped. Suddenly, your function has become very simple.
 
-Let’s look at an example. Consider the Taylor series expansion for $e^{x}$ for small values of $x$. In this case, we can set $x_{0}$ = 0 because we are looking at small values of $x$. The expansion
-
-$$
-\mathrm{is}:
-$$
+Let’s look at an example. Consider the Taylor series expansion for $e^{x}$ for small values of $x$. In this case, we can set $x_{0}$ = 0 because we are looking at small values of $x$. The expansion is:
 
 $$
 f(x) \approx f(0) + f^{\prime}(0)(x) + \frac{1}{2} f^{\prime \prime}(0)(x)^{2}+ \frac{1}{3!} f^{\prime \prime \prime}(0)(x)^{3}+ \cdot \cdot \cdot +
@@ -877,7 +838,7 @@ where we drop the higher order terms because if $x$ is small $(|x| \ll$ 1), then
 :::{figure} ../images/figures/figure-1-9.png
 :label: fig-1-9
 :enumerator: 1.9
-:alt: Graph showing how well the Taylor approximation applies to an exponetial curve.
+:alt: Graph showing how well the Taylor approximation applies to an exponential curve.
 :width: 403px
 
 The left figure compares $y = e^{x}$ with the Taylor approximation of $y = 1+x$ for different values of $x$. The inset shows a zoom-in of the region between $x = -0.3$ and $x = 0.3$.
@@ -998,13 +959,13 @@ The first gravitational waves were detected on September 14, 2015 by the Laser I
 :::{figure} ../images/figures/figure-1-10.png
 :label: fig-1-10
 :enumerator: 1.10
-:alt: Figure 1.10 from the source textbook
+:alt: Schematic of LIGO interferometer with split laser beams reflecting from distant mirrors to a detector.
 :width: 644px
 
-Cartoon showing the basic concept behind the LIGO experiment. Laser light is split into two orthogonal beams and reflects off distant mirrors that are 4 km away. The reflected light combine at a detector. The distance between the mirrors is so precise that the reflected waves should destructively interfere at the detector. A gravitational wave alters the mirror separations causing the combined wave to produce an interference pattern instead.
+Cartoon showing the basic concept behind the LIGO experiment. Laser light is split into two orthogonal beams and reflects off distant mirrors that are 4 km away. The reflected light combines at a detector. The distance between the mirrors is so precise that the reflected waves should destructively interfere at the detector. A gravitational wave alters the mirror separations causing the combined wave to produce an interference pattern instead.
 :::
 
-The slight change in distance from a passing gravitational wave alters the interference pattern measured at the detector. [Figure 1.11](#fig-1-11) shows the gravitational wave signal from the first detection, which were generated by a pair of merging intermediate-mass black holes located 1.3 billion light years away. The interference pattern is often described as a “chirp”, because it rises to higher frequencies toward the end. Research into gravitation waves include LIGO in the USA, VIRGO in Italy, and GEO600 in Germany, with a third site, KAGRA, under construction in Japan. Multiple experiments all over the world are necessary to pinpoint the direction of the gravitational wave events because each site will
+The slight change in distance from a passing gravitational wave alters the interference pattern measured at the detector. [Figure 1.11](#fig-1-11) shows the gravitational wave signal from the first detection, which was generated by a pair of merging intermediate-mass black holes located 1.3 billion light years away. The interference pattern is often described as a “chirp”, because it rises to higher frequencies toward the end. Research into gravitational waves includes LIGO in the USA, VIRGO in Italy, and GEO600 in Germany, with a third site, KAGRA, under construction in Japan. Multiple experiments all over the world are necessary to pinpoint the direction of the gravitational wave events because each site will
 
 <!-- Source PDF page 32; printed label 23. -->
 
@@ -1055,7 +1016,7 @@ $$
 
 where there is a radial and transverse $(\theta)$ component to velocity and acceleration.
 
-For purely circular rotation, we the coordinates are easy to relate:
+For purely circular rotation, the coordinates are easy to relate:
 
 $$
 \vec{r} = r_{0}\cos (\omega t)\hat{\imath} + r_{0}\sin (\omega t)\hat{\jmath}
@@ -1073,7 +1034,7 @@ $$
 
 Note that we assume that the rotation rate is not changing.
 
-This Chapter also described the vector dot $(\vec{a}\cdot \vec{b})$ and vector cross product $(\vec{a}\times \vec{b})$, which will be used more explicitly in later chapters. The vector dot product is essentially a projection of $\vec{a}$ onto $\vec{b}$ and yields a scalar answer. The vector cross product gives the vector that is normal to the surface described by $\vec{a}$ and$\vec{b}$.
+This Chapter also described the vector dot $(\vec{a}\cdot \vec{b})$ and vector cross product $(\vec{a}\times \vec{b})$, which will be used more explicitly in later chapters. The vector dot product is essentially a projection of $\vec{a}$ onto $\vec{b}$ and yields a scalar answer. The vector cross product gives the vector that is normal to the surface described by $\vec{a}$ and $\vec{b}$.
 
 Finally, the Chapter introduced Taylor series expansion as a method to simplify complex functions. We will use this method to more efficiently solve physics problems.
 
@@ -1142,7 +1103,7 @@ $$
 |\vec{a} \times \vec{b}| = |\vec{a}||\vec{b}|\sin \theta
 $$
 
-**Taylor series approximation (for small** $x)$**:**
+**Taylor series approximation (for small $x$):**
 
 $$
 f(x) \approx f(0) + f^{\prime}(0)(x) + \frac{1}{2} f^{\prime \prime}(0)(x)^{2}+ \frac{1}{3!} f^{\prime \prime \prime}(0)(x)^{3}+ \cdot \cdot \cdot +
@@ -1169,7 +1130,7 @@ The equation of acceleration for a system is $a = Ce^{-t/\tau}$. If the system s
 
 ::::{admonition} Practice Problem 1-2
 
-Two vectors are $\vec{a} = c\hat{\imath}+4c\hat{\jmath}$ and$\vec{b} = 3\hat{\imath}+5\hat{\jmath}$ , where $c$ is a constant. What is the vector dot product $\vec{a} \cdot \vec{b}$ and cross product $\vec{a} \times \vec{b}$?
+Two vectors are $\vec{a} = c\hat{\imath}+4c\hat{\jmath}$ and $\vec{b} = 3\hat{\imath}+5\hat{\jmath}$, where $c$ is a constant. What is the vector dot product $\vec{a} \cdot \vec{b}$ and cross product $\vec{a} \times \vec{b}$?
 
 ::::
 
@@ -1177,7 +1138,7 @@ Two vectors are $\vec{a} = c\hat{\imath}+4c\hat{\jmath}$ and$\vec{b} = 3\hat{\im
 
 ::::{admonition} Practice Problem 1-3
 
-Two vectors are $\vec{a} = 2k\hat{\imath}+2\hat{\jmath}$ and$\vec{b} = 3\hat{\imath}+3k\hat{\jmath}$ , where $k$ is a constant. What is the angle between these vectors?
+Two vectors are $\vec{a} = 2k\hat{\imath}+2\hat{\jmath}$ and $\vec{b} = 3\hat{\imath}+3k\hat{\jmath}$, where $k$ is a constant. What is the angle between these vectors?
 
 ::::
 
@@ -1195,7 +1156,7 @@ $$
 \end{aligned}
 $$
 
-d) What value(s) of the constant $c$ in part c) would make $\vec{a}$ and$\vec{b}$ perpendicular?
+d) What value(s) of the constant $c$ in part c) would make $\vec{a}$ and $\vec{b}$ perpendicular?
 
 ::::
 

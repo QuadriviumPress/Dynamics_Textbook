@@ -15,7 +15,7 @@
 
 ::::
 
-In this chapter, we will discuss rotational motion in the context of angular momentum and torques, and we will apply Newton’s Law’s to force problems that involve rotation.
+In this chapter, we will discuss rotational motion in the context of angular momentum and torques, and we will apply Newton’s Laws to force problems that involve rotation.
 
 (sec-7-1)=
 ## 7.1 Angular Momentum
@@ -59,16 +59,15 @@ $$
 Now, consider the time derivative of angular momentum. For simplicity, let’s look at a single particle of mass $m_{i}$ located at a distance $r_{i}$ from the origin:
 
 $$
-\frac{\mathrm{d}\vec{l}_{i}}{\mathrm{d}t} = \frac{\mathrm{d}}{\mathrm{dd}t} (\vec{r}_{i}\times \vec{p}_{i})
+\begin{aligned}
+\frac{\mathrm{d}\vec{l}_{i}}{\mathrm{d}t} &= \frac{\mathrm{d}}{\mathrm{d}t} (\vec{r}_{i}\times \vec{p}_{i}) \\
+&= \frac{\mathrm{d}}{\mathrm{d}t}[\vec{r}_{i}\times (m_{i}\dot{\vec{r}}_{i})] =\Rightarrow \mathrm{assume} \mathrm{mass} \mathrm{is} \mathrm{constant} \\
+&= m_{i}(\dot{\vec{r}}_{i}\times \dot{\vec{r}}_{i}+ \vec{r}_{i}\times \ddot{\vec{r}}_{i}) =\Rightarrow \mathrm{apply} \mathrm{the} \mathrm{time} \mathrm{derivative} \mathrm{to} \mathrm{each} \mathrm{term} \\
+&= m_{i}(0 + \vec{r}_{i}\times \ddot{\vec{r}}_{i}) =\Rightarrow \mathrm{the} \mathrm{cross} \mathrm{product} \mathrm{of} \mathrm{two} \mathrm{identical} \mathrm{vectors} \mathrm{is} \mathrm{zero} \\
+&= \vec{r}_{i}\times (m_{i}\ddot{\vec{r}}_{i}) =\Rightarrow \mathrm{mass} \mathrm{is} \mathrm{a} \mathrm{constant}, \mathrm{so} \mathrm{you} \mathrm{can} \mathrm{put} \mathrm{it} \mathrm{anywhere} \\
+&= \vec{r}_{i}\times \vec{F}_{i}=\Rightarrow \mathrm{recall} \mathrm{that} F = ma = m\ddot{r} \mathrm{for} \mathrm{constant} \mathrm{mass}
+\end{aligned}
 $$
-
-= $[\vec{r}_{i}\times (m_{i}\dot{\vec{r}}_{i})] =\Rightarrow$ assume mass is constant
-
-$$
-\mathrm{d}t
-$$
-
-= $m_{i}(\dot{\vec{r}}_{i}\times \dot{\vec{r}}_{i}+ \vec{r}_{i}\times \ddot{\vec{r}}_{i}) =\Rightarrow$ apply the time derivative to each term = $m_{i}(0 + \vec{r}_{i}\times \ddot{\vec{r}}_{i}) =\Rightarrow$ the cross product of two identical vectors is zero = $\vec{r}_{i}\times (m_{i}\ddot{\vec{r}}_{i}) =\Rightarrow$ mass is a constant, so you can put it anywhere = $\vec{r}_{i}\times \vec{F}_{i}=\Rightarrow$ recall that $F = ma = m\ddot{r}$ for constant mass
 
 We get that the time derivative of the angular momentum equals to the cross product of $\vec{r}$ and $\vec{F}$ . This cross product is also known as the torque, $\vec{\tau}$.
 
@@ -79,7 +78,7 @@ $$ (eq-7-3)
 Now, if we have a collection of particles, then we need to sum up all their individual contributions. This yields:
 
 $$
-\sum_{\vec{\tau}_{i}=} \sum \frac{\mathrm{d}\vec{l}_{i}}{\mathrm{d}t} = \frac{\mathrm{d}\vec{L}}{\mathrm{d}t}
+\sum\vec{\tau}_{i}= \sum \frac{\mathrm{d}\vec{l}_{i}}{\mathrm{d}t} = \frac{\mathrm{d}\vec{L}}{\mathrm{d}t}
 $$ (eq-7-4)
 
 where $\vec{L}$ is the total angular momentum of a system. Thus, we find that the net torque acting on a system is equal to the time derivative of the total angular momentum of that system. Equation 7.4 is Newton’s second law for rotation.
@@ -119,9 +118,7 @@ $$
 
 ::::{admonition} Torques in the Earth-Moon System
 
-$$
-\mathrm{You}\text{’}\mathrm{ve} \mathrm{probably} \mathrm{heard} \mathrm{that} \mathrm{the} \mathrm{Moon} \mathrm{causes} \mathrm{tides} \mathrm{on}
-$$
+You’ve probably heard that the Moon causes tides on
 
 :::{image} ../images/figures/figure-p149-1.png
 :alt: Figure shows a representation of the Earth-Moon system, exaggerating the tidal bulge to show torque.
@@ -129,55 +126,7 @@ $$
 :align: center
 :::
 
-$$
-\mathrm{Earth}. \mathrm{The} \mathrm{tides} \mathrm{don}\text{’}\mathrm{t} \mathrm{occur} \mathrm{right} \mathrm{when} \mathrm{the} \mathrm{Moon}
-$$
-
-$$
-\mathrm{is} \mathrm{overhead}, \mathrm{instead} \mathrm{the} \mathrm{tides} \mathrm{are} \mathrm{ahead} \mathrm{of} \mathrm{the} \mathrm{Moon}.
-$$
-
-$$
-\mathrm{As} \mathrm{a} \mathrm{consequence}, \mathrm{the} \mathrm{Earth}\text{’}\mathrm{s} \mathrm{tides} \mathrm{bulge} \mathrm{at} \mathrm{an} \mathrm{angle}
-$$
-
-$$
-\mathrm{to} \mathrm{the} \mathrm{Moon}. \mathrm{This} \mathrm{bulge} \mathrm{pulls} \mathrm{on} \mathrm{the} \mathrm{Moon} \mathrm{and} \mathrm{the}
-$$
-
-$$
-\mathrm{Moon} \mathrm{in} \mathrm{return} \mathrm{pulls} \mathrm{on} \mathrm{the} \mathrm{bulge} (\mathrm{equal} \mathrm{and} \mathrm{opposite}
-$$
-
-$$
-\mathrm{reactions}), \mathrm{see} \mathrm{figure} (\mathrm{not} \mathrm{to} \mathrm{scale}). \mathrm{Because} \mathrm{these} \mathrm{tiny}
-$$
-
-$$
-\mathrm{forces} \mathrm{are} \mathrm{at} \mathrm{an} \mathrm{angle} \mathrm{relative} \mathrm{to} \mathrm{the} \mathrm{Earth-Moon} \mathrm{radial}
-$$
-
-$$
-\mathrm{line}, \mathrm{they} \mathrm{will} \mathrm{each} \mathrm{cause} \mathrm{a} \mathrm{torque}. \mathrm{The} \mathrm{torque} \mathrm{on} \mathrm{the}
-$$
-
-$$
-\mathrm{Moon} \mathrm{pulls} \mathrm{the} \mathrm{Moon} \mathrm{ahead} \mathrm{in} \mathrm{its} \mathrm{orbit} \mathrm{slightly} (\mathrm{the}
-$$
-
-$$
-\mathrm{Moon} \mathrm{gains} \mathrm{momentum}), \mathrm{whereas} \mathrm{the} \mathrm{torque} \mathrm{on} \mathrm{Earth}
-$$
-
-$$
-\mathrm{drags} \mathrm{the} \mathrm{Earth} \mathrm{slightly} \mathrm{back} \mathrm{in} \mathrm{its} \mathrm{spin} (\mathrm{the} \mathrm{Earth} \mathrm{loses}
-$$
-
-$$
-\mathrm{momentum}). \mathrm{This} \mathrm{is} \mathrm{a} \mathrm{case} \mathrm{of} \mathrm{angular} \mathrm{momentum} \mathrm{con}-
-$$
-
-servation! The net effect is very small, but the Moon is slowly moving away from us (at a rate of $\sim 40$ mm per year) and the Earth’s day is slowing increasing (by $\sim 2$ ms per century). For more information, see the [Wikipedia webpage](https://en.wikipedia.org/wiki/Tidal_acceleration) and [Explaining Science’s](https://explainingscience.org/2014/05/27/the-days-are-getting-longer/) [webpage](https://explainingscience.org/2014/05/27/the-days-are-getting-longer/) on tidal acceleration and the day on Earth.
+Earth. The tides don’t occur right when the Moon is overhead, instead the tides are ahead of the Moon. As a consequence, the Earth’s tides bulge at an angle to the Moon. This bulge pulls on the Moon and the Moon in return pulls on the bulge (equal and opposite reactions), see figure (not to scale). Because these tiny forces are at an angle relative to the Earth-Moon radial line, they will each cause a torque. The torque on the Moon pulls the Moon ahead in its orbit slightly (the Moon gains momentum), whereas the torque on Earth drags the Earth slightly back in its spin (the Earth loses momentum). This is a case of angular momentum conservation! The net effect is very small, but the Moon is slowly moving away from us (at a rate of $\sim 40$ mm per year) and the Earth’s day is slowly increasing (by $\sim 2$ ms per century). For more information, see the [Wikipedia webpage](https://en.wikipedia.org/wiki/Tidal_acceleration) and [Explaining Science’s](https://explainingscience.org/2014/05/27/the-days-are-getting-longer/) [webpage](https://explainingscience.org/2014/05/27/the-days-are-getting-longer/) on tidal acceleration and the day on Earth.
 
 ::::
 
@@ -202,12 +151,8 @@ For example, [Figure 7.1](#fig-7-1) shows an irregular shaped mass that is free 
 :alt: Figure 7.1 from the source textbook
 :width: 163px
 
-Definition of the moment of inertia. This object will rotate about the fixed pivot point. A tiny section of mass $m_{i}$ is located a distance $r_{i}$ from that pivot po$\sum$in t. The total moment of inertia of this system is $I = (m_{i}r^{2}$
+Definition of the moment of inertia. This object will rotate about the fixed pivot point. A tiny section of mass $m_{i}$ is located a distance $r_{i}$ from that pivot point. The total moment of inertia of this system is $I = \sum(m_{i}r_{i}^{2})$ for the whole system.
 :::
-
-$$
-_{i}) \mathrm{for} \mathrm{the} \mathrm{whole} \mathrm{system}.
-$$
 
 ::::{tip} Quick Questions
 
@@ -219,7 +164,7 @@ $$
 
 ::::{admonition} Changing your moment of inertia
 
-You can change the moment of inertia by changing the distribution of mass. For example, you could re-arrange your mass. A figure skater is an example of this. When they spin with their arms out, their moment of inertia is at its highest because they have arranged their mass (their arms) at larger radii, $I = \sum (m_{i}r_{i})$. Conversely, when bring their arms in, their moment of inertia is smaller. Since their total angular momentum $L$ must be conserved, when the skater’s arms are out, their speed will be slower and when their arms are tucked in, their speed will be faster $(L$ = constant = $I\omega$, so if $I$ increases, $\omega$ decreases and vice versa). See also: [Video connecting rotation with the moment of inertia](https://www.youtube.com/watch?v=M6PuutIm5h4) [Video on figure skating](https://www.youtube.com/watch?v=0RVyhd3E9hY)
+You can change the moment of inertia by changing the distribution of mass. For example, you could re-arrange your mass. A figure skater is an example of this. When they spin with their arms out, their moment of inertia is at its highest because they have arranged their mass (their arms) at larger radii, $I = \sum m_{i} r_{i}^{2}$. Conversely, when they bring their arms in, their moment of inertia is smaller. Since their total angular momentum $L$ must be conserved, when the skater’s arms are out, their speed will be slower and when their arms are tucked in, their speed will be faster $(L$ = constant = $I\omega$, so if $I$ increases, $\omega$ decreases and vice versa). See also: [Video connecting rotation with the moment of inertia](https://www.youtube.com/watch?v=M6PuutIm5h4) [Video on figure skating](https://www.youtube.com/watch?v=0RVyhd3E9hY)
 
 ::::
 
@@ -233,7 +178,7 @@ $$
 I_{p}= I_{cm}+ Md^{2}
 $$ (eq-7-7)
 
-where $I_{p}$ is the moment of inertial about $P$ and $M$ is the total mass of the object.
+where $I_{p}$ is the moment of inertia about $P$ and $M$ is the total mass of the object.
 
 ::::{admonition} Lance’s Thoughts
 
@@ -246,7 +191,7 @@ The power of the parallel axis theorem shines through when you have a strange or
 
 Torque and angular momentum are vectors, where their directions are defined by a vector cross product, which makes finding their directions more challenging. There are several ways to get the directions. First, you can use the RHR or matrix determinant to get the direction from the definition of each vector, e.g., $\vec{\tau} = \vec{r} \times \vec{F}$ . See [Chapter 1.5.2](#sec-1-5-2) for a review of the vector cross product.
 
-Second, you can use the RHR for rotation to connect the rotation of a system to the direction of its torque or angular momentum vectors. To apply the RHR for rotation, curl your fingers in the direction or rotation and your thumb will point in the direction of the torque vector (see also [Figure 7.2](#fig-7-2)). Note you can also use the RHR for rotation to get the direction of rotation if you know the direction of torque.
+Second, you can use the RHR for rotation to connect the rotation of a system to the direction of its torque or angular momentum vectors. To apply the RHR for rotation, curl your fingers in the direction of rotation and your thumb will point in the direction of the torque vector (see also [Figure 7.2](#fig-7-2)). Note you can also use the RHR for rotation to get the direction of rotation if you know the direction of torque.
 
 :::{figure} ../images/figures/figure-7-2.png
 :label: fig-7-2
@@ -263,7 +208,7 @@ If the torque vector points out of the page (e.g., toward you), then the system 
 
 ::::{admonition} Cora’s Thoughts
 
-Another way to think of torques is in the context of screws. When twisting a screw clockwise, it gets tighter and moves into the page which is the direction of that torque. When twisting a screw counterclockwise it loosens and moves out of the page, which it the direction of its torque. The direction of the movement of a screw it the same as the direction of its torque.
+Another way to think of torques is in the context of screws. When twisting a screw clockwise, it gets tighter and moves into the page which is the direction of that torque. When twisting a screw counterclockwise it loosens and moves out of the page, which is the direction of its torque. The direction of the movement of a screw is the same as the direction of its torque.
 
 :::{figure} ../images/figures/figure-7-3.png
 :label: fig-7-3
@@ -271,7 +216,7 @@ Another way to think of torques is in the context of screws. When twisting a scr
 :alt: Cartoon showing how the two possible rotation directions for a screw connect to the direction of the torque vector as an example of the right-hand rule.
 :width: 372px
 
-The motion of the screws can be remembered by the old axiom “righty-tighty and lefty-loosey.
+The motion of the screws can be remembered by the old axiom “righty-tighty and lefty-loosey.”
 :::
 
 ::::
@@ -335,13 +280,13 @@ $$
 \end{aligned}
 $$
 
-This form of the difef rential equation of motion is difficult to solve. But, we can make it solvable by assuming that the angle formed by the pendulum and the vertical axis is small $(\theta \ll$ 1 in radian units). If $\theta$ is small, then $\sin \theta \approx \theta$ (See [Appendix B](#app-b)) and
+This form of the differential equation of motion is difficult to solve. But, we can make it solvable by assuming that the angle formed by the pendulum and the vertical axis is small $(\theta \ll$ 1 in radian units). If $\theta$ is small, then $\sin \theta \approx \theta$ (See [Appendix B](#app-b)) and
 
 $$
 \frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}} + \frac{mgL}{I} \theta = 0
 $$
 
-Now our equation is in the form of a simple differential equation of motion (see [Chapter 3](#ch-3)), and we know how to solve an equation in this format. The solution for $x(t)$ is a cos function with an angular frequency given by the coefficient in from of the $\theta$ term.
+Now our equation is in the form of a simple differential equation of motion (see [Chapter 3](#ch-3)), and we know how to solve an equation in this format. The solution for $x(t)$ is a cos function with an angular frequency given by the coefficient in front of the $\theta$ term.
 
 But wait, that isn’t the exact same solution as what we had before in [Chapter 3.4](#sec-3-4). Well, there is one more step we need to do. We need to define the moment of inertia, $I$.
 
@@ -369,7 +314,7 @@ Complex pendulum shapes are hard to solve with the linear force method. Think ab
 
 2. You construct a pendulum by attaching a ring to a massless rod and setting it into periodic motion. Find the angular frequency, $\omega _{0}$, of this pendulum if the rod has a length $L$, and the ring has a mass $M$ and radius $R$.
 
-3. You have a massless rod of length $L$ to which you can attached either a solid sphere or a spherical shell. The solid sphere and spherical shells have masses and radii of (1) $M, R, (2) 2M, \frac{1}{2} R$, or (3) $\frac{1}{2} M 2R$. Which object will give your pendulum the shortest period and which will give you the longest period of oscillation?
+3. You have a massless rod of length $L$ to which you can attach either a solid sphere or a spherical shell. The solid sphere and spherical shells have masses and radii of (1) $M, R, (2) 2M, \frac{1}{2} R$, or (3) $\frac{1}{2} M 2R$. Which object will give your pendulum the shortest period and which will give you the longest period of oscillation?
 
 ::::
 
@@ -438,7 +383,7 @@ A disk of mass $m_{d}$ and radius $R$ is attached to a rod of mass $m_{r}$ and l
 :alt: Figure shows a physical pendulum consisting of a rod and disk with the pivot point at the top of the rod and the disk at the bottom of the rod.
 :width: 155px
 
-Diagram of the physical pendulum. This physical pendulum is constructed from a disk and rod. The disk is attached to the rod at one end and allowed to rotate freely at the other end of the rod. The disk has mass $m_{d}$ and radius $R$. The rod as mass $m_{r}$ and length $L$.
+Diagram of the physical pendulum. This physical pendulum is constructed from a disk and rod. The disk is attached to the rod at one end and allowed to rotate freely at the other end of the rod. The disk has mass $m_{d}$ and radius $R$. The rod has mass $m_{r}$ and length $L$.
 :::
 
 **Solution**
@@ -616,17 +561,7 @@ Let’s look at $\sum F = ma_{cm}$ to start. What forces do we need to worry abo
 The rolling wheel of radius $R$. The centre of mass is given by the origin $(O)$ and the system moves forward a distance $s$ given by the red arc.
 :::
 
-If the system has moved a distance $s$ in time $\Delta t$. If you have *rolling without slipping*,
-
-$$
-\Delta x s
-$$
-
-then the centre of mass motion is given by $v_{cm}$ = = . For very small times,
-
-$$
-\Delta t \Delta t
-$$
+If the system has moved a distance $s$ in time $\Delta t$. If you have *rolling without slipping*, then the centre of mass motion is given by $v_{cm} = \frac{\Delta x}{\Delta t} = \frac{s}{\Delta t}$. For very small times,
 
 <!-- Source PDF page 161; printed label 152. -->
 
@@ -681,7 +616,7 @@ $$
 
 where $\omega$ is the angular velocity and $\alpha$ is the angular acceleration. Note that the vector directions are not the same for these quantities. Only the magnitudes apply.
 
-For a rigid object, $v_{cm}$ applies equally in magnitude and direction to the whole object (it is moving forward and doesn’t deform), whereas the motion from rotation depends on the radius and can be either forward or backwards. Consider the motion from translation and rotation at the contact point (where the wheel meets the ground). There are two velocities acting at that point, the translation velocity from $v_{cm}$ and the rotation velocity, $R\omega$. These two velocity are equal in magnitude, but opposite in direction (at the contact point, the wheel is moving forward with $v_{cm}$ but backwards with $\omega R$ from rotation). Therefore, the contact point is *instantaneously* at rest. If you had rolling will slipping, then the contact point would have excess motion from translation and not be at rest.
+For a rigid object, $v_{cm}$ applies equally in magnitude and direction to the whole object (it is moving forward and doesn’t deform), whereas the motion from rotation depends on the radius and can be either forward or backwards. Consider the motion from translation and rotation at the contact point (where the wheel meets the ground). There are two velocities acting at that point, the translation velocity from $v_{cm}$ and the rotation velocity, $R\omega$. These two velocity are equal in magnitude, but opposite in direction (at the contact point, the wheel is moving forward with $v_{cm}$ but backwards with $\omega R$ from rotation). Therefore, the contact point is *instantaneously* at rest. If you had rolling with slipping, then the contact point would have excess motion from translation and not be at rest.
 
 Now let’s switch to $\sum \tau = I\alpha$. This equation describes how the wheel is going to rotate. Again, rotation and translation are two separate actions, although their magnitudes are connected due to the condition of rolling without slipping. To describe the rotation, we will want to look at how the wheel is being torqued. There are two torques acting on the wheel from $F$ and $f$, so we want to find $\tau _{F}$ and $\tau _{f}$.
 
@@ -747,7 +682,7 @@ $$
 
 $$
 \begin{aligned}
-f \bigg(\frac{R}{I} + \frac{1}{mR} \bigg) &= F \frac{r}{I} + \frac{1}{mR} \bigg) \\
+f \bigg(\frac{R}{I} + \frac{1}{mR} \bigg) &= F \bigg(\frac{r}{I} + \frac{1}{mR} \bigg) \\
 f \Bigg(\frac{mR^{2}+ I}{mRI} \Bigg) &= F \bigg(\frac{mRr + I}{mRI} \bigg)
 \end{aligned}
 $$
@@ -767,7 +702,7 @@ radius of $r$ and an outer radius of $R$. In this case, the rotation axis is thr
 $$
 \begin{aligned}
 f &= F \Bigg(\frac{mRr + \frac{1}{2} m(r^{2}+ R^{2})}{mR^{2}+ \frac{1}{2} m(r^{2}+ R^{2})} \Bigg) \\
-f &= F \frac{2Rr + r^{2}+ R^{2}}{3R^{2}+ r^{2}} \Bigg)
+f &= F \frac{2Rr + r^{2}+ R^{2}}{3R^{2}+ r^{2}}
 \end{aligned}
 $$
 
@@ -812,11 +747,7 @@ For some detail on the different types of gyroscopes, see [this article](https:/
 
 ::::{admonition} Key Takeaways
 
-This chapter introduces angular momentum and torques. Angular momentum is defined
-
-$$
-\mathrm{as}:
-$$
+This chapter introduces angular momentum and torques. Angular momentum is defined as:
 
 $$
 \vec{L} = \vec{r} \times \vec{p}
@@ -828,7 +759,7 @@ $$
 \vec{\tau} = \vec{r} \times \vec{F}
 $$
 
-where both properties are vector cross products. Angular momentum and torque describe systems that are rotation. In many respects, angular momentum and torque are analogous to linear momentum and force. Newton’s second law can be written for rotation, where the net torque on a system is equal to the time derivative of the total angular momentum.
+where both properties are vector cross products. Angular momentum and torque describe systems that are rotating. In many respects, angular momentum and torque are analogous to linear momentum and force. Newton’s second law can be written for rotation, where the net torque on a system is equal to the time derivative of the total angular momentum.
 
 $$
 \begin{aligned}
@@ -921,7 +852,7 @@ See [Appendix C](#app-c) for answers to the practice problems.
 
 ::::{admonition} Practice Problem 7-1
 
-Use the the Parallel Axis Theorem to find expressions for the moments of inertia for each of the figures below. Note the location of the axis of rotation in each case.
+Use the Parallel Axis Theorem to find expressions for the moments of inertia for each of the figures below. Note the location of the axis of rotation in each case.
 
 :::{figure} ../images/figures/figure-7-14.png
 :label: fig-7-14
@@ -948,7 +879,7 @@ d) A rod of length $L$ and mass $M_{R}$ with a hollow cylinder of mass $M_{C}$, 
 
 ::::{admonition} Practice Problem 7-2
 
-A red giant star has a mass fifteen times that of our Sun (15 $\mathrm{M}_{\odot})$ and a radius of one astronomical unit $(1.5 \times 10^{8}$ km). It undergoes a sudden supernova, producing a neutron star with a radius of 20 km. Assuming only 1/10the of the star’s mass ends up in the neutron star, what happens to its rotation rate (angular speed)? Assume both the red giant star and the neutron star can be approximated as perfect spheres.
+A red giant star has a mass fifteen times that of our Sun (15 $\mathrm{M}_{\odot})$ and a radius of one astronomical unit $(1.5 \times 10^{8}$ km). It undergoes a sudden supernova, producing a neutron star with a radius of 20 km. Assuming only 1/10th of the star’s mass ends up in the neutron star, what happens to its rotation rate (angular speed)? Assume both the red giant star and the neutron star can be approximated as perfect spheres.
 
 ::::
 
@@ -973,7 +904,7 @@ b) A force $F$ is applied at an angle $\theta$ to the end of a fulcrum of length
 
 c) A mass $M$ hangs from a pulley of radius $R$. Find the torque on the pulley.
 
-d) Two masses, $M_{1}$ and $M_{2}$, hang from opposite end of a rope over a pulley of radius $R$. Find the equation for the torque on the pulley.
+d) Two masses, $M_{1}$ and $M_{2}$, hang from opposite ends of a rope over a pulley of radius $R$. Find the equation for the torque on the pulley.
 
 ::::
 
@@ -1029,7 +960,7 @@ c) What value of $s$ gives you the smallest possible period of oscillations?
 :::{figure} ../images/figures/figure-7-17.png
 :label: fig-7-17
 :enumerator: 7.17
-:alt: Figure shows a the physical pendulum which is a disk pivoted toward the upper half.
+:alt: Figure shows the physical pendulum which is a disk pivoted toward the upper half.
 :width: 93px
 
 Figure for [Problem 7-6](#problem-7-6).
@@ -1072,7 +1003,7 @@ c) Find the period of oscillations for small angles.
 
 ::::{admonition} Practice Problem 7-9
 
-A circular disk of mass $M$ and radius $R$ rolls down an incline (angle for the incline in $\theta)$ without slipping. The moment of inertia for a disk is $\frac{1}{2} MR^{2}$.
+A circular disk of mass $M$ and radius $R$ rolls down an incline (angle for the incline is $\theta)$ without slipping. The moment of inertia for a disk is $\frac{1}{2} MR^{2}$.
 
 a) Draw a free body diagram for the system.
 

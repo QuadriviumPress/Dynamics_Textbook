@@ -15,7 +15,7 @@
 
 ::::
 
-In this chapter, we will review inertial frames and reference and introduce non-inertial and rotating frames. A frame of reference represents your observer. Frames can be stationary, accelerating, or rotating. The physics in each of cases will need to be treated differently.
+In this chapter, we will review inertial frames of reference and introduce non-inertial and rotating frames. A frame of reference represents your observer. Frames can be stationary, accelerating, or rotating. The physics in each of these cases will need to be treated differently.
 
 (sec-4-1)=
 ## 4.1 Review of Reference Frames
@@ -41,14 +41,14 @@ $\vec{v}_{PS}= \vec{v}_{S^{\prime }S}+ \vec{v}_{PS^{\prime }}=\Rightarrow$ takin
 
 <!-- Source PDF page 81; printed label 72. -->
 
-These equations show the relative velocity and relative acceleration of P between the two frames. If $S^{\prime }$ is an inertial frame, then $S^{\prime }$ is moving with a constant velocity. For a constant velocity, $\vec{a}_{SS^{\prime }}$ = 0 and we get $\vec{a}_{PS}= \vec{a}_{PS^{\prime }}$, the acceleration is the same in both frames. Note that the same result happens if $S^{\prime }$ is stationary.
+These equations show the relative velocity and relative acceleration of P between the two frames. If $S^{\prime }$ is an inertial frame, then $S^{\prime }$ is moving with a constant velocity. For a constant velocity, $\vec{a}_{S^{\prime }S}$ = 0 and we get $\vec{a}_{PS}= \vec{a}_{PS^{\prime }}$, the acceleration is the same in both frames. Note that the same result happens if $S^{\prime }$ is stationary.
 
 For two different *inertial* frames, an observer in each frame would measure the same acceleration. There could be a difference in velocity (e.g., relative motion), but there is no difference in acceleration. As a result, there is no difference in the net forces $(\sum \vec{F} = m\vec{a})$.
 
 (sec-4-2)=
 ## 4.2 Introduction to Non-Inertial Reference Frames
 
-In a non-inertial frame, the frame of reference is accelerating or rotating. Going back to our example from [Section 4.1](#sec-4-1), now $\vec{a}_{SS^{\prime }}\not =$ 0 and the acceleration for point P measured in both frames will be different because,
+In a non-inertial frame, the frame of reference is accelerating or rotating. Going back to our example from [Section 4.1](#sec-4-1), now $\vec{a}_{S^{\prime }S}\not =$ 0 and the acceleration for point P measured in both frames will be different because,
 
 $$
 \vec{a}_{PS}= \vec{a}_{S^{\prime }S}+ \vec{a}_{PS^{\prime }}
@@ -58,11 +58,7 @@ Let’s consider motion from the perspective of an observer in an inertial frame
 
 If both observers were to apply Newton’s second law, they would get: Observer in $S$: $\sum \vec{F}_{S}= m\vec{a}_{PS}$
 
-Observer in $S^{\prime }$: $\sum \vec{F}_{S^{\prime }}= m\vec{a}_{PS}$
-
-$$
-'
-$$
+Observer in $S^{\prime }$: $\sum \vec{F}_{S^{\prime }}= m\vec{a}_{PS^{\prime }}$
 
 But $m\vec{a}_{PS}\not = m\vec{a}_{PS^{\prime }}$, so that means $\sum \vec{F}_{S}\not = \sum \vec{F}_{S^{\prime }}$. The two observers will measure different solutions from Newton’s laws.
 
@@ -105,7 +101,7 @@ Overall fictitious forces are forces that *appear* to act on an object to explai
 :::{figure} ../images/figures/figure-4-2.png
 :label: fig-4-2
 :enumerator: 4.2
-:alt: Figure shpws a person driving a car on a straight road and then on a curve.
+:alt: Figure shows a person driving a car on a straight road and then on a curve.
 :width: 527px
 
 On the left is the inertial frame and on the right is the non-inertial frame.
@@ -113,7 +109,7 @@ On the left is the inertial frame and on the right is the non-inertial frame.
 
 ::::
 
-Mathematically, the acceleration of the non-inertial frame causes the object to have an extra term in the force equation as measured from the perspective of someone in a true inertial frame. That extra term has the form of a force (mass times acceleration). If we need to add the fictitious force(s) to the inertial forces, then we can apply Newton’s second law to the non-inerial frame and get the same answer:
+Mathematically, the acceleration of the non-inertial frame causes the object to have an extra term in the force equation as measured from the perspective of someone in a true inertial frame. That extra term has the form of a force (mass times acceleration). If we need to add the fictitious force(s) to the inertial forces, then we can apply Newton’s second law to the non-inertial frame and get the same answer:
 
 $$
 \sum \vec{F}_{S^{\prime }}= \sum \vec{F}_{S}+ \vec{F}_{fic}
@@ -128,7 +124,7 @@ m\vec{a}_{PS^{\prime }}= m(\vec{a}_{S^{\prime }S}+ \vec{a}_{PS^{\prime }}) - m\v
 $$
 
 $$
-m\vec{a}_{PS\prime }= m\vec{a}_{PS\prime }=\Rightarrow \mathrm{left} \mathrm{side} = \mathrm{right} \mathrm{side}
+m\vec{a}_{PS^{\prime }}= m\vec{a}_{PS^{\prime }}=\Rightarrow \mathrm{left} \mathrm{side} = \mathrm{right} \mathrm{side}
 $$
 
 So now we have matching physics in both reference frames. That is, the two observers would come to the same answer if we include a new “force”. Ultimately, an observer in a non-inertial frame must correct their net force (compared to an inertial frame) using a fictitious force.
@@ -150,7 +146,7 @@ The equivalence principle of mechanics describes how fictitious forces apply to 
 (sec-4-3)=
 ## 4.3 Example Problems with Linear Acceleration
 
-Lets put non-inertial frames into practice with a couple of examples where the acceleration is linear (no rotation).
+Let’s put non-inertial frames into practice with a couple of examples where the acceleration is linear (no rotation).
 
 (example-4-1)=
 
@@ -161,7 +157,7 @@ The mass is hanging from the ceiling of an elevator by a rope, and elevator is m
 :::{figure} ../images/figures/figure-4-3.png
 :label: fig-4-3
 :enumerator: 4.3
-:alt: Figure shows an observing in the moving reference frame of the elevator and a stationary observer.
+:alt: Figure shows an observer in the moving reference frame of the elevator and a stationary observer.
 :width: 167px
 
 In the red we have the elevator as the non-inertial frame accelerating upwards at $a_{e}$, and in the black we have the ground as the inertial frame.
@@ -193,13 +189,7 @@ $$
 
 where $a_{e}$ is the acceleration of the mass because of the elevator.
 
-b) Elevator Frame: Now consider the observer $O^{\prime }$ in the elevator with the mass. From the perspective of this observer, the mass is stationary because both the observer and the mass are moving upwards (there is no relative motion between $O^{\prime }$ and $m)$. So $\vec{F}_{S^{\prime }}$ = 0. But we cannot say that $\sum \vec{F}_{S^{\prime }}$ is given by tension and gravity alone, because
-
-$$
-\sum
-$$
-
-$'$ is in a non-inertial frame. This observer must take into account the acceleration of their own frame and include a fictitious force acting on mass.
+b) Elevator Frame: Now consider the observer $O^{\prime }$ in the elevator with the mass. From the perspective of this observer, the mass is stationary because both the observer and the mass are moving upwards (there is no relative motion between $O^{\prime }$ and $m)$. So $\sum \vec{F}_{S^{\prime }}$ = 0. But we cannot say that $\sum \vec{F}_{S^{\prime }}$ is given by tension and gravity alone, because $S^{\prime }$ is in a non-inertial frame. This observer must take into account the acceleration of their own frame and include a fictitious force acting on mass.
 
 For the moving reference frame, we need to correct the second law using the fictitious force. Taking up as positive, we have:
 
@@ -237,7 +227,7 @@ A truck is carrying a box of mass $m$. When the truck decelerates at a rate of $
 
 **Solution**
 
-**Case 1:** We will first solve this problem from the perspective of an observing standing on the ground (so from the inertial frame).
+**Case 1:** We will first solve this problem from the perspective of an observer standing on the ground (so from the inertial frame).
 
 :::{figure} ../images/figures/figure-4-4.png
 :label: fig-4-4
@@ -292,7 +282,7 @@ $$
 a_{b^{\prime }}= 0.2g
 $$
 
-So the acceleration of the box relative to the truck is $0.2g$. Note that this is positive. That makes sense as the box is sliding forward relative to the the observer sitting (stationary) in the truck.
+So the acceleration of the box relative to the truck is $0.2g$. Note that this is positive. That makes sense as the box is sliding forward relative to the observer sitting (stationary) in the truck.
 
 **Case 2:** We can also solve this problem using the non-inertial frame of the truck. That is, we can solve the accelerations from the perspective of a person sitting in the truck.
 
@@ -533,17 +523,17 @@ $$
 \vec{v} = \vec{v}^{\prime }+ \vec{\omega} \times \vec{r}^{\prime }
 $$ (eq-4-3)
 
-where$\vec{v}$ is the velocity relative to the inertial frame, $\vec{v}^{\prime }$ is the velocity relative to the rotating frame, and $\vec{\omega} \times \vec{r}^{\prime }$ is the coordinate transformation of the rotating frame.
+where $\vec{v}$ is the velocity relative to the inertial frame, $\vec{v}^{\prime }$ is the velocity relative to the rotating frame, and $\vec{\omega} \times \vec{r}^{\prime }$ is the coordinate transformation of the rotating frame.
 
 (sec-4-4-3)=
 ### 4.4.3 Coordinate System of a Rotating Frame: Acceleration
 
-Before we solve for the acceleration, we are going to modify our velocity equation slightly so we don’t need to take the second time derivative of any of the position vectors. In Equation, we have $\vec{v} = \vec{v}^{\prime }+ \vec{\omega} \times \vec{r}^{\prime }$. Since velocity is the time derivative of position, we can say,
+Before we solve for the acceleration, we are going to modify our velocity equation slightly so we don’t need to take the second time derivative of any of the position vectors. In Equation (4.3), we have $\vec{v} = \vec{v}^{\prime }+ \vec{\omega} \times \vec{r}^{\prime }$. Since velocity is the time derivative of position, we can say,
 
 $$
 \begin{aligned}
 \vec{v} &= \Bigg(\frac{\mathrm{d}\vec{r}}{\mathrm{d}t} \Bigg)_{I} \\
-\vec{v}^{\prime}&= \frac{\mathrm{d}\vec{r}^{\prime}}{\mathrm{d}t} \Bigg)_{R}
+\vec{v}^{\prime}&= \Bigg(\frac{\mathrm{d}\vec{r}^{\prime}}{\mathrm{d}t} \Bigg)_{R}
 \end{aligned}
 $$
 
@@ -553,8 +543,8 @@ Coming back to our velocity Equation (4.3), we have:
 
 $$
 \begin{aligned}
-\vec{v} &= \vec{v}^{\prime }+_{\prime }\vec{\omega} \times \vec{r}^{\prime } \\
-\Bigg(\frac{\mathrm{d}\vec{r}}{\mathrm{d}t} \Bigg)_{I}&= \Bigg(\frac{\mathrm{d}\vec{r}}{\mathrm{d}t} \Bigg)_{R}+ \vec{\omega} \times \vec{r}^{\prime}
+\vec{v} &= \vec{v}^{\prime }+ \vec{\omega} \times \vec{r}^{\prime } \\
+\Bigg(\frac{\mathrm{d}\vec{r}}{\mathrm{d}t} \Bigg)_{I}&= \Bigg(\frac{\mathrm{d}\vec{r}^{\prime}}{\mathrm{d}t} \Bigg)_{R}+ \vec{\omega} \times \vec{r}^{\prime}
 \end{aligned}
 $$
 
@@ -587,7 +577,7 @@ $$
 $$
 \begin{aligned}
 &= \Bigg(\frac{\mathrm{d}}{\mathrm{d}t} \Bigg)_{R}(\vec{v}^{\prime}+ \vec{\omega} \times \vec{r}^{\prime}) + \vec{\omega} \times (\vec{v}^{\prime}+ \vec{\omega} \times \vec{r}^{\prime}) \\
-&= \frac{\mathrm{d}\vec{v}^{\prime}}{\mathrm{d}t} \Bigg)_{R}+ \Bigg(\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t} \Bigg)_{R}\times \vec{r}^{\prime}+ \vec{\omega} \times \Bigg(\frac{\mathrm{d}\vec{r}^{\prime}}{\mathrm{d}t} \Bigg)_{R}+ \vec{\omega} \times \vec{v}^{\prime}+ \vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime})
+&= \Bigg(\frac{\mathrm{d}\vec{v}^{\prime}}{\mathrm{d}t} \Bigg)_{R}+ \Bigg(\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t} \Bigg)_{R}\times \vec{r}^{\prime}+ \vec{\omega} \times \Bigg(\frac{\mathrm{d}\vec{r}^{\prime}}{\mathrm{d}t} \Bigg)_{R}+ \vec{\omega} \times \vec{v}^{\prime}+ \vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime})
 \end{aligned}
 $$
 
@@ -596,7 +586,7 @@ This looks like a mess, but we can simplify it a bit. First, by definition, the 
 $$
 \begin{aligned}
 \vec{a} &= \Bigg(\frac{\mathrm{d}\vec{v}}{\mathrm{d}t} \Bigg)_{I} \\
-\vec{a}^{\prime}&= \frac{\mathrm{d}\vec{v}^{\prime}}{\mathrm{d}t} \Bigg)_{R}
+\vec{a}^{\prime}&= \Bigg(\frac{\mathrm{d}\vec{v}^{\prime}}{\mathrm{d}t} \Bigg)_{R}
 \end{aligned}
 $$
 
@@ -673,7 +663,7 @@ $$ (eq-4-6)
 
 6. Translational acceleration. This is a fictitious force acceleration that represents how the origin of the rotating frame moves relative to the origin of the inertial frame.
 
-To solve for the force in the rotating frame, multiple all the accelerations by the mass, $m$:
+To solve for the force in the rotating frame, multiply all the accelerations by the mass, $m$:
 
 $$
 m\vec{a}^{\prime }= m\vec{a} - m\vec{\alpha} \times \vec{r} - 2m\vec{\omega} \times \vec{v}^{\prime }- m\vec{\omega} \times (\vec{\omega} \times \vec{r}) - m\vec{A}

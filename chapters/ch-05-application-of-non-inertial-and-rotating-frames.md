@@ -26,7 +26,7 @@ $$
 \vec{a}^{\prime }= \vec{a} - \vec{\alpha} \times \vec{r}^{\prime }- 2\vec{\omega} \times \vec{v}^{\prime }- \vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime }) - \vec{A}
 $$ (eq-5-1)
 
-where the parameters with primes are in the rotating reference frame and the parameters without primes are measured in an inertial frame. See [Chapter 4.5](#sec-4-5) for what each of these terms mean. If your system is *not* rotating, then $\vec{\alpha} = \vec{\omega}$ = 0 and we recover the same equation for a linear non-inertial frame from [Chapter 4.2](#sec-4-2),
+where the parameters with primes are in the rotating reference frame and the parameters without primes are measured in an inertial frame. See [Chapter 4.5](#sec-4-5) for what each of these terms mean. If your system is *not* rotating, then $\vec{\alpha} = \vec{\omega} = 0$ and we recover the same equation for a linear non-inertial frame from [Chapter 4.2](#sec-4-2),
 
 $$
 \vec{a}^{\prime }= \vec{a} - \vec{A} =\Rightarrow \mathrm{for} \mathrm{no} \mathrm{rotation}
@@ -40,7 +40,7 @@ $$
 \vec{v}^{\prime }= \vec{v} - \vec{\omega} \times \vec{r}^{\prime }- \vec{u}
 $$ (eq-5-3)
 
-where we have added an extra term, $\vec{u}$, to represent the velocity of the origin in the noninertial frame relative to the inertial frame.
+where we have added an extra term, $\vec{u}$, to represent the velocity of the origin in the non-inertial frame relative to the inertial frame.
 
 Finally, we defined the fictitious forces as,
 
@@ -55,9 +55,9 @@ $$
 
 <!-- Source PDF page 102; printed label 93. -->
 
-where the four labeled terms are the four fictitious force: the azimuthal force, the Coriolis force, the centrifugal force, and the translational force. Note how each of these forces are defined with negative signs because they act opposite the direction of acceleration.
+where the four labeled terms are the four fictitious forces: the azimuthal force, the Coriolis force, the centrifugal force, and the translational force. Note how each of these forces are defined with negative signs because they act opposite the direction of acceleration.
 
-In the next two sections, we will look at examples of the centrifugal force and the Coriolis force. The azimuthal force will be left for practice. See [Chapter 4](#ch-4) for examples of the translation force.
+In the next two sections, we will look at examples of the centrifugal force and the Coriolis force. The azimuthal force will be left for practice. See [Chapter 4](#ch-4) for examples of the translational force.
 
 (sec-5-2)=
 ## 5.2 Centrifugal Fictitious Force
@@ -78,7 +78,7 @@ In rotational motion, we have two similar sounding accelerations, the centrifuga
 
 While similar in magnitude, the direction of the centrifugal force is not the same as the direction of the centripetal acceleration. The centrifugal force points radially outward for rotating frames, whereas the centripetal acceleration points radially inward. This should make intuitive sense as fictitious forces act in the opposite direction to the acceleration in the inertial frame (negative sign in the Equation (5.5).
 
-To prove that the centrifugal force is radially outward, let’s go through an example vector cross product for uniform circular motion with its axis of rotation pointing up $(\hat{k}^{\prime })$. Even though we have a radial dependence with our cross product, we will use Cartesian coordinates for the rotating frame $(\hat{\imath}^{\prime },\hat{\jmath}^{\prime },\hat{k}^{\prime })$. The reason is, in our rotating frame, the radial vector will move with the non-inertial coordinate system. That is, from the perspective of a non-inertial observer rotating with the coordinate system, the radial vector does not change. So we can define our radial vector as being along the $x-$axis $(\vec{r}^{\prime }= r\hat{\imath}^{\prime })$ for example, and as the system rotates, our radial vector will remain along the $\hat{\imath}^{\prime }$ direction (both the position and the coordinates are rotating in this inertial frame).
+To prove that the centrifugal force is radially outward, let’s go through an example vector cross product for uniform circular motion with its axis of rotation pointing up $(\hat{k}^{\prime })$. Even though we have a radial dependence with our cross product, we will use Cartesian coordinates for the rotating frame $(\hat{\imath}^{\prime },\hat{\jmath}^{\prime },\hat{k}^{\prime })$. The reason is, in our rotating frame, the radial vector will move with the non-inertial coordinate system. That is, from the perspective of a non-inertial observer rotating with the coordinate system, the radial vector does not change. So we can define our radial vector as being along the $x-$axis $(\vec{r}^{\prime }= r\hat{\imath}^{\prime })$ for example, and as the system rotates, our radial vector will remain along the $\hat{\imath}^{\prime }$ direction (both the position and the coordinates are rotating in this non-inertial frame).
 
 Using $\vec{\omega} = \omega \hat{k}^{\prime }$ and $\vec{r}^{\prime }= r\hat{\imath}^{\prime }$, the centrifugal acceleration is $\vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime }) = \omega \hat{k}^{\prime }\times (\omega \hat{k}^{\prime }\times r\hat{\imath}^{\prime })$. To solve this problem, we need to do two cross products. First, we will do the cross product
 
@@ -141,7 +141,7 @@ $$
 where $N$ is the normal force. Since there is no vertical motion, $N = mg$. The cat will start to lose balance when the acceleration from rotation equals the (static) friction force. Any additional rotation, and the cat will start to move. From Newton’s second law, we get:
 
 $$
-\sum \vec{F} = -m\vec{a}
+\sum \vec{F} = m\vec{a}
 $$
 
 $$
@@ -195,7 +195,7 @@ $$
 
 which is the same solution as the inertial frame (as expected). The difference is that we have identified the fictitious centrifugal force for the non-inertial frame.
 
-1. Fictitious force act like a modification of gravity (e.g., effective gravity) in the non-inertial frame. Depending on the problem, the effective gravity vector can be at an angle relative to the vertical. Assuming there is only the centrifugal force acting on the cat, what is the equation for the angle for the effective gravity in terms of $\omega, R$, and $g$? Hint, add the $F_{g}$ and $F_{cent}$ vectors.
+1. Fictitious forces act like a modification of gravity (e.g., effective gravity) in the non-inertial frame. Depending on the problem, the effective gravity vector can be at an angle relative to the vertical. Assuming there is only the centrifugal force acting on the cat, what is the equation for the angle for the effective gravity in terms of $\omega, R$, and $g$? Hint, add the $F_{g}$ and $F_{cent}$ vectors.
 
 2. What is the rotation rate if the angle from the vertical is $2^{\circ}$ and $R$ = 2 m?
 
@@ -267,7 +267,7 @@ Let’s return to the question of the cat sitting on a turntable from [Sample Pr
 
 **Solution**
 
-Inertial Frame: In the inertial frame, the net force acting on the cat is still friction with the table. But due to the combination of a rotation frame and the cat is moving, friction is no longer radial (e.g., we cannot say that the cat is undergoing simple circular motion). It is *much easier* to solve this problem in the cat’s reference frame.
+Inertial Frame: In the inertial frame, the net force acting on the cat is still friction with the table. But due to the combination of a rotating frame and the cat is moving, friction is no longer radial (e.g., we cannot say that the cat is undergoing simple circular motion). It is *much easier* to solve this problem in the cat’s reference frame.
 
 The Cat’s Frame: From the cat’s perspective, there is no acceleration because it is moving at a constant velocity. So we can simplify the equation of motion with $\vec{a}^{\prime }$ = 0. But there are two fictitious forces acting on the cat. So the force equation becomes:
 
@@ -321,7 +321,7 @@ We now have an equation for the net inertial force, which is only friction in th
 :alt: shows the rotating x-prime y-prime coordinate plane with vectors for the fictitious forces and the inertial force.
 :width: 217px
 
-Same as [Figure 5.2](#fig-5-2), but with the net force from the inertial frame included in pink. Note that $\vec{F}_{I}= -\vec{F}_{cent}- \vec{F}_{Cor}$ by definition (see above for the equation). So the net force in the inertial frame is acting on an angle.
+Same as [Figure 5.2](#fig-5-2), but with the net force from the inertial frame included in pink. Note that $\vec{F}_{I}= -\vec{F}_{cent}- \vec{F}_{Cor}$ by definition (see above for the equation). So the net force in the inertial frame is acting at an angle.
 :::
 
 We can use the net inertial force to get the net acceleration in the inertial frame as $\vec{a} = 2v^{\prime }\omega \hat{\jmath}^{\prime }- \omega ^{2}x^{\prime }\hat{\imath}^{\prime }$. Note that this acceleration is not constant and it is not radial.
@@ -347,7 +347,7 @@ $$
 $$
 \begin{aligned}
 (x^{\prime})^{2}&= \frac{\mu ^{2}g^{2}- 4(v^{\prime})^{2}\omega ^{2}}{\omega ^{4}} \\
-x^{\prime}&= \frac{\sqrt{\mu} ^{2}g^{2}- 4(v^{\prime})^{2}\omega ^{2}}{\omega ^{2}}
+x^{\prime}&= \dfrac{\sqrt{\mu^{2}g^{2}-4(v')^{2}\omega^{2}}}{\omega^{2}}
 \end{aligned}
 $$
 
@@ -408,7 +408,9 @@ $$
 \vec{a}^{\prime }= \vec{a} - \vec{\alpha} \times \vec{r}^{\prime }- 2\vec{\omega} \times \vec{v}^{\prime }- \vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime }) - \vec{A}
 $$
 
-We can simplify this equation. We will assume that (1) the Earth’s rotation is constant$1$, so $\alpha = \dot{\omega}$ = 0 and (2) the origin of the non-inertial frame has no translation acceleration relative to the origin of the inertial frame $(R$ is constant, $A = \ddot{R}$ = 0). Moreover, if the person is moving with a constant velocity on Earth’s surface, $\vec{a}^{\prime }$ = 0. Taking these simplifications, the remaining fictitious forces are the centrifugal and the Coriolis forces.
+We can simplify this equation. We will assume that (1) the Earth’s rotation is constant,$^1$ so $\alpha = \dot{\omega}$ = 0 and (2) the origin of the non-inertial frame has no translational acceleration relative to the origin of the inertial frame $(R$ is constant, $A = \ddot{R}$ = 0). Moreover, if the person is moving with a constant velocity on Earth’s surface, $\vec{a}^{\prime }$ = 0. Taking these simplifications, the remaining fictitious forces are the centrifugal and the Coriolis forces.
+
+$^1$The Earth is actually slowing down in rotation due to torques with the Moon, but the change is very small and can be considered negligible.
 
 $$
 0 = \vec{a} - 2\vec{\omega} \times \vec{v}^{\prime }- \vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime })
@@ -432,13 +434,6 @@ $$
 
 As for the direction, the centrifugal force should be along an axis that is perpendicular to the rotation axis (e.g., $\hat{\rho}$ ). We can verify this by using the vector cross product, where the
 
-$$
-\begin{aligned}
-^{1}\mathrm{The} \mathrm{Earth} \mathrm{is} \mathrm{actually} \mathrm{slowing} \mathrm{down} \mathrm{in} \mathrm{rotation} \mathrm{due} \mathrm{to} \mathrm{torques} \mathrm{with} \mathrm{the} \mathrm{Moon}, \mathrm{but} \mathrm{the} \mathrm{change} \mathrm{is} \mathrm{very} \\
-\mathrm{small} \mathrm{and} \mathrm{can} \mathrm{be} \mathrm{considered} \mathrm{negligible}.
-\end{aligned}
-$$
-
 <!-- Source PDF page 111; printed label 102. -->
 
 :::{figure} ../images/figures/figure-5-6.png
@@ -450,7 +445,7 @@ $$
 The vector cross product solution for the centrifugal force at a position that is at a latitude of $\theta$ from the equator. The point $P$ is undergoing circular motion with a radius of $\rho$, with $\rho = R\sin \varphi = R\cos \theta$.
 :::
 
-observer is located at $\vec{R}\hat{k}^{\prime }$ and the Equation for Earth’s angular motion in the non-inertial frame from Equation 5.9.
+observer is located at $\vec{R}\hat{k}^{\prime }$ and the equation for Earth’s angular motion in the non-inertial frame from Equation 5.9.
 
 $$
 \vec{\omega}\times\vec{r}'=
@@ -475,17 +470,13 @@ R\omega\cos\theta&0&0
 \end{aligned}
 $$
 
-$$
-= \omega ^{2}R\cos \theta \sin \theta \hat{\jmath}^{\prime }- \omega ^{2}R\cos ^{2}\theta \hat{k}^{\prime }
-$$
-
 Thus, the centrifugal force will be:
 
 $$
 \vec{F}_{cen}= -m\omega ^{2}R\cos \theta \sin \theta \hat{\jmath}^{\prime }+ m\omega ^{2}R\cos ^{2}\theta \hat{k}^{\prime }
 $$
 
-which is pointing in a direction that is South and up. Looking at [Figure 5.6](#fig-5-6), that direction point away from the rotation axis.
+which is pointing in a direction that is South and up. Looking at [Figure 5.6](#fig-5-6), that direction points away from the rotation axis.
 
 ::::{tip} Quick Question
 
@@ -500,16 +491,12 @@ By contrast, gravity from the Earth is directed toward the center of the Earth, 
 Taking the magnitude of $\vec{F}_{cen}$, we have:
 
 $$
-=m\omega^2R\cos\theta\sqrt{\sin^2\theta+\underbrace{\cos^2\theta}_{=1}}
-$$
-
-$$
-\lvert\vec{F}_{cen}\rvert
-=\sqrt{(-m\omega^2R\cos\theta\sin\theta)^2+(m\omega^2R\cos^2\theta)^2}.
-$$
-
-$$
-= m\omega ^{2}R\cos \theta
+\begin{aligned}
+|\vec{F}_{cen}|
+&=\sqrt{(-m\omega^2R\cos\theta\sin\theta)^2+(m\omega^2R\cos^2\theta)^2}\\
+&=m\omega^2R\cos\theta\sqrt{\sin^2\theta+\underbrace{\cos^2\theta}_{=1}}\\
+&= m\omega ^{2}R\cos \theta
+\end{aligned}
 $$
 
 which is what we expected using the right-hand rule and the simple vector cross product.
@@ -583,7 +570,7 @@ For the $x^{\prime }$ and $y^{\prime }$ components, we use the projection of $T$
 
 <!-- Source PDF page 114; printed label 105. -->
 
-need to consider is the Coriolis force (the centrifugal force is negligible). In [Section 5.3](#sec-5-3) we found the Coriolis force for a velocity in 1-D. The Foucault pendulum, however, moves in $\hat{\imath}^{\prime },\hat{\jmath}^{\prime },\hat{k}^{\prime }$. If we assume small angles, then $z^{\prime }\ll \ell$ and any motion in the vertical direction $(\hat{k}^{\prime })$ will be negligible and we can approximate the velocity by $\vec{v}^{\prime }= \vec{v}^{\prime }= \dot{x}^{\prime }\hat{\imath}^{\prime }+ \dot{y}^{\prime }\hat{\jmath}^{\prime }$.
+need to consider is the Coriolis force (the centrifugal force is negligible). In [Section 5.3](#sec-5-3) we found the Coriolis force for a velocity in 1-D. The Foucault pendulum, however, moves in $\hat{\imath}^{\prime },\hat{\jmath}^{\prime },\hat{k}^{\prime }$. If we assume small angles, then $z^{\prime }\ll \ell$ and any motion in the vertical direction $(\hat{k}^{\prime })$ will be negligible and we can approximate the velocity by $\vec{v}^{\prime }= \dot{x}^{\prime }\hat{\imath}^{\prime }+ \dot{y}^{\prime }\hat{\jmath}^{\prime }$.
 
 Using $\vec{\omega}$ from Equation 5.9 and $\vec{v}^{\prime }= \dot{x}^{\prime }\hat{\imath}^{\prime }+ \dot{y}^{\prime }\hat{\jmath}^{\prime }$, we can solve for the Coriolis force.
 
@@ -627,7 +614,7 @@ $$
 
 The above equations are differential equations of motion. Note that for a given observer on Earth, $\omega$ and $\theta$ are constant. The first term should look familiar. This is the solution for a simple pendulum that is displaced by a small angle from equilibrium. If $\omega$ = 0, then we recover the differential equation of motion for an ordinary pendulum in an inertial frame.
 
-The second terms comes from the Coriolis force and describe a deflection in the pendulum’s swing. This deflection always acts perpendicular to the velocity vector in the plane of motion. So instead of just oscillating back and forth in a straight line, the pendulum will slowly turn (precess) as it oscillates back and forth. The magnitude of the Coriolis force is small, but it changes the direction of the pendulum just enough that it will trace out a circle over time.
+The second term comes from the Coriolis force and describe a deflection in the pendulum’s swing. This deflection always acts perpendicular to the velocity vector in the plane of motion. So instead of just oscillating back and forth in a straight line, the pendulum will slowly turn (precess) as it oscillates back and forth. The magnitude of the Coriolis force is small, but it changes the direction of the pendulum just enough that it will trace out a circle over time.
 
 <!-- Source PDF page 115; printed label 106. -->
 
@@ -651,7 +638,7 @@ So the Foucault pendulum offers a direct way to measure your latitude. At the No
 
 ::::{tip} Quick Questions
 
-1. How long would it take the Striling Hall Foucault pendulum to complete one full rotation (Kingston has $\theta$ = 45 deg)?
+1. How long would it take the Stirling Hall Foucault pendulum to complete one full rotation (Kingston has $\theta$ = 45 deg)?
 
 2. The length of a day on Venus is almost the same as its year. If the Earth had a spin that was almost the same length as its year, what would that mean for the motion of a Foucault pendulum?
 
@@ -662,7 +649,7 @@ So the Foucault pendulum offers a direct way to measure your latitude. At the No
 
 Although forces like the centrifugal force and Coriolis force are fictitious, we can see the effects of rotating references frames on objects and ourselves. A centrifuge is a device that rotates an object around a fixed axis very quickly. In laboratories, these high rotation speeds are used to separate out different substances into layers by their densities allowing pristine samples to be collected. The effective force can be hundreds or thousands of times that of a standard Earth gravity.
 
-Rotating rides at amusement parks operate at lower speeds that centrifuges, but those on the rides feel similar effects. When on one of these rides, you would feel your body move
+Rotating rides at amusement parks operate at lower speeds than centrifuges, but those on the rides feel similar effects. When on one of these rides, you would feel your body move
 
 <!-- Source PDF page 116; printed label 107. -->
 
@@ -766,13 +753,13 @@ For the following questions, which fictitious force(s) are non-zero?
 
 a) A cannon fires a cannonball from the surface of the Earth.
 
-b) A ladybug is sitting at the edge of a stationary on a merry-go-round that is spinning at a constant speed.
+b) A ladybug is sitting stationary at the edge of a merry-go-round that is spinning at a constant speed.
 
 c) A ladybug is sitting at the edge of a decelerating merry-go-round.
 
-d) A lady bug is walking towards the edge of a merry-go-round that is spinning at a constant speed.
+d) A ladybug is walking towards the edge of a merry-go-round that is spinning at a constant speed.
 
-e) A lady bug is running towards the edge of a merry-go-round that is decelerating its spin speed and has gone off the rails and is moving away from its starting point with a constant acceleration.
+e) A ladybug is running towards the edge of a merry-go-round that is decelerating its spin speed and has gone off the rails and is moving away from its starting point with a constant acceleration.
 
 ::::
 
@@ -804,7 +791,7 @@ A cat sits on a rotating table that is rotating in the counter-clockwise directi
 :alt: Figure shows the cat’s position on the x-prime axis on a rotating turntable.
 :width: 217px
 
-Figure for [Problem 5-9](#problem-5-9).
+Figure for [Problem 5-3](#problem-5-3).
 :::
 
 ::::
@@ -871,7 +858,7 @@ On a physics field trip, you drop a pebble from rest in the elevator shaft of th
 
 ::::{admonition} Practice Problem 5-9
 
-A bead of mass $m$ sits at the end of a smooth frictionless rod of length $L$ that is rotating about one end at a rate of $\omega$ as shown in the figure below. The bead is given a little push which so that it starts moving.
+A bead of mass $m$ sits at the end of a smooth frictionless rod of length $L$ that is rotating about one end at a rate of $\omega$ as shown in the figure below. The bead is given a little push so that it starts moving.
 
 a) What is the magnitude and direction of the centrifugal and Coriolis forces?
 
@@ -884,7 +871,7 @@ d) Use the differential equation of motion to find the equation for $x(t)$ if th
 :::{figure} ../images/figures/figure-5-10.png
 :label: fig-5-10
 :enumerator: 5.10
-:alt: Figure for Problem 5-10.
+:alt: Figure for Problem 5-9.
 :width: 217px
 
 The bead is pushed along the positive $x^{\prime }-$axis.
