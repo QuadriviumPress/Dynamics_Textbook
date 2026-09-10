@@ -177,11 +177,9 @@ $$
 
 **Problem 2-2:** [Question](#problem-2-2)
 
-:::{image} ../images/math/p290-c44505be7337.svg
-:alt: Mathematical expression from source PDF page 290
-:class: source-equation
-:align: center
-:::
+$$
+v_{\min}= \sqrt{\frac{2g}{\sin ^{2}\theta} (h - y_{0})}
+$$
 
 (solution-2-4)=
 
@@ -201,11 +199,12 @@ $$
 
 **Problem 2-5:** [Question](#problem-2-5)
 
-:::{image} ../images/math/p291-91683b3d3d1d.svg
-:alt: Mathematical expression from source PDF page 291
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\mathrm{a}) v &= - \frac{k}{2} x^{2}+ v_{0} \\
+\mathrm{b}) x(t) &= \sqrt{\frac{2v_{0}}{k}} \frac{\big(e^{\sqrt{2kv_{0}}t}- 1\big)}{\big(1 + e^{\sqrt{2kv_{0}}t}\big)}
+\end{aligned}
+$$
 
 (solution-2-6)=
 
@@ -313,21 +312,17 @@ $$
 
 **Problem 3-4:** [Question](#problem-3-4)
 
-:::{image} ../images/math/p292-7b5eed24c5e3.svg
-:alt: Mathematical expression from source PDF page 292
-:class: source-equation
-:align: center
-:::
+$$
+\omega _{0}= \sqrt{\frac{(k_{1}+ k_{2})}{m}}
+$$
 
 (solution-3-5)=
 
 **Problem 3-5:** [Question](#problem-3-5)
 
-:::{image} ../images/math/p292-5eeff2437913.svg
-:alt: Mathematical expression from source PDF page 292
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{a}) T = 2\pi \sqrt{\frac{L}{g}}
+$$
 
 b) $T = 2\pi\sqrt{\dfrac{L}{(g + \ddot{y})}} \rightarrow \infty$ for $\ddot{y} = -g$
 
@@ -335,23 +330,17 @@ b) $T = 2\pi\sqrt{\dfrac{L}{(g + \ddot{y})}} \rightarrow \infty$ for $\ddot{y} =
 
 **Problem 3-6:** [Question](#problem-3-6)
 
-:::{image} ../images/math/p292-69b8e9c26986.svg
-:alt: Mathematical expression from source PDF page 292
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{a}) x = A\cos \Bigg(t\sqrt{\frac{k}{m} + \frac{g}{L}} \Bigg)
+$$
 
-:::{image} ../images/math/p292-7b9b079fd596.svg
-:alt: Mathematical expression from source PDF page 292
-:class: source-equation
-:align: center
-:::
+$$
+v = -A\sqrt{\frac{k}{m} + \frac{g}{L}} \sin \Bigg(t\sqrt{\frac{k}{m} + \frac{g}{L}} \Bigg)
+$$
 
-:::{image} ../images/math/p292-6ae9ca3ac490.svg
-:alt: Mathematical expression from source PDF page 292
-:class: source-equation
-:align: center
-:::
+$$
+a = -A\Bigg(\frac{k}{m} + \frac{g}{L} \Bigg)\cos \Bigg(t\sqrt{\frac{k}{m} + \frac{g}{L}} \Bigg)
+$$
 
 (solution-3-7)=
 
@@ -371,11 +360,9 @@ $$
 \mathrm{c}) 0 = \ddot{x} + \frac{k}{m} (x - x_{0})
 $$
 
-:::{image} ../images/math/p293-f439e44787a8.svg
-:alt: Mathematical expression from source PDF page 293
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{d}) T = 2\pi \sqrt{\frac{m}{k}}
+$$
 
 (solution-3-8)=
 
@@ -385,17 +372,13 @@ $$
 \mathrm{b}) \ddot{x} + \frac{4k}{m} x = 0
 $$
 
-:::{image} ../images/math/p293-89ef7d157a92.svg
-:alt: Mathematical expression from source PDF page 293
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) \omega _{0}= \sqrt{\frac{4k}{m}}, T = 2\pi \sqrt{\frac{m}{4k}}
+$$
 
-:::{image} ../images/math/p293-e8c0668fdd0b.svg
-:alt: Mathematical expression from source PDF page 293
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{d}) x = A\cos \Bigg(t\sqrt{\frac{4k}{m}} \Bigg), v = -A\sqrt{\frac{4k}{m}} \sin \Bigg(t\sqrt{\frac{4k}{m}} \Bigg), a = -A\frac{4k}{m}\cos \Bigg(t\sqrt{\frac{4k}{m}} \Bigg)
+$$
 
 (solution-3-10)=
 
@@ -405,11 +388,9 @@ $$
 \mathrm{b}) 0 = \ddot{x} + \Bigg(\frac{k_{1}k_{2}+ k_{3}(k_{2}+ k_{1})}{m(k_{1}+ k_{2})} \Bigg)x
 $$
 
-:::{image} ../images/math/p293-83cff4b06550.svg
-:alt: Mathematical expression from source PDF page 293
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) T = 2\pi \sqrt{\frac{m(k_{1}+ k_{2})}{k_{1}k_{2}+ k_{3}(k_{1}+ k_{2})}}
+$$
 
 ::::
 
@@ -678,11 +659,9 @@ $$
 
 **Problem 6-6:** [Question](#problem-6-6)
 
-:::{image} ../images/math/p296-646656507897.svg
-:alt: Mathematical expression from source PDF page 296
-:class: source-equation
-:align: center
-:::
+$$
+|\vec{v}| = v_{0}\sqrt{4\cos ^{2}\theta + \frac{1}{4}}
+$$
 
 (solution-6-7)=
 
@@ -698,17 +677,13 @@ $$
 
 ::::{admonition} Continued
 
-:::{image} ../images/math/p297-a6a24f3ac0db.svg
-:alt: Mathematical expression from source PDF page 297
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{b}) A = \frac{m_{p}}{(m_{p}+ M)} v_{0}\sqrt{\frac{L}{g}}
+$$
 
-:::{image} ../images/math/p297-fba463f3f198.svg
-:alt: Mathematical expression from source PDF page 297
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) \theta _{\max}= \frac{m_{p}}{(m_{p}+ M)} v_{0}\sqrt{\frac{1}{Lg}}
+$$
 
 $$
 \mathrm{d}) 31.91 \mathrm{m} \mathrm{s}^{-1}
@@ -734,11 +709,9 @@ $$
 \mathrm{b}) \frac{\mathrm{d}v}{\mathrm{d}t} = - \frac{k}{(m_{1}+ m_{2})} x
 $$
 
-:::{image} ../images/math/p297-0905570d17e5.svg
-:alt: Mathematical expression from source PDF page 297
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) A = \sqrt{\frac{m_{1}^{2}u^{2}}{k(m_{1}+ m_{2})}}
+$$
 
 (solution-6-10)=
 
@@ -764,11 +737,9 @@ $$
 \mathrm{b}) M = \frac{v_{0}}{v} M_{0}
 $$
 
-:::{image} ../images/math/p297-73942db8bef8.svg
-:alt: Mathematical expression from source PDF page 297
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) v = \sqrt{\frac{v_{0}^{2}M_{0}}{2\rho Av_{0}t + M_{0}}}
+$$
 
 ::::
 
@@ -843,11 +814,9 @@ $$
 \mathrm{a}) I_{0}= \frac{1}{2} MR^{2}+ ms^{2}
 $$
 
-:::{image} ../images/math/p298-edb997c9428e.svg
-:alt: Mathematical expression from source PDF page 298
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{b}) T = 2\pi \sqrt{\frac{R^{2}+ 2s^{2}}{2gs}}
+$$
 
 $$
 \mathrm{c}) s = \frac{R}{\sqrt{2}}
@@ -879,11 +848,9 @@ $$
 \mathrm{b}) I = \frac{1}{3} ML^{2}+ \frac{2}{5} MR^{2}+ M(L + \frac{1}{2} R)^{2}
 $$
 
-:::{image} ../images/math/p299-67d5bf71ad69.svg
-:alt: Mathematical expression from source PDF page 299
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) T = 2\pi \sqrt{\frac{\frac{2}{3} ML^{2}+ \frac{4}{5} MR^{2}+ 2M(L + \frac{1}{2} R)^{2}}{Mg(3L + R)}}
+$$
 
 (solution-7-9)=
 
@@ -980,21 +947,17 @@ $$
 
 **Problem 8-7:** [Question](#problem-8-7)
 
-:::{image} ../images/math/p300-c8f325f30b07.svg
-:alt: Mathematical expression from source PDF page 300
-:class: source-equation
-:align: center
-:::
+$$
+x = \pm \sqrt{\frac{A}{B}}
+$$
 
 (solution-8-8)=
 
 **Problem 8-8:** [Question](#problem-8-8)
 
-:::{image} ../images/math/p300-5cbbdfc60e2e.svg
-:alt: Mathematical expression from source PDF page 300
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{\frac{2}{m} (a + b + c)}
+$$
 
 (solution-8-9)=
 
@@ -1035,21 +998,17 @@ Position $C$
 
 **Problem 9-2:** [Question](#problem-9-2)
 
-:::{image} ../images/math/p300-3f35751ae55c.svg
-:alt: Mathematical expression from source PDF page 300
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{gh}
+$$
 
 (solution-9-3)=
 
 **Problem 9-3:** [Question](#problem-9-3)
 
-:::{image} ../images/math/p300-10f6cf1f1fc1.svg
-:alt: Mathematical expression from source PDF page 300
-:class: source-equation
-:align: center
-:::
+$$
+U = \frac{1}{2} kA^{2}\cos ^{2}\Bigg(\sqrt{\frac{k}{m}} t \Bigg)
+$$
 
 ::::
 
@@ -1057,11 +1016,9 @@ Position $C$
 
 ::::{admonition} Continued
 
-:::{image} ../images/math/p301-220cdc9b3590.svg
-:alt: Mathematical expression from source PDF page 301
-:class: source-equation
-:align: center
-:::
+$$
+K = \frac{1}{2} kA^{2}\sin ^{2}\Bigg(\sqrt{\frac{k}{m}} t \Bigg)
+$$
 
 (solution-9-4)=
 
@@ -1075,21 +1032,17 @@ $$
 
 **Problem 9-5:** [Question](#problem-9-5)
 
-:::{image} ../images/math/p301-dc698b82ec48.svg
-:alt: Mathematical expression from source PDF page 301
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{gL}
+$$
 
 (solution-9-6)=
 
 **Problem 9-6:** [Question](#problem-9-6)
 
-:::{image} ../images/math/p301-98f978574184.svg
-:alt: Mathematical expression from source PDF page 301
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{2g(R - y)}
+$$
 
 (solution-9-7)=
 
@@ -1105,11 +1058,9 @@ b) The adult can only jump half as high as the child.
 
 **Problem 9-8:** [Question](#problem-9-8)
 
-:::{image} ../images/math/p301-2fddce3063d8.svg
-:alt: Mathematical expression from source PDF page 301
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{\frac{4}{3} gh}
+$$
 
 (solution-9-9)=
 
@@ -1126,11 +1077,9 @@ $$
 \mathrm{c}) \frac{k_{rot}}{K_{trans}} = \frac{1}{2}
 $$
 
-:::{image} ../images/math/p301-0c677174782d.svg
-:alt: Mathematical expression from source PDF page 301
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{d}) T = 2\pi \sqrt{\frac{3m}{2k}}
+$$
 
 ::::
 
@@ -1171,11 +1120,9 @@ $U_{eff,\max}= -\dfrac{m}{2L}$, stable
 
 **Problem 10-5:** [Question](#problem-10-5)
 
-:::{image} ../images/math/p302-3664caed582b.svg
-:alt: Mathematical expression from source PDF page 302
-:class: source-equation
-:align: center
-:::
+$$
+L = 2m\sqrt{k} R^{3}, v = 2\sqrt{k} R^{2}
+$$
 
 (solution-10-6)=
 
@@ -1193,11 +1140,9 @@ $$
 
 **Problem 10-3:** [Question](#problem-10-3)
 
-:::{image} ../images/math/p302-359212567155.svg
-:alt: Mathematical expression from source PDF page 302
-:class: source-equation
-:align: center
-:::
+$$
+L = \sqrt{3A\beta mR^{5}e^{\beta R^{3}}}
+$$
 
 (solution-10-4)=
 
@@ -1209,19 +1154,15 @@ $$
 \mathrm{b}) r = \Bigg(\frac{L^{2}}{2Am} \Bigg)^{1/4}
 $$
 
-:::{image} ../images/math/p302-3c0dbbba42ea.svg
-:alt: Mathematical expression from source PDF page 302
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{c}) E = \sqrt{\frac{2AL^{2}}{m}}
+$$
 
 **Problem 10-5:** [Question](#problem-10-5)
 
-:::{image} ../images/math/p302-22755008430d.svg
-:alt: Mathematical expression from source PDF page 302
-:class: source-equation
-:align: center
-:::
+$$
+\mathrm{a}) \dot{r} = 2\sqrt{A}\frac{L}{mr^{3/2}}
+$$
 
 $$
 \mathrm{b}) E = \frac{L^{2}}{2m} \bigg[\frac{4A}{r^{3}} + \frac{1}{r^{2}} \bigg] + U(r)
@@ -1306,11 +1247,9 @@ $$
 
 **Problem 11-6:** [Question](#problem-11-6)
 
-:::{image} ../images/math/p303-8136e83ddac0.svg
-:alt: Mathematical expression from source PDF page 303
-:class: source-equation
-:align: center
-:::
+$$
+v = \sqrt{\frac{GM}{R_{s}}}
+$$
 
 (solution-11-7)=
 
