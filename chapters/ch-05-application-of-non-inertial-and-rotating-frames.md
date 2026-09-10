@@ -45,11 +45,13 @@ where we have added an extra term, $\vec{u}$, to represent the velocity of the o
 Finally, we defined the fictitious forces as,
 
 (eq-5-4)=
-:::{image} ../images/math/p101-79b4d00afd2e.svg
-:alt: Mathematical expression from source PDF page 101
-:class: source-equation
-:align: center
-:::
+$$
+m\vec{a}'=m\vec{a}
+\underbrace{-m\vec{\alpha}\times\vec{r}'}_{\vec{F}_{az}}
+\underbrace{-2m\vec{\omega}\times\vec{v}'}_{\vec{F}_{Cor}}
+\underbrace{-m\vec{\omega}\times(\vec{\omega}\times\vec{r}')}_{\vec{F}_{cent}}
+\underbrace{-m\vec{A}}_{\vec{F}_{trans}}.
+$$
 
 <!-- Source PDF page 102; printed label 93. -->
 
@@ -150,11 +152,9 @@ $$
 -\mu mg\hat{r} = -m\omega ^{2}R\hat{r}
 $$
 
-:::{image} ../images/math/p104-c558868ab844.svg
-:alt: Mathematical expression from source PDF page 104
-:class: source-equation
-:align: center
-:::
+$$
+\omega=\sqrt{\frac{\mu g}{R}}.
+$$
 
 So in the inertial frame, we can describe the cat’s motion and the condition for slipping fairly easily. **What about the non-inertial frame?**
 
@@ -189,11 +189,9 @@ $$
 
 0 = $f + F_{cent}=\Rightarrow$ only inertial force is friction 0 = $-\mu mg + mR\omega ^{2}=\Rightarrow f$ and $F_{cent}$ act in opposite directions
 
-:::{image} ../images/math/p105-523b09c630ba.svg
-:alt: Mathematical expression from source PDF page 105
-:class: source-equation
-:align: center
-:::
+$$
+\omega=\sqrt{\frac{\mu g}{R}}.
+$$
 
 which is the same solution as the inertial frame (as expected). The difference is that we have identified the fictitious centrifugal force for the non-inertial frame.
 
@@ -338,11 +336,9 @@ $$
 \mu mg = |2mv^{\prime }\omega \hat{\jmath}^{\prime }- m\omega ^{2}x^{\prime }\hat{\imath}^{\prime }|
 $$
 
-:::{image} ../images/math/p108-808ea92403fb.svg
-:alt: Mathematical expression from source PDF page 108
-:class: source-equation
-:align: center
-:::
+$$
+\mu mg=\sqrt{(2mv'\omega)^2+(m\omega^2x')^2}.
+$$
 
 $$
 \mu ^{2}g^{2}= 4(v^{\prime })^{2}\omega ^{2}+ \omega ^{4}(x^{\prime })^{2}
@@ -457,19 +453,25 @@ The vector cross product solution for the centrifugal force at a position that i
 observer is located at $\vec{R}\hat{k}^{\prime }$ and the Equation for Earth’s angular motion in the non-inertial frame from Equation 5.9.
 
 $$
-\begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times \vec{r}^{\prime }&= |0 \omega \cos \theta \omega \sin \theta | = \hat{\imath}^{\prime }(R\omega \cos \theta) + \hat{\jmath}^{\prime }(0 - 0) + \hat{k}^{\prime }(0 - 0) = R\omega \cos \theta \hat{\imath}^{\prime } \\
-0 0 R
-\end{aligned}
+\vec{\omega}\times\vec{r}'=
+\begin{vmatrix}
+\hat{\imath}'&\hat{\jmath}'&\hat{k}'\\
+0&\omega\cos\theta&\omega\sin\theta\\
+0&0&R
+\end{vmatrix}
+=R\omega\cos\theta\,\hat{\imath}'.
 $$
 
 $$
 \begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime }) &= | 0 \omega \cos \theta \omega \sin \theta | \\
-R\omega \cos \theta 0 0 \\
-&= \hat{\imath}^{\prime }(0 - 0) + \hat{\jmath}^{\prime }(\omega ^{2}R\cos \theta \sin \theta) + \hat{k}^{\prime }(-\omega ^{2}R\cos ^{2}\theta)
+\vec{\omega}\times(\vec{\omega}\times\vec{r}')
+&=\begin{vmatrix}
+\hat{\imath}'&\hat{\jmath}'&\hat{k}'\\
+0&\omega\cos\theta&\omega\sin\theta\\
+R\omega\cos\theta&0&0
+\end{vmatrix}\\
+&=\omega^2R\cos\theta\sin\theta\,\hat{\jmath}'
+-\omega^2R\cos^2\theta\,\hat{k}'.
 \end{aligned}
 $$
 
@@ -497,17 +499,14 @@ By contrast, gravity from the Earth is directed toward the center of the Earth, 
 
 Taking the magnitude of $\vec{F}_{cen}$, we have:
 
-:::{image} ../images/math/p112-50897b6437de.svg
-:alt: Mathematical expression from source PDF page 112
-:class: source-equation
-:align: center
-:::
+$$
+=m\omega^2R\cos\theta\sqrt{\sin^2\theta+\underbrace{\cos^2\theta}_{=1}}
+$$
 
-:::{image} ../images/math/p112-37f8e1e2e507.svg
-:alt: Mathematical expression from source PDF page 112
-:class: source-equation
-:align: center
-:::
+$$
+\lvert\vec{F}_{cen}\rvert
+=\sqrt{(-m\omega^2R\cos\theta\sin\theta)^2+(m\omega^2R\cos^2\theta)^2}.
+$$
 
 $$
 = m\omega ^{2}R\cos \theta
@@ -680,11 +679,13 @@ Fisher Scientific provides [a primer on centrifuge theory](https://www.fishersci
 
 This chapter applies the basic concepts of non-inertial frames from [Chapter 4](#ch-4) to more complex problems. In particular, this chapter expands on the Coriolis and centrifugal fictitious forces in rotating frames. The general equation for the fictitious forces are,
 
-:::{image} ../images/math/p116-b25ac2a6fc7b.svg
-:alt: Mathematical expression from source PDF page 116
-:class: source-equation
-:align: center
-:::
+$$
+m\vec{a}'=m\vec{a}
+\underbrace{-m\vec{\alpha}\times\vec{r}'}_{\vec{F}_{az}}
+\underbrace{-2m\vec{\omega}\times\vec{v}'}_{\vec{F}_{Cor}}
+\underbrace{-m\vec{\omega}\times(\vec{\omega}\times\vec{r}')}_{\vec{F}_{cent}}
+\underbrace{-m\vec{A}}_{\vec{F}_{trans}}.
+$$
 
 This chapter also introduces the Earth to be a non-inertial frame. To first order, the physics problems from [Chapter 2](#ch-2) and 3 assume that the Earth is an inertial frame of reference. This approximation is generally fine, as the fictitious forces do not greatly affect these types of physics problems. Try the practice problems below to see the magnitude of some of these forces.
 
@@ -722,11 +723,13 @@ $$
 
 **Rotation Frame Fictitious Forces:**
 
-:::{image} ../images/math/p117-9f5e20ed3b20.svg
-:alt: Mathematical expression from source PDF page 117
-:class: source-equation
-:align: center
-:::
+$$
+m\vec{a}'=m\vec{a}
+\underbrace{-m\vec{\alpha}\times\vec{r}'}_{\vec{F}_{az}}
+\underbrace{-2m\vec{\omega}\times\vec{v}'}_{\vec{F}_{Cor}}
+\underbrace{-m\vec{\omega}\times(\vec{\omega}\times\vec{r}')}_{\vec{F}_{cent}}
+\underbrace{-m\vec{A}}_{\vec{F}_{trans}}.
+$$
 
 **Earth’s rotation axis for an observer on the surface:**
 

@@ -135,12 +135,11 @@ So now we have matching physics in both reference frames. That is, the two obser
 
 <!-- Source PDF page 83; printed label 74. -->
 
-(eq-4-2)=
-:::{image} ../images/math/p083-b7e33dd7e6ac.svg
-:alt: Mathematical expression from source PDF page 83
-:class: source-equation
-:align: center
-:::
+$$
+\underbrace{\sum\vec{F}_{S'}}_{\text{non-inertial frame}}
+=\underbrace{\sum\vec{F}_{S}}_{\text{inertial frame}}
++\underbrace{\vec{F}_{fic}}_{\text{correction}}
+$$ (eq-4-2)
 
 ::::{admonition} Equivalence Principle of Mechanics
 
@@ -414,23 +413,33 @@ $$
 \end{aligned}
 $$
 
-d$x$ d$y$ d ![Formula, source page 88](../images/math/p088-acb0465846d8.svg) d ![Formula, source page 88](../images/math/p088-f9e37bb065c6.svg)d$\hat{\imath}^{\prime }$ d ![Formula, source page 88](../images/math/p088-3c75597ce262.svg)d$\hat{\jmath}^{\prime }$ d ![Formula, source page 88](../images/math/p088-ad9a68298218.svg)d$\hat{k}^{\prime }$
+$$
+\begin{aligned}
+\frac{\mathrm{d}x}{\mathrm{d}t}\hat{\imath}
++\frac{\mathrm{d}y}{\mathrm{d}t}\hat{\jmath}
++\frac{\mathrm{d}z}{\mathrm{d}t}\hat{k}
+={}&\frac{\mathrm{d}x'}{\mathrm{d}t}\hat{\imath}'
++x'\frac{\mathrm{d}\hat{\imath}'}{\mathrm{d}t}
++\frac{\mathrm{d}y'}{\mathrm{d}t}\hat{\jmath}'
++y'\frac{\mathrm{d}\hat{\jmath}'}{\mathrm{d}t} \\
+&+\frac{\mathrm{d}z'}{\mathrm{d}t}\hat{k}'
++z'\frac{\mathrm{d}\hat{k}'}{\mathrm{d}t}
+\end{aligned}
+$$
 
-:::{image} ../images/math/p088-4d95a132f5a1.svg
-:alt: Mathematical expression from source PDF page 88
-:class: source-equation
-:align: center
-:::
+Note that $\hat{\imath},\hat{\jmath},$ and $\hat{k}$ are all constant with time, so their derivatives vanish. Therefore,
 
-$=\Rightarrow$ Note that $\hat{\imath},\hat{\jmath},$ and $\hat{k}$ are all constant with time (no derivative)
-
-d$x$ d$y$ d ![Formula, source page 88](../images/math/p088-7918b041e9e7.svg) d ![Formula, source page 88](../images/math/p088-283406c0c761.svg) d ![Formula, source page 88](../images/math/p088-e18548ad1f14.svg) d ![Formula, source page 88](../images/math/p088-f073c74f90c9.svg)d ![Formula, source page 88](../images/math/p088-5f6c311a7c02.svg)d ![Formula, source page 88](../images/math/p088-8d5687eb0382.svg)d$\hat{k}^{\prime }$
-
-:::{image} ../images/math/p088-14361a1bcdee.svg
-:alt: Mathematical expression from source PDF page 88
-:class: source-equation
-:align: center
-:::
+$$
+\underbrace{\frac{\mathrm{d}x}{\mathrm{d}t}\hat{\imath}
++\frac{\mathrm{d}y}{\mathrm{d}t}\hat{\jmath}
++\frac{\mathrm{d}z}{\mathrm{d}t}\hat{k}}_{\vec{v}}
+=\underbrace{\frac{\mathrm{d}x'}{\mathrm{d}t}\hat{\imath}'
++\frac{\mathrm{d}y'}{\mathrm{d}t}\hat{\jmath}'
++\frac{\mathrm{d}z'}{\mathrm{d}t}\hat{k}'}_{\vec{v}'}
++x'\frac{\mathrm{d}\hat{\imath}'}{\mathrm{d}t}
++y'\frac{\mathrm{d}\hat{\jmath}'}{\mathrm{d}t}
++z'\frac{\mathrm{d}\hat{k}'}{\mathrm{d}t}.
+$$
 
 $$
 \vec{v} = \vec{v}^{\prime}+ x^{\prime} \frac{\mathrm{d}\hat{\imath}^{\prime}}{\mathrm{d}t} + y^{\prime} \frac{\mathrm{d}\hat{\jmath}^{\prime}}{\mathrm{d}t} + z^{\prime} \frac{\mathrm{d}\hat{k}^{\prime}}{\mathrm{d}t}
@@ -440,13 +449,7 @@ $$
 
 The above equation says that the velocity of the point, $P$, between the inertial (non-rotating) frame and the non-inertial (rotating) frame are related by an extra term corresponding to the rotation of the coordinate system itself.
 
-:::{image} ../images/math/p089-0fb58464e5e2.svg
-:alt: Mathematical expression from source PDF page 89
-:class: source-equation
-:align: center
-:::
-
-We need to solve for $\frac{\mathrm{d}\hat{\imath}}{\mathrm{d}t}, \frac{\mathrm{d}}{\mathrm{d}t}$ , and ![Formula, source page 89](../images/math/p089-edffd004430c.svg) to fully complete the coordinate transformation. The unit vectors in $S^{\prime }$ are rotating at a rate of $\vec{\omega}$ , which is the angular velocity:
+We need to solve for $\frac{\mathrm{d}\hat{\imath}'}{\mathrm{d}t}$, $\frac{\mathrm{d}\hat{\jmath}'}{\mathrm{d}t}$, and $\frac{\mathrm{d}\hat{k}'}{\mathrm{d}t}$ to fully complete the coordinate transformation. The unit vectors in $S^{\prime }$ are rotating at a rate of $\vec{\omega}$, which is the angular velocity:
 
 $$
 \vec{\omega} = \omega \hat{n}
@@ -505,19 +508,9 @@ $$
 
 ::::{tip} Quick Questions
 
-$$
-'
-$$
+1. Apply the right-hand rule to show that $\frac{\mathrm{d}\hat{\imath}'}{\mathrm{d}t} = \vec{\omega} \times \hat{\imath}^{\prime}$ and not $\hat{\imath}^{\prime }\times \vec{\omega}$.
 
-1. Apply the right-hand rule to show that $\frac{\mathrm{d}\hat{\imath}}{\mathrm{d}t} = \vec{\omega} \times \hat{\imath}^{\prime}$ and not $\hat{\imath}^{\prime }\times \vec{\omega}$ .
-
-2. A $'$system is rotating with an angular speed of $\omega$ along the $\hat{\imath}^{\prime }$ direction. What is ![Formula, source page 90](../images/math/p090-5d04cc323cb5.svg) ? Does this answer make sense?
-
-:::{image} ../images/math/p090-91de1e3c5c1e.svg
-:alt: Mathematical expression from source PDF page 90
-:class: source-equation
-:align: center
-:::
+2. A system is rotating with an angular speed of $\omega$ along the $\hat{\imath}^{\prime }$ direction. What is $\frac{\mathrm{d}\hat{\imath}'}{\mathrm{d}t}$? Does this answer make sense?
 
 ::::
 
@@ -573,12 +566,11 @@ $$
 
 Recall however that $\vec{r} = \vec{r}^{\prime }$ since both frames have the same origin and same end point, $P$. As a result, we can say that the above equation can be written as:
 
-(eq-4-4)=
-:::{image} ../images/math/p091-931177193b50.svg
-:alt: Mathematical expression from source PDF page 91
-:class: source-equation
-:align: center
-:::
+$$
+\left(\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}\right)_{I}
+=\underbrace{\left[\left(\frac{\mathrm{d}}{\mathrm{d}t}\right)_{R}
++\vec{\omega}\times\right]}_{\text{operator}}\vec{r}
+$$ (eq-4-4)
 
 where the term in front of $\vec{r}$ acts like a coordinate transformation operator on vector $\vec{r}$ to go from the rotating frame to the inertial frame. But you can technically apply an operator to any vector, it doesn’t have to be position. So if we apply this vector operator to $\vec{v}$ instead of $\vec{r}$, we get acceleration in the inertial frame.
 
@@ -640,10 +632,11 @@ $$ (eq-4-5)
 
 ::::{tip} Quick Question
 
-1. Apply the coordinate operator to show that ![Formula, source page 92](../images/math/p092-875df264de2e.svg)
+1. Apply the coordinate operator to show that
 
 $$
-\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t} _{R} \frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t} \Bigg)_{I}
+\left(\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t}\right)_{R}
+=\left(\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t}\right)_{I}.
 $$
 
 ::::
@@ -657,12 +650,14 @@ Equation 4.5 equates the acceleration between an inertial frame and a non-inerti
 
 Thus, our final equation for the acceleration (relative to the non-inertial frame) is:
 
-(eq-4-6)=
-:::{image} ../images/math/p092-a5b159195a82.svg
-:alt: Mathematical expression from source PDF page 92
-:class: source-equation
-:align: center
-:::
+$$
+\underbrace{\vec{a}'}_{1}
+=\underbrace{\vec{a}}_{2}
+-\underbrace{\vec{\alpha}\times\vec{r}}_{3}
+-\underbrace{2\vec{\omega}\times\vec{v}'}_{4}
+-\underbrace{\vec{\omega}\times(\vec{\omega}\times\vec{r})}_{5}
+-\underbrace{\vec{A}}_{6}
+$$ (eq-4-6)
 
 1. Linear acceleration in the rotating frame (what an observer in the rotating frame would measure as the acceleration). This would be equivalent to the net acceleration from the perspective of the rotating frame.
 
@@ -738,19 +733,20 @@ $$
 
 But this observer has not considered that they are on a rotating reference frame. As a result, they need to consider the fictitious forces that come with that frame.Fortunately, many of the terms are equal to zero.
 
-:::{image} ../images/math/p094-b2fb101be0b9.svg
-:alt: Mathematical expression from source PDF page 94
-:class: source-equation
-:align: center
-:::
+$$
+m\vec{a}'=\sum\vec{F}_{I}
+-m\vec{\alpha}\times\vec{r}
+-2m\vec{\omega}\times\vec{v}'
+-m\vec{\omega}\times(\vec{\omega}\times\vec{r})
+-m\vec{A},
+$$
 
 There is no angular acceleration $(\alpha$ = 0), the person is not moving within the rotating frame $(\vec{v}^{\prime }$ = 0), and the origins are not changing $(\vec{A}$ = 0). The only fictitious force left is the centrifugal force. Therefore,
 
-:::{image} ../images/math/p094-6d210b83871c.svg
-:alt: Mathematical expression from source PDF page 94
-:class: source-equation
-:align: center
-:::
+$$
+0=\sum\vec{F}_{I}
+-\underbrace{m\vec{\omega}\times(\vec{\omega}\times\vec{r})}_{\vec{F}_{cent}}
+$$
 
 For this circular rotation, the angular velocity and radial vectors are perpendicular to each other. Thus, $F_{cent}$ has a magnitude of $m\omega ^{2}R$. You’ll notice that this force has the same magnitude as the centripetal acceleration in the inertial frame.
 
@@ -767,12 +763,6 @@ What about the direction of the centrifugal force? In the rotating frame, the ce
 :width: 297px
 
 For the direction of the centrifugal force, use the right-hand rule.
-:::
-
-:::{image} ../images/math/p095-a85bec2759bc.svg
-:alt: Mathematical expression from source PDF page 95
-:class: source-equation
-:align: center
 :::
 
 Using our value for the centrifugal force, we get:

@@ -76,13 +76,14 @@ where $A,\omega _{0}$, and $\varphi$ are all constants.
 
 Equation 3.2 is a generic solution to the second-order differential equation that works for any simple harmonic oscillator (not just a mass and spring). Note also that instead of cos, we can use $B\sin (\omega _{0}t + \varphi _{2})$, where $B,\omega _{0}$, and $\varphi _{2}$ are all constants. Indeed, the cos and sin forms of the equation are interchangeable if you just alter the value of the phase constant. In practice, the most general solution for simple harmonic motion would be a superposition of cos and sin functions. For this textbook, however, we will assume that the motion can be described via a single periodic function and we will use the cos function by default.
 
-Now that we have $x(t)$, we just need to difef rentiate once to get the velocity.
+Now that we have $x(t)$, we just need to differentiate once to get the velocity.
 
-:::{image} ../images/math/p062-88d484baada3.svg
-:alt: Mathematical expression from source PDF page 62
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+v&=\dot{x} \\
+v&=\frac{\mathrm{d}}{\mathrm{d}t}\left[A\cos(\omega_{0}t+\varphi)\right]
+\end{aligned}
+$$
 
 <!-- Source PDF page 63; printed label 54. -->
 
@@ -92,11 +93,13 @@ $$ (eq-3-3)
 
 And we can differentiate again to get the acceleration.
 
-:::{image} ../images/math/p063-522769a12e48.svg
-:alt: Mathematical expression from source PDF page 63
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+a&=\dot{v} \\
+a&=\frac{\mathrm{d}}{\mathrm{d}t}\left[-\omega_{0}A\sin(\omega_{0}t+\varphi)\right] \\
+a&=-\omega_{0}^{2}\underbrace{\left[A\cos(\omega_{0}t+\varphi)\right]}_{x(t)}
+\end{aligned}
+$$
 
 $$
 a = -\omega _{0}^{2}x
@@ -104,11 +107,9 @@ $$ (eq-3-4)
 
 Thus, we find that $a = -\omega _{0}^{2}x$, where $\omega _{0}$ is the angular frequency constant. Going back to our original definition of the force in Equation (3.1), we had $a = - \frac{k}{m} x$ for the force $F = -kx$. Thus, the generic differential equation of motion solves Hooke’s Law if:
 
-:::{image} ../images/math/p063-b72a9da43b20.svg
-:alt: Mathematical expression from source PDF page 63
-:class: source-equation
-:align: center
-:::
+$$
+\omega_{0}=\sqrt{\frac{k}{m}}
+$$
 
 Note that for other restoring forces, the solution for $\omega _{0}$ will be different.
 
@@ -126,16 +127,13 @@ $$
 x = A\cos (\omega _{0}t + \varphi)
 $$
 
-where ![Formula, source page 63](../images/math/p063-69e609773a17.svg) . To get the values for $A$ and $\varphi$, you need to be given information about the motion at a particular time. These are constants (similar to constants of integration) and require initial conditions to be solved.
+where $\omega_{0}=\sqrt{\frac{k}{m}}$. To get the values for $A$ and $\varphi$, you need to be given information about the motion at a particular time. These are constants (similar to constants of integration) and require initial conditions to be solved.
 
 The angular frequency, $\omega _{0}$, is a fundamental property of the system itself (depends on the mass and spring constant) and it also relates to the period of motion. A cos function repeats every $2\pi$ radians, so a full period $T$ occurs when $\omega _{0}T = 2\pi$ or:
 
-(eq-3-5)=
-:::{image} ../images/math/p063-4b1abd2165b0.svg
-:alt: Mathematical expression from source PDF page 63
-:class: source-equation
-:align: center
-:::
+$$
+T=\frac{2\pi}{\omega_{0}}=2\pi\sqrt{\frac{m}{k}}
+$$ (eq-3-5)
 
 So the physical properties of the system itself (mass, spring constant) determine the period of motion. That is, the system itself sets the period of motion, not the force that is applied.
 
@@ -172,17 +170,13 @@ ma = -kx - mg
 $$
 
 $$
-\mathrm{d}^{2}x
-$$
-
-![Formula, source page 64](../images/math/p064-994a0af7ec65.svg) from $x_{0}= - \frac{mg}{k}$ , we get $-mg = kx_{0}$
-
-$$
 \begin{aligned}
-\mathrm{d}t _{2} \\
-0 &= \frac{\mathrm{d} x}{\mathrm{d}t^{2}} + \frac{k}{m} x - \frac{k}{m} x_{0}
+m\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}&=-kx+kx_{0} \\
+0&=\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}+\frac{k}{m}x-\frac{k}{m}x_{0}
 \end{aligned}
 $$
+
+Here we used $x_{0}=-\frac{mg}{k}$, so $-mg=kx_{0}$.
 
 So we have an additional (constant) term in our differential equation of motion. Nevertheless, we can still solve this second order differential equation. The trick here is that,
 
@@ -247,26 +241,13 @@ $$
 
 where all parameters are constants except $y$. What is the angular frequency $(\omega _{0})$ of this system? Note, you do not need to solve the differential equation of motion.
 
-:::{image} ../images/math/p066-b9277d90c298.svg
-:alt: Mathematical expression from source PDF page 66
-:class: source-equation
-:align: center
-:::
+**A)** $\displaystyle \omega_{0}=\frac{4R_{1}k}{R_{2}}$
 
-**A) ![Formula, source page 66](../images/math/p066-aeaef8d25b1f.svg)**
+**B)** $\displaystyle \omega_{0}=\sqrt{\frac{4R_{1}k}{AR_{2}}}$
 
-**B) ![Formula, source page 66](../images/math/p066-c7d575c5952b.svg)**
+**C)** $\displaystyle \omega_{0}=\sqrt{\frac{4R_{1}k}{R_{2}}+M(R_{1}^{2}+R_{2}^{2})g}$
 
-**C) ![Formula, source page 66](../images/math/p066-e379651ebfc5.svg)**
-
-$$
-\begin{aligned}
-(R_{1}^{2}+R_{2}^{2})g \\
-A
-\end{aligned}
-$$
-
-**D) ![Formula, source page 66](../images/math/p066-8c86825a1d66.svg)**
+**D)** $\displaystyle \omega_{0}=\frac{4R_{1}k}{AR_{2}}+\frac{M(R_{1}^{2}+R_{2}^{2})g}{A}$
 
 ::::
 
@@ -360,28 +341,22 @@ $$
 Once more we have a Differential Equation of Motion that we can solve just by looking at it. This equation has the same structure as the spring and mass system. The general solution to this problem is $x(t) = A\cos (\omega _{0}t + \varphi _{1}) + B\sin (\omega _{0}t + \varphi _{2})$, but in this case, we have a different value for the angular frequency.
 
 $$
-g
+\omega_{0}^{2}=\frac{g}{L}
 $$
 
-![Formula, source page 68](../images/math/p068-e69b56ca546c.svg) Recall that $\omega _{0}^{2}$ equals the coefficient in front of $x$
+Recall that $\omega_{0}^{2}$ equals the coefficient in front of $x$, so
 
-:::{image} ../images/math/p068-7b616c9eaba0.svg
-:alt: Mathematical expression from source PDF page 68
-:class: source-equation
-:align: center
-:::
+$$
+\omega_{0}=\sqrt{\frac{g}{L}}.
+$$
 
 And the angular frequency relates to the period of motion by,
 
-![Formula, source page 68](../images/math/p068-4a8399b64e7d.svg) The period is independent of the mass of the pendulum
-
 $$
-2\pi L
+T=\frac{2\pi}{\omega_{0}}=2\pi\sqrt{\frac{L}{g}}
 $$
 
-$$
-\omega _{0}g
-$$
+The period is independent of the mass of the pendulum.
 
 ::::{tip} Quick Questions
 
@@ -455,31 +430,25 @@ Free-body diagram of the block and two spring system where $F_{1}$ comes from sp
 Using Newton’s second law, the sum of all (horizontal) forces is;
 
 $$
-\sum
-$$
-
-$F = F_{1}+ F_{2}= ma =\Rightarrow F_{g}= N$, so we ignore the vertical forces
-
-$$
-m \frac{\mathrm{d}^{2}x}{\mathrm{dd}_{2}tx^{2}} = F_{1}+ F_{2}
-$$
-
-![Formula, source page 70](../images/math/p070-88324a232ee8.svg) use the equations for $F_{1}$ and $F_{2}$
-
-$$
 \begin{aligned}
-\frac{\mathrm{dd}_{2}tx}{\mathrm{d}t^{2}} &= - \frac{k_{1}+ k_{2}}{m} x \\
-0 &= \frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}} + \frac{k_{1}+ k_{2}}{m} x
+\sum F&=F_{1}+F_{2}=ma \\
+m\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}&=F_{1}+F_{2} \\
+m\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}&=-k_{1}x-k_{2}x \\
+\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}&=-\frac{k_{1}+k_{2}}{m}x \\
+0&=\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}+\frac{k_{1}+k_{2}}{m}x
 \end{aligned}
 $$
 
+The vertical forces cancel because $F_g=N$.
+
 Again, we have a Differential Equation of Motion, and in this form, we can read off $\omega _{0}^{2}$ from the coefficient in front of the $x$ term.
 
-:::{image} ../images/math/p070-e19b4105d7fb.svg
-:alt: Mathematical expression from source PDF page 70
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\omega_{0}^{2}&=\frac{k_{1}+k_{2}}{m} \\
+\omega_{0}&=\sqrt{\frac{k_{1}+k_{2}}{m}}
+\end{aligned}
+$$
 
 But the question asked for the period of oscillations. For the period, we get
 
@@ -487,11 +456,9 @@ $$
 T = 2\pi \frac{1}{\omega _{0}}
 $$
 
-:::{image} ../images/math/p070-167c1fa6009c.svg
-:alt: Mathematical expression from source PDF page 70
-:class: source-equation
-:align: center
-:::
+$$
+T=2\pi\sqrt{\frac{m}{k_{1}+k_{2}}}
+$$
 
 This is the same solution as the simple (one spring) case, but $k \rightarrow k_{1}+k_{2}$ because there are two springs working together. As a consequence of having these two springs, the period decreased compared to if there was one spring alone.
 
@@ -553,27 +520,21 @@ $$
 
 Again, we have a Differential Equation of Motion, and in this form, we can read off $\omega _{0}^{2}$ from the coefficient in front of the $x$ term.
 
-:::{image} ../images/math/p072-430ab13a2f60.svg
-:alt: Mathematical expression from source PDF page 72
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p072-e01be710936e.svg
-:alt: Mathematical expression from source PDF page 72
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\omega_{0}^{2}&=\frac{kL+mg}{mL} \\
+\omega_{0}&=\sqrt{\frac{kL+mg}{mL}} \\
+\omega_{0}&=\sqrt{\frac{k}{m}+\frac{g}{L}}
+\end{aligned}
+$$
 
 The angular frequency has a term for the spring and the pendulum, which increases the value of $\omega _{0}$ compared to the value from either the spring or pendulum alone. A larger $\omega _{0}$ will decrease the period (they are inversely proportional). This means that by adding simple harmonic oscillators, the motion goes faster (shorter period).
 
 For this $\omega _{0}$, the period is:
 
-:::{image} ../images/math/p072-90ed80d49c9d.svg
-:alt: Mathematical expression from source PDF page 72
-:class: source-equation
-:align: center
-:::
+$$
+T=\frac{2\pi}{\omega_{0}}=2\pi\sqrt{\frac{mL}{kL+mg}}
+$$
 
 ::::
 
@@ -603,7 +564,7 @@ Since seismic waves can cause widespread damage, many agencies around the world 
 
 **For more information:**
 
-For some introductory science on seismic waves, you can visit [the Science Learning Hub -](https://www.sciencelearn.org.nz/resources/340-seismic-waves) Pokapu ![Formula, source page 73](../images/math/p073-210708532739.svg) Akoranga Pu ![Formula, source page 73](../images/math/p073-a83987eda109.svg) taiao.
+For some introductory science on seismic waves, you can visit [the Science Learning Hub - Pokapū Akoranga Pūtaiao](https://www.sciencelearn.org.nz/resources/340-seismic-waves).
 
 This [web site contains information on earthquake warning systems](https://www.earthsystems.com/earthquake-early-warning-systems/) in use around the world.
 
@@ -676,13 +637,21 @@ T &= \frac{2\pi}{\omega _{0}}
 \end{aligned}
 $$
 
-**2nd-Order Differential 2nd-Order Differential** **for Spring-Mass: for Simple Pendulum:**
+**2nd-Order Differential for Spring-Mass:**
 
-:::{image} ../images/math/p075-5305ee8f5664.svg
-:alt: Mathematical expression from source PDF page 75
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}=-\frac{k}{m}x,
+\qquad
+\omega_{0}=\sqrt{\frac{k}{m}}
+$$
+
+**2nd-Order Differential for Simple Pendulum:**
+
+$$
+\frac{\mathrm{d}^{2}x}{\mathrm{d}t^{2}}=-\frac{g}{L}x,
+\qquad
+\omega_{0}=\sqrt{\frac{g}{L}}
+$$
 
 **Simple Solution to 2nd-Order Differential:**
 
@@ -741,7 +710,7 @@ A standard pendulum clock on Earth has a period of 2s. If NASA wants to engineer
 
 ::::{admonition} Practice Problem 3-3
 
-An antique pendulum$3g$ clock uses a uniform rod of length $L$ and operates with an angular frequency of ![Formula, source page 76](../images/math/p076-9e24ca4fc1ce.svg) .
+An antique pendulum clock uses a uniform rod of length $L$ and operates with an angular frequency of $\omega_{0}=\sqrt{\frac{3g}{L}}$.
 
 a) What is the differential equation of motion for this clock?
 
@@ -788,11 +757,9 @@ b) While it is in free-fall? Note: free-fall means that the elevator is travelin
 
 Consider a pendulum-spring system where the angular frequency is:
 
-:::{image} ../images/math/p077-0057f00a34d9.svg
-:alt: Mathematical expression from source PDF page 77
-:class: source-equation
-:align: center
-:::
+$$
+\omega_{0}=\sqrt{\frac{k}{m}+\frac{g}{L}}
+$$
 
 a) Write out the equations for position, velocity, and acceleration assuming small displacements, $A$ in $x$.
 
@@ -881,11 +848,9 @@ b) What is the differential equation of motion for the mass?
 
 c) Show that this system has a period of oscillations of:
 
-:::{image} ../images/math/p079-96cd39d4ad1d.svg
-:alt: Mathematical expression from source PDF page 79
-:class: source-equation
-:align: center
-:::
+$$
+T=2\pi\sqrt{\frac{m(k_{1}+k_{2})}{k_{1}k_{2}+k_{3}(k_{1}+k_{2})}}
+$$
 
 :::{figure} ../images/figures/figure-3-14.png
 :label: fig-3-14

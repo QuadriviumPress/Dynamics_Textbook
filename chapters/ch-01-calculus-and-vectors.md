@@ -65,7 +65,7 @@ $$
 
 A dot over a variable can be used as shorthand for the *time* derivative of that variable. Two dots would be the second time derivative, and so forth.
 
-Note that dots over variables are only a shorthand for the time derivative. If you have a ![Formula, source page 12](../images/math/p012-bb1120675fe3.svg) derivative, then do not use a dot.
+Note that dots over variables are only a shorthand for the time derivative. If you have a $\frac{\mathrm{d}}{\mathrm{d}x}$ derivative, then do not use a dot.
 
 ::::
 
@@ -171,13 +171,14 @@ For a rigid body, all points in the object move with the same angular velocity a
 
 In cases of circular motion, it is often easier to solve a problem by changing your coordinate system from Cartesian plane $(x,y)$ to polar coordinates $(r,\theta)$. The two coordinate systems are connected, where $x = r\cos \theta$ and $y = r\sin \theta$, where $r$ is the radius length and $\theta$ is the polar angle (see [Figure 1.4](#fig-1-4)). Solving for $r$ and $\theta$, we get:
 
-:::{image} ../images/math/p014-242868779f57.svg
-:alt: Mathematical expression from source PDF page 14
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+r &= \sqrt{x^{2}+y^{2}} \\
+\theta &= \tan^{-1}\Bigg(\frac{y}{x}\Bigg)
+\end{aligned}
+$$
 
-Of course, $r$ and $\theta$ are vector quantities, where $\hat{r}$ points away from the origin of the system and $\hat{\theta}$ is orthogonal to $\hat{r}$ in the counter-clockwise direction (usually). Note that the ![Formula, source page 14](../images/math/p014-5bfb357db7d9.svg) symbol indicates a unit vector (direction only). [Figure 1.4](#fig-1-4) shows these vector directions.
+Of course, $r$ and $\theta$ are vector quantities, where $\hat{r}$ points away from the origin of the system and $\hat{\theta}$ is orthogonal to $\hat{r}$ in the counter-clockwise direction (usually). Note that the hat symbol indicates a unit vector (direction only). [Figure 1.4](#fig-1-4) shows these vector directions.
 
 The position vector in plane polar coordinates can be written as $\vec{r} = r\hat{r}$ and the angle vector can be written as $\vec{\theta} = \theta \hat{\theta}$ .
 
@@ -233,15 +234,22 @@ Sketch showing how $\hat{r}$ and $\hat{\theta}$ can be described in terms of $\h
 
 If we take the derivative of $\hat{r}$ with respect to time, we get:
 
-:::{image} ../images/math/p016-e1ce4164f5eb.svg
-:alt: Mathematical expression from source PDF page 16
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\frac{\mathrm{d}\hat{r}}{\mathrm{d}t}
+&= \frac{\mathrm{d}}{\mathrm{d}t}\left(\cos\theta\hat{\imath}+\sin\theta\hat{\jmath}\right) \\
+&= -\sin\theta\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\imath}
+  +\cos\theta\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\jmath} \\
+&= \frac{\mathrm{d}\theta}{\mathrm{d}t}
+  \underbrace{\left(-\sin\theta\hat{\imath}+\cos\theta\hat{\jmath}\right)}_{\hat{\theta}} \\
+&= \frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}
+ = \omega\hat{\theta}
+\end{aligned}
+$$
 
 The above equation applies a full time derivative to $\hat{r}$ , which means that you must not only take the time derivative of $\cos \theta$ and $\sin \theta$, but also time derivative of $\theta$. See the textbook repository for a video showing the difference between full and partial derivatives.
 
-Now that we have ![Formula, source page 16](../images/math/p016-2edf2f5f4fcd.svg), we can go back to our velocity equation from before. For polar coordinates we get:
+Now that we have $\frac{\mathrm{d}\hat{r}}{\mathrm{d}t}$, we can go back to our velocity equation from before. For polar coordinates we get:
 
 $$
 \vec{v} = \frac{\mathrm{d}r}{\mathrm{d}t} \hat{r} + r \frac{\mathrm{d}\hat{r}}{\mathrm{d}t}
@@ -251,55 +259,55 @@ $$
 \vec{v} = \frac{\mathrm{d}r}{\mathrm{d}t} \hat{r}+r \frac{\mathrm{d}\theta}{\mathrm{d}t} \hat{\theta}
 $$ (eq-1-2)
 
-$$
-\vec{v}_{r}\vec{v}_{\theta}
-$$
+where the first term is the radial velocity component $\vec{v}_{r}$ and the second term is the tangential velocity component $\vec{v}_{\theta}$. The radial velocity component indicates how the point is moving in and out along the direction of the radius vector, whereas the tangential velocity component of the motion describes how the point is moving along a circle (motion that is tangent to the radius vector). For circular motion, the radius is constant, such that $\frac{\mathrm{d}r}{\mathrm{d}t}=0$ and you get $\vec{v}_{circ}= r\omega \hat{\theta}$ .
 
-where the first term is the radial velocity component$\vec{v}_{r}$ and the second term is the tangential velocity component $\vec{v}_{\theta}$. The radial velocity component indicates how the point is moving in and out along the direction of the radius vector, whereas the tangential velocity component of the motion describes how the point is moving along a circle (motion that is tangent to the radius vector). For circular motion, the radius is constant, such that ![Formula, source page 16](../images/math/p016-188daaf6c6ab.svg) = 0 and you get $\vec{v}_{circ}= r\omega \hat{\theta}$ .
-
-By definition the speed (or $|\vec{v}|)$ is given by ![Formula, source page 16](../images/math/p016-ddda0d46a698.svg), using the vector dot product (see also, [Chapter 1.5.1](#sec-1-5-1)).
+By definition the speed (or $|\vec{v}|$) is given by $\sqrt{\vec{v}\cdot\vec{v}}=\sqrt{v_{r}^{2}+v_{\theta}^{2}}=\sqrt{v_{r}^{2}+(r\omega)^{2}}$, using the vector dot product (see also, [Chapter 1.5.1](#sec-1-5-1)).
 
 <!-- Source PDF page 17; printed label 8. -->
 
 We can also take the time derivative of $\hat{\theta}$ , using the definition of $\hat{\theta}$ in Cartesian coordinates.
 
-:::{image} ../images/math/p017-20960d5339e4.svg
-:alt: Mathematical expression from source PDF page 17
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\frac{\mathrm{d}\hat{\theta}}{\mathrm{d}t}
+&= \frac{\mathrm{d}}{\mathrm{d}t}\left(-\sin\theta\hat{\imath}+\cos\theta\hat{\jmath}\right) \\
+&= -\cos\theta\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\imath}
+  -\sin\theta\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\jmath} \\
+&= -\frac{\mathrm{d}\theta}{\mathrm{d}t}
+  \underbrace{\left(\cos\theta\hat{\imath}+\sin\theta\hat{\jmath}\right)}_{\hat{r}} \\
+&= -\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{r}
+ = -\omega\hat{r}
+\end{aligned}
+$$
 
 For acceleration, we want the time derivative of velocity. Following a similar procedure,
 
-:::{image} ../images/math/p017-5392e13560df.svg
-:alt: Mathematical expression from source PDF page 17
-:class: source-equation
-:align: center
-:::
-
-$\mathrm{d}\vec{v}$ d d$r$ d ![Formula, source page 17](../images/math/p017-b5e164d020f4.svg)
-
-2 2 ![Formula, source page 17](../images/math/p017-6b33fc9d4187.svg) = d ![Formula, source page 17](../images/math/p017-7e5e444d7f79.svg) + d$r$ d$\hat{r}$ + d$r$ d ![Formula, source page 17](../images/math/p017-d554c7d9ba70.svg)d$\theta$ d ![Formula, source page 17](../images/math/p017-c9429c2951c1.svg) sub in d$\hat{r}$ = d ![Formula, source page 17](../images/math/p017-a4f45a648bbf.svg) d ![Formula, source page 17](../images/math/p017-924c6aea3b25.svg)d ![Formula, source page 17](../images/math/p017-2e1deb756072.svg) d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ d$t$ $\frac{\mathrm{d}^{2}r}{2}$ d$r$ d ![Formula, source page 17](../images/math/p017-5695df03c37d.svg) d$r$ d ![Formula, source page 17](../images/math/p017-b9c147a6aa35.svg) d$\theta$ d$\theta$ d$t$ d ![Formula, source page 17](../images/math/p017-1108c5fa1d3c.svg)d ![Formula, source page 17](../images/math/p017-86139ce1a186.svg) d$t$ d$t$ d$t$ d ![Formula, source page 17](../images/math/p017-1b3839563510.svg) d ![Formula, source page 17](../images/math/p017-f76c1fccf0be.svg)
-
-:::{image} ../images/math/p017-8587c3394037.svg
-:alt: Mathematical expression from source PDF page 17
-:class: source-equation
-:align: center
-:::
-
-2 2 2 d$t$ d$t$ d$t$ d ![Formula, source page 17](../images/math/p017-470d59a36c11.svg)d ![Formula, source page 17](../images/math/p017-e98e0e3e1c6b.svg) = d ![Formula, source page 17](../images/math/p017-5253893c0c8d.svg) + 2d$r$ d ![Formula, source page 17](../images/math/p017-1c649b23e1b0.svg) d ![Formula, source page 17](../images/math/p017-2d680d86cab9.svg) simplify
-
-![Formula, source page 17](../images/math/p017-78500c1103af.svg) 2 d ![Formula, source page 17](../images/math/p017-7b227d82445f.svg)d ![Formula, source page 17](../images/math/p017-e0e0c2ce1c15.svg) d$t$ d$t$ d ![Formula, source page 17](../images/math/p017-690928069799.svg) $\vec{a}$ = d ![Formula, source page 17](../images/math/p017-828d6be66ed8.svg) d ![Formula, source page 17](../images/math/p017-9b06ced9bc4b.svg) + 2d$r$ d ![Formula, source page 17](../images/math/p017-252950ffd111.svg) collect $\hat{r}$ and $\hat{\theta}$ terms (1.3)
-
-:::{image} ../images/math/p017-918a109b65fc.svg
-:alt: Mathematical expression from source PDF page 17
-:class: source-equation
-:align: center
-:::
-
 $$
-a_{r}a_{\theta}
-$$
+\begin{aligned}
+\vec{a}
+&= \frac{\mathrm{d}\vec{v}}{\mathrm{d}t}
+ = \frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\mathrm{d}r}{\mathrm{d}t}\hat{r}
+ +r\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}\right) \\
+&= \frac{\mathrm{d}^{2}r}{\mathrm{d}t^{2}}\hat{r}
+ +\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\hat{r}}{\mathrm{d}t}
+ +\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}
+ +r\frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}}\hat{\theta}
+ +r\frac{\mathrm{d}\theta}{\mathrm{d}t}\frac{\mathrm{d}\hat{\theta}}{\mathrm{d}t} \\
+&= \frac{\mathrm{d}^{2}r}{\mathrm{d}t^{2}}\hat{r}
+ +\frac{\mathrm{d}r}{\mathrm{d}t}\left(\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}\right)
+ +\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}
+ +r\frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}}\hat{\theta}
+ +r\frac{\mathrm{d}\theta}{\mathrm{d}t}\left(-\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{r}\right) \\
+&= \frac{\mathrm{d}^{2}r}{\mathrm{d}t^{2}}\hat{r}
+ +2\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}
+ +r\frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}}\hat{\theta}
+ -r\left(\frac{\mathrm{d}\theta}{\mathrm{d}t}\right)^{2}\hat{r} \\
+&= \left[\frac{\mathrm{d}^{2}r}{\mathrm{d}t^{2}}
+ -r\left(\frac{\mathrm{d}\theta}{\mathrm{d}t}\right)^{2}\right]\hat{r}
+ +\left(r\frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}}
+ +2\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\theta}{\mathrm{d}t}\right)\hat{\theta}
+\end{aligned}
+$$ (eq-1-3)
 
 where the first term is the acceleration in the radial direction $(a_{r})$ and the second term is the acceleration in the tangential direction $(a_{\theta})$. That is:
 
@@ -347,26 +355,30 @@ $$
 The solutions to these integrals depends on how the system moves with time. For example, consider the case when $\alpha$ and $\vec{a}$ are constant with time. Let’s look at the case of linear motion with constant acceleration in 1-D so that we can drop the vector notation.
 
 $$
-v_{x}= \int a_{x}\mathrm{d}t
+v_{x}= \int a_{x}\,\mathrm{d}t
 $$
 
-$v_{x}= a_{x}t + C_{1}=\Rightarrow a$ is constant (definition), $C_{1}$ is constant of integration
-
 $$
-x = \int v_{x}\mathrm{d}t
+v_{x}= a_{x}t + C_{1}
 $$
 
-$x = \int (a_{x}t + C_{1})$ d$t =\Rightarrow$ sub in equation for $v$
+where $a_x$ is constant by definition and $C_{1}$ is a constant of integration.
 
 $$
-1
+x = \int v_{x}\,\mathrm{d}t
 $$
 
-![Formula, source page 18](../images/math/p018-a2445375a971.svg) is constant of integration
+$$
+x = \int (a_{x}t + C_{1})\,\mathrm{d}t
+$$
+
+where we have substituted the equation for $v_x$. Integrating gives
 
 $$
-2
+x = \frac{1}{2}a_{x}t^{2}+C_{1}t+C_{2},
 $$
+
+where $C_{2}$ is a constant of integration.
 
 The constant $C_{1}$ is the initial velocity $v_{x,0}$ (at $t$ = 0) and $C_{2}$ is the initial position $x_{0}$ (at $t$ = 0). Subbing in those definitions for the constants of integration, we get:
 
@@ -422,12 +434,10 @@ $$
 
 For circular motion, $\theta$ changes with time. Let’s consider the simplest case where $\dot{\theta} = \omega$ = constant, such that we can solve for $\theta (t)$ as $\theta = \int \omega$d$t = \omega t + \theta _{0}$, where $\theta _{0}$ is a constant of integration and represents the initial angle. It is often convenient to define the initial angle as $\theta _{0}$ = 0 so $\theta (t) = \omega t$. Therefore, we get:
 
-(eq-1-4)=
-:::{image} ../images/math/p019-7e25a19ad539.svg
-:alt: Mathematical expression from source PDF page 19
-:class: source-equation
-:align: center
-:::
+$$
+\vec{r}=\underbrace{r_{0}\cos(\omega t)}_{x(t)}\hat{\imath}
++\underbrace{r_{0}\sin(\omega t)}_{y(t)}\hat{\jmath}
+$$ (eq-1-4)
 
 <!-- Source PDF page 20; printed label 11. -->
 
@@ -573,25 +583,19 @@ $$
 
 In this case, $t$ is our variable, $A = - \frac{1}{2} g, B = v_{y,0}$, and $C = r_{0}$. Plugging those numbers in gives:
 
-:::{image} ../images/math/p022-f12be3da734f.svg
-:alt: Mathematical expression from source PDF page 22
-:class: source-equation
-:align: center
-:::
+$$
+t = \frac{v_{y,0}\pm\sqrt{v_{y,0}^{2}+2gr_{0}}}{g}
+$$
 
-There are two solutions. Since $2gr_{0}$ is positive, the term ![Formula, source page 22](../images/math/p022-73ea4a1f733d.svg) for all values of $v_{y,0}$ and $r_{0}$. So there will be one value of $t > 0$ and one value of $t < 0$. The latter case $(t < 0)$ is unphysical given the set up of this problem, however. While it mathematically solves the problem, we know that the ball’s motion started from a height $r_{0}$ at $t$ = 0. Effectively, the $t < 0$ case corresponds to the time when the ball would need to be thrown from $y$ = 0 such that it has a speed of $v_{y,0}$ at $t$ = 0 and height $r_{0}$. But that wasn’t our question, so we are instead interested in the $t > 0$ case.
+There are two solutions. Since $2gr_{0}$ is positive, the term $\sqrt{v_{y,0}^{2}+2gr_{0}}>v_{y,0}$ for all values of $v_{y,0}$ and $r_{0}$. So there will be one value of $t > 0$ and one value of $t < 0$. The latter case $(t < 0)$ is unphysical given the set up of this problem, however. While it mathematically solves the problem, we know that the ball’s motion started from a height $r_{0}$ at $t$ = 0. Effectively, the $t < 0$ case corresponds to the time when the ball would need to be thrown from $y$ = 0 such that it has a speed of $v_{y,0}$ at $t$ = 0 and height $r_{0}$. But that wasn’t our question, so we are instead interested in the $t > 0$ case.
 
 So our solution to this problem is:
 
-![Formula, source page 22](../images/math/p022-90531269bd0e.svg) Drop the $-$ case because it is unphysical
-
 $$
-v + v^{2}+ 2gr
+t = \frac{v_{y,0}+\sqrt{v_{y,0}^{2}+2gr_{0}}}{g}
 $$
 
-$$
-g
-$$
+Here we drop the $-$ case because it is unphysical.
 
 <!-- Source PDF page 23; printed label 14. -->
 
@@ -655,23 +659,16 @@ Note that for $t > 0$, you must have $\omega _{\tau}< \omega _{0}$ (true by defi
 To get the total angular displacement $(\Delta \theta)$ from $t$ = 0 until the wheel comes to rest at $t$, we can use the above equation for $\theta$, because we have $\alpha, t$, and $\omega _{0}$.
 
 $$
-1
-$$
-
-![Formula, source page 24](../images/math/p024-15a20e00f3a4.svg) set $\theta _{0}$ = 0, sub in equations for $\alpha$ and $t$
-
-$$
-\Delta \theta = \frac{12}{12} \bigg(\frac{\omega _{\tau}- \omega _{0}}{\omega \tau _{2}\tau} \bigg)\bigg(- \frac{\omega _{0}\tau}{\omega _{\tau}-\omega \omega _{20}\tau} \bigg)^{2}+ \omega _{0}\bigg(- \frac{\omega _{0}\tau}{\omega _{\tau}- \omega _{0}} \bigg)
-$$
-
-![Formula, source page 24](../images/math/p024-40d914615687.svg) simplify
-
-$$
-2 \omega _{\tau}- \omega _{0}\omega _{\tau}- \omega _{0}
-$$
-
-$$
-\Delta \theta = - \frac{1}{2} \Bigg(\frac{\omega _{0}^{2}\tau}{\omega _{\tau}- \omega _{0}} \Bigg)
+\begin{aligned}
+\Delta\theta
+&= \frac{1}{2}\alpha t^{2}+\omega_{0}t+\theta_{0} \\
+&= \frac{1}{2}\left(\frac{\omega_{\tau}-\omega_{0}}{\tau}\right)
+   \left(-\frac{\omega_{0}\tau}{\omega_{\tau}-\omega_{0}}\right)^{2}
+   +\omega_{0}\left(-\frac{\omega_{0}\tau}{\omega_{\tau}-\omega_{0}}\right) \\
+&= \frac{1}{2}\left(\frac{\omega_{0}^{2}\tau}{\omega_{\tau}-\omega_{0}}\right)
+   -\left(\frac{\omega_{0}^{2}\tau}{\omega_{\tau}-\omega_{0}}\right) \\
+&= -\frac{1}{2}\left(\frac{\omega_{0}^{2}\tau}{\omega_{\tau}-\omega_{0}}\right)
+\end{aligned}
 $$
 
 Note that we are interested in the angular displacement. As such, the initial angle $\theta _{0}$ does not matter. We are counting revolutions from $t$ = 0 where $\theta _{0}$ is our reference angle and set to $\theta _{0}$ = 0.
@@ -726,11 +723,9 @@ $$
 
 A vector magnitude is given by:
 
-:::{image} ../images/math/p025-8730e99c766b.svg
-:alt: Mathematical expression from source PDF page 25
-:class: source-equation
-:align: center
-:::
+$$
+b=|\vec{b}|=\sqrt{b_{x}^{2}+b_{y}^{2}+b_{z}^{2}}
+$$
 
 which is essentially the dot product of a vector with itself $(\theta$ = 0).
 
@@ -902,23 +897,15 @@ See [Appendix A.3](#sec-A-3) for a list of common Taylor series approximations a
 
 ::::{admonition} Sample Problem 1-3
 
-:::{image} ../images/math/p029-c0fef741a3ac.svg
-:alt: Mathematical expression from source PDF page 29
-:class: source-equation
-:align: center
-:::
-
-Simplify the function ![Formula, source page 29](../images/math/p029-0720e504718b.svg) assuming $x$ is very small $(x \rightarrow$ 0). Take the first two terms of the expansion only.
+Simplify the function $f(x)=\sqrt{3+e^{x}}$ assuming $x$ is very small $(x \rightarrow 0)$. Take the first two terms of the expansion only.
 
 **Solution**
 
 We just solved $e^{x}\approx 1+x$. So for small values of $x$, we can simplify the $e^{x}$ term. Thus,
 
-:::{image} ../images/math/p029-3337106ba24a.svg
-:alt: Mathematical expression from source PDF page 29
-:class: source-equation
-:align: center
-:::
+$$
+\sqrt{3+e^{x}}\approx\sqrt{3+1+x}\approx\sqrt{4+x}
+$$
 
 But we can go further. We can also simplify the square root function. The Taylor series equation will be:
 
@@ -928,11 +915,9 @@ $$
 
 taking the first two terms only. So we need to evaluate the function and the derivatives for $x$ = 0.
 
-:::{image} ../images/math/p029-e0ad7b01cf05.svg
-:alt: Mathematical expression from source PDF page 29
-:class: source-equation
-:align: center
-:::
+$$
+f(0)=\sqrt{4+0}=2
+$$
 
 $$
 f^{\prime}(0) = \frac{1}{2} \frac{1}{\sqrt{4 + 0}} = \frac{1}{4}
@@ -940,13 +925,14 @@ $$
 
 Thus, our expansion becomes:
 
-:::{image} ../images/math/p029-f37f0916f530.svg
-:alt: Mathematical expression from source PDF page 29
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+f(x)&\approx f(0)+f^{\prime}(0)(x) \\
+\sqrt{3+e^{x}}&\approx 2+\frac{1}{4}x
+\end{aligned}
+$$
 
-which is a much simpler function than the original one. You can visualize and c ![Formula, source page 29](../images/math/p029-cc4285887016.svg)alculat ![Formula, source page 29](../images/math/p029-ed2ec462fbd3.svg)e problems with $f(x) = 2+ \frac{1}{4} x$, but it is much harder to picture and use ![Formula, source page 29](../images/math/p029-44d5482db7cf.svg)
+which is a much simpler function than the original one. You can visualize and calculate problems with $f(x)=2+\frac{1}{4}x$, but it is much harder to picture and use $f(x)=\sqrt{3+e^{x}}$.
 
 ::::
 
@@ -974,23 +960,23 @@ $$
 f(x) \approx f(0) + f^{\prime }(0)(x)
 $$
 
-:::{image} ../images/math/p030-053f4db9a935.svg
-:alt: Mathematical expression from source PDF page 30
-:class: source-equation
-:align: center
-:::
+$$
+\cos x\approx 1-\sin(0)(x)=1
+$$
 
 $$
 \cos x \approx 1
 $$
 
-which is a constant. The fri st two terms alone are not helpful if you want to know how $\cos x$ varies with $x$ for small values of $x$. To get around this, add an additional term:
+which is a constant. The first two terms alone are not helpful if you want to know how $\cos x$ varies with $x$ for small values of $x$. To get around this, add an additional term:
 
-:::{image} ../images/math/p030-757f0486fd19.svg
-:alt: Mathematical expression from source PDF page 30
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+f(x)&\approx f(0)+f^{\prime}(0)(x)+\frac{1}{2}f^{\prime\prime}(0)(x)^{2} \\
+\cos x&\approx 1-\sin(0)(x)-\frac{1}{2}\cos(0)(x)^{2} \\
+\cos x&\approx 1-\frac{1}{2}x^{2}
+\end{aligned}
+$$
 
 Now our expansion gives us a simple function for how $\cos x$ varies with $x$ for small values.
 
@@ -1097,36 +1083,43 @@ Finally, the Chapter introduced Taylor series expansion as a method to simplify 
 
 ::::{admonition} Important Equations
 
-**Cartesian Coordinates: Circular rotation:**
-
-:::{image} ../images/math/p034-3b799813bf6a.svg
-:alt: Mathematical expression from source PDF page 34
-:class: source-equation
-:align: center
-:::
+**Cartesian Coordinates:**
 
 $$
-(\mathrm{in} \mathrm{Cartesian} \mathrm{coordinates})
+\begin{aligned}
+\vec{r}&=x\hat{\imath}+y\hat{\jmath}+z\hat{k} \\
+\vec{v}&=\dot{x}\hat{\imath}+\dot{y}\hat{\jmath}+\dot{z}\hat{k} \\
+\vec{a}&=\ddot{x}\hat{\imath}+\ddot{y}\hat{\jmath}+\ddot{z}\hat{k}
+\end{aligned}
 $$
+
+**Circular rotation:**
+
+$$
+\vec{r}=\underbrace{r_{0}\cos(\omega t)}_{x(t)}\hat{\imath}
++\underbrace{r_{0}\sin(\omega t)}_{y(t)}\hat{\jmath}
+$$
+
+(in Cartesian coordinates)
 
 **Plane-Polar Coordinates:**
 
-:::{image} ../images/math/p034-333f275686c8.svg
-:alt: Mathematical expression from source PDF page 34
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p034-bfaf9b358977.svg
-:alt: Mathematical expression from source PDF page 34
-:class: source-equation
-:align: center
-:::
-
-$\Bigg[\frac{\mathrm{d}^{2}r}{2}$ d ![Formula, source page 34](../images/math/p034-b99d43d08cda.svg) d$r$ d$\theta \Bigg)$ d ![Formula, source page 34](../images/math/p034-f873342e3ef9.svg)d ![Formula, source page 34](../images/math/p034-62c664955b39.svg) d$t$ d$t$ d$t$
+$$
+\vec{v}=\frac{\mathrm{d}r}{\mathrm{d}t}\hat{r}
++r\frac{\mathrm{d}\theta}{\mathrm{d}t}\hat{\theta}
+$$
 
 $$
-a_{r}a_{\theta}
+\vec{a}=\left[\frac{\mathrm{d}^{2}r}{\mathrm{d}t^{2}}
+-r\left(\frac{\mathrm{d}\theta}{\mathrm{d}t}\right)^{2}\right]\hat{r}
++\left(r\frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}}
++2\frac{\mathrm{d}r}{\mathrm{d}t}\frac{\mathrm{d}\theta}{\mathrm{d}t}\right)\hat{\theta}
+$$
+
+For circular motion in plane-polar coordinates,
+
+$$
+\vec{v}=\omega r\hat{\theta}, \qquad \vec{a}=-\omega^{2}\vec{r}.
 $$
 
 **Vector Dot Product:**
@@ -1275,7 +1268,7 @@ A particle moves in a cloud chamber such that its position can be described by, 
 
 ::::{admonition} Practice Problem 1-9
 
-A toy car on a racing track is moving in a circle of constant radius, $R$. The speed of the car is increasing as $v = bt$, where $b$ is a positive constant. ![Formula, source page 36](../images/math/p036-4530299966a7.svg)at is the angle between the total velocity and total acceleration vectors at time ![Formula, source page 36](../images/math/p036-81f53e5b41c7.svg) ?
+A toy car on a racing track is moving in a circle of constant radius, $R$. The speed of the car is increasing as $v = bt$, where $b$ is a positive constant. What is the angle between the total velocity and total acceleration vectors at time $t=\sqrt{\frac{R}{b}}$?
 
 ::::
 

@@ -182,8 +182,8 @@ The pieces that made this possible:
 A reconstruction is accepted only when it accounts for every glyph the PDF
 drew *and* is structurally well formed. Glyph coverage alone cannot see a
 fault: a base carrying two subscripts keeps every glyph and still fails to
-typeset. 272 regions fail one of the two tests and keep their source SVG, each
-recorded under `unresolved` in `source/conversion.json` with its reason:
+typeset. The automated conversion recorded 262 unresolved regions, represented
+by 272 source SVG assets, under `unresolved` in `source/conversion.json`:
 
 | Reason | Count |
 | --- | --- |
@@ -197,6 +197,12 @@ The first two are the same underlying limitation: the prose/display
 segmentation splits an inline fraction between a sentence and a display. Fixing
 that means teaching `render_line` to keep a stacked structure inside one math
 run; until then these regions render as faithful images rather than as guesses.
+
+Chapters 1--12 were subsequently reviewed against the source PDF, and their 223
+remaining SVG assets were manually transcribed as native LaTeX. The published
+chapter Markdown therefore contains no SVG equations. The 49 source-math SVGs
+that remain are referenced by the appendices. The conversion manifest retains
+the automated pass's unresolved records as an extraction audit trail.
 
 ### Checking the result
 

@@ -78,7 +78,7 @@ $$
 
 in the case of Cartesian coordinates and linear motion.
 
-Now, the rate of change of the kinetic energy for this particle is given by ![Formula, source page 199](../images/math/p199-59cfa506e2cd.svg) . This does not need to be constant with time (although $E$ is assumed to be constant).
+Now, the rate of change of the kinetic energy for this particle is given by $\mathrm{d}K/\mathrm{d}t$. This does not need to be constant with time (although $E$ is assumed to be constant).
 
 $$
 \begin{aligned}
@@ -109,25 +109,25 @@ $$
 \frac{\mathrm{d}U}{\mathrm{d}t} = \frac{\mathrm{d}U(\vec{r})}{\mathrm{d}t}
 $$
 
-d$U \partial U$ d$x \partial U$ d$y \partial U$ d$z$
-
-:::{image} ../images/math/p199-a3204d421bd0.svg
-:alt: Mathematical expression from source PDF page 199
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}U}{\mathrm{d}t}
+=\frac{\partial U}{\partial x}\frac{\mathrm{d}x}{\mathrm{d}t}
++\frac{\partial U}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}t}
++\frac{\partial U}{\partial z}\frac{\mathrm{d}z}{\mathrm{d}t}.
+$$
 
 <!-- Source PDF page 200; printed label 191. -->
 
-$$
-\partial U \partial U \partial U
-$$
-
-Recall that ![Formula, source page 200](../images/math/p200-4b63debb297c.svg) . Therefore, we can re-write the above as:
+Recall that
 
 $$
-\partial x \partial y \partial z
+\vec{\nabla}U
+=\frac{\partial U}{\partial x}\hat{\imath}
++\frac{\partial U}{\partial y}\hat{\jmath}
++\frac{\partial U}{\partial z}\hat{k}.
 $$
+
+Therefore, we can re-write the above as:
 
 $$
 \frac{\mathrm{d}U}{\mathrm{d}t} = \vec{\nabla}U \cdot \frac{\mathrm{d}\vec{r}}{\mathrm{d}t}
@@ -308,11 +308,9 @@ $$
 v^{2}= \frac{mgh}{\frac{1}{2} m + \frac{1}{4} M_{p}+ \frac{1}{3} M_{s}}
 $$
 
-:::{image} ../images/math/p204-14b558551b11.svg
-:alt: Mathematical expression from source PDF page 204
-:class: source-equation
-:align: center
-:::
+$$
+v=\sqrt{\frac{2gh}{1+\frac12\frac{M_p}{m}+\frac23\frac{M_s}{m}}}.
+$$
 
 So we have solved for the speed of the mass. To get the velocity, we need to specify a direction. In this case, we know that the mass is falling down, so the direction would be down.
 
@@ -395,33 +393,15 @@ Rotation of the pulley assuming $m_{1}> m_{2}$. The pulley rotates at the angula
 Re-writing our kinetic energy equation, we have:
 
 $$
-1 1 1
-$$
-
-![Formula, source page 206](../images/math/p206-eb183369e28e.svg) where $|\dot{y}_{1}| = |\dot{y}_{2}| = \omega R$
-
-$$
 \begin{aligned}
-2 2 2 \\
-1 1 1 \dot{y} ^{2}
-\end{aligned}
-$$
-
-![Formula, source page 206](../images/math/p206-c3fd78c54fd0.svg) use $\dot{y}_{1}$ for simplicity
-
-$$
-\begin{aligned}
-2 2 2 R \\
-1 1 1 1 \dot{y} ^{2}
-\end{aligned}
-$$
-
-![Formula, source page 206](../images/math/p206-da9ecad8ddb8.svg) for a disk
-
-$$
-\begin{aligned}
-2 2 2 2 R \\
-K &= \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}
+K
+&=\frac12m_1\dot{y}_1^2+\frac12m_2\dot{y}_2^2+\frac12I\omega^2,
+&&|\dot{y}_1|=|\dot{y}_2|=\omega R\\
+&=\frac12m_1\dot{y}_1^2+\frac12m_2\dot{y}_1^2
++\frac12I\left(\frac{\dot{y}_1}{R}\right)^2\\
+&=\frac12m_1\dot{y}_1^2+\frac12m_2\dot{y}_1^2
++\frac12\left(\frac12MR^2\right)\left(\frac{\dot{y}_1}{R}\right)^2\\
+&=\frac12m_1\dot{y}_1^2+\frac12m_2\dot{y}_1^2+\frac14M\dot{y}_1^2.
 \end{aligned}
 $$
 
@@ -450,26 +430,25 @@ $$
 \begin{aligned}
 \frac{\mathrm{d}E}{\mathrm{d}t} &= 0 \\
 0 &= \frac{\mathrm{d}}{\mathrm{d}t} \bigg[-mgy_{1}- mgy_{2}+ \frac{1}{2} m_{1}(\dot{y}_{1})^{2}+ \frac{1}{2} m_{2}(\dot{y}_{1})^{2}+ \frac{1}{4} M(\dot{y}_{1})^{2}\bigg] \\
-0 &= -m_{1}g\dot{y}_{1}- m_{2}g\dot{y}_{2}+ m_{1}\dot{y}_{1}\ddot{y}_{1}+ m_{2}\dot{y}_{1}\ddot{y}_{1}+ \frac{1}{12} M\dot{y}_{1}\ddot{y}_{1}
+0 &= -m_{1}g\dot{y}_{1}- m_{2}g\dot{y}_{2}+ m_{1}\dot{y}_{1}\ddot{y}_{1}+ m_{2}\dot{y}_{1}\ddot{y}_{1}+ \frac{1}{2} M\dot{y}_{1}\ddot{y}_{1}
 \end{aligned}
 $$
 
-0 = ![Formula, source page 207](../images/math/p207-a746364a2fcb.svg) sub $\dot{y}_{2}= -\dot{y}_{1}$
+Substituting $\dot{y}_2=-\dot{y}_1$ gives
+
+$$
+0=-m_1g\dot{y}_1+m_2g\dot{y}_1
++m_1\dot{y}_1\ddot{y}_1+m_2\dot{y}_1\ddot{y}_1
++\frac12M\dot{y}_1\ddot{y}_1.
+$$
+
+Eliminating $\dot{y}_1$ gives
 
 $$
 \begin{aligned}
-2 \\
-1
-\end{aligned}
-$$
-
-0 = ![Formula, source page 207](../images/math/p207-1a7fbaafef56.svg) eliminate $\dot{y}_{1}$
-
-$$
-\begin{aligned}
-2 \\
-0 &= g(m_{2}- m_{1}) + \ddot{y}_{1}\bigg(m_{1}+ m_{2}+ \frac{1}{2} M\bigg) \\
-\ddot{y}_{1}&= \frac{g(m_{1}- m_{2})}{m_{1}+ m_{2}+ \frac{1}{2} M}
+0&=-m_1g+m_2g+m_1\ddot{y}_1+m_2\ddot{y}_1+\frac12M\ddot{y}_1\\
+&=g(m_2-m_1)+\ddot{y}_1\left(m_1+m_2+\frac12M\right),\\
+\ddot{y}_1&=\frac{g(m_1-m_2)}{m_1+m_2+\frac12M}.
 \end{aligned}
 $$
 
@@ -630,17 +609,20 @@ $$
 \end{aligned}
 $$
 
-:::{image} ../images/math/p211-53b3770c4386.svg
-:alt: Mathematical expression from source PDF page 211
-:class: source-equation
-:align: center
-:::
+With $x_0=-g(M+m)/(2k)$, this becomes
 
-:::{image} ../images/math/p211-622c94dbdb75.svg
-:alt: Mathematical expression from source PDF page 211
-:class: source-equation
-:align: center
-:::
+$$
+0=\frac{\mathrm{d}^2x}{\mathrm{d}t^2}
++\left(\frac{1}{\frac32M+m}\right)
+\left[4kx-(M+m)g-2k\left(-\frac{g(M+m)}{2k}\right)\right],
+$$
+
+and hence
+
+$$
+0=\frac{\mathrm{d}^2x}{\mathrm{d}t^2}
++\underbrace{\left(\frac{4k}{\frac32M+m}\right)}_{\omega_0^2}x.
+$$
 
 Note how we recover the differential equation of motion directly from energy conservation. We have it in the familiar form that we want and we can solve for the period of oscillations easily from this.
 
@@ -648,11 +630,9 @@ $$
 \omega _{0}^{2}= \frac{4k}{\frac{3}{2} M + m}
 $$
 
-:::{image} ../images/math/p211-df11239e7e80.svg
-:alt: Mathematical expression from source PDF page 211
-:class: source-equation
-:align: center
-:::
+$$
+T=\frac{2\pi}{\omega_0}=2\pi\sqrt{\frac{\frac32M+m}{4k}}.
+$$
 
 Try to solve the same problem using torques and forces. Be wary of your vector directions and whatever coordinate system you originally define. You should obtain the exact same solution if done properly.
 

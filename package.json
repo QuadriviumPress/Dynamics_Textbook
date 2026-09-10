@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "mystmd": "1.10.1"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

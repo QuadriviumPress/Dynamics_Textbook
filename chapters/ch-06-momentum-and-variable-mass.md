@@ -44,7 +44,7 @@ $$
 
 We will look at the case where the mass changes with time in [Section 6.5](#sec-6-5).
 
-If the net external force is equal to zero $(\sum \vec{F}$ = 0), then the total momentum of a system is constant, ![Formula, source page 122](../images/math/p122-e7777a6a9d74.svg) = 0 and $\vec{p}$ is a constant. This result is the conservation of linear momentum.
+If the net external force is equal to zero ($\sum \vec{F}=0$), then the total momentum of a system is constant, $\mathrm{d}\vec{p}/\mathrm{d}t=0$, and $\vec{p}$ is a constant. This result is the conservation of linear momentum.
 
 (sec-6-2)=
 ## 6.2 Conservation of Linear Momentum
@@ -79,11 +79,12 @@ The net force on particle 1 should be the force from particle 2 $(\vec{F}_{21})$
 
 3. So the time derivative of our net momentum becomes:
 
-:::{image} ../images/math/p123-e9f042f88dac.svg
-:alt: Mathematical expression from source PDF page 123
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t}
+=\underbrace{(\vec{F}_{21}+\vec{F}_{12})}_{\sum\vec{F}_1}
++\underbrace{(\vec{F}_{31}+\vec{F}_{13})}_{\sum\vec{F}_2}
++\underbrace{(\vec{F}_{32}+\vec{F}_{23})}_{\sum\vec{F}_3}.
+$$
 
 But because of Newton’s third law (every action has an equal and opposite reaction), the force of particle 2 on particle 1 $(\vec{F}_{21})$ must be equal and opposite to the force of particle 1 on particle 2 $(\vec{F}_{12})$. You can think of two masses in space pulling on each other due to gravity. Or two isolated charges attracting or repelling each other. As a result, $\vec{F}_{21}= -\vec{F}_{12}$, $\vec{F}_{31}= -\vec{F}_{13}$, and $\vec{F}_{32}= -\vec{F}_{23}$. So we finally obtain:
 
@@ -116,11 +117,9 @@ $$
 
 where the unique pairs of forces are represented by double sums. To break down what the nested sums mean, first let’s consider a single particle, represented by $i$. We can write
 
-:::{image} ../images/math/p124-d7f79402a066.svg
-:alt: Mathematical expression from source PDF page 124
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}\vec{p}_i}{\mathrm{d}t}=\sum_{\substack{j=1\\j\ne i}}^N\vec{F}_{ji}.
+$$
 
 which is basically saying that the time derivative of the momentum for the $i$th particle is just the sum of all the forces from the other particles. The condition of $j \not = i$ is needed because each particle acts on the other particles in the system, but not on themselves $(\vec{F}_{11},\vec{F}_{22},$ and $\vec{F}_{33}$ are not allowed).
 
@@ -318,17 +317,17 @@ $$
 
 With the $x$ and $y$ components of the motion, the final speed is:
 
-:::{image} ../images/math/p128-a55fdf14d7b5.svg
-:alt: Mathematical expression from source PDF page 128
-:class: source-equation
-:align: center
-:::
+$$
+\lvert\vec{v}\rvert=\sqrt{v_x^2+v_y^2}
+$$
 
-:::{image} ../images/math/p128-68dd9ce8a325.svg
-:alt: Mathematical expression from source PDF page 128
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+&=\sqrt{\frac{u^2}{4}(\cos\theta_1+\cos\theta_2)^2+\frac{u^2}{4}(\sin\theta_1-\sin\theta_2)^2}\\
+&=\frac{u}{2}\sqrt{(\cos\theta_1+\cos\theta_2)^2+(\sin\theta_1-\sin\theta_2)^2}\\
+&=\frac{u}{2}\sqrt{2+2\cos(\theta_1+\theta_2)}.
+\end{aligned}
+$$
 
 To get the angle, we can again use trigonometry. The $v_{x}$ component is the $x-$component of the vector and the $v_{y}$ component is the $y-$component of the vector.
 
@@ -393,19 +392,15 @@ $$ (eq-6-7)
 But to fully solve this problem, we cannot just use the conservation of momentum, because we have two unknown quantities $(v_{1,f}$ and $v_{2,f})$. To have a unique solution with two unknown quantities, you need to have at least two unique equations. For our second equation, we will use the conservation of kinetic energy (we will return to kinetic energy in [Chapter 8](#ch-8)), where kinetic energy can be expressed as $K = \frac{1}{2} mv^{2}$.
 
 $$
-\begin{aligned}
-K_{i}&= K_{f}=\Rightarrow \mathrm{total} \mathrm{kinetic} \mathrm{energy} \mathrm{is} \mathrm{conserved} \\
-1 1 1 1
-\end{aligned}
+K_i=K_f,
 $$
 
-![Formula, source page 129](../images/math/p129-8475c4690139.svg) can drop ![Formula, source page 129](../images/math/p129-edfa4aca28c0.svg)
+so the total kinetic energy is conserved.
+
+Multiplying through by 2 gives
 
 $$
-\begin{aligned}
-2 2 2 2 \\
-m_{1}v_{1,i}^{2}+ m_{2}v_{2,i}^{2}&= m_{1}v_{1,f}^{2}+ m_{2}v_{2,f}^{2}
-\end{aligned}
+m_1v_{1,i}^2+m_2v_{2,i}^2=m_1v_{1,f}^2+m_2v_{2,f}^2.
 $$ (eq-6-8)
 
 Now we have two equations and two unknowns and can solve the problem. To make the math easier, we will re-arrange Equation 6.7 to bring all $m_{1}$ terms to one side and all $m_{2}$ terms to the other side.
@@ -705,7 +700,7 @@ A rope with a linear mass density of $\lambda$ (in kg $\mathrm{m}^{-1})$ and len
 
 This is a variable mass problem, because you’re not moving the whole rope at once. The amount of mass you are raising is increasing as more of the rope is lifted off the ground. You are basically giving momentum to “new” atoms in the rope as they leave the ground and additional force is needed to apply that change in momentum.
 
-Since the rope is moving with a constant speed, we know that ![Formula, source page 135](../images/math/p135-0cb3f5f689f5.svg) = 0. But there is still a net force acting on the rope because the mass is changing.
+Since the rope is moving with a constant speed, we know that $\mathrm{d}\vec{v}/\mathrm{d}t=0$. But there is still a net force acting on the rope because the mass is changing.
 
 $$
 \begin{aligned}
@@ -820,11 +815,11 @@ In the frame of a stationary observer at time $t$ + d$t$, the exhaust is moving 
 
 momentum at time $t$ + d$t$ is therefore,
 
-:::{image} ../images/math/p138-6efb7e0f91bd.svg
-:alt: Mathematical expression from source PDF page 138
-:class: source-equation
-:align: center
-:::
+$$
+\vec{p}_{tot}(t+\mathrm{d}t)
+=\underbrace{(\mathrm{d}m_{ex})(v-v_{ex})\hat{\imath}}_{\text{exhaust}}
++\underbrace{(m-\mathrm{d}m_{ex})(v+\mathrm{d}v)\hat{\imath}}_{\text{rocket}}.
+$$
 
 Since the total momentum of the rocket + exhaust system is conserved, the total momentum at time $t$ must be equal to the total momentum at time $t$ + d$t$.
 

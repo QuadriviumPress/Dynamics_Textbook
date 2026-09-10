@@ -47,25 +47,9 @@ A central force is *attractive* if $f(r) < 0$ (the force points toward the origi
 
 **Examples of central forces:**
 
-$$
-GMm
-$$
+Gravity: $\vec{F}=-\dfrac{GMm}{r^2}\hat{r}$
 
-Gravity: ![Formula, source page 217](../images/math/p217-127f18b1724e.svg)
-
-$$
-r
-$$
-
-$$
-kQq
-$$
-
-Electrostatic force: ![Formula, source page 217](../images/math/p217-4293a2c20268.svg)
-
-$$
-r
-$$
+Electrostatic force: $\vec{F}=\dfrac{kQq}{r^2}\hat{r}$
 
 Spring Force: $\vec{F} = -kr\hat{r} =\Rightarrow$ often written in terms of 1-D motion (e.g., $F = -kx)$
 
@@ -141,11 +125,10 @@ $$
 \end{aligned}
 $$
 
-:::{image} ../images/math/p218-4abddc3057d0.svg
-:alt: Mathematical expression from source PDF page 218
-:class: source-equation
-:align: center
-:::
+$$
+=m\underbrace{(\vec{v}\times\vec{v})}_{0}
++f(r)\underbrace{(\vec{r}\times\hat{r})}_{0}=0,
+$$
 
 $$
 = 0
@@ -241,11 +224,10 @@ $$
 \vec{L} = (r\hat{r}) \times m(\dot{r}\hat{r} + \dot{\theta}r\hat{\theta})
 $$
 
-:::{image} ../images/math/p220-4e7946fa1686.svg
-:alt: Mathematical expression from source PDF page 220
-:class: source-equation
-:align: center
-:::
+$$
+=m\dot{r}r\underbrace{(\hat{r}\times\hat{r})}_{0}
++m\dot{\theta}r^2(\hat{r}\times\hat{\theta})
+$$
 
 $$
 = m\dot{\theta}r^{2}\hat{k} =\Rightarrow \mathrm{for} \mathrm{cylindrical} \mathrm{coordinates}
@@ -273,15 +255,7 @@ $$
 
 We can use Equation 10.5 to re-write the kinetic energy in terms of the linear velocity $\dot{r}$
 
-$$
-L
-$$
-
-and the angular momentum using ![Formula, source page 220](../images/math/p220-5a70a1f312c6.svg).
-
-$$
-mr
-$$
+and the angular momentum using $\dot{\theta}=L/(mr^2)$.
 
 $$
 K = \frac{1}{2} m\dot{r}^{2}+ \frac{1}{2} \frac{L^{2}}{mr^{2}}
@@ -299,11 +273,10 @@ $$
 where $U(r)$ represents the potential produced by the central force. The first term depends only on $\dot{r}$ whereas the other two terms depend only on $r (m$ and $L$ are constant).
 
 (eq-10-7)=
-:::{image} ../images/math/p220-86d32e625ece.svg
-:alt: Mathematical expression from source PDF page 220
-:class: source-equation
-:align: center
-:::
+$$
+E=\underbrace{\frac12m\dot{r}^2}_{\dot{r}\text{ term}}
++\underbrace{\frac12\frac{L^2}{mr^2}+U(r)}_{r\text{ terms}}.
+$$
 
 <!-- Source PDF page 221; printed label 212. -->
 
@@ -350,15 +323,7 @@ So with just the effective potential, we can start to get an idea of the allowed
 
 ::::{admonition} Sample Problem 10-1
 
-$$
-\gamma
-$$
-
-A particle of mass $m$ and energy $E$ moves in an inverse-cube field ![Formula, source page 221](../images/math/p221-dbd6ef913ac6.svg) where $\gamma$
-
-$$
-r
-$$
+A particle of mass $m$ and energy $E$ moves in an inverse-cube field $f(r)=-\gamma/r^3$, where $\gamma$
 
 is a constant. The angular momentum of the particle is $L$. If $\dot{r}$ = 0, **find the equation** **for** $r$ **in terms of** $\gamma,m,$ **and** $E$**. What kind of motion is this?**
 
@@ -400,11 +365,9 @@ $$
 r^{2}= \frac{1}{2E} \Bigg(\frac{L^{2}}{m} - \gamma \Bigg)
 $$
 
-:::{image} ../images/math/p222-ba9b83920207.svg
-:alt: Mathematical expression from source PDF page 222
-:class: source-equation
-:align: center
-:::
+$$
+r=\sqrt{\frac{1}{2E}\left(\frac{L^2}{m}-\gamma\right)}.
+$$
 
 We ignore the negative case for the square-root because by definition, $r > 0$.
 
@@ -442,15 +405,8 @@ The effective force has two terms. The first term comes from the angular momentu
 
 ::::{admonition} Sample Problem 10-2
 
-$$
-\gamma \varepsilon
-$$
-
-A modification of Earth’s gravitational field is often described as ![Formula, source page 223](../images/math/p223-5baad1332685.svg)
-
-$$
-r r
-$$
+A modification of Earth’s gravitational field is often described as
+$U(r)=-\dfrac{\gamma}{r}\left(1+\dfrac{\varepsilon}{r^2}\right)$
 
 where $\gamma$ and $\varepsilon$ are constants. **What is the effective force associated with this** **potential?** Assume a particle of mass $m$ and an angular momentum of $L$.
 
@@ -528,17 +484,14 @@ $$
 \dot{r}^{2}= \frac{2}{m} \bigg(E + \frac{GMm}{r} \bigg)
 $$
 
-:::{image} ../images/math/p224-6ef98bc67104.svg
-:alt: Mathematical expression from source PDF page 224
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}r}{\mathrm{d}t}
+=\pm\sqrt{\frac{2}{m}\left(E+\frac{GMm}{r}\right)}.
+$$
 
-:::{image} ../images/math/p224-ed9b2e50ef2f.svg
-:alt: Mathematical expression from source PDF page 224
-:class: source-equation
-:align: center
-:::
+$$
+\frac{\mathrm{d}r}{\sqrt{E+GMm/r}}=\pm\sqrt{\frac{2}{m}}\,\mathrm{d}t.
+$$
 
 If you know the system energy, $E$, you can then solve for how the position changes with time $r(t)$ by integrating both sides.
 
@@ -601,11 +554,10 @@ $$
 
 The above equation is a quadratic equation with $r$, where the solution is:
 
-:::{image} ../images/math/p226-eece7ab10e1d.svg
-:alt: Mathematical expression from source PDF page 226
-:class: source-equation
-:align: center
-:::
+$$
+r=\frac{-(-2\gamma)\pm\sqrt{(-2\gamma)^2-4(-2E)(L^2/m)}}{2(-2E)}
+=\frac{\gamma\pm\sqrt{\gamma^2+2EL^2/m}}{-2E}.
+$$
 
 where $\gamma = GMm$.
 
@@ -679,11 +631,9 @@ Let’s say the particle starts at $t$ = 0 at $r \approx 0.1$. At this instantan
 
 **Case (3)** $E > 0$: If the energy is positive, then the quadratic equation for radius:
 
-:::{image} ../images/math/p228-693dc67abf25.svg
-:alt: Mathematical expression from source PDF page 228
-:class: source-equation
-:align: center
-:::
+$$
+r=\frac{\gamma\pm\sqrt{\gamma^2+2EL^2/m}}{-2E}
+$$
 
 will have one positive and one negative solution. Since negative radii are unphysical (by definition), this case describes an *unbound orbit*. Unbound orbits arise when systems have too much energy to be contained by the gravitational field. We will come back to these orbits in [Chapter 11](#ch-11).
 
@@ -699,15 +649,7 @@ will have one positive and one negative solution. Since negative radii are unphy
 
 Gravity is a central force that follows an inverse-square law. But mathematically, any
 
-$$
-\gamma
-$$
-
-central force that obeys an inverse-square law of the form of ![Formula, source page 228](../images/math/p228-f4fc59af8341.svg) , where $\gamma$ is a
-
-$$
-r
-$$
+central force that obeys an inverse-square law of the form $\vec{F}=-(\gamma/r^2)\hat{r}$, where $\gamma$ is a
 
 constant, reproduces the orbital solutions discussed in this section. The properties of bound and unbound orbits can be directly linked back to the amount of energy in the system relative to the effective potential. For example, planets orbit the Sun because they have angular momentum (for the orbit), but they do not have enough energy to escape the Sun (their orbits are bound). See [Chapter 11](#ch-11) for more details.
 
@@ -721,29 +663,14 @@ constant, reproduces the orbital solutions discussed in this section. The proper
 
 In [Sample Problem 10-2](#example-10-2), we used a modification of Earth’s gravitational field described
 
-$$
-\gamma \varepsilon
-$$
-
-as ![Formula, source page 229](../images/math/p229-d920671f1c6e.svg) where $\gamma$ and $\varepsilon$ are constants. A particle of mass $m$ is in a closed
-
-$$
-r r
-$$
+as $U(r)=-\dfrac{\gamma}{r}\left(1+\dfrac{\varepsilon}{r^2}\right)$, where $\gamma$ and $\varepsilon$ are constants. A particle of mass $m$ is in a closed
 
 orbit in this gravitational potential with an angular momentum of $L$. **If the angular** **momentum of the system is the exact value to put the particle in a circular** **orbit, what are the possible radii for a circular orbit?**
 
 **Solution**
 
-$$
-\mathrm{d}U L^{2}
-$$
-
-You have a circular orbit when $eff$ = 0. For this system, ![Formula, source page 229](../images/math/p229-d0a00ea50e6a.svg),
-
-$$
-\mathrm{d}r 2mr
-$$
+You have a circular orbit when $\mathrm{d}U_{eff}/\mathrm{d}r=0$. For this system,
+$U_{eff}=L^2/(2mr^2)+U(r)$,
 
 where $U(r)$ is the potential given in the equation. If you plot the effective potential, depending on the constants, you will get a curve that looks like:
 
@@ -782,19 +709,15 @@ $$
 
 Let’s use the quadratic equation to solve for $r$.
 
-:::{image} ../images/math/p230-467cb8bf91bb.svg
-:alt: Mathematical expression from source PDF page 230
-:class: source-equation
-:align: center
-:::
+$$
+r=\frac{-(-L^2/m)\pm\sqrt{(-L^2/m)^2-4(\gamma)(3\gamma\varepsilon)}}{2\gamma}.
+$$
 
 So there are two values of $r > 0$ for which we can have a saddle point in the effective potential.
 
-:::{image} ../images/math/p230-ad596226d606.svg
-:alt: Mathematical expression from source PDF page 230
-:class: source-equation
-:align: center
-:::
+$$
+r=\frac{L^2/m\pm\sqrt{(L^2/m)^2-12\gamma^2\varepsilon}}{2\gamma}.
+$$
 
 Since these are by definition the radii at a local maxima or minima, they are the solutions for a circular orbit. But only a local minimum will produce a stable circular orbit. Recall the discussion on saddle points from [Chapter 8.8](#sec-8-8).
 
@@ -895,11 +818,16 @@ Elliptical orbits are discussed more in [Chapter 11](#ch-11).
 
 **Central Force: Energy:**
 
-:::{image} ../images/math/p233-7a90376f5c3b.svg
-:alt: Mathematical expression from source PDF page 233
-:class: source-equation
-:align: center
-:::
+$$
+\vec{F}=f(r)\hat{r}=m\vec{a}_r=m(\ddot{r}-\dot{\theta}^2r)\hat{r},
+\qquad
+E=\frac12m\dot{r}^2+\frac12\frac{L^2}{mr^2}+U(r)
+=\frac12m\dot{r}^2+U_{eff}.
+$$
+
+$$
+\vec{F}=-\vec{\nabla}U=-\frac{\partial U}{\partial r}\hat{r}.
+$$
 
 **Potential of a Central Force:**
 

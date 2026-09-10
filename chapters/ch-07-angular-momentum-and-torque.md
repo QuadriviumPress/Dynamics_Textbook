@@ -97,19 +97,13 @@ where $I$ is the moment of inertia of the system of particles (see [Section 7.2.
 Combining our equation for the total angular momentum (Equation 7.5) with the equation for the net torque (Equation 7.4), we get:
 
 $$
-\sum \frac{\mathrm{d}\vec{L}}{\mathrm{dd}t} \vec{\omega}
+\sum\vec{\tau}=\frac{\mathrm{d}\vec{L}}{\mathrm{d}t}
+=\frac{\mathrm{d}(I\vec{\omega})}{\mathrm{d}t}
+=I\frac{\mathrm{d}\vec{\omega}}{\mathrm{d}t}
+=I\vec{\alpha},
 $$
 
-![Formula, source page 149](../images/math/p149-c44f89fc562e.svg) The vector notation is dropped to give magnitudes only
-
-= ![Formula, source page 149](../images/math/p149-85f0b5faa9c9.svg) Note that $I$ is constant with time (system does not deform)
-
-$$
-\begin{aligned}
-\mathrm{d}t \\
-&= I\vec{\alpha}
-\end{aligned}
-$$
+where $I$ is constant in time because the system does not deform.
 
 So similarly to $F = ma$ for the net force, we have $\tau = I\alpha$ for the net torque.
 
@@ -359,7 +353,7 @@ $$
 
 <!-- Source PDF page 154; printed label 145. -->
 
-which is exactly the same as  w$g$ hat we had before in [Chapter 3](#ch-3) and it once again gives us an angular frequency of ![Formula, source page 154](../images/math/p154-fc74ae893a79.svg).
+which is exactly the same as what we had before in [Chapter 3](#ch-3), and it once again gives us an angular frequency of $\omega_0=\sqrt{g/L}$.
 
 ::::{admonition} Force vs Torque
 
@@ -421,7 +415,7 @@ $$
 
 This is the exact same equation of motion as the simple pendulum, only that the simple pendulum had the length of the rope to the mass, $L$, and the physical pendulum has the distance between the pivot and the centre of mass $h$.
 
-So for a physical pendulum of any shape swinging from a pivot point that is a distance $h$ from its ce ![Formula, source page 155](../images/math/p155-25f9439b12f8.svg)nt ![Formula, source page 155](../images/math/p155-b10c6e50f458.svg)re of mass, we find that the motion can be described with an angular frequency of ![Formula, source page 155](../images/math/p155-3190228355db.svg) , where $h$ is the distance to the centre of mass and $I$ is the moment of inertia for the body. Note, that for an object to be a physical pendulum, the pivot point must be located away from the centre of mass (at the centre of mass, $h$ = 0).
+So for a physical pendulum of any shape swinging from a pivot point that is a distance $h$ from its centre of mass, we find that the motion can be described with an angular frequency of $\omega_0=\sqrt{mgh/I}$, where $h$ is the distance to the centre of mass and $I$ is the moment of inertia for the body. Note that for an object to be a physical pendulum, the pivot point must be located away from the centre of mass (at the centre of mass, $h=0$).
 
 (sec-7-5)=
 ## 7.5 Example of a Physical Pendulum
@@ -457,17 +451,15 @@ $$
 0 = \frac{\mathrm{d}^{2}\theta}{\mathrm{d}t^{2}} + \frac{Mgh\theta}{I}
 $$
 
-where $h$ is the distance to the centre of mass, $M = m_{r}+ m_{d}$ is the total mass of the system, and $I$ is the moment of inertia for the system ![Formula, source page 156](../images/math/p156-33b99e050b66.svg)ee [Chapter 7.4](#sec-7-4)). The solution is a cos function with an angular frequency of ![Formula, source page 156](../images/math/p156-9b1214da946c.svg) . So the solution for the period of rotation is:
+where $h$ is the distance to the centre of mass, $M=m_r+m_d$ is the total mass of the system, and $I$ is the moment of inertia for the system (see [Chapter 7.4](#sec-7-4)). The solution is a cosine function with an angular frequency of $\omega_0=\sqrt{Mgh/I}$. So the solution for the period of rotation is:
 
 $$
 T = \frac{2\pi}{\omega _{0}}
 $$
 
-:::{image} ../images/math/p156-c7aeae6e7d63.svg
-:alt: Mathematical expression from source PDF page 156
-:class: source-equation
-:align: center
-:::
+$$
+T=2\pi\sqrt{\frac{I}{Mgh}}.
+$$
 
 Getting the equation for the period isn’t the hard part. The trick for this problem is defining $h$ and $I$.
 
@@ -541,25 +533,16 @@ $$
 
 Taking our equations for $h$ and $I$, we can now solve for the period:
 
-:::{image} ../images/math/p158-8252352ee289.svg
-:alt: Mathematical expression from source PDF page 158
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+T
+&=2\pi\sqrt{\frac{I}{Mgh}}\\
+&=2\pi\sqrt{\frac{\left(\frac13m_r+m_d\right)L^2+\frac12m_dR^2}
+{gL\left(\frac12m_r+m_d\right)}}.
+\end{aligned}
+$$
 
-:::{image} ../images/math/p158-50de00ac630d.svg
-:alt: Mathematical expression from source PDF page 158
-:class: source-equation
-:align: center
-:::
-
-= ![Formula, source page 158](../images/math/p158-650c41e344ba.svg) note $M$ cancels in denominator
-
-:::{image} ../images/math/p158-368590a2fffa.svg
-:alt: Mathematical expression from source PDF page 158
-:class: source-equation
-:align: center
-:::
+Here the total mass $M$ cancels from the denominator.
 
 1. Find the period if the disk was attached at the midpoint of the rod instead.
 

@@ -206,16 +206,8 @@ Taking our equations for $F$ and $\Delta x$ in the moving frame, the work done b
 $$
 \begin{aligned}
 \Delta W &= F\Delta x \\
-1
-\end{aligned}
-$$
-
-= ![Formula, source page 177](../images/math/p177-ef5762dc097d.svg) sub $F = ma$ and our equation for $\Delta x$
-
-$$
-\begin{aligned}
-2 \\
-&= \frac{1}{12} m[(at)^{2}+ 2uat]
+&=(ma)\left(\frac12at^2+ut\right)\\
+&=\frac12m\left[(at)^2+2uat\right].
 \end{aligned}
 $$
 
@@ -394,11 +386,9 @@ v_{1}^{2}&= \frac{2GM_{E}}{R_{E}}
 $$
 
 (eq-8-9)=
-:::{image} ../images/math/p180-31d15ef38bcc.svg
-:alt: Mathematical expression from source PDF page 180
-:class: source-equation
-:align: center
-:::
+$$
+v_{esc}=\sqrt{\frac{2GM_E}{R_E}}.
+$$
 
 [Equation 8.9](#eq-8-9) describes the *escape velocity* and for Earth, which is roughly 11 km $\mathrm{s}^{-1}$. The escape velocity is the minimum speed for rockets and satellites to leave Earth’s surface and travel great distances away.
 
@@ -620,11 +610,17 @@ Let’s look at the gravitational potential energy between positions $r_{1}$ and
 
 <!-- Source PDF page 185; printed label 176. -->
 
-:::{image} ../images/math/p185-87bbbc5780b2.svg
-:alt: Mathematical expression from source PDF page 185
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+U(r_1\to r_2)
+&=-W_{con}(r_1\to r_2)\\
+&=-\int_{r_1}^{r_2}\vec{F}\cdot\mathrm{d}\vec{r}\\
+&=-\int_{r_1}^{r_2}\left(-\frac{GMm}{r^2}\hat{r}\right)\cdot(\mathrm{d}r\,\hat{r})\\
+&=\int_{r_1}^{r_2}\frac{GMm}{r^2}\,\mathrm{d}r\\
+&=\left.-\frac{GMm}{r}\right|_{r_1}^{r_2}
+=-\frac{GMm}{r_2}+\frac{GMm}{r_1}.
+\end{aligned}
+$$
 
 In general, the gravitational potential energy is measured between two points. It is a *relative* energy. You will want to set a convenient reference point. For example, we can set $r_{1}= \infty$, where there would be no contribution from the force, such that:
 
@@ -965,11 +961,16 @@ $$
 
 With the force, you can get work from:
 
-:::{image} ../images/math/p191-cfc834e118be.svg
-:alt: Mathematical expression from source PDF page 191
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+W(2,1\to2,3)
+&=\int F_x\,\mathrm{d}x+\int F_y\,\mathrm{d}y\\
+&=\int_2^2 Ay^2e^{-x}\,\mathrm{d}x+\int_1^3(-2Aye^{-x})\,\mathrm{d}y\\
+&=-2Ae^{-2}\int_1^3 y\,\mathrm{d}y\\
+&=-2Ae^{-2}\left.\left(\frac12y^2\right)\right|_1^3\\
+&=-8Ae^{-2}.
+\end{aligned}
+$$
 
 As you can see we can get the same answer with both cases.
 
@@ -1079,11 +1080,9 @@ $$
 
 **Escape Velocity:**
 
-:::{image} ../images/math/p193-a4c90edf67eb.svg
-:alt: Mathematical expression from source PDF page 193
-:class: source-equation
-:align: center
-:::
+$$
+v=\sqrt{\frac{2GM_E}{R_E}}.
+$$
 
 **Conservative Forces:**
 
@@ -1192,15 +1191,15 @@ A force has the form $\vec{F} = (ax + by^{2})\hat{\imath} + (cxy)\hat{\jmath}$ ,
 
 ::::{admonition} Practice Problem 8-5
 
-What value of $c$ will make ![Formula, source page 196](../images/math/p196-f247155d2732.svg) conservative force?
+What value of $c$ will make
 
 $$
-z xz x
+\vec{F}=\left(\frac{z}{y}\right)\hat{\imath}
++c\left(\frac{xz}{y^2}\right)\hat{\jmath}
++\left(\frac{x}{y}\right)\hat{k}
 $$
 
-$$
-y y y
-$$
+a conservative force?
 
 ::::
 

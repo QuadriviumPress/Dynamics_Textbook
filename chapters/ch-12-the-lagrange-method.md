@@ -30,13 +30,12 @@ $$
 
 for constant mass. We can therefore relate the force to the kinetic energy, because the kinetic energy depends on the velocity, $K = \frac{1}{2} m\dot{x}^{2}$.
 
-:::{image} ../images/math/p257-2483a83cd8a9.svg
-:alt: Mathematical expression from source PDF page 257
-:class: source-equation
-:align: center
-:::
-
-d d$K$ d $\dot{x}$
+$$
+\frac{\mathrm{d}K}{\mathrm{d}\dot{x}}=m\dot{x},
+\qquad
+\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\mathrm{d}K}{\mathrm{d}\dot{x}}\right)
+=m\frac{\mathrm{d}\dot{x}}{\mathrm{d}t}=F.
+$$
 
 We can combine these two force equations to say that:
 
@@ -66,7 +65,9 @@ $$
 
 where $\partial$ indicates a partial derivative. For a partial derivative, you hold all other variables constant and only take the derivative with respect to the one variable.
 
-Therefore, we can rewrite $\frac{\mathrm{d}}{\mathrm{d}t} \bigg(\frac{\mathrm{d}K}{\mathrm{d}\dot{x}} \bigg) = -$dd ![Formula, source page 258](../images/math/p258-9edd8df76e9b.svg) which we had before as:
+Therefore, we can rewrite
+$\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\mathrm{d}K}{\mathrm{d}\dot{x}}\right)=-\frac{\mathrm{d}U}{\mathrm{d}x}$,
+which we had before as:
 
 $$
 \frac{\mathrm{d}}{\mathrm{d}t} \Bigg(\frac{\partial L}{\partial \dot{x}} \Bigg) = \frac{\partial L}{\partial x}
@@ -440,13 +441,8 @@ At this point, we have two equations of motion.
 $L = mr^{2}\dot{\theta} =\Rightarrow L$ is the angular momentum (and this is constant)
 
 $$
-GMm
-$$
-
-![Formula, source page 265](../images/math/p265-0f79f78e9b91.svg) the radial component
-
-$$
-r
+m\ddot{r}=mr\dot{\theta}^2-\frac{GMm}{r^2}
+\qquad\text{(the radial component)}
 $$
 
 We can combine these equations to remove the $\dot{\theta}$ term from the radial equation.
@@ -565,7 +561,7 @@ $$
 \end{aligned}
 $$
 
-Thus, our acceleration is proportional to gravity, with a $\sin \theta$ term due to the incline, as expected. The additional factor of ![Formula, source page 267](../images/math/p267-e355024f12e4.svg) is due to the fact that the sphere is rolling down the incline instead of sliding.
+Thus, our acceleration is proportional to gravity, with a $\sin\theta$ term due to the incline, as expected. The additional factor of $5/7$ is due to the fact that the sphere is rolling down the incline instead of sliding.
 
 ::::
 
@@ -702,11 +698,16 @@ $$
 
 Now let’s solve the right-side:
 
-:::{image} ../images/math/p270-2f4bfffac73e.svg
-:alt: Mathematical expression from source PDF page 270
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+\frac{\partial L}{\partial\dot{x}}
+&=\frac{\partial}{\partial\dot{x}}
+\left[\frac12m\dot{x}^2(1+16a^2x^6)-mgax^4\right]\\
+&=m\dot{x}(1+16a^2x^6),\\
+\frac{\mathrm{d}}{\mathrm{d}t}\left(\frac{\partial L}{\partial\dot{x}}\right)
+&=\frac{\mathrm{d}}{\mathrm{d}t}\left[m\dot{x}(1+16a^2x^6)\right].
+\end{aligned}
+$$
 
 $$
 \frac{\mathrm{d}}{\mathrm{d}t} \Bigg(\frac{\partial L}{\partial \dot{x}} \Bigg) = m\ddot{x}(1 + 16a^{2}x^{6}) + m\dot{x}(96a^{2}x^{5}\dot{x})
@@ -790,7 +791,7 @@ where $x_{i}$ represents a coordinate (and these do not need to be Cartesian coo
 
 3. Solve the Euler-Lagrange equations for each coordinate system separately. Note that a constant in the potential (e.g., $U \rightarrow U(x_{i}) + U_{0})$ does not affect the solution. So you do not care about constant values for the potential.
 
-4. If $L$ does not depend on a position coordinate (e.g., $x_{i})$, then ![Formula, source page 272](../images/math/p272-918f363040cb.svg) = 0 and ![Formula, source page 272](../images/math/p272-77abc4277aa9.svg) is a constant. See for example the Gravity example in [Section 12.3](#sec-12-3).
+4. If $L$ does not depend on a position coordinate (e.g., $x_i$), then $\partial L/\partial x_i=0$ and $\partial L/\partial\dot{x}_i$ is a constant. See for example the Gravity example in [Section 12.3](#sec-12-3).
 
 5. Once you have $L$, you can obtain the equation of motion using the Euler-Lagrange equations.
 

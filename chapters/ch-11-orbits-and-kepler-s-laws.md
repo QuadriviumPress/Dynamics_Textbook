@@ -33,11 +33,9 @@ A good example of a [hyperbolic orbit](https://solarsystem.nasa.gov/asteroids-co
 [Figure 11.1](#fig-11-1) shows an example ellipse with several key properties labeled. An ellipse is essentially an elongated circle, where the longer of the two axes is the semi-major axis $(a)$ and the shorter of the two axes is the semi-minor axis $(b)$. The degree to which the circle has been stretched is called the eccentricity (or ellipticity) and is denoted by the symbol $\varepsilon$,
 
 (eq-11-1)=
-:::{image} ../images/math/p237-6874aada7f45.svg
-:alt: Mathematical expression from source PDF page 237
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon=\sqrt{1-\frac{b^2}{a^2}}.
+$$
 
 [Figure 11.1](#fig-11-1) also shows two special points in red, which are called the foci (focus is the singular term). These two foci, denoted as $f_{1}$ and $f_{2}$, are located on the semi-major axis, each at a distance $\varepsilon a$ from the center of the ellipse. The foci of an ellipse define the shape. An ellipse is defined by a locus (path) of points where the total distance from any point on
 
@@ -62,11 +60,12 @@ $$
 
 Expanding on this, we get
 
-:::{image} ../images/math/p238-c5c94485a601.svg
-:alt: Mathematical expression from source PDF page 238
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+r_2^2&=r_1^2\sin^2\theta+4a^2\varepsilon^2+4a\varepsilon r_1\cos\theta+r_1^2\cos^2\theta\\
+&=r_1^2(\sin^2\theta+\cos^2\theta)+4a\varepsilon(a\varepsilon+r_1\cos\theta).
+\end{aligned}
+$$
 
 $$
 r_{2}^{2}= r_{1}^{2}+ 4a\varepsilon (a\varepsilon + r_{1}\cos \theta)
@@ -123,7 +122,7 @@ $$ (eq-11-2)
 
 2. For a locus point on the semi-minor axis, $r_{1}= r_{2}$. What angle, $\theta$, corresponds to this point? Express your answer in terms of $a,b,\varepsilon$.
 
-3. Use the case where $r_{1}= r_{2}$ to prove that ![Formula, source page 239](../images/math/p239-ac51404ccb5f.svg) in [Equation 11.1](#eq-11-1).
+3. Use the case where $r_1=r_2$ to prove that $\varepsilon=\sqrt{1-b^2/a^2}$ in [Equation 11.1](#eq-11-1).
 
 ::::
 
@@ -193,11 +192,10 @@ Starting from these equations, we must solve for $r(\theta)$ to describe the orb
 
 Taking the equations for a central force, $r(\theta)$ is:
 
-:::{image} ../images/math/p241-f106037752dd.svg
-:alt: Mathematical expression from source PDF page 241
-:class: source-equation
-:align: center
-:::
+$$
+r(\theta)=\left(\frac{L^2}{m\gamma}\right)
+\frac{1}{1+\sqrt{1+\frac{2EL^2}{m\gamma^2}}\cos\theta}.
+$$
 
 The above equation has the same form as a general ellipse (Equation 11.2). This indicates that our solution for a central force is an ellipse. Moreover, we can define $\varepsilon$ from the physics
 
@@ -206,11 +204,9 @@ $$
 $$
 
 (eq-11-5)=
-:::{image} ../images/math/p241-cddecbc90ee8.svg
-:alt: Mathematical expression from source PDF page 241
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon=\sqrt{1+\frac{2EL^2}{m\gamma^2}}.
+$$
 
 Note that for the orbit to be a true ellipse, we need 0 $< \varepsilon < 1$. This condition is only met if $E < 0$, which was the same conclusion that we obtained in [Chapter 10](#ch-10) when we looked at the energy and found that $r$ had two real solutions when $E < 0$.
 
@@ -291,15 +287,7 @@ $$
 E_{\min}= - \frac{1}{2} \frac{m\gamma ^{2}}{L^{2}}
 $$
 
-$$
-m\gamma ^{2}
-$$
-
-So our initial energy is ![Formula, source page 243](../images/math/p243-7908993bb56c.svg) .
-
-$$
-2L
-$$
+So our initial energy is $E_i=-m\gamma^2/(2L^2)$.
 
 Now, let’s consider what happens to the energy after the engines are fired briefly. We will first assume that the satellite moves a negligible amount, so its position vector, $r$ is unchanged during the energy boost from the engines. We are told that the energy is directed inward toward the Earth. In other words, the energy is applied along a radial direction. Any motion along the radial direction does not change the angular momentum, because $L = \vec{r} \times \vec{p}$ . The component of motion along a radial direction does not produce additional angular momentum. So $L$ is the same before and after the energy boost. Thus, the effective potential does not change.
 
@@ -418,13 +406,7 @@ $$
 T = \frac{A}{\dot{A}} = \frac{\pi ab}{L/2m} = \frac{2\pi mab}{L}
 $$
 
-:::{image} ../images/math/p246-678c2589b18c.svg
-:alt: Mathematical expression from source PDF page 246
-:class: source-equation
-:align: center
-:::
-
-We also can relate the semi-major and semi-minor axes to each other. That is, $b = a 1 - \varepsilon ^{2}$. Now we need to get 1 $-\varepsilon ^{2}$ in terms of $a$ and the physics. From Equations (11.8) and (11.9)
+We also can relate the semi-major and semi-minor axes to each other: $b=a\sqrt{1-\varepsilon^2}$. Now we need to get $1-\varepsilon^2$ in terms of $a$ and the physics. From Equations (11.8) and (11.9)
 
 $$
 \begin{aligned}
@@ -453,11 +435,15 @@ $$
 
 Thus, we can re-write the period equation as:
 
-:::{image} ../images/math/p247-60bee6477200.svg
-:alt: Mathematical expression from source PDF page 247
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+T&=\frac{2\pi mab}{L}\\
+&=\frac{2\pi ma^2\sqrt{1-\varepsilon^2}}{L}\\
+&=\frac{2\pi ma^2\sqrt{L^2/(am\gamma)}}{L},\\
+T^2&=\frac{4\pi^2m^2a^4(L^2/(am\gamma))}{L^2}
+=\frac{4\pi^2ma^3}{\gamma}.
+\end{aligned}
+$$
 
 $$
 T^{2}= \frac{4\pi ^{2}a^{3}}{GM} =\Rightarrow \mathrm{sub} \gamma = GMm
@@ -499,12 +485,7 @@ $$
 $$
 
 [75 years $\times (3.154 \times 10^{7}$ s/year$)]^{2}$ =
-
-:::{image} ../images/math/p248-85ce29f20152.svg
-:alt: Mathematical expression from source PDF page 248
-:class: source-equation
-:align: center
-:::
+$\dfrac{4\pi^2a^3}{(6.67\times10^{-11}\,\mathrm{m^3\,kg^{-1}\,s^{-2}})(2.0\times10^{30}\,\mathrm{kg})}$.
 
 $$
 5.6 \times 10^{18}\mathrm{s}^{2}= (2.97 \times 10^{-19}\mathrm{s}^{2}\mathrm{m}^{-3})a^{3}
@@ -524,7 +505,7 @@ $$
 
 Now this is a perfectly acceptable way to solve the problem, but it involves a lot of math and plugging big numbers into a calculator. It is easy to make a mistake with that. A better way to solve this problem is to use scaling relations.
 
-From the third law, $T^{2}\propto a^{3}$ or ![Formula, source page 248](../images/math/p248-5d85319e1f70.svg) = constant. That means if we know $T$ and $a$ for one orbit, we can scale that solution to correspond to any other orbit around the same object. Consider two objects orbiting the Sun. The first object has a period $T_{1}$ and a semi-major axis $a_{1}$, the second object has a period $T_{2}$ and semi-major axis $a_{2}$. Since
+From the third law, $T^2\propto a^3$, or $T^2/a^3=$ constant. That means if we know $T$ and $a$ for one orbit, we can scale that solution to correspond to any other orbit around the same object. Consider two objects orbiting the Sun. The first object has a period $T_1$ and a semi-major axis $a_1$; the second object has a period $T_2$ and semi-major axis $a_2$. Since
 
 $$
 T^{2}\propto a^{3},
@@ -604,37 +585,19 @@ $$
 
 Plugging these in with the angular momentum equation,
 
-:::{image} ../images/math/p250-075093e06c35.svg
-:alt: Mathematical expression from source PDF page 250
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p250-09dba46fe127.svg
-:alt: Mathematical expression from source PDF page 250
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p250-27797269d3cd.svg
-:alt: Mathematical expression from source PDF page 250
-:class: source-equation
-:align: center
-:::
-
-:::{image} ../images/math/p250-395002c9ba55.svg
-:alt: Mathematical expression from source PDF page 250
-:class: source-equation
-:align: center
-:::
+$$
+\begin{aligned}
+mv_pr_p&=\sqrt{r_cm\gamma}=\sqrt{(1+\varepsilon)r_pm\gamma},\\
+v_p&=\sqrt{\frac{(1+\varepsilon)\gamma}{r_pm}}
+=\sqrt{\frac{GM(1+\varepsilon)}{r_p}}.
+\end{aligned}
+$$
 
 Follow the same procedure for the aphelion distance to get
 
-:::{image} ../images/math/p250-008470dbbd74.svg
-:alt: Mathematical expression from source PDF page 250
-:class: source-equation
-:align: center
-:::
+$$
+v_a=\sqrt{\frac{GM(1-\varepsilon)}{r_a}}.
+$$
 
 Since we are interested in speeds, we do not care about the negative signs with the square root.
 
@@ -650,15 +613,7 @@ $$
 
 As expected, we get $v_{p}> v_{a}$.
 
-1. Prove that ![Formula, source page 250](../images/math/p250-b54036363abf.svg)
-
-$$
-GM(1 - \varepsilon)
-$$
-
-$$
-r_{a}
-$$
+1. Prove that $v_a=\sqrt{GM(1-\varepsilon)/r_a}$.
 
 2. Show that $v_{p}$ = 55 km $\mathrm{s}^{-1}$ and $v_{a}= 0.9$ km $\mathrm{s}^{-1}$ for Halley’s comet.
 
@@ -688,11 +643,9 @@ $$
 r = \frac{a(1 - \varepsilon ^{2})}{1 + \varepsilon \cos \theta}
 $$
 
-:::{image} ../images/math/p251-dd7532426270.svg
-:alt: Mathematical expression from source PDF page 251
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon=\sqrt{1-\frac{b^2}{a^2}}.
+$$
 
 where $r$ is measured from one of the two foci of the ellipse. The closest point of an ellipse to the focus is called the pericenter and the furthest point is called the apocenter:
 
@@ -718,11 +671,9 @@ $$
 r = \frac{L^{2}}{m\gamma} 1 + \varepsilon \cos \theta
 $$
 
-:::{image} ../images/math/p252-2161c2661b6a.svg
-:alt: Mathematical expression from source PDF page 252
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon=\sqrt{1+\frac{2EL^2}{m\gamma^2}}.
+$$
 
 and we defined a radius, $r_{c}$, which represent the radius of a circular orbit for a system of angular momentum $L$ and $E = E_{\min}$.
 
@@ -748,19 +699,22 @@ A useful technique when applying Kepler’s third law is to use scaling relation
 
 **Eccentricity: Pericenter:**
 
-:::{image} ../images/math/p253-f7b0dd17d0ea.svg
-:alt: Mathematical expression from source PDF page 253
-:class: source-equation
-:align: center
-:::
+$$
+\varepsilon=\sqrt{1-\frac{b^2}{a^2}}
+=\sqrt{1+\frac{2EL^2}{m\gamma^2}},
+\qquad
+r_p=a(1-\varepsilon)=\frac{r_c}{1+\varepsilon},
+\qquad
+v_p=\sqrt{\frac{GM(1+\varepsilon)}{r_p}}.
+$$
 
 **Apocenter:**
 
-:::{image} ../images/math/p253-a2d1a7bdda60.svg
-:alt: Mathematical expression from source PDF page 253
-:class: source-equation
-:align: center
-:::
+$$
+r_a=a(1+\varepsilon)=\frac{r_c}{1-\varepsilon},
+\qquad
+v_a=\sqrt{\frac{GM(1-\varepsilon)}{r_a}}.
+$$
 
 **Distance:**
 

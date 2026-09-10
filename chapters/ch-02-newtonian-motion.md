@@ -22,7 +22,7 @@ Classical mechanics describes how objects move. While this chapter is called *Ne
 
 ::::{admonition} Early Laws of Motion
 
-One of the earliest individuals to connect forces to changes in motion is the Persian scholar Abu ‘Al ![Formula, source page 38](../images/math/p038-8d0931ca0711.svg)ı ibn S ![Formula, source page 38](../images/math/p038-c36f2c792e63.svg)ına ![Formula, source page 38](../images/math/p038-c9bef37e1fe2.svg) (980-1037), known as Avicenna in Europe. Note the following translation from ibn S ![Formula, source page 38](../images/math/p038-9c49bb7dbd9b.svg)ına ![Formula, source page 38](../images/math/p038-738909550d6f.svg) ’s work and its similarity to Newton’s first law (the law of inertia) given in the next section:
+One of the earliest individuals to connect forces to changes in motion is the Persian scholar Abu ‘Alī ibn Sīnā (980-1037), known as Avicenna in Europe. Note the following translation from ibn Sīnā’s work and its similarity to Newton’s first law (the law of inertia) given in the next section:
 
 “...[N]obody begins to move or comes to rest of itself” (Hecht 2015, p. 1)
 
@@ -305,29 +305,14 @@ $$
 
 $$
 \begin{aligned}
-y_{B}&= - \frac{1}{2} gt^{2}_{B}+ (v_{0}\sin \theta)t_{B}+ r_{0} \\
-1 v \sin \theta ^{2}v \sin \theta
+y_{B}
+&= -\frac{1}{2}gt_{B}^{2}+(v_{0}\sin\theta)t_{B}+r_{0} \\
+&= -\frac{1}{2}g\left(\frac{v_{0}\sin\theta}{g}\right)^{2}
+ +(v_{0}\sin\theta)\left(\frac{v_{0}\sin\theta}{g}\right)+r_{0} \\
+&= -\frac{1}{2}\left(\frac{v_{0}^{2}\sin^{2}\theta}{g}\right)
+ +\left(\frac{v_{0}^{2}\sin^{2}\theta}{g}\right)+r_{0} \\
+&= \frac{1}{2}\left(\frac{v_{0}^{2}\sin^{2}\theta}{g}\right)+r_{0}
 \end{aligned}
-$$
-
-![Formula, source page 45](../images/math/p045-a67bb5a01080.svg) set $t_{B}= v_{0}\sin \theta /g$
-
-$$
-2 g g
-$$
-
-$$
-1 v^{2}\sin ^{2}\theta v^{2}\sin ^{2}\theta
-$$
-
-![Formula, source page 45](../images/math/p045-c58a5357a36e.svg) simplify
-
-$$
-2 g g
-$$
-
-$$
-y_{B}= \frac{1}{2} \Bigg(\frac{v_{0}^{2}\sin ^{2}\theta}{g} \Bigg) + r_{0}
 $$
 
 Note that this equation has the same form as the 1-D case (see Example 1-1), but with a $\sin \theta$ term. If $\theta = 90^{\circ}$, then the ball is being thrown straight up and we recover the 1-D case exactly, as we should. So the 2-D equation is a more generic form of how the ball moves, whereas the 1-D situation is a specific case.
@@ -346,27 +331,24 @@ $$
 
 which is a quadratic equation with a solution of:
 
-:::{image} ../images/math/p046-c07bc03d8355.svg
-:alt: Mathematical expression from source PDF page 46
-:class: source-equation
-:align: center
-:::
+$$
+t_{C}=\frac{v_{0}\sin\theta\pm\sqrt{v_{0}^{2}\sin^{2}\theta+2gr_{0}}}{g}
+$$
 
 There are two solutions, one that gives a positive time and one that gives a negative time. Only the positive case is correct given the motion of the ball as defined by the problem (see Example 1-1 for more information on why we reject the negative case). Thus, the time necessary to hit the ground is:
 
-:::{image} ../images/math/p046-c94990a5ca9f.svg
-:alt: Mathematical expression from source PDF page 46
-:class: source-equation
-:align: center
-:::
+$$
+t_{C}=\frac{v_{0}\sin\theta+\sqrt{v_{0}^{2}\sin^{2}\theta+2gr_{0}}}{g}
+$$
 
 And the horizontal distance traveled by the ball in that time is:
 
-:::{image} ../images/math/p046-84348d7eaa0f.svg
-:alt: Mathematical expression from source PDF page 46
-:class: source-equation
-:align: center
-:::
+$$
+x_{C}=v_{x}t_{C}
+=v_{0}\cos\theta\left[
+\frac{v_{0}\sin\theta+\sqrt{v_{0}^{2}\sin^{2}\theta+2gr_{0}}}{g}
+\right]
+$$
 
 Note, if $\theta = 90^{\circ}$ (ball is thrown straight up), then we get $x_{C}$ = 0 as expected. For $\theta = 90^{\circ}$, there is no horizontal motion, and we recover the 1-D case where the ball travels only with vertical motion.
 
@@ -544,23 +526,21 @@ $$
 \end{aligned}
 $$
 
-d ![Formula, source page 49](../images/math/p049-d8c0b1d8d1b5.svg)d$t =\Rightarrow$ apply limits of $x$ = 0 at $t$ = 0
-
-$$
-\int_{0} X \tau \frac{\alpha}{\beta} \frac{\alpha}{\beta}
-$$
-
 $$
 \begin{aligned}
-\Big(x|_{0}^{X} &= \Bigg(v_{0}t + \frac{\alpha}{\beta} t + \frac{\alpha}{\beta ^{2}} e^{-\beta t}|_{0}^{\tau} \\
-X - 0 &= v_{0}\tau + \frac{\alpha}{\alpha \beta} \tau + \frac{\alpha}{\alpha \beta ^{2}} e^{-\beta \tau}- \frac{1}{1\beta ^{2}}
+\int_{0}^{X}\mathrm{d}x
+&= \int_{0}^{\tau}\left(v_{0}+\frac{\alpha}{\beta}
+ -\frac{\alpha}{\beta}e^{-\beta t}\right)\mathrm{d}t \\
+\left.x\right|_{0}^{X}
+&= \left.v_{0}t+\frac{\alpha}{\beta}t
+ +\frac{\alpha}{\beta^{2}}e^{-\beta t}\right|_{0}^{\tau} \\
+X
+&= v_{0}\tau+\frac{\alpha}{\beta}\tau
+ +\frac{\alpha}{\beta^{2}}e^{-\beta\tau}-\frac{\alpha}{\beta^{2}} \\
+x
+&= v_{0}t+\frac{\alpha}{\beta}t
+ +\frac{\alpha}{\beta^{2}}e^{-\beta t}-\frac{\alpha}{\beta^{2}}
 \end{aligned}
-$$
-
-![Formula, source page 49](../images/math/p049-ff20372d9a4c.svg) replace dummy variables $X$ and $\tau$
-
-$$
-\beta \beta \beta
 $$
 
 In this above example, we use $X$ and $\tau$ to represent the position at some unknown time. They are just representative variables for position and time to avoid confusion and can be swapped out with the generic $x$ and $t$ at the end.
@@ -618,19 +598,12 @@ $$
 \end{aligned}
 $$
 
-$\ln V - \ln v_{0}= -\alpha \tau$
-
-$$
-V
-$$
-
-![Formula, source page 51](../images/math/p051-3ccc2c5a4f94.svg) recall that $\ln a - \ln b = \ln (\frac{a}{b})$
-
 $$
 \begin{aligned}
-v_{0} \\
-\frac{V}{v_{0}} &= e^{-\alpha \tau}=\Rightarrow \mathrm{remove} \mathrm{the} \mathrm{natural} \mathrm{logarithm} \\
-v &= v_{0}e^{-\alpha t}=\Rightarrow \mathrm{replace} \mathrm{dummy} \mathrm{variables} V \mathrm{and} \tau \mathrm{with} v \mathrm{and} t
+\ln V-\ln v_{0}&=-\alpha\tau \\
+\ln\left(\frac{V}{v_{0}}\right)&=-\alpha\tau \\
+\frac{V}{v_{0}}&=e^{-\alpha\tau} \\
+v&=v_{0}e^{-\alpha t}
 \end{aligned}
 $$
 
@@ -646,29 +619,13 @@ What about $x$? Well, using our equation for $v$ and the condition of $x$ = 0 at
 
 $$
 \begin{aligned}
-\frac{\mathrm{d}x}{\mathrm{d}t} &= v \\
-\frac{\mathrm{d}x}{\mathrm{d}t} &= v_{0}e^{-\alpha t^{\prime}} \\
-\mathrm{d}x &= v_{0}e^{-\alpha t}\mathrm{d}t \\
-\int \mathrm{d}x &= \int v_{0}e^{-\alpha t}\mathrm{d}t \\
-v
-\end{aligned}
-$$
-
-![Formula, source page 51](../images/math/p051-e268b3365a17.svg) recall that $\int_{e} -x$d$x = -e^{-x}$
-
-$$
-\begin{aligned}
-\alpha \\
-v v v
-\end{aligned}
-$$
-
-![Formula, source page 51](../images/math/p051-432382773c80.svg) from initial conditions $(x$ = 0 at ![Formula, source page 51](../images/math/p051-ae8256f1dd1d.svg)
-
-$$
-\begin{aligned}
-\alpha \alpha \alpha \\
-x &= \frac{v_{0}}{\alpha} \Big(1 - e^{-\alpha t}\Big)
+\frac{\mathrm{d}x}{\mathrm{d}t}&=v \\
+\frac{\mathrm{d}x}{\mathrm{d}t}&=v_{0}e^{-\alpha t} \\
+\mathrm{d}x&=v_{0}e^{-\alpha t}\,\mathrm{d}t \\
+\int\mathrm{d}x&=\int v_{0}e^{-\alpha t}\,\mathrm{d}t \\
+x&=-\frac{v_{0}}{\alpha}e^{-\alpha t}+C \\
+x&=-\frac{v_{0}}{\alpha}e^{-\alpha t}+\frac{v_{0}}{\alpha} \\
+x&=\frac{v_{0}}{\alpha}\left(1-e^{-\alpha t}\right)
 \end{aligned}
 $$
 
@@ -765,11 +722,9 @@ $$
 \end{aligned}
 $$
 
-:::{image} ../images/math/p053-f8be6c2d3b7f.svg
-:alt: Mathematical expression from source PDF page 53
-:class: source-equation
-:align: center
-:::
+$$
+x_{\max}=\frac{2}{b}\sqrt{v_{0}}
+$$
 
 You will get the same answer if you solve for $v(t), x(t)$, and the time $t_{\max}$ when $v$ = 0 to then find the position $x(t_{\max})$. Try it out and compare the time and number of steps.
 
