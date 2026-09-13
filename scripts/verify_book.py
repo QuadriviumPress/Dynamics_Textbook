@@ -176,9 +176,14 @@ def main():
 
     kinds = collections.Counter(b["kind"] for b in conversion["blocks"])
     latex = kinds["inline-math-latex"] + kinds["display-math-latex"]
-    artwork = kinds["inline-math-svg"] + kinds["display-math-svg"]
-    report.note(f"{latex} expressions rebuilt as LaTeX, {artwork} kept as source artwork "
-                f"({100 * latex / max(latex + artwork, 1):.1f}% LaTeX)")
+    svg_blocks = [b for b in conversion["blocks"]
+                  if b.get("kind", "").endswith("-math-svg")]
+    artwork = sum(1 for b in svg_blocks if b.get("asset"))
+    superseded = sum(1 for b in svg_blocks if b.get("superseded"))
+    accounted = latex + artwork + superseded
+    report.note(f"{latex} expressions rebuilt as LaTeX, {artwork} kept as source artwork"
+                + (f", {superseded} later superseded by LaTeX" if superseded else "")
+                + f" ({100 * (latex + superseded) / max(accounted, 1):.2f}% LaTeX)")
     report.note(f"{len(conversion.get('unresolved', []))} regions are recorded as unresolved "
                 "in source/conversion.json")
 

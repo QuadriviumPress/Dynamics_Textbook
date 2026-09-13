@@ -2213,104 +2213,24 @@
   ],
   "assets": [
     "images/figures/figure-1-1.png",
-    "images/math/p012-bb1120675fe3.svg",
     "images/figures/figure-1-2.png",
     "images/figures/figure-1-3.png",
-    "images/math/p014-5bfb357db7d9.svg",
-    "images/math/p014-242868779f57.svg",
     "images/figures/figure-1-4.png",
     "images/figures/figure-1-5.png",
-    "images/math/p016-2edf2f5f4fcd.svg",
-    "images/math/p016-188daaf6c6ab.svg",
-    "images/math/p016-ddda0d46a698.svg",
-    "images/math/p016-e1ce4164f5eb.svg",
-    "images/math/p017-b5e164d020f4.svg",
-    "images/math/p017-6b33fc9d4187.svg",
-    "images/math/p017-7e5e444d7f79.svg",
-    "images/math/p017-d554c7d9ba70.svg",
-    "images/math/p017-c9429c2951c1.svg",
-    "images/math/p017-a4f45a648bbf.svg",
-    "images/math/p017-924c6aea3b25.svg",
-    "images/math/p017-2e1deb756072.svg",
-    "images/math/p017-5695df03c37d.svg",
-    "images/math/p017-b9c147a6aa35.svg",
-    "images/math/p017-1108c5fa1d3c.svg",
-    "images/math/p017-86139ce1a186.svg",
-    "images/math/p017-1b3839563510.svg",
-    "images/math/p017-f76c1fccf0be.svg",
-    "images/math/p017-5253893c0c8d.svg",
-    "images/math/p017-1c649b23e1b0.svg",
-    "images/math/p017-2d680d86cab9.svg",
-    "images/math/p017-470d59a36c11.svg",
-    "images/math/p017-e98e0e3e1c6b.svg",
-    "images/math/p017-78500c1103af.svg",
-    "images/math/p017-828d6be66ed8.svg",
-    "images/math/p017-9b06ced9bc4b.svg",
-    "images/math/p017-252950ffd111.svg",
-    "images/math/p017-7b227d82445f.svg",
-    "images/math/p017-e0e0c2ce1c15.svg",
-    "images/math/p017-690928069799.svg",
-    "images/math/p017-20960d5339e4.svg",
-    "images/math/p017-5392e13560df.svg",
-    "images/math/p017-8587c3394037.svg",
-    "images/math/p017-918a109b65fc.svg",
-    "images/math/p018-a2445375a971.svg",
     "images/figures/figure-1-6.png",
-    "images/math/p019-7e25a19ad539.svg",
     "images/figures/figure-1-7.png",
-    "images/math/p022-73ea4a1f733d.svg",
-    "images/math/p022-90531269bd0e.svg",
-    "images/math/p022-f12be3da734f.svg",
-    "images/math/p024-15a20e00f3a4.svg",
-    "images/math/p024-40d914615687.svg",
-    "images/math/p025-8730e99c766b.svg",
     "images/figures/figure-1-8.png",
     "images/figures/figure-p026-2.png",
     "images/figures/figure-1-9.png",
-    "images/math/p029-0720e504718b.svg",
-    "images/math/p029-cc4285887016.svg",
-    "images/math/p029-ed2ec462fbd3.svg",
-    "images/math/p029-44d5482db7cf.svg",
-    "images/math/p029-c0fef741a3ac.svg",
-    "images/math/p029-3337106ba24a.svg",
-    "images/math/p029-e0ad7b01cf05.svg",
-    "images/math/p029-f37f0916f530.svg",
-    "images/math/p030-053f4db9a935.svg",
-    "images/math/p030-757f0486fd19.svg",
     "images/figures/figure-1-10.png",
     "images/figures/figure-1-11.png",
-    "images/math/p034-b99d43d08cda.svg",
-    "images/math/p034-f873342e3ef9.svg",
-    "images/math/p034-62c664955b39.svg",
-    "images/math/p034-3b799813bf6a.svg",
-    "images/math/p034-333f275686c8.svg",
-    "images/math/p034-bfaf9b358977.svg",
-    "images/math/p036-4530299966a7.svg",
-    "images/math/p036-81f53e5b41c7.svg",
-    "images/math/p038-8d0931ca0711.svg",
-    "images/math/p038-c36f2c792e63.svg",
-    "images/math/p038-c9bef37e1fe2.svg",
-    "images/math/p038-9c49bb7dbd9b.svg",
-    "images/math/p038-738909550d6f.svg",
     "images/figures/figure-2-1.png",
     "images/figures/figure-2-2.png",
     "images/figures/figure-2-3.png",
     "images/figures/figure-2-4.png",
     "images/figures/figure-2-5.png",
-    "images/math/p045-a67bb5a01080.svg",
-    "images/math/p045-c58a5357a36e.svg",
-    "images/math/p046-c07bc03d8355.svg",
-    "images/math/p046-c94990a5ca9f.svg",
-    "images/math/p046-84348d7eaa0f.svg",
     "images/figures/figure-p047-1.png",
-    "images/math/p049-d8c0b1d8d1b5.svg",
-    "images/math/p049-ff20372d9a4c.svg",
-    "images/math/p051-3ccc2c5a4f94.svg",
-    "images/math/p051-e268b3365a17.svg",
-    "images/math/p051-432382773c80.svg",
-    "images/math/p051-ae8256f1dd1d.svg",
     "images/figures/figure-2-6.png",
-    "images/math/p053-f8be6c2d3b7f.svg",
     "images/figures/figure-2-7.png",
     "images/figures/figure-2-8.png",
     "images/figures/figure-2-9.png",
@@ -2318,139 +2238,60 @@
     "images/figures/figure-2-11.png",
     "images/figures/figure-3-1.png",
     "images/figures/figure-3-2.png",
-    "images/math/p062-88d484baada3.svg",
-    "images/math/p063-69e609773a17.svg",
-    "images/math/p063-522769a12e48.svg",
-    "images/math/p063-b72a9da43b20.svg",
-    "images/math/p063-4b1abd2165b0.svg",
     "images/figures/figure-3-3.png",
-    "images/math/p064-994a0af7ec65.svg",
     "images/figures/figure-3-4.png",
-    "images/math/p066-aeaef8d25b1f.svg",
-    "images/math/p066-c7d575c5952b.svg",
-    "images/math/p066-e379651ebfc5.svg",
-    "images/math/p066-8c86825a1d66.svg",
-    "images/math/p066-b9277d90c298.svg",
     "images/figures/figure-3-5.png",
     "images/figures/figure-3-6.png",
-    "images/math/p068-e69b56ca546c.svg",
-    "images/math/p068-4a8399b64e7d.svg",
-    "images/math/p068-7b616c9eaba0.svg",
     "images/figures/figure-3-7.png",
     "images/figures/figure-3-8.png",
     "images/figures/figure-3-9.png",
-    "images/math/p070-88324a232ee8.svg",
-    "images/math/p070-e19b4105d7fb.svg",
-    "images/math/p070-167c1fa6009c.svg",
     "images/figures/figure-3-10.png",
     "images/figures/figure-3-11.png",
-    "images/math/p072-430ab13a2f60.svg",
-    "images/math/p072-e01be710936e.svg",
-    "images/math/p072-90ed80d49c9d.svg",
-    "images/math/p073-210708532739.svg",
-    "images/math/p073-a83987eda109.svg",
-    "images/math/p075-5305ee8f5664.svg",
     "images/figures/figure-3-12.png",
-    "images/math/p076-9e24ca4fc1ce.svg",
-    "images/math/p077-0057f00a34d9.svg",
     "images/figures/figure-3-13.png",
     "images/figures/figure-3-14.png",
-    "images/math/p079-96cd39d4ad1d.svg",
     "images/figures/figure-4-1.png",
     "images/figures/figure-4-2.png",
     "images/figures/figure-4-3.png",
-    "images/math/p083-b7e33dd7e6ac.svg",
     "images/figures/figure-4-4.png",
     "images/figures/figure-4-5.png",
     "images/figures/figure-4-6.png",
     "images/figures/figure-4-7.png",
-    "images/math/p088-acb0465846d8.svg",
-    "images/math/p088-f9e37bb065c6.svg",
-    "images/math/p088-3c75597ce262.svg",
-    "images/math/p088-ad9a68298218.svg",
-    "images/math/p088-7918b041e9e7.svg",
-    "images/math/p088-283406c0c761.svg",
-    "images/math/p088-e18548ad1f14.svg",
-    "images/math/p088-f073c74f90c9.svg",
-    "images/math/p088-5f6c311a7c02.svg",
-    "images/math/p088-8d5687eb0382.svg",
-    "images/math/p088-4d95a132f5a1.svg",
-    "images/math/p088-14361a1bcdee.svg",
     "images/figures/figure-4-8.png",
-    "images/math/p089-edffd004430c.svg",
-    "images/math/p089-0fb58464e5e2.svg",
-    "images/math/p090-5d04cc323cb5.svg",
-    "images/math/p090-91de1e3c5c1e.svg",
-    "images/math/p091-931177193b50.svg",
-    "images/math/p092-875df264de2e.svg",
-    "images/math/p092-a5b159195a82.svg",
     "images/figures/figure-4-9.png",
-    "images/math/p094-b2fb101be0b9.svg",
-    "images/math/p094-6d210b83871c.svg",
     "images/figures/figure-4-10.png",
-    "images/math/p095-a85bec2759bc.svg",
     "images/figures/figure-4-11.png",
     "images/figures/figure-4-12.png",
-    "images/math/p101-79b4d00afd2e.svg",
     "images/figures/figure-5-1.png",
-    "images/math/p104-c558868ab844.svg",
-    "images/math/p105-523b09c630ba.svg",
     "images/figures/figure-5-2.png",
     "images/figures/figure-5-3.png",
-    "images/math/p108-808ea92403fb.svg",
     "images/figures/figure-5-4.png",
     "images/figures/figure-5-5.png",
     "images/figures/figure-5-6.png",
     "images/figures/figure-5-7.png",
-    "images/math/p112-50897b6437de.svg",
-    "images/math/p112-37f8e1e2e507.svg",
     "images/figures/figure-5-8.png",
-    "images/math/p116-b25ac2a6fc7b.svg",
-    "images/math/p117-9f5e20ed3b20.svg",
     "images/figures/figure-5-9.png",
     "images/figures/figure-5-10.png",
-    "images/math/p122-e7777a6a9d74.svg",
-    "images/math/p123-e9f042f88dac.svg",
-    "images/math/p124-d7f79402a066.svg",
     "images/figures/figure-6-1.png",
     "images/figures/figure-6-2.png",
     "images/figures/figure-6-3.png",
-    "images/math/p128-a55fdf14d7b5.svg",
-    "images/math/p128-68dd9ce8a325.svg",
     "images/figures/figure-6-4.png",
-    "images/math/p129-8475c4690139.svg",
-    "images/math/p129-edfa4aca28c0.svg",
     "images/figures/figure-6-5.png",
     "images/figures/figure-6-6.png",
-    "images/math/p135-0cb3f5f689f5.svg",
     "images/figures/figure-6-7.png",
-    "images/math/p138-6efb7e0f91bd.svg",
     "images/figures/figure-6-8.png",
     "images/figures/figure-6-9.png",
     "images/figures/figure-6-10.png",
     "images/figures/figure-6-11.png",
     "images/figures/figure-p149-1.png",
-    "images/math/p149-c44f89fc562e.svg",
-    "images/math/p149-85f0b5faa9c9.svg",
     "images/figures/figure-7-1.png",
     "images/figures/figure-7-2.png",
     "images/figures/figure-7-3.png",
     "images/figures/figure-7-4.png",
     "images/figures/figure-7-5.png",
-    "images/math/p154-fc74ae893a79.svg",
-    "images/math/p155-25f9439b12f8.svg",
-    "images/math/p155-b10c6e50f458.svg",
-    "images/math/p155-3190228355db.svg",
     "images/figures/figure-7-6.png",
-    "images/math/p156-33b99e050b66.svg",
-    "images/math/p156-9b1214da946c.svg",
-    "images/math/p156-c7aeae6e7d63.svg",
     "images/figures/figure-7-7.png",
     "images/figures/figure-7-8.png",
-    "images/math/p158-650c41e344ba.svg",
-    "images/math/p158-8252352ee289.svg",
-    "images/math/p158-50de00ac630d.svg",
-    "images/math/p158-368590a2fffa.svg",
     "images/figures/figure-7-9.png",
     "images/figures/figure-7-10.png",
     "images/figures/figure-7-11.png",
@@ -2463,105 +2304,41 @@
     "images/figures/figure-7-18.png",
     "images/figures/figure-7-19.png",
     "images/figures/figure-8-1.png",
-    "images/math/p177-ef5762dc097d.svg",
     "images/figures/figure-8-2.png",
-    "images/math/p180-31d15ef38bcc.svg",
     "images/figures/figure-8-3.png",
-    "images/math/p185-87bbbc5780b2.svg",
     "images/figures/figure-8-4.png",
     "images/figures/figure-8-5.png",
     "images/figures/figure-8-6.png",
-    "images/math/p191-cfc834e118be.svg",
-    "images/math/p193-a4c90edf67eb.svg",
-    "images/math/p196-f247155d2732.svg",
-    "images/math/p199-59cfa506e2cd.svg",
-    "images/math/p199-a3204d421bd0.svg",
-    "images/math/p200-4b63debb297c.svg",
     "images/figures/figure-9-1.png",
     "images/figures/figure-9-2.png",
     "images/figures/figure-9-3.png",
-    "images/math/p204-14b558551b11.svg",
     "images/figures/figure-9-4.png",
     "images/figures/figure-9-5.png",
-    "images/math/p206-eb183369e28e.svg",
-    "images/math/p206-c3fd78c54fd0.svg",
-    "images/math/p206-da9ecad8ddb8.svg",
-    "images/math/p207-a746364a2fcb.svg",
-    "images/math/p207-1a7fbaafef56.svg",
     "images/figures/figure-9-6.png",
     "images/figures/figure-9-7.png",
     "images/figures/figure-9-8.png",
-    "images/math/p211-53b3770c4386.svg",
-    "images/math/p211-622c94dbdb75.svg",
-    "images/math/p211-df11239e7e80.svg",
     "images/figures/figure-9-9.png",
     "images/figures/figure-9-10.png",
     "images/figures/figure-9-11.png",
     "images/figures/figure-9-12.png",
     "images/figures/figure-9-13.png",
     "images/figures/figure-10-1.png",
-    "images/math/p217-127f18b1724e.svg",
-    "images/math/p217-4293a2c20268.svg",
-    "images/math/p218-4abddc3057d0.svg",
     "images/figures/figure-10-2.png",
-    "images/math/p220-5a70a1f312c6.svg",
-    "images/math/p220-4e7946fa1686.svg",
-    "images/math/p220-86d32e625ece.svg",
-    "images/math/p221-dbd6ef913ac6.svg",
-    "images/math/p222-ba9b83920207.svg",
-    "images/math/p223-5baad1332685.svg",
-    "images/math/p224-6ef98bc67104.svg",
-    "images/math/p224-ed9b2e50ef2f.svg",
     "images/figures/figure-10-3.png",
     "images/figures/figure-10-4.png",
-    "images/math/p226-eece7ab10e1d.svg",
-    "images/math/p228-f4fc59af8341.svg",
-    "images/math/p228-693dc67abf25.svg",
     "images/figures/figure-10-5.png",
-    "images/math/p229-d920671f1c6e.svg",
-    "images/math/p229-d0a00ea50e6a.svg",
-    "images/math/p230-467cb8bf91bb.svg",
-    "images/math/p230-ad596226d606.svg",
     "images/figures/figure-10-6.png",
-    "images/math/p233-7a90376f5c3b.svg",
-    "images/math/p237-6874aada7f45.svg",
     "images/figures/figure-11-1.png",
-    "images/math/p238-c5c94485a601.svg",
     "images/figures/figure-11-2.png",
-    "images/math/p239-ac51404ccb5f.svg",
     "images/figures/figure-11-3.png",
-    "images/math/p241-f106037752dd.svg",
-    "images/math/p241-cddecbc90ee8.svg",
-    "images/math/p243-7908993bb56c.svg",
     "images/figures/figure-11-4.png",
     "images/figures/figure-11-5.png",
-    "images/math/p246-678c2589b18c.svg",
-    "images/math/p247-60bee6477200.svg",
-    "images/math/p248-5d85319e1f70.svg",
-    "images/math/p248-85ce29f20152.svg",
-    "images/math/p250-b54036363abf.svg",
-    "images/math/p250-075093e06c35.svg",
-    "images/math/p250-09dba46fe127.svg",
-    "images/math/p250-27797269d3cd.svg",
-    "images/math/p250-395002c9ba55.svg",
-    "images/math/p250-008470dbbd74.svg",
-    "images/math/p251-dd7532426270.svg",
-    "images/math/p252-2161c2661b6a.svg",
-    "images/math/p253-f7b0dd17d0ea.svg",
-    "images/math/p253-a2d1a7bdda60.svg",
-    "images/math/p257-2483a83cd8a9.svg",
-    "images/math/p258-9edd8df76e9b.svg",
     "images/figures/figure-12-1.png",
     "images/figures/figure-12-2.png",
     "images/figures/figure-12-3.png",
-    "images/math/p265-0f79f78e9b91.svg",
     "images/figures/figure-12-4.png",
     "images/figures/figure-12-5.png",
-    "images/math/p267-e355024f12e4.svg",
     "images/figures/figure-12-6.png",
-    "images/math/p270-2f4bfffac73e.svg",
-    "images/math/p272-918f363040cb.svg",
-    "images/math/p272-77abc4277aa9.svg",
     "images/figures/figure-12-7.png",
     "images/figures/figure-12-8.png",
     "images/figures/figure-12-9.png",
@@ -2570,55 +2347,8 @@
     "images/figures/figure-12-12.png",
     "images/math/p278-d79919ffc2b8.svg",
     "images/figures/figure-p279-1.png",
-    "images/math/p285-4e4d17d8c02c.svg",
-    "images/math/p285-5232a47915f0.svg",
     "images/math/p285-1e008daae40b.svg",
-    "images/math/p286-b67b2cc5c67b.svg",
-    "images/math/p286-ac44d715d41a.svg",
-    "images/math/p286-f464bd2340eb.svg",
-    "images/math/p286-ec8927180434.svg",
-    "images/math/p286-2ccd055fc91d.svg",
-    "images/math/p287-017585d5b91f.svg",
-    "images/math/p287-bb84a40a93ef.svg",
-    "images/math/p287-a20c50e71a3c.svg",
-    "images/math/p287-8feac5023a3c.svg",
-    "images/math/p287-375b08703edf.svg",
-    "images/math/p287-237bc4dae7f6.svg",
-    "images/figures/figure-p288-1.png",
-    "images/math/p290-c44505be7337.svg",
-    "images/math/p291-91683b3d3d1d.svg",
-    "images/math/p292-1b4727df5bd1.svg",
-    "images/math/p292-7b5eed24c5e3.svg",
-    "images/math/p292-5eeff2437913.svg",
-    "images/math/p292-69b8e9c26986.svg",
-    "images/math/p292-7b9b079fd596.svg",
-    "images/math/p292-6ae9ca3ac490.svg",
-    "images/math/p293-f439e44787a8.svg",
-    "images/math/p293-89ef7d157a92.svg",
-    "images/math/p293-e8c0668fdd0b.svg",
-    "images/math/p293-83cff4b06550.svg",
-    "images/math/p296-646656507897.svg",
-    "images/math/p297-a6a24f3ac0db.svg",
-    "images/math/p297-fba463f3f198.svg",
-    "images/math/p297-0905570d17e5.svg",
-    "images/math/p297-73942db8bef8.svg",
-    "images/math/p298-366258859454.svg",
-    "images/math/p298-edb997c9428e.svg",
-    "images/math/p299-67d5bf71ad69.svg",
-    "images/math/p300-c8f325f30b07.svg",
-    "images/math/p300-5cbbdfc60e2e.svg",
-    "images/math/p300-3f35751ae55c.svg",
-    "images/math/p300-10f6cf1f1fc1.svg",
-    "images/math/p301-220cdc9b3590.svg",
-    "images/math/p301-dc698b82ec48.svg",
-    "images/math/p301-98f978574184.svg",
-    "images/math/p301-2fddce3063d8.svg",
-    "images/math/p301-0c677174782d.svg",
-    "images/math/p302-3664caed582b.svg",
-    "images/math/p302-359212567155.svg",
-    "images/math/p302-3c0dbbba42ea.svg",
-    "images/math/p302-22755008430d.svg",
-    "images/math/p303-8136e83ddac0.svg"
+    "images/figures/figure-p288-1.png"
   ],
   "blocks": [
     {
@@ -4181,10 +3911,10 @@
         167.969
       ],
       "source_text": "ddx",
-      "asset": "images/math/p012-bb1120675fe3.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -5925,10 +5655,10 @@
         649.921
       ],
       "source_text": "ˆ",
-      "asset": "images/math/p014-5bfb357db7d9.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -6042,10 +5772,10 @@
         621.824
       ],
       "source_text": "q22+=xyry\u0012\u0013−1=tanθx",
-      "asset": "images/math/p014-242868779f57.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -6746,10 +6476,10 @@
         479.447
       ],
       "source_text": "ddrˆt",
-      "asset": "images/math/p016-2edf2f5f4fcd.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -6859,10 +6589,10 @@
         670.143
       ],
       "source_text": "ddrt",
-      "asset": "images/math/p016-188daaf6c6ab.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -6924,10 +6654,10 @@
         710.035
       ],
       "source_text": "⃗v·⃗v=qvr2+vθ2=qvr2+(rω)2",
-      "asset": "images/math/p016-ddda0d46a698.svg",
       "glyph_count": 25,
       "matched_glyphs": 25,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -6963,10 +6693,10 @@
         403.987
       ],
       "source_text": "ddrˆ=(cos+sin)θıθȷˆˆddttddθθ=sin+cos=anddon’tchangewithtime−⇒θıθȷıȷˆˆˆˆddttdθ=(sin+cos)−θıθȷˆˆdt}|{zˆθdθˆˆ==⇒θωθdt",
-      "asset": "images/math/p016-e1ce4164f5eb.svg",
       "glyph_count": 114,
       "matched_glyphs": 114,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -7096,10 +6826,10 @@
         284.103
       ],
       "source_text": "θˆ",
-      "asset": "images/math/p017-b5e164d020f4.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7123,10 +6853,10 @@
         307.695
       ],
       "source_text": "ˆˆ",
-      "asset": "images/math/p017-6b33fc9d4187.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7150,10 +6880,10 @@
         331.612
       ],
       "source_text": "r2rˆ",
-      "asset": "images/math/p017-7e5e444d7f79.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7204,10 +6934,10 @@
         331.612
       ],
       "source_text": "θθˆ+rdθ2θˆ+r",
-      "asset": "images/math/p017-d554c7d9ba70.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7232,10 +6962,10 @@
         327.571
       ],
       "source_text": "θ=⇒",
-      "asset": "images/math/p017-c9429c2951c1.svg",
       "glyph_count": 3,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7260,10 +6990,10 @@
         327.726
       ],
       "source_text": "θθˆ,",
-      "asset": "images/math/p017-a4f45a648bbf.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7275,10 +7005,10 @@
         327.571
       ],
       "source_text": "θ=−",
-      "asset": "images/math/p017-924c6aea3b25.svg",
       "glyph_count": 3,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7290,10 +7020,10 @@
         327.726
       ],
       "source_text": "θrˆ",
-      "asset": "images/math/p017-2e1deb756072.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7511,10 +7241,10 @@
         349.757
       ],
       "source_text": "θˆ",
-      "asset": "images/math/p017-5695df03c37d.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7539,10 +7269,10 @@
         361.731
       ],
       "source_text": "θˆd2θ2ˆ",
-      "asset": "images/math/p017-b9c147a6aa35.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7605,10 +7335,10 @@
         367.177
       ],
       "source_text": "t�",
-      "asset": "images/math/p017-1108c5fa1d3c.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7620,10 +7350,10 @@
         367.177
       ],
       "source_text": "t!",
-      "asset": "images/math/p017-86139ce1a186.svg",
       "glyph_count": 2,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7674,10 +7404,10 @@
         367.177
       ],
       "source_text": "t�",
-      "asset": "images/math/p017-1b3839563510.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7689,10 +7419,10 @@
         367.177
       ],
       "source_text": "t!",
-      "asset": "images/math/p017-f76c1fccf0be.svg",
       "glyph_count": 2,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7728,10 +7458,10 @@
         397.585
       ],
       "source_text": "r2rˆ",
-      "asset": "images/math/p017-5253893c0c8d.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7756,10 +7486,10 @@
         397.585
       ],
       "source_text": "θθˆ+rdθ2θˆ−r",
-      "asset": "images/math/p017-1c649b23e1b0.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7771,10 +7501,10 @@
         393.699
       ],
       "source_text": "θrˆ=⇒",
-      "asset": "images/math/p017-2d680d86cab9.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7837,10 +7567,10 @@
         403.032
       ],
       "source_text": "t�",
-      "asset": "images/math/p017-470d59a36c11.svg",
       "glyph_count": 2,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7852,10 +7582,10 @@
         403.032
       ],
       "source_text": "t!",
-      "asset": "images/math/p017-e98e0e3e1c6b.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7879,10 +7609,10 @@
         429.582
       ],
       "source_text": "22",
-      "asset": "images/math/p017-78500c1103af.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -7919,10 +7649,10 @@
         439.071
       ],
       "source_text": "r2−r",
-      "asset": "images/math/p017-828d6be66ed8.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -7934,10 +7664,10 @@
         439.071
       ],
       "source_text": "θrˆ+rdθ2",
-      "asset": "images/math/p017-9b06ced9bc4b.svg",
       "glyph_count": 8,
       "matched_glyphs": 8,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -7962,10 +7692,10 @@
         435.185
       ],
       "source_text": "θθˆ=⇒",
-      "asset": "images/math/p017-252950ffd111.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -8015,10 +7745,10 @@
         444.518
       ],
       "source_text": "t�",
-      "asset": "images/math/p017-7b227d82445f.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -8030,10 +7760,10 @@
         447.505
       ],
       "source_text": "t!�",
-      "asset": "images/math/p017-e0e0c2ce1c15.svg",
       "glyph_count": 4,
       "matched_glyphs": 5,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -8071,10 +7801,10 @@
         444.518
       ],
       "source_text": "t!",
-      "asset": "images/math/p017-690928069799.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -8246,10 +7976,10 @@
         229.169
       ],
       "source_text": "ˆddθ=(sin+cos)−θıθȷˆˆddttddθθ=cossin−−θıθȷˆˆddttdθ=(cos+sin)−θıθȷˆˆdt|}{zrˆdθ==−⇒−rωrˆˆdt",
-      "asset": "images/math/p017-20960d5339e4.svg",
       "glyph_count": 89,
       "matched_glyphs": 89,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -8261,10 +7991,10 @@
         301.523
       ],
       "source_text": "!�==+θarr⃗ˆddddtttt",
-      "asset": "images/math/p017-5392e13560df.svg",
       "glyph_count": 19,
       "matched_glyphs": 21,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -8276,10 +8006,10 @@
         357.845
       ],
       "source_text": "=++++−rθθrθrrˆˆ",
-      "asset": "images/math/p017-8587c3394037.svg",
       "glyph_count": 15,
       "matched_glyphs": 18,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -8291,10 +8021,10 @@
         447.505
       ],
       "source_text": "",
-      "asset": "images/math/p017-918a109b65fc.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -8535,10 +8265,10 @@
         480.187
       ],
       "source_text": "x=axt2+C1t+C2=⇒C2",
-      "asset": "images/math/p018-a2445375a971.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -9520,10 +9250,10 @@
         721.353
       ],
       "source_text": "+sin()(1.4)=cos()rωtȷrrωtı⃗ˆˆ00|}|}{z{zxtyt()()",
-      "asset": "images/math/p019-7e25a19ad539.svg",
       "glyph_count": 47,
       "matched_glyphs": 47,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -10703,10 +10433,10 @@
         457.004
       ],
       "source_text": "qvy2,0+2gr0>vy,0",
-      "asset": "images/math/p022-73ea4a1f733d.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -10995,10 +10725,10 @@
         621.65
       ],
       "source_text": "t=y,0qy,00=⇒",
-      "asset": "images/math/p022-90531269bd0e.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -11077,10 +10807,10 @@
         426.011
       ],
       "source_text": "q2+2±vgrvy,00y,0=tg",
-      "asset": "images/math/p022-f12be3da734f.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -11981,10 +11711,10 @@
         416.289
       ],
       "source_text": "∆θ=αt2+ω0t+θ0=⇒",
-      "asset": "images/math/p024-15a20e00f3a4.svg",
       "glyph_count": 15,
       "matched_glyphs": 15,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -12047,10 +11777,10 @@
         485.713
       ],
       "source_text": "∆θ=�0!+�−0!=⇒",
-      "asset": "images/math/p024-40d914615687.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -12931,10 +12661,10 @@
         486.472
       ],
       "source_text": "q⃗222==++||bbbbbxyz",
-      "asset": "images/math/p025-8730e99c766b.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -14623,10 +14353,10 @@
         127.226
       ],
       "source_text": "f(x)=3+ex",
-      "asset": "images/math/p029-0720e504718b.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -14824,10 +14554,10 @@
         505.804
       ],
       "source_text": "√",
-      "asset": "images/math/p029-cc4285887016.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -14839,10 +14569,10 @@
         510.926
       ],
       "source_text": "x",
-      "asset": "images/math/p029-ed2ec462fbd3.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -14879,10 +14609,10 @@
         515.25
       ],
       "source_text": "f(x)=3+e",
-      "asset": "images/math/p029-44d5482db7cf.svg",
       "glyph_count": 8,
       "matched_glyphs": 8,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -14966,10 +14696,10 @@
         117.78
       ],
       "source_text": "√",
-      "asset": "images/math/p029-c0fef741a3ac.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -14981,10 +14711,10 @@
         225.857
       ],
       "source_text": "√√√x3+3+1+4+≈≈exx",
-      "asset": "images/math/p029-3337106ba24a.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -15010,10 +14740,10 @@
         360.352
       ],
       "source_text": "√4+0=2(0)=f",
-      "asset": "images/math/p029-e0ad7b01cf05.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -15039,10 +14769,10 @@
         479.279
       ],
       "source_text": "′()(0)+(0)()≈fxffx√1x3+2+≈ex4",
-      "asset": "images/math/p029-f37f0916f530.svg",
       "glyph_count": 29,
       "matched_glyphs": 29,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "box-title",
@@ -15487,10 +15217,10 @@
         383.394
       ],
       "source_text": "0d(cos)x\b*\b′\bcos1sin(0)()=()==sin≈−⇒−xxfxx\bdx",
-      "asset": "images/math/p030-053f4db9a935.svg",
       "glyph_count": 45,
       "matched_glyphs": 45,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -15516,10 +15246,10 @@
         538.976
       ],
       "source_text": "1′′′2()(0)+(0)()+(0)()≈fxffxfx202d(cos)1x\b*\b2′′\bcos(0)()=()==coscos1sin(0)()⇒−≈−−xfxxxx\b22dx12cos1≈−xx2",
-      "asset": "images/math/p030-757f0486fd19.svg",
       "glyph_count": 103,
       "matched_glyphs": 103,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -16468,10 +16198,10 @@
         282.377
       ],
       "source_text": "θ2d2θ2",
-      "asset": "images/math/p034-b99d43d08cda.svg",
       "glyph_count": 7,
       "matched_glyphs": 8,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -16521,10 +16251,10 @@
         287.823
       ],
       "source_text": "t�",
-      "asset": "images/math/p034-f873342e3ef9.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -16536,10 +16266,10 @@
         290.811
       ],
       "source_text": "t!�",
-      "asset": "images/math/p034-62c664955b39.svg",
       "glyph_count": 4,
       "matched_glyphs": 5,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -16651,10 +16381,10 @@
         170.331
       ],
       "source_text": "ˆ=++rxıyȷzk⃗ˆˆ+sin()=cos()rωtȷrrωtı⃗ˆˆ00ˆ=++vxıyȷzk⃗ˆˆ˙˙˙}|}|{z{zxtyt()()ˆ=++axıyȷzk⃗ˆˆ¨¨¨",
-      "asset": "images/math/p034-3b799813bf6a.svg",
       "glyph_count": 90,
       "matched_glyphs": 90,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -16680,10 +16410,10 @@
         238.643
       ],
       "source_text": "ˆ=vωrθddθr⃗ˆ+=rrvθ⃗ˆ2ddtt=−aωr⃗⃗",
-      "asset": "images/math/p034-333f275686c8.svg",
       "glyph_count": 32,
       "matched_glyphs": 32,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -16695,10 +16425,10 @@
         290.811
       ],
       "source_text": "vv⃗⃗rθ(inplane-polarcoordinates)ˆ+2=+−rarrθ⃗ˆ",
-      "asset": "images/math/p034-bfaf9b358977.svg",
       "glyph_count": 46,
       "matched_glyphs": 46,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -17445,10 +17175,10 @@
         687.18
       ],
       "source_text": "WhR",
-      "asset": "images/math/p036-4530299966a7.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -17472,10 +17202,10 @@
         696.009
       ],
       "source_text": "t=qb",
-      "asset": "images/math/p036-81f53e5b41c7.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-01-calculus-and-vectors.md"
+      "document": "chapters/ch-01-calculus-and-vectors.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -18219,10 +17949,10 @@
         470.0
       ],
       "source_text": "¯",
-      "asset": "images/math/p038-8d0931ca0711.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -18234,10 +17964,10 @@
         470.0
       ],
       "source_text": "¯",
-      "asset": "images/math/p038-c36f2c792e63.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -18249,10 +17979,10 @@
         470.0
       ],
       "source_text": "¯",
-      "asset": "images/math/p038-c9bef37e1fe2.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -18276,10 +18006,10 @@
         484.446
       ],
       "source_text": "¯",
-      "asset": "images/math/p038-9c49bb7dbd9b.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -18291,10 +18021,10 @@
         484.446
       ],
       "source_text": "¯",
-      "asset": "images/math/p038-738909550d6f.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -21940,10 +21670,10 @@
         404.223
       ],
       "source_text": "yB=−g�0!+v0sinθ�0!+r0=⇒",
-      "asset": "images/math/p045-a67bb5a01080.svg",
       "glyph_count": 23,
       "matched_glyphs": 23,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -21980,10 +21710,10 @@
         438.096
       ],
       "source_text": "yB=−�0!+�0!+r0=⇒",
-      "asset": "images/math/p045-c58a5357a36e.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -22672,10 +22402,10 @@
         220.055
       ],
       "source_text": "q22sin+2sin±vθgrvθ000=tCg",
-      "asset": "images/math/p046-c07bc03d8355.svg",
       "glyph_count": 25,
       "matched_glyphs": 25,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -22687,10 +22417,10 @@
         333.877
       ],
       "source_text": "q22sin+2sin+vθgrvθ000=tCg",
-      "asset": "images/math/p046-c94990a5ca9f.svg",
       "glyph_count": 25,
       "matched_glyphs": 25,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -22702,10 +22432,10 @@
         419.823
       ],
       "source_text": "q22sin+2sin+vθgrvθ000==cosxvtvθCxC0g",
-      "asset": "images/math/p046-84348d7eaa0f.svg",
       "glyph_count": 40,
       "matched_glyphs": 40,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -24288,10 +24018,10 @@
         574.425
       ],
       "source_text": "x=Z0�v0+−e−βt!",
-      "asset": "images/math/p049-d8c0b1d8d1b5.svg",
       "glyph_count": 14,
       "matched_glyphs": 14,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -24354,10 +24084,10 @@
         665.309
       ],
       "source_text": "x=v0t+t+2e−βt−2=⇒",
-      "asset": "images/math/p049-ff20372d9a4c.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -25296,10 +25026,10 @@
         224.833
       ],
       "source_text": "ln\u0012\u0013=−ατ=⇒",
-      "asset": "images/math/p051-3ccc2c5a4f94.svg",
       "glyph_count": 10,
       "matched_glyphs": 10,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -25500,10 +25230,10 @@
         515.376
       ],
       "source_text": "x=−0e−αt+C=⇒",
-      "asset": "images/math/p051-e268b3365a17.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -25553,10 +25283,10 @@
         540.797
       ],
       "source_text": "x=−0e−ατ+0=⇒",
-      "asset": "images/math/p051-432382773c80.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -25581,10 +25311,10 @@
         540.797
       ],
       "source_text": "t=0),C=0",
-      "asset": "images/math/p051-ae8256f1dd1d.svg",
       "glyph_count": 8,
       "matched_glyphs": 8,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -26790,10 +26520,10 @@
         666.662
       ],
       "source_text": "/122=()−−vbxmax0√2=xvmax0b",
-      "asset": "images/math/p053-f8be6c2d3b7f.svg",
       "glyph_count": 26,
       "matched_glyphs": 26,
-      "document": "chapters/ch-02-newtonian-motion.md"
+      "document": "chapters/ch-02-newtonian-motion.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -30262,10 +29992,10 @@
         731.621
       ],
       "source_text": "=vx˙d=[cos(+)]vAωtϕ0",
-      "asset": "images/math/p062-88d484baada3.svg",
       "glyph_count": 20,
       "matched_glyphs": 20,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -30524,10 +30254,10 @@
         563.461
       ],
       "source_text": "ω0=qmk",
-      "asset": "images/math/p063-69e609773a17.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -30727,10 +30457,10 @@
         207.018
       ],
       "source_text": "=av˙d=[sin(+)]−aωAωtϕ001dt2=[cos(+)]−aωAωtϕ00}|{zxt()",
-      "asset": "images/math/p063-522769a12e48.svg",
       "glyph_count": 53,
       "matched_glyphs": 53,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -30756,10 +30486,10 @@
         327.165
       ],
       "source_text": "sk=ω.0m",
-      "asset": "images/math/p063-b72a9da43b20.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -30785,10 +30515,10 @@
         682.537
       ],
       "source_text": "2πmr==2(3.5)Tπωk0",
-      "asset": "images/math/p063-4b1abd2165b0.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -31241,10 +30971,10 @@
         622.355
       ],
       "source_text": "m2=−kx+kx0=⇒",
-      "asset": "images/math/p064-994a0af7ec65.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -32054,10 +31784,10 @@
         210.016
       ],
       "source_text": "ω0=4",
-      "asset": "images/math/p066-aeaef8d25b1f.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -32081,10 +31811,10 @@
         237.424
       ],
       "source_text": "ω0=r",
-      "asset": "images/math/p066-c7d575c5952b.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -32108,10 +31838,10 @@
         262.73
       ],
       "source_text": "ω0=r4RR12k+M(R12+R22)g",
-      "asset": "images/math/p066-e379651ebfc5.svg",
       "glyph_count": 22,
       "matched_glyphs": 22,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -32135,10 +31865,10 @@
         286.481
       ],
       "source_text": "ω0=4ARR12k+M",
-      "asset": "images/math/p066-8c86825a1d66.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -32369,10 +32099,10 @@
         236.966
       ],
       "source_text": "Rk1R2Rk41AR2",
-      "asset": "images/math/p066-b9277d90c298.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -33082,10 +32812,10 @@
         326.58
       ],
       "source_text": "ω02==⇒",
-      "asset": "images/math/p068-e69b56ca546c.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -33147,10 +32877,10 @@
         430.324
       ],
       "source_text": "T==2πs=⇒",
-      "asset": "images/math/p068-4a8399b64e7d.svg",
       "glyph_count": 8,
       "matched_glyphs": 8,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -33384,10 +33114,10 @@
         360.785
       ],
       "source_text": "Lgr=ω0L",
-      "asset": "images/math/p068-7b616c9eaba0.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -33870,10 +33600,10 @@
         317.928
       ],
       "source_text": "m2=−k1x−k2x=⇒",
-      "asset": "images/math/p070-88324a232ee8.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -34076,10 +33806,10 @@
         496.041
       ],
       "source_text": "+kk122=ω0ms+kk12=ω0m",
-      "asset": "images/math/p070-e19b4105d7fb.svg",
       "glyph_count": 20,
       "matched_glyphs": 20,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -34105,10 +33835,10 @@
         598.72
       ],
       "source_text": "sm=2Tπ+kk12",
-      "asset": "images/math/p070-167c1fa6009c.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -34795,10 +34525,10 @@
         353.94
       ],
       "source_text": "+kLmg2=ω0mLs+kLmg=ω0mL",
-      "asset": "images/math/p072-430ab13a2f60.svg",
       "glyph_count": 22,
       "matched_glyphs": 22,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -34810,10 +34540,10 @@
         388.212
       ],
       "source_text": "skg=+ω0mL",
-      "asset": "images/math/p072-e01be710936e.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -34825,10 +34555,10 @@
         527.011
       ],
       "source_text": "s2mLπ=2=πT+ωkLmg0",
-      "asset": "images/math/p072-90ed80d49c9d.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -35212,10 +34942,10 @@
         589.877
       ],
       "source_text": "¯",
-      "asset": "images/math/p073-210708532739.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -35227,10 +34957,10 @@
         589.877
       ],
       "source_text": "¯",
-      "asset": "images/math/p073-a83987eda109.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -35729,10 +35459,10 @@
         332.884
       ],
       "source_text": "22dxgdkx=−x=−x2dtL2dtmgrsk=ω0=ωL0m",
-      "asset": "images/math/p075-5305ee8f5664.svg",
       "glyph_count": 34,
       "matched_glyphs": 34,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -36013,10 +35743,10 @@
         420.643
       ],
       "source_text": "ω0=qL",
-      "asset": "images/math/p076-9e24ca4fc1ce.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -36505,10 +36235,10 @@
         338.86
       ],
       "source_text": "sgk+=ω0mL",
-      "asset": "images/math/p077-0057f00a34d9.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -37069,10 +36799,10 @@
         268.82
       ],
       "source_text": "v(+)mkku12u=2Tπt+(+)kkkkk12312",
-      "asset": "images/math/p079-96cd39d4ad1d.svg",
       "glyph_count": 30,
       "matched_glyphs": 30,
-      "document": "chapters/ch-03-simple-harmonic-motion.md"
+      "document": "chapters/ch-03-simple-harmonic-motion.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -39170,10 +38900,10 @@
         134.154
       ],
       "source_text": "⃗⃗⃗XX=+(4.2)FFF′SSfic|}||}}{z{z{zcorrectionnon-inertialinertialframeframe",
-      "asset": "images/math/p083-b7e33dd7e6ac.svg",
       "glyph_count": 73,
       "matched_glyphs": 73,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -41658,10 +41388,10 @@
         592.366
       ],
       "source_text": "zˆ",
-      "asset": "images/math/p088-acb0465846d8.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41673,10 +41403,10 @@
         594.544
       ],
       "source_text": "x′′′",
-      "asset": "images/math/p088-f9e37bb065c6.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -41701,10 +41431,10 @@
         594.544
       ],
       "source_text": "y′′′",
-      "asset": "images/math/p088-3c75597ce262.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -41729,10 +41459,10 @@
         594.544
       ],
       "source_text": "z′ˆ′′",
-      "asset": "images/math/p088-ad9a68298218.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -41846,10 +41576,10 @@
         661.725
       ],
       "source_text": "zˆ",
-      "asset": "images/math/p088-7918b041e9e7.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41861,10 +41591,10 @@
         663.641
       ],
       "source_text": "x′′",
-      "asset": "images/math/p088-283406c0c761.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41876,10 +41606,10 @@
         663.641
       ],
       "source_text": "y′′",
-      "asset": "images/math/p088-e18548ad1f14.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41891,10 +41621,10 @@
         663.903
       ],
       "source_text": "z′ˆ′′",
-      "asset": "images/math/p088-f073c74f90c9.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41906,10 +41636,10 @@
         663.903
       ],
       "source_text": "ˆı′′",
-      "asset": "images/math/p088-5f6c311a7c02.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -41921,10 +41651,10 @@
         663.903
       ],
       "source_text": "ȷˆ′′",
-      "asset": "images/math/p088-8d5687eb0382.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -41989,10 +41719,10 @@
         608.655
       ],
       "source_text": "++=+++++ıȷkıxȷykzˆˆˆˆdddddddddttttttttt",
-      "asset": "images/math/p088-4d95a132f5a1.svg",
       "glyph_count": 39,
       "matched_glyphs": 43,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -42004,10 +41734,10 @@
         695.812
       ],
       "source_text": "++=+++++ıȷkıȷkxyzˆˆˆˆdddddddddttttttttt|}|}{z{z′vv⃗⃗",
-      "asset": "images/math/p088-14361a1bcdee.svg",
       "glyph_count": 52,
       "matched_glyphs": 56,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -42201,10 +41931,10 @@
         144.386
       ],
       "source_text": "ddkˆt′",
-      "asset": "images/math/p089-edffd004430c.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -42607,10 +42337,10 @@
         135.213
       ],
       "source_text": "′′ȷˆ",
-      "asset": "images/math/p089-0fb58464e5e2.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -42835,10 +42565,10 @@
         156.806
       ],
       "source_text": "ıt",
-      "asset": "images/math/p090-5d04cc323cb5.svg",
       "glyph_count": 2,
       "matched_glyphs": 3,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -43109,10 +42839,10 @@
         156.816
       ],
       "source_text": "ˆdd",
-      "asset": "images/math/p090-91de1e3c5c1e.svg",
       "glyph_count": 3,
       "matched_glyphs": 3,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -43531,10 +43261,10 @@
         158.936
       ],
       "source_text": "�!\"�!#ddr⃗=+(4.4)×ωr⃗⃗ddttIR}|{zoperator",
-      "asset": "images/math/p091-931177193b50.svg",
       "glyph_count": 40,
       "matched_glyphs": 40,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -43741,10 +43471,10 @@
         328.686
       ],
       "source_text": "�!=�",
-      "asset": "images/math/p092-875df264de2e.svg",
       "glyph_count": 4,
       "matched_glyphs": 5,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -44065,10 +43795,10 @@
         594.846
       ],
       "source_text": "⃗′′2()(4.6)=−×−××−−×ωvωωrAaαra⃗⃗⃗⃗⃗⃗⃗⃗⃗|}|}|}}|}|{z{z{z|}{z{z{z612345",
-      "asset": "images/math/p092-a5b159195a82.svg",
       "glyph_count": 69,
       "matched_glyphs": 69,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -44914,10 +44644,10 @@
         406.995
       ],
       "source_text": "000\u0018:0\u001a>\u0018\u0018:\b*\u0018\u001a\u0018\u0018\b\u0018⃗⃗\u0018′′X\u0018=2()−×−×−××−maFmαrmωvmωωrmA\u0018\b⃗⃗⃗⃗⃗⃗⃗⃗\u001a\u0018I",
-      "asset": "images/math/p094-b2fb101be0b9.svg",
       "glyph_count": 66,
       "matched_glyphs": 66,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -44929,10 +44659,10 @@
         505.552
       ],
       "source_text": "⃗X0=()−××Fmωωr⃗⃗⃗I}|{zFcent",
-      "asset": "images/math/p094-6d210b83871c.svg",
       "glyph_count": 27,
       "matched_glyphs": 27,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -44983,10 +44713,10 @@
         186.947
       ],
       "source_text": "⃗⃗",
-      "asset": "images/math/p095-a85bec2759bc.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-04-introduction-to-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -46910,10 +46640,10 @@
         722.505
       ],
       "source_text": "⃗⃗⃗⃗′=++++(5.4)mamaFFFF⃗⃗azCorcenttrans|}|}|}|}{z{z{z{z′′′−×−×mαrmωv2−××mωωr()⃗⃗⃗⃗⃗⃗⃗⃗−mA",
-      "asset": "images/math/p101-79b4d00afd2e.svg",
       "glyph_count": 89,
       "matched_glyphs": 89,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -48265,10 +47995,10 @@
         289.673
       ],
       "source_text": "µgr=ωR",
-      "asset": "images/math/p104-c558868ab844.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -48825,10 +48555,10 @@
         176.268
       ],
       "source_text": "µgr=ωR",
-      "asset": "images/math/p105-523b09c630ba.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -50035,10 +49765,10 @@
         464.336
       ],
       "source_text": "q′′222(2)+()=mvωmωxµmg",
-      "asset": "images/math/p108-808ea92403fb.svg",
       "glyph_count": 22,
       "matched_glyphs": 22,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -51996,10 +51726,10 @@
         165.308
       ],
       "source_text": "q⃗22222=(cossin)+(cos)||−FmωRθθmωRθcen",
-      "asset": "images/math/p112-50897b6437de.svg",
       "glyph_count": 38,
       "matched_glyphs": 38,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -52011,10 +51741,10 @@
         199.582
       ],
       "source_text": "s2222sin+cos=cosθθmωRθ|}{z=1",
-      "asset": "images/math/p112-37f8e1e2e507.svg",
       "glyph_count": 28,
       "matched_glyphs": 28,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -54324,10 +54054,10 @@
         341.312
       ],
       "source_text": "⃗⃗⃗⃗′++=++FFmamaFF⃗⃗centtransazCor}|}|}|}|{z{z{z{z′′′−×−×mωvmαr2−××mωωr()⃗⃗⃗⃗⃗⃗⃗⃗−mA",
-      "asset": "images/math/p116-b25ac2a6fc7b.svg",
       "glyph_count": 84,
       "matched_glyphs": 84,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -54443,10 +54173,10 @@
         128.659
       ],
       "source_text": "⃗⃗⃗⃗′=++++mamaFFFF⃗⃗azcenttransCor}}}|}|||{z{z{z{z′′′−×−×mωvmαr2−××mωωr()⃗⃗⃗⃗⃗⃗⃗⃗−mA",
-      "asset": "images/math/p117-9f5e20ed3b20.svg",
       "glyph_count": 84,
       "matched_glyphs": 84,
-      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md"
+      "document": "chapters/ch-05-application-of-non-inertial-and-rotating-frames.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -55975,10 +55705,10 @@
         631.682
       ],
       "source_text": "ddp⃗t",
-      "asset": "images/math/p122-e7777a6a9d74.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -56471,10 +56201,10 @@
         375.04
       ],
       "source_text": "dp⃗tot⃗⃗⃗⃗⃗⃗=+++++FFFFFF213112321323dt|}}}||{z{z{z⃗⃗⃗PPPFFF123",
-      "asset": "images/math/p123-e9f042f88dac.svg",
       "glyph_count": 62,
       "matched_glyphs": 62,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -56989,10 +56719,10 @@
         149.747
       ],
       "source_text": "dpiX=Fijdtj=1ji≠",
-      "asset": "images/math/p124-d7f79402a066.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -59060,10 +58790,10 @@
         115.568
       ],
       "source_text": "q22=+||vvv⃗xy",
-      "asset": "images/math/p128-a55fdf14d7b5.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -59075,10 +58805,10 @@
         203.396
       ],
       "source_text": "s22uu22=(cos+cos)+(sinsin)−θθθθ121244uq22=(cos+cos)+(sinsin)−θθθθ12122uq=2+2cos(+)=usetrigidentitiestosimplify⇒θθ122",
-      "asset": "images/math/p128-68dd9ce8a325.svg",
       "glyph_count": 116,
       "matched_glyphs": 116,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -59535,10 +59265,10 @@
         565.473
       ],
       "source_text": "m1v12,i+m2v22,i=m1v12,f+m2v22,f=⇒",
-      "asset": "images/math/p129-8475c4690139.svg",
       "glyph_count": 33,
       "matched_glyphs": 33,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -59550,10 +59280,10 @@
         566.64
       ],
       "source_text": "12",
-      "asset": "images/math/p129-edfa4aca28c0.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -62650,10 +62380,10 @@
         644.608
       ],
       "source_text": "ddvt",
-      "asset": "images/math/p135-0cb3f5f689f5.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -64575,10 +64305,10 @@
         127.661
       ],
       "source_text": "(+d)=(d)()+(d)(+d)−−pttmvvımmvvı⃗ˆˆtotexexex|}|}{z{zexhaustrocket",
-      "asset": "images/math/p138-6efb7e0f91bd.svg",
       "glyph_count": 65,
       "matched_glyphs": 65,
-      "document": "chapters/ch-06-momentum-and-variable-mass.md"
+      "document": "chapters/ch-06-momentum-and-variable-mass.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -68588,10 +68318,10 @@
         140.064
       ],
       "source_text": "⃗τ==⇒",
-      "asset": "images/math/p149-c44f89fc562e.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -68615,10 +68345,10 @@
         168.859
       ],
       "source_text": "I=⇒",
-      "asset": "images/math/p149-85f0b5faa9c9.svg",
       "glyph_count": 3,
       "matched_glyphs": 4,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -71100,10 +70830,10 @@
         104.694
       ],
       "source_text": "ω0=qL)",
-      "asset": "images/math/p154-fc74ae893a79.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -71794,10 +71524,10 @@
         392.188
       ],
       "source_text": "m",
-      "asset": "images/math/p155-25f9439b12f8.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -71809,10 +71539,10 @@
         392.188
       ],
       "source_text": "gh",
-      "asset": "images/math/p155-b10c6e50f458.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -71836,10 +71566,10 @@
         401.447
       ],
       "source_text": "ω0=qI",
-      "asset": "images/math/p155-3190228355db.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -72296,10 +72026,10 @@
         470.984
       ],
       "source_text": "M(gsh",
-      "asset": "images/math/p156-33b99e050b66.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -72323,10 +72053,10 @@
         480.243
       ],
       "source_text": "ω0=qI",
-      "asset": "images/math/p156-9b1214da946c.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -72513,10 +72243,10 @@
         561.658
       ],
       "source_text": "sI=2TπMgh",
-      "asset": "images/math/p156-c7aeae6e7d63.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -73046,10 +72776,10 @@
         396.752
       ],
       "source_text": "2πu3r121dd=⇒",
-      "asset": "images/math/p158-650c41e344ba.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -73212,10 +72942,10 @@
         365.111
       ],
       "source_text": "sI=2TπMgh",
-      "asset": "images/math/p158-8252352ee289.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -73227,10 +72957,10 @@
         405.582
       ],
       "source_text": "v11222++mLmRmLut(+)()mLmLMgrdM2",
-      "asset": "images/math/p158-50de00ac630d.svg",
       "glyph_count": 31,
       "matched_glyphs": 31,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -73242,10 +72972,10 @@
         445.832
       ],
       "source_text": "v1122(+)+mmLmRurddu32=2πt1(+)gLmmrd2",
-      "asset": "images/math/p158-368590a2fffa.svg",
       "glyph_count": 36,
       "matched_glyphs": 36,
-      "document": "chapters/ch-07-angular-momentum-and-torque.md"
+      "document": "chapters/ch-07-angular-momentum-and-torque.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -80665,10 +80395,10 @@
         297.35
       ],
       "source_text": "(ma)\u0012at2+ut\u0013=⇒",
-      "asset": "images/math/p177-ef5762dc097d.svg",
       "glyph_count": 14,
       "matched_glyphs": 14,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -82856,10 +82586,10 @@
         544.33
       ],
       "source_text": "s2GME=(8.9)vescRE",
-      "asset": "images/math/p180-31d15ef38bcc.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -85190,10 +84920,10 @@
         258.111
       ],
       "source_text": "()=()→−→UrrWrrcon1212rZ2⃗d=·−Fr⃗r1GMmr\u0012\u0013Z2=(d)−−·rrrˆˆ2rr1GMmr\u0012\u0013Z2=dr2rr1rGMm2�\u0012�=−�r�r1GMmGMm+=−rr21",
-      "asset": "images/math/p185-87bbbc5780b2.svg",
       "glyph_count": 101,
       "matched_glyphs": 101,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -87752,10 +87482,10 @@
         667.149
       ],
       "source_text": "ZZ(2123)=d+d→W,,FxFyxy0:\u0018\u001823\u0018ZZ\u0018\u0018−−xx2=()d+(2)d=nochangein−⇒AyexAyeyx\u0018\u0018\u0018213Z−2−x=2d=Takeoutoftheintegral,=2−⇒Aeyyex131�\u0012−22�=2−Aey�2�1−2=8−Ae",
-      "asset": "images/math/p191-cfc834e118be.svg",
       "glyph_count": 141,
       "matched_glyphs": 142,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -88283,10 +88013,10 @@
         534.339
       ],
       "source_text": "s2GME=vRE",
-      "asset": "images/math/p193-a4c90edf67eb.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -88829,10 +88559,10 @@
         144.244
       ],
       "source_text": "F⃗=�!ˆı+c�2!ȷˆ+�!kˆ",
-      "asset": "images/math/p196-f247155d2732.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "chapters/ch-08-work-and-energy.md"
+      "document": "chapters/ch-08-work-and-energy.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -90091,10 +89821,10 @@
         348.832
       ],
       "source_text": "ddKt",
-      "asset": "images/math/p199-59cfa506e2cd.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -90365,10 +90095,10 @@
         726.265
       ],
       "source_text": "=++=applyeachcoordinate⇒ddddt∂xt∂yt∂zt",
-      "asset": "images/math/p199-a3204d421bd0.svg",
       "glyph_count": 38,
       "matched_glyphs": 38,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -90380,10 +90110,10 @@
         91.002
       ],
       "source_text": "∇⃗U=ˆı+ȷˆ+kˆ",
-      "asset": "images/math/p200-4b63debb297c.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -92578,10 +92308,10 @@
         236.706
       ],
       "source_text": "v2ghu=vutMM121++psmm23",
-      "asset": "images/math/p204-14b558551b11.svg",
       "glyph_count": 22,
       "matched_glyphs": 22,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -93331,10 +93061,10 @@
         333.481
       ],
       "source_text": "K=m1(y˙1)2+m2(y˙2)2+Iω2=⇒",
-      "asset": "images/math/p206-eb183369e28e.svg",
       "glyph_count": 25,
       "matched_glyphs": 25,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -93371,10 +93101,10 @@
         368.68
       ],
       "source_text": "K=m1(y˙1)2+m2(y˙1)2+I\u00121\u0013=⇒",
-      "asset": "images/math/p206-c3fd78c54fd0.svg",
       "glyph_count": 26,
       "matched_glyphs": 27,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -93411,10 +93141,10 @@
         399.229
       ],
       "source_text": "K=m1(y˙1)2+m2(y˙1)2+\u0012MR2\u0013\u00121\u0013=⇒I=12MR2",
-      "asset": "images/math/p206-da9ecad8ddb8.svg",
       "glyph_count": 37,
       "matched_glyphs": 38,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -93747,10 +93477,10 @@
         199.895
       ],
       "source_text": "−m1gy˙1+m2gy˙1+m1y˙1y¨1+m2y˙1y¨1+My˙1y¨1=⇒",
-      "asset": "images/math/p207-a746364a2fcb.svg",
       "glyph_count": 42,
       "matched_glyphs": 42,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -93787,10 +93517,10 @@
         227.697
       ],
       "source_text": "−m1g+m2g+m1y¨1+m2y¨1+My¨1=⇒",
-      "asset": "images/math/p207-1a7fbaafef56.svg",
       "glyph_count": 27,
       "matched_glyphs": 27,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -95686,10 +95416,10 @@
         445.494
       ],
       "source_text": "2�!�!1(+)dgMmx+4(+)20=−−−kxMmgk32d2+tkMm2|}{zx0",
-      "asset": "images/math/p211-53b3770c4386.svg",
       "glyph_count": 59,
       "matched_glyphs": 59,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -95701,10 +95431,10 @@
         499.112
       ],
       "source_text": "2�!4dkx+0=x32d+tMm2|}{z2ω0",
-      "asset": "images/math/p211-622c94dbdb75.svg",
       "glyph_count": 26,
       "matched_glyphs": 26,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -95730,10 +95460,10 @@
         637.44
       ],
       "source_text": "s3+Mm2π2==2Tπ4ωk0",
-      "asset": "images/math/p211-df11239e7e80.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-09-application-of-energy-conservation.md"
+      "document": "chapters/ch-09-application-of-energy-conservation.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -97824,10 +97554,10 @@
         129.375
       ],
       "source_text": "F⃗=−2rˆ",
-      "asset": "images/math/p217-127f18b1724e.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -97851,10 +97581,10 @@
         168.43
       ],
       "source_text": "F⃗=2rˆ",
-      "asset": "images/math/p217-4293a2c20268.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -98722,10 +98452,10 @@
         477.163
       ],
       "source_text": "00\u0018:\u0018:\u0018\u0018\u0018\u0018\u0018\u0018=()+()()=thecrossproductsvanish××⇒mvvfrrr⃗⃗⃗ˆ\u0018\u0018",
-      "asset": "images/math/p218-4abddc3057d0.svg",
       "glyph_count": 59,
       "matched_glyphs": 59,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -99606,10 +99336,10 @@
         519.765
       ],
       "source_text": "θ˙=2",
-      "asset": "images/math/p220-5a70a1f312c6.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -99763,10 +99493,10 @@
         231.719
       ],
       "source_text": "0\u0018:\u0018\u0018ˆ2˙\u0018()+()=××rrmθrrθmrrˆˆˆ\u0018˙",
-      "asset": "images/math/p220-4e7946fa1686.svg",
       "glyph_count": 32,
       "matched_glyphs": 32,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -99876,10 +99606,10 @@
         724.206
       ],
       "source_text": "211L2+()=+(10.7)UrEmr˙222mr|}|}{z{ztermtermsrr˙",
-      "asset": "images/math/p220-86d32e625ece.svg",
       "glyph_count": 47,
       "matched_glyphs": 47,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -100311,10 +100041,10 @@
         682.155
       ],
       "source_text": "f(r)=−3",
-      "asset": "images/math/p221-dbd6ef913ac6.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -100838,10 +100568,10 @@
         521.455
       ],
       "source_text": "v�!21Luu=−rγt2Em",
-      "asset": "images/math/p222-ba9b83920207.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -100952,10 +100682,10 @@
         366.593
       ],
       "source_text": "U(r)=−\u00121+2\u0013",
-      "asset": "images/math/p223-5baad1332685.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -101787,10 +101517,10 @@
         619.203
       ],
       "source_text": "sd2rGMm\u0012\u0013=+±Edtmr",
-      "asset": "images/math/p224-6ef98bc67104.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -101802,10 +101532,10 @@
         668.278
       ],
       "source_text": "sd2r=d±trm\u0010\u0011GMm+Er",
-      "asset": "images/math/p224-ed9b2e50ef2f.svg",
       "glyph_count": 18,
       "matched_glyphs": 18,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -102590,10 +102320,10 @@
         559.842
       ],
       "source_text": "qq22LEL222(2)(2)4(2)()+±−−±−−−γγγEγmm==r2(2)2−−EE",
-      "asset": "images/math/p226-eece7ab10e1d.svg",
       "glyph_count": 49,
       "matched_glyphs": 49,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -103801,10 +103531,10 @@
         601.739
       ],
       "source_text": "F⃗=−2rˆ",
-      "asset": "images/math/p228-f4fc59af8341.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -103901,10 +103631,10 @@
         357.333
       ],
       "source_text": "q2EL22+±γγm=r2−E",
-      "asset": "images/math/p228-693dc67abf25.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -103996,10 +103726,10 @@
         149.944
       ],
       "source_text": "U(r)=−\u00121+2\u0013",
-      "asset": "images/math/p229-d920671f1c6e.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -104136,10 +103866,10 @@
         261.034
       ],
       "source_text": "Ueff=2+U(r)",
-      "asset": "images/math/p229-d0a00ea50e6a.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -104757,10 +104487,10 @@
         136.744
       ],
       "source_text": "r22\u0010\u0011\u0010\u00112LL4()(3)−−±−−γγϵmm=r2γ",
-      "asset": "images/math/p230-467cb8bf91bb.svg",
       "glyph_count": 30,
       "matched_glyphs": 30,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -104772,10 +104502,10 @@
         226.988
       ],
       "source_text": "r22\u0010\u0010\u0011\u00112LL212±−γϵmm=r2γ",
-      "asset": "images/math/p230-ad596226d606.svg",
       "glyph_count": 23,
       "matched_glyphs": 23,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -105532,10 +105262,10 @@
         409.416
       ],
       "source_text": "211L⃗2˙=()==()−Ffrrmamrθrr⃗ˆˆ¨2r=++()EmrUr˙222mr12=+EmrU˙eff2∂U⃗⃗==−∇−FUrˆEffectivePotentialEnergy:∂r",
-      "asset": "images/math/p233-7a90376f5c3b.svg",
       "glyph_count": 101,
       "matched_glyphs": 100,
-      "document": "chapters/ch-10-central-forces-and-motion-in-space.md"
+      "document": "chapters/ch-10-central-forces-and-motion-in-space.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -107392,10 +107122,10 @@
         644.053
       ],
       "source_text": "s2b=1(11.1)−ϵ2a",
-      "asset": "images/math/p237-6874aada7f45.svg",
       "glyph_count": 15,
       "matched_glyphs": 15,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -107778,10 +107508,10 @@
         560.214
       ],
       "source_text": "2222222=sin+4+4cos+cosrrθaϵaϵrθrθ12112222+4(+cos)=(sin+cos)aϵaϵrθrrθθ121}|{z1",
-      "asset": "images/math/p238-c5c94485a601.svg",
       "glyph_count": 77,
       "matched_glyphs": 77,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -108144,10 +107874,10 @@
         538.646
       ],
       "source_text": "ϵ=q1−ab22",
-      "asset": "images/math/p239-ac51404ccb5f.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -109249,10 +108979,10 @@
         359.162
       ],
       "source_text": "2�!1L()=rθqmγ2EL2cos1+1+θ2mγ",
-      "asset": "images/math/p241-f106037752dd.svg",
       "glyph_count": 28,
       "matched_glyphs": 28,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -109278,10 +109008,10 @@
         457.406
       ],
       "source_text": "s22EL=1+(11.5)ϵ2mγ",
-      "asset": "images/math/p241-cddecbc90ee8.svg",
       "glyph_count": 18,
       "matched_glyphs": 18,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -110024,10 +109754,10 @@
         258.089
       ],
       "source_text": "Ei=−2",
-      "asset": "images/math/p243-7908993bb56c.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -111865,10 +111595,10 @@
         374.964
       ],
       "source_text": "√",
-      "asset": "images/math/p246-678c2589b18c.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -112054,10 +111784,10 @@
         255.711
       ],
       "source_text": "2πmab=TL√21)2(−ϵπmaa==subinfor⇒TbLq2L22()πmaamγ2==subinfor1⇒−TϵL2L2244()πmaamγ2=squarebothsides=⇒T2L234πma2==simplify⇒Tγ",
-      "asset": "images/math/p247-60bee6477200.svg",
       "glyph_count": 120,
       "matched_glyphs": 120,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -112223,10 +111953,10 @@
         282.939
       ],
       "source_text": "Ta32",
-      "asset": "images/math/p248-5d85319e1f70.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -112510,10 +112240,10 @@
         126.153
       ],
       "source_text": "−1−−113230(66710mkgs)(2010kg)××..",
-      "asset": "images/math/p248-85ce29f20152.svg",
       "glyph_count": 33,
       "matched_glyphs": 33,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -113220,10 +112950,10 @@
         607.031
       ],
       "source_text": "va=s",
-      "asset": "images/math/p250-b54036363abf.svg",
       "glyph_count": 4,
       "matched_glyphs": 4,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -113325,10 +113055,10 @@
         227.0
       ],
       "source_text": "√=mvrrmγppc",
-      "asset": "images/math/p250-075093e06c35.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -113340,10 +113070,10 @@
         249.264
       ],
       "source_text": "q=(1+)mvrϵrmγppp",
-      "asset": "images/math/p250-09dba46fe127.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -113355,10 +113085,10 @@
         289.514
       ],
       "source_text": "v(1+)ϵγuu=vptrmp",
-      "asset": "images/math/p250-27797269d3cd.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -113370,10 +113100,10 @@
         329.763
       ],
       "source_text": "v(1+)GMϵuu=vptrp",
-      "asset": "images/math/p250-395002c9ba55.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -113385,10 +113115,10 @@
         397.995
       ],
       "source_text": "s(1)−GMϵ=vara",
-      "asset": "images/math/p250-008470dbbd74.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -113834,10 +113564,10 @@
         579.056
       ],
       "source_text": "s2b1=−ϵ2a",
-      "asset": "images/math/p251-dd7532426270.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -114177,10 +113907,10 @@
         159.597
       ],
       "source_text": "s22EL1+=ϵ2mγ",
-      "asset": "images/math/p252-2161c2661b6a.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -114268,10 +113998,10 @@
         209.41
       ],
       "source_text": "=(1)−raϵsp2br1=−ϵc=r2ap1+ϵs22ELv=1+ϵ(1+)GMϵu2mγu=vptrp",
-      "asset": "images/math/p253-f7b0dd17d0ea.svg",
       "glyph_count": 54,
       "matched_glyphs": 54,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -114283,10 +114013,10 @@
         351.638
       ],
       "source_text": "=(1+)raϵarc2(1)−aϵ=ra=r1−ϵ1+cosϵθs(1)r−GMϵc==rva1+cosϵθra2L=rKepler’s3rdLaw:cmγ",
-      "asset": "images/math/p253-a2d1a7bdda60.svg",
       "glyph_count": 79,
       "matched_glyphs": 79,
-      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md"
+      "document": "chapters/ch-11-orbits-and-kepler-s-laws.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -115521,10 +115251,10 @@
         584.655
       ],
       "source_text": "dK==derivativeofwithisthemomentum⇒mxKx˙˙dx˙�!===takethetimederivativetoget⇒mFmx¨dddtxt˙",
-      "asset": "images/math/p257-2483a83cd8a9.svg",
       "glyph_count": 87,
       "matched_glyphs": 88,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -115791,10 +115521,10 @@
         298.493
       ],
       "source_text": "Ux",
-      "asset": "images/math/p258-9edd8df76e9b.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -118040,10 +117770,10 @@
         355.108
       ],
       "source_text": "mr¨=mrθ˙2−2=⇒",
-      "asset": "images/math/p265-0f79f78e9b91.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -118943,10 +118673,10 @@
         585.868
       ],
       "source_text": "57",
-      "asset": "images/math/p267-e355024f12e4.svg",
       "glyph_count": 2,
       "matched_glyphs": 2,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -119994,10 +119724,10 @@
         325.675
       ],
       "source_text": "1L∂∂\u0014\u00152264=(1+16)−mxaxmgax˙2∂x∂x˙˙L∂26=(1+16)mxax˙∂x˙�!ddL∂hi26=(1+16)mxax˙ddt∂xt˙",
-      "asset": "images/math/p270-2f4bfffac73e.svg",
       "glyph_count": 82,
       "matched_glyphs": 82,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -120752,10 +120482,10 @@
         396.805
       ],
       "source_text": "∂∂xLi",
-      "asset": "images/math/p272-918f363040cb.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-svg",
@@ -120767,10 +120497,10 @@
         396.805
       ],
       "source_text": "∂∂xL˙i",
-      "asset": "images/math/p272-77abc4277aa9.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "chapters/ch-12-the-lagrange-method.md"
+      "document": "chapters/ch-12-the-lagrange-method.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -124267,10 +123997,10 @@
         94.938
       ],
       "source_text": "z=y−2",
-      "asset": "images/math/p285-4e4d17d8c02c.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -124485,10 +124215,10 @@
         269.205
       ],
       "source_text": "s22mγEL=1+(B.13)B22Lmγ",
-      "asset": "images/math/p285-5232a47915f0.svg",
       "glyph_count": 22,
       "matched_glyphs": 22,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -124571,10 +124301,10 @@
         90.329
       ],
       "source_text": "B=mL2γq1+2mEγL22=⇒",
-      "asset": "images/math/p286-b67b2cc5c67b.svg",
       "glyph_count": 18,
       "matched_glyphs": 18,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -124870,10 +124600,10 @@
         129.936
       ],
       "source_text": "s�!212mγELmγ=1+cos−θ222rLLmγ",
-      "asset": "images/math/p286-ac44d715d41a.svg",
       "glyph_count": 28,
       "matched_glyphs": 28,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -124885,10 +124615,10 @@
         165.337
       ],
       "source_text": "s�!212mγELmγ=+1+cosθ222rLLmγ",
-      "asset": "images/math/p286-f464bd2340eb.svg",
       "glyph_count": 28,
       "matched_glyphs": 28,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -124900,10 +124630,10 @@
         200.738
       ],
       "source_text": "s�!212mγEL=1+1+cos(B.15)θ22rLmγ",
-      "asset": "images/math/p286-ec8927180434.svg",
       "glyph_count": 31,
       "matched_glyphs": 31,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -124915,10 +124645,10 @@
         273.562
       ],
       "source_text": "s22EL=1+(B.16)ϵ2mγ",
-      "asset": "images/math/p286-2ccd055fc91d.svg",
       "glyph_count": 18,
       "matched_glyphs": 18,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -125413,10 +125143,10 @@
         545.843
       ],
       "source_text": "x",
-      "asset": "images/math/p287-017585d5b91f.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -125568,10 +125298,10 @@
         679.411
       ],
       "source_text": "√",
-      "asset": "images/math/p287-bb84a40a93ef.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -125608,10 +125338,10 @@
         688.858
       ],
       "source_text": "x",
-      "asset": "images/math/p287-a20c50e71a3c.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -125677,10 +125407,10 @@
         536.397
       ],
       "source_text": "√",
-      "asset": "images/math/p287-8feac5023a3c.svg",
       "glyph_count": 1,
       "matched_glyphs": 1,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -125692,10 +125422,10 @@
         614.586
       ],
       "source_text": "√11113\u0012\u0013\u0012\u0013231+=1+()+++−···xxxx22!43!8√111231+=1++−−···xxxx2816",
-      "asset": "images/math/p287-375b08703edf.svg",
       "glyph_count": 62,
       "matched_glyphs": 62,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -125707,10 +125437,10 @@
         728.369
       ],
       "source_text": "√11+1+≈xx2",
-      "asset": "images/math/p287-237bc4dae7f6.svg",
       "glyph_count": 10,
       "matched_glyphs": 10,
-      "document": "appendices/app-b-derivations-and-approximations.md"
+      "document": "appendices/app-b-derivations-and-approximations.md",
+      "superseded": true
     },
     {
       "kind": "figure",
@@ -126969,10 +126699,10 @@
         672.436
       ],
       "source_text": "s2g=()−vhymin02sinθ",
-      "asset": "images/math/p290-c44505be7337.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -127223,10 +126953,10 @@
         186.509
       ],
       "source_text": "k2+a)=−xvv02√\u0011\u0010kvt21−es02v0b)()=xt√\u0010\u0011kkvt21+e0",
-      "asset": "images/math/p291-91683b3d3d1d.svg",
       "glyph_count": 46,
       "matched_glyphs": 46,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -127509,10 +127239,10 @@
         496.396
       ],
       "source_text": "T=2πs→∞",
-      "asset": "images/math/p292-1b4727df5bd1.svg",
       "glyph_count": 7,
       "matched_glyphs": 8,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -127601,10 +127331,10 @@
         403.497
       ],
       "source_text": "s(+)kk12=ω0m",
-      "asset": "images/math/p292-7b5eed24c5e3.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -127616,10 +127346,10 @@
         457.891
       ],
       "source_text": "sLa)=2Tπg",
-      "asset": "images/math/p292-5eeff2437913.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -127659,10 +127389,10 @@
         557.102
       ],
       "source_text": "skga)=cos+xAtmL",
-      "asset": "images/math/p292-69b8e9c26986.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -127674,10 +127404,10 @@
         601.187
       ],
       "source_text": "sskgkg=+sin+−vAtmLmL",
-      "asset": "images/math/p292-7b9b079fd596.svg",
       "glyph_count": 24,
       "matched_glyphs": 24,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -127689,10 +127419,10 @@
         645.272
       ],
       "source_text": "s�!kgkg=+cos+−aAtmLmL",
-      "asset": "images/math/p292-6ae9ca3ac490.svg",
       "glyph_count": 25,
       "matched_glyphs": 25,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -127976,10 +127706,10 @@
         130.942
       ],
       "source_text": "mrd)=2Tπk",
-      "asset": "images/math/p293-f439e44787a8.svg",
       "glyph_count": 9,
       "matched_glyphs": 9,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -128005,10 +127735,10 @@
         217.478
       ],
       "source_text": "s4kmrc)=,=2,ωTπ04mk",
-      "asset": "images/math/p293-89ef7d157a92.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -128020,10 +127750,10 @@
         261.139
       ],
       "source_text": "ssss4444kkkkkd)=cos,=sin,=cos−−xAtvAtaAtmmmmm",
-      "asset": "images/math/p293-e8c0668fdd0b.svg",
       "glyph_count": 57,
       "matched_glyphs": 57,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -128049,10 +127779,10 @@
         354.578
       ],
       "source_text": "s(+)mkk12c)=2Tπ+(+)kkkkk12312",
-      "asset": "images/math/p293-83cff4b06550.svg",
       "glyph_count": 29,
       "matched_glyphs": 29,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -129364,10 +129094,10 @@
         643.039
       ],
       "source_text": "q12=4cos+||vvθ⃗04",
-      "asset": "images/math/p296-646656507897.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -129441,10 +129171,10 @@
         102.392
       ],
       "source_text": "smLpb)=Av0(+)mMgp",
-      "asset": "images/math/p297-a6a24f3ac0db.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -129456,10 +129186,10 @@
         140.792
       ],
       "source_text": "s1mpc)=θvmax0(+)mMLgp",
-      "asset": "images/math/p297-fba463f3f198.svg",
       "glyph_count": 21,
       "matched_glyphs": 21,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -129527,10 +129257,10 @@
         334.301
       ],
       "source_text": "s22mu1c)=A(+)kmm12",
-      "asset": "images/math/p297-0905570d17e5.svg",
       "glyph_count": 18,
       "matched_glyphs": 18,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -129598,10 +129328,10 @@
         517.258
       ],
       "source_text": "s2vM00c)=v2+ρAvtM00",
-      "asset": "images/math/p297-73942db8bef8.svg",
       "glyph_count": 19,
       "matched_glyphs": 19,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "heading",
@@ -129822,10 +129552,10 @@
         473.182
       ],
       "source_text": "L⃗i=0",
-      "asset": "images/math/p298-366258859454.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "inline-math-latex",
@@ -130012,10 +129742,10 @@
         643.681
       ],
       "source_text": "s22+2Rsb)=2Tπ2gs",
-      "asset": "images/math/p298-edb997c9428e.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -130252,10 +129982,10 @@
         224.644
       ],
       "source_text": "v241222++2(+)MLMRMLRuu352c)=2Tπt(3+)MgLR",
-      "asset": "images/math/p299-67d5bf71ad69.svg",
       "glyph_count": 40,
       "matched_glyphs": 40,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -130791,10 +130521,10 @@
         218.921
       ],
       "source_text": "qA=±xB",
-      "asset": "images/math/p300-c8f325f30b07.svg",
       "glyph_count": 6,
       "matched_glyphs": 6,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -130806,10 +130536,10 @@
         262.259
       ],
       "source_text": "q2=(++)vabcm",
-      "asset": "images/math/p300-5cbbdfc60e2e.svg",
       "glyph_count": 12,
       "matched_glyphs": 12,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -130835,10 +130565,10 @@
         648.576
       ],
       "source_text": "√=vgh",
-      "asset": "images/math/p300-3f35751ae55c.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -130850,10 +130580,10 @@
         695.175
       ],
       "source_text": "qk122=cos()UkAtm2",
-      "asset": "images/math/p300-10f6cf1f1fc1.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "line",
@@ -130997,10 +130727,10 @@
         90.747
       ],
       "source_text": "qk122=sin()KkAtm2",
-      "asset": "images/math/p301-220cdc9b3590.svg",
       "glyph_count": 17,
       "matched_glyphs": 17,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131026,10 +130756,10 @@
         174.16
       ],
       "source_text": "√=vgL",
-      "asset": "images/math/p301-dc698b82ec48.svg",
       "glyph_count": 5,
       "matched_glyphs": 5,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -131041,10 +130771,10 @@
         220.412
       ],
       "source_text": "q=2()−vgRy",
-      "asset": "images/math/p301-98f978574184.svg",
       "glyph_count": 10,
       "matched_glyphs": 10,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131070,10 +130800,10 @@
         339.258
       ],
       "source_text": "q4=ghv3",
-      "asset": "images/math/p301-2fddce3063d8.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131113,10 +130843,10 @@
         490.702
       ],
       "source_text": "s3md)=2Tπ2k",
-      "asset": "images/math/p301-0c677174782d.svg",
       "glyph_count": 11,
       "matched_glyphs": 11,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131431,10 +131161,10 @@
         203.359
       ],
       "source_text": "√√32=2,=2LmkRvkR",
-      "asset": "images/math/p302-3664caed582b.svg",
       "glyph_count": 16,
       "matched_glyphs": 16,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131474,10 +131204,10 @@
         348.258
       ],
       "source_text": "q3βR5=3LAβmRe",
-      "asset": "images/math/p302-359212567155.svg",
       "glyph_count": 13,
       "matched_glyphs": 13,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131503,10 +131233,10 @@
         487.752
       ],
       "source_text": "s22ALc)=Em",
-      "asset": "images/math/p302-3c0dbbba42ea.svg",
       "glyph_count": 10,
       "matched_glyphs": 10,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-svg",
@@ -131518,10 +131248,10 @@
         538.676
       ],
       "source_text": "√La)=2Ar˙/32mr",
-      "asset": "images/math/p302-22755008430d.svg",
       "glyph_count": 14,
       "matched_glyphs": 14,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
@@ -131853,10 +131583,10 @@
         552.802
       ],
       "source_text": "qGM=vRs",
-      "asset": "images/math/p303-8136e83ddac0.svg",
       "glyph_count": 7,
       "matched_glyphs": 7,
-      "document": "appendices/app-c-solutions-to-problems.md"
+      "document": "appendices/app-c-solutions-to-problems.md",
+      "superseded": true
     },
     {
       "kind": "display-math-latex",
