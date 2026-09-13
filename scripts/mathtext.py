@@ -1,6 +1,6 @@
 """Convert PyMuPDF character runs from the source PDF into Markdown + LaTeX.
 
-Adapted from QuadriviumPress/EnergyAndHumanAmbitions/scripts/mathtext.py.
+Adapted from QuadriviumPress/energyAndHumanAmbitions/scripts/mathtext.py.
 Dynamics adds Latin Modern font classification and a math-renderer hook so
 ambiguous glyph arrangements can retain their original vector artwork.
 

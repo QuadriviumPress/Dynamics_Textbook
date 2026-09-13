@@ -443,7 +443,7 @@ where $V$ and $\tau$ are dummy variables to represent the velocity at a later ti
 
 ::::{admonition} Continued
 
-integral contains the initial conditions (in the lower bounds), so solving this equation will give you the full equation for velocity without needing to solve for a constant of integration. We will show examples of *both* cases in this textbook. See the [online](https://github.com/OSTP/Dynamics_Textbook/blob/main/video_links.md) [repository](https://github.com/OSTP/Dynamics_Textbook/blob/main/video_links.md) for a video that directly compares these cases.
+integral contains the initial conditions (in the lower bounds), so solving this equation will give you the full equation for velocity without needing to solve for a constant of integration. We will show examples of *both* cases in this textbook. See the [online](https://github.com/OSTP/dynamicsTextbook/blob/main/video_links.md) [repository](https://github.com/OSTP/dynamicsTextbook/blob/main/video_links.md) for a video that directly compares these cases.
 
 ::::
 
@@ -784,7 +784,7 @@ You are standing a distance $d$ from a building and your friend is on the roof (
 
 ::::{admonition} Practice Problem 2-3
 
-For the following problems, plot the position, velocity, and acceleration for the first three seconds of motion. Example codes for python are provided in the [online repository](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks).
+For the following problems, plot the position, velocity, and acceleration for the first three seconds of motion. Example codes for python are provided in the [online repository](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks).
 
 a) A ball with an initial velocity of 10 m $\mathrm{s}^{-1}$ and an acceleration of 9.8 m $\mathrm{s}^{-2}$, both in the $+x$ direction. Assume the initial position is $x_{0}$ = 0.
 

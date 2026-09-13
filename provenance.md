@@ -6,7 +6,7 @@ Sarah Sadavoy, with support from Cora Sleegers and Lance Schonberg.
 *Untitled Dynamics Textbook (A work in progress)*. Queen’s University,
 Fall 2025. Developed for PHYS 206 and flipped-classroom instruction.
 
-The source repository is [OSTP/Dynamics_Textbook](https://github.com/OSTP/Dynamics_Textbook).
+The source repository is [OSTP/dynamicsTextbook](https://github.com/OSTP/dynamicsTextbook).
 Its August 20, 2025 update identifies the PDF used here. The original file is
 preserved as {download}`phys206_f25_textbook.pdf <tex/phys206_f25_textbook.pdf>`.
 The older 2023 and 2024 editions remain in the repository.

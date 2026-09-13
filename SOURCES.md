@@ -3,7 +3,7 @@
 ## Primary text
 
 This MyST edition adapts the Queen's University PHYS 206 textbook maintained in
-[OSTP/Dynamics_Textbook](https://github.com/OSTP/Dynamics_Textbook). Lance
+[OSTP/dynamicsTextbook](https://github.com/OSTP/dynamicsTextbook). Lance
 Schonberg, Sarah Sadavoy, Cora Sleegers, and the upstream contributors retain
 credit for the scientific content and teaching design. See
 [provenance.md](provenance.md) for the detailed conversion record.

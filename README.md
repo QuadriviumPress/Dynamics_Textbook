@@ -6,7 +6,7 @@ Active-learning textbook for second-year dynamics (classical mechanics), maintai
 
 This repository is a **fork and MyST web edition** of the second-year dynamics textbook originally developed at Queen’s University for PHYS 206 and published under the Open Source Textbook Project:
 
-- **Upstream source:** [OSTP/Dynamics_Textbook](https://github.com/OSTP/Dynamics_Textbook)
+- **Upstream source:** [OSTP/dynamicsTextbook](https://github.com/OSTP/dynamicsTextbook)
 
 The scientific content, chapter structure, teaching design, notebooks, and videos originate there. Quadrivium Press converted the book into editable MyST Markdown for web publication and continues development in this repository.
 

@@ -33,7 +33,7 @@ This textbook covers the main topics of the second-year dynamics course for Quee
 
 This book follows the design and format from *[Introductory Physics: Building Models to](https://github.com/OSTP/PhysicsArtofModelling)* *[Describe Our World](https://github.com/OSTP/PhysicsArtofModelling)*, which is an open-source textbook for first-year physics developed by Prof Ryan Martin and students Emma Neary, Joshua Rinaldo, and Olivia Woodman among others.
 
-To help broaden the physics instruction, this book contains a number of different elements to help with the learning process, including check point questions, worked examples, student commentary, and real-world applications of the physics. There are also videos and extra problems using python [available via our online repository](https://github.com/OSTP/Dynamics_Textbook/tree/main). Each textbook feature is represented by a different tag, as summarized below:
+To help broaden the physics instruction, this book contains a number of different elements to help with the learning process, including check point questions, worked examples, student commentary, and real-world applications of the physics. There are also videos and extra problems using python [available via our online repository](https://github.com/OSTP/dynamicsTextbook/tree/main). Each textbook feature is represented by a different tag, as summarized below:
 
 ::::{admonition} Learning Objectives
 

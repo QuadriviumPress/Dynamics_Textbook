@@ -15,5 +15,5 @@ Jupyter. Building the textbook does not execute their code.
 | 9 | [Energy conservation](<py_notebooks/Ch9 Energy Conservation Exercises.ipynb>) |
 | 10 | [Central forces](<py_notebooks/Ch10 Central Forces Exercises.ipynb>) |
 
-[Download the original notebooks from GitHub](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks).
+[Download the original notebooks from GitHub](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks).
 The source repository’s README states CC0 for these notebooks.

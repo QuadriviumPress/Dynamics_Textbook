@@ -807,7 +807,7 @@ c) Find the angular frequency and period of the mass as it oscillates.
 
 d) Find the equations for displacement, velocity, and acceleration in terms of the variables given.
 
-e) Plot the functions from part d). Sample python codes are available in the [online](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks) [repository](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks).
+e) Plot the functions from part d). Sample python codes are available in the [online](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks) [repository](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks).
 
 ::::
 

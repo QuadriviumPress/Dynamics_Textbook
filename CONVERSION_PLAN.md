@@ -7,7 +7,7 @@ August 20, 2025 in the local and upstream README. It contains 305 physical
 PDF pages. The 2023 and 2024 PDFs remain historical sources.
 
 The upstream repository inspected on September 9, 2026 still advertises this
-edition: <https://github.com/OSTP/Dynamics_Textbook>. A live Git ref comparison
+edition: <https://github.com/OSTP/dynamicsTextbook>. A live Git ref comparison
 could not be completed because shell DNS access to GitHub was unavailable.
 Do not claim that upstream HEAD has been verified against this checkout.
 
@@ -26,9 +26,9 @@ Counts from text matching are inventory aids, not proof of extraction fidelity.
 
 | Repository | Useful precedent | Limitation for this conversion |
 | --- | --- | --- |
-| `../UniversityPhysicsIClassicalMechanics` | Root MyST project, chapter files, preserved LaTeX intermediate, conversion and cross-reference scripts, verify/build workflows | Its converter starts from an already extracted LaTeX document |
-| `../PrinciplesOfMechanics` | Editable MyST chapters, source-number preservation, explicit fidelity policy | Its final conversion also used EPUB XHTML and equation metadata |
-| `../EnergyAndHumanAmbitions` | Reproducible PyMuPDF extraction, geometry-based math reconstruction, figure crops, teaching-box conversion, source coverage checks | Geometry and font rules are specific to a different book and must be adapted |
+| `../universityPhysicsIClassicalMechanics` | Root MyST project, chapter files, preserved LaTeX intermediate, conversion and cross-reference scripts, verify/build workflows | Its converter starts from an already extracted LaTeX document |
+| `../principlesOfMechanics` | Editable MyST chapters, source-number preservation, explicit fidelity policy | Its final conversion also used EPUB XHTML and equation metadata |
+| `../energyAndHumanAmbitions` | Reproducible PyMuPDF extraction, geometry-based math reconstruction, figure crops, teaching-box conversion, source coverage checks | Geometry and font rules are specific to a different book and must be adapted |
 
 All three use `book-theme` and pin MyST CLI 1.10.1. Follow their project layout
 and commands: `npm run start`, `npm run build`, and `npm run verify`.
@@ -106,7 +106,7 @@ maps rather than applying one universal offset, especially in front matter.
    videos with their attribution. Match the neighboring books' navigation and
    static site conventions. Prepare CI and Pages workflows; use the actual
    publication repository when known. The current `origin` is
-   `OSTP/Dynamics_Textbook`, so do not silently change the remote or claim that
+   `OSTP/dynamicsTextbook`, so do not silently change the remote or claim that
    a Quadrivium Press fork already exists.
 
 6. **Validate the entire edition.** Check complete page/block coverage,

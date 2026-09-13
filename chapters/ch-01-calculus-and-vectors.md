@@ -907,7 +907,7 @@ You might run across a very complicated equation you need to approximate, someth
 
 ::::{tip} Challenge Question
 
-1. Find the first three terms of the Taylor series for $y = e^{\cos (2x)}$ assuming $x$ is close to 0. Plot the function and your approximation using a programming language. See the [online repository](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks) for examples using python.
+1. Find the first three terms of the Taylor series for $y = e^{\cos (2x)}$ assuming $x$ is close to 0. Plot the function and your approximation using a programming language. See the [online repository](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks) for examples using python.
 
 ::::
 
@@ -1293,7 +1293,7 @@ $$
 
 ::::{admonition} Practice Problem 1-13
 
-Plot the functions and Taylor series approximations (first three non-zero terms) for the following functions ([sample python script](https://github.com/OSTP/Dynamics_Textbook/tree/main/py_notebooks)).
+Plot the functions and Taylor series approximations (first three non-zero terms) for the following functions ([sample python script](https://github.com/OSTP/dynamicsTextbook/tree/main/py_notebooks)).
 
 a) $f(x) = e^{-x^{2}}$ for $x \approx 0$
 

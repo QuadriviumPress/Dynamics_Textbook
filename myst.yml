@@ -12,7 +12,7 @@ project:
   license:
     content: CC-BY-NC-SA-4.0
   open_access: true
-  github: QuadriviumPress/Dynamics_Textbook
+  github: QuadriviumPress/dynamicsTextbook
   keywords:
     - classical mechanics
     - dynamics
@@ -68,7 +68,7 @@ site:
     hide_authors: true
   actions:
     - title: Original source
-      url: https://github.com/OSTP/Dynamics_Textbook
+      url: https://github.com/OSTP/dynamicsTextbook
   nav:
     - title: Sources & Attribution
-      url: https://github.com/QuadriviumPress/Dynamics_Textbook/blob/main/SOURCES.md
+      url: https://github.com/QuadriviumPress/dynamicsTextbook/blob/main/SOURCES.md
