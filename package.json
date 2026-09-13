@@ -6,6 +6,7 @@
     "start": "myst start",
     "build": "myst build --html",
     "verify": "python3 scripts/verify_book.py",
+    "check": "npm run verify && npm run build",
     "extract": "python3 scripts/convert_pdf.py"
   },
   "devDependencies": {

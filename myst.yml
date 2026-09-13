@@ -12,6 +12,13 @@ project:
   license:
     content: CC-BY-NC-SA-4.0
   open_access: true
+  github: QuadriviumPress/Dynamics_Textbook
+  keywords:
+    - classical mechanics
+    - dynamics
+    - active learning
+    - computational physics
+    - open textbook
   numbering:
     headings: false
   toc:
@@ -62,4 +69,6 @@ site:
   actions:
     - title: Original source
       url: https://github.com/OSTP/Dynamics_Textbook
-  nav: []
+  nav:
+    - title: Sources & Attribution
+      url: https://github.com/QuadriviumPress/Dynamics_Textbook/blob/main/SOURCES.md

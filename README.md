@@ -29,6 +29,20 @@ For a fuller account of this edition’s relationship to the source, see [proven
 - Jupyter notebooks under `py_notebooks/`
 - Video links in [video_links.md](video_links.md)
 
+## Build
+
+Use Node.js 22 and install the pinned MyST dependency locally:
+
+```bash
+npm install
+npm run start          # live preview
+npm run verify         # conversion and structural checks
+npm run build          # static site in _build/html/
+npm run check          # verify and build
+```
+
+Use `npm ci` when you need an exact reproducible installation.
+
 ## License
 
 The textbook content follows the upstream licensing intent as **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**: materials may be used, shared, and adapted with credit, and not for commercial purposes.
