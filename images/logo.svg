@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Second-Year Dynamics</title>
+  <desc id="desc">An orange pendulum arc with bob on a soft apricot background.</desc>
+  <rect width="512" height="512" rx="96" fill="#fff1e8"/>
+  <circle cx="256" cy="96" r="18" fill="#7c2d12"/>
+  <path d="M256 96 L340 360" stroke="#c2410c" stroke-width="22" stroke-linecap="round"/>
+  <path d="M160 200 A210 210 0 0 1 380 200" fill="none" stroke="#fdba74" stroke-width="12" stroke-dasharray="16 16"/>
+  <circle cx="340" cy="360" r="48" fill="#ea580c"/>
+  <circle cx="340" cy="360" r="18" fill="#ffedd5"/>
+</svg>
