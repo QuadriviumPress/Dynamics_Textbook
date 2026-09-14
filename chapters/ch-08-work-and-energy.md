@@ -542,14 +542,18 @@ Here we have some unnamed force that depends on position. To find out if this fo
 
 $$
 \begin{aligned}
-\vec{\nabla} \times \vec{F} &= | \frac{\partial \hat{\imath}}{\partial x} \frac{\partial \hat{\jmath}}{\partial y} \frac{\partial \hat{k}}{\partial z} | \\
-x^{2}yz 0 -xyz^{2} \\
+\vec{\nabla} \times \vec{F}
+&=
+\begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+\dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z} \\
+x^{2}yz & 0 & -xyz^{2}
+\end{vmatrix}
+\\
 &= \Bigg(\frac{\partial}{\partial y} [-xyz^{2}] - 0\Bigg)\hat{\imath} + \Bigg(\frac{\partial}{\partial z} [x^{2}yz] - \frac{\partial}{\partial x} [-xyz^{2}]\Bigg)\hat{\jmath} + \Bigg(0 - \frac{\partial}{\partial y} [x^{2}yz]\Bigg)\hat{k}
+\\
+&= (-xz^{2})\hat{\imath} + (x^{2}y + yz^{2})\hat{\jmath} + (-x^{2}z)\hat{k}
 \end{aligned}
-$$
-
-$$
-= (-xz^{2})\hat{\imath} + (x^{2}y + yz^{2})\hat{\jmath} + (-x^{2}z)\hat{k}
 $$
 
 Since $\vec{\nabla} \times \vec{F} \not =$ 0, this force is not a conservative force.

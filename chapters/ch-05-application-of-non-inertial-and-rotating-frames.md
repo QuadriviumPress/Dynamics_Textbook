@@ -88,9 +88,15 @@ in brackets. (See [Chapter 1.5.2](#sec-1-5-2) for review on computing the cross 
 
 $$
 \begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times \vec{r}^{\prime }&= |0 0 \omega | = \hat{\imath}^{\prime }(0 - 0) + \hat{\jmath}^{\prime }(r\omega - 0) + \hat{k}^{\prime }(0 - 0) = r\omega \hat{\jmath}^{\prime } \\
-r 0 0
+\vec{\omega} \times \vec{r}^{\prime }
+&=
+\begin{vmatrix}
+\hat{\imath}^{\prime} & \hat{\jmath}^{\prime} & \hat{k}^{\prime} \\
+0 & 0 & \omega \\
+r & 0 & 0
+\end{vmatrix}
+\\
+&= \hat{\imath}^{\prime }(0 - 0) + \hat{\jmath}^{\prime }(r\omega - 0) + \hat{k}^{\prime }(0 - 0) = r\omega \hat{\jmath}^{\prime }
 \end{aligned}
 $$
 
@@ -98,9 +104,15 @@ Then we will take our solution to that first cross product and apply that to the
 
 $$
 \begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime }) &= |0 0 \omega | = \hat{\imath}^{\prime }(0 - r\omega ^{2}) + \hat{\jmath}^{\prime }(0 - 0) + \hat{k}^{\prime }(0 - 0) = -r\omega ^{2}\hat{\imath}^{\prime } \\
-0 r\omega 0
+\vec{\omega} \times (\vec{\omega} \times \vec{r}^{\prime })
+&=
+\begin{vmatrix}
+\hat{\imath}^{\prime} & \hat{\jmath}^{\prime} & \hat{k}^{\prime} \\
+0 & 0 & \omega \\
+0 & r\omega & 0
+\end{vmatrix}
+\\
+&= \hat{\imath}^{\prime }(0 - r\omega ^{2}) + \hat{\jmath}^{\prime }(0 - 0) + \hat{k}^{\prime }(0 - 0) = -r\omega ^{2}\hat{\imath}^{\prime }
 \end{aligned}
 $$ (eq-5-6)
 
@@ -232,9 +244,15 @@ Using $\vec{\omega} = \omega \hat{k}^{\prime }$ and $\vec{v}^{\prime }= v^{\prim
 
 $$
 \begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times \vec{v}^{\prime }&= |0 0 \omega | = \hat{\imath}^{\prime }(0 - 0) + \hat{\jmath}^{\prime }(v^{\prime }\omega - 0) + \hat{k}^{\prime }(0 - 0) = v^{\prime }\omega \hat{\jmath}^{\prime } \\
-v^{\prime }0 0
+\vec{\omega} \times \vec{v}^{\prime }
+&=
+\begin{vmatrix}
+\hat{\imath}^{\prime} & \hat{\jmath}^{\prime} & \hat{k}^{\prime} \\
+0 & 0 & \omega \\
+v^{\prime} & 0 & 0
+\end{vmatrix}
+\\
+&= \hat{\imath}^{\prime }(0 - 0) + \hat{\jmath}^{\prime }(v^{\prime }\omega - 0) + \hat{k}^{\prime }(0 - 0) = v^{\prime }\omega \hat{\jmath}^{\prime }
 \end{aligned}
 $$ (eq-5-8)
 
@@ -576,9 +594,15 @@ Using $\vec{\omega}$ from Equation 5.9 and $\vec{v}^{\prime }= \dot{x}^{\prime }
 
 $$
 \begin{aligned}
-\hat{\imath}^{\prime }\hat{\jmath}^{\prime }\hat{k}^{\prime } \\
-\vec{\omega} \times \vec{v}^{\prime }&= |0 \omega \cos \theta \omega \sin \theta | = (-\dot{y}^{\prime }\omega \sin \theta)\hat{\imath}^{\prime }+ (\dot{x}^{\prime }\omega \sin \theta)\hat{\jmath}^{\prime }+ (-\dot{x}^{\prime }\omega \cos \theta)\hat{k}^{\prime } \\
-\dot{x}^{\prime }\dot{y}^{\prime }0
+\vec{\omega} \times \vec{v}^{\prime }
+&=
+\begin{vmatrix}
+\hat{\imath}^{\prime} & \hat{\jmath}^{\prime} & \hat{k}^{\prime} \\
+0 & \omega\cos\theta & \omega\sin\theta \\
+\dot{x}^{\prime} & \dot{y}^{\prime} & 0
+\end{vmatrix}
+\\
+&= (-\dot{y}^{\prime }\omega \sin \theta)\hat{\imath}^{\prime }+ (\dot{x}^{\prime }\omega \sin \theta)\hat{\jmath}^{\prime }+ (-\dot{x}^{\prime }\omega \cos \theta)\hat{k}^{\prime }
 \end{aligned}
 $$
 
